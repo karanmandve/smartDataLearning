@@ -1,0 +1,4 @@
+4/9/2024 : Visaul studio interaction
+
+1) what is .net framework ?
+=> .NET framework is a original implimentation of .NET which helps you to run and builds application for windows. It is gives the run time environment for windows.
