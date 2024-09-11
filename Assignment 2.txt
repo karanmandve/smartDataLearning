@@ -2,3 +2,120 @@
 
 1) what is .net framework ?
 => .NET framework is a original implimentation of .NET which helps you to run and builds application for windows. It is gives the run time environment for windows.
+
+2) what is c# languege ?
+=> C# basically is open source language which used to develop application for windows, linux, macOS, IOS and android.
+
+3) difference between .net and c# ?
+=> i) .net = .NET is a comprehensive software development framework created by Microsoft. It provides a platform for building and running applications and services. .NET includes a vast library of pre-built code, tools, and runtime environments.
+   ii) c# = c# is a programming language developed by Microsoft that is designed to work seamlessly with the .NET framework. It is an object-oriented language known for its simplicity, modern features, and strong type safety.
+
+4) what is GAC?
+=> Each computer where the Common Language Runtime is installed has a machine-wide code cache called the Global Assembly Cache. The Global Assembly Cache stores assemblies specifically designated to be shared by several applications on the computer.
+
+5) diff between dll and .exe
+=> i).exe = An executable file is referred to as an EXE. When opened, its primary purpose is to launch a program. This is accomplished by running specific scripts or using some of the data present in the file.
+   ii) dll = A Dynamic Library Link, known as a ".dll" file, is a type of file that comprises of specific instructions that are utilized by other applications when they are required. A Windows program can utilize this library to gain access to a variety of different types of information and functions. both have machine code
+
+6) what is assembly - private/public?
+=> Private Assembly
+Private assembly requires us to copy separately in all application folders where we want to use that assembly’s functionalities; without copying, we cannot access the private assembly features and power. Private assembly means every time we have one, we exclusively copy into the BIN folder of each application folder.
+ 
+Public Assembly 
+Public assembly is not required to copy separately into all application folders. Public assembly is also called Shared Assembly. Only one copy is required at the system level, there is no need to copy the assembly into the application folder.
+ 
+Public assembly should install in GAC.
+GAC (Global Assembly Cache)
+When the assembly is required for more than one project or application, we need to make the assembly with a strong name and keep it in GAC or in the Assembly folder by installing the assembly with the GACUtil command.
+
+
+
+
+5/9/2024 : classes, objects, Interface, Record
+
+1) what is object?
+=> Object is the instance of a class which having actual data in it. Consist of data member and method
+
+2) what is abstract?
+=> Abstraction is the process of hiding certain details and showing only essential information to the user.
+   Abstract class does not have objects. Abstract method does not have body, the body is provided by inharited class.
+   ex. = suppose you have washing machine you need to interact with the software only not to go how it is working internally.
+
+3) what is diff between abstract and interface?
+=> i) Abstract:
+      *It contain constructor
+      *It can contain different types of access modifiers like public, private, protected etc.
+      *public abstract class Fruits{
+          public abstract void Mango();
+        }
+
+   ii) Interface:
+      *It does not contain constructor
+      *It only contain public access modifier
+      *public interface Readable{
+          void read();
+        }
+
+4) what is record and where to use it and why ?
+=> a record is a special type of class designed to hold immutable data with built-in support for value-based equality and succinct syntax. Introduced in C# 9.0, records are particularly useful for scenarios where you need to define data structures that are primarily intended to store data rather than contain business logic. They provide an elegant way to create objects with immutable properties, which means once a record is created, its data cannot be changed.
+
+5) why interface introduced?
+=> It is used to achieve total abstraction. Since c# does not support multiple inheritances in the case of class, by using an interface it can achieve multiple inheritances.
+
+
+
+
+6/9/2024 : Anonymous Type, function, lamdba expression overview
+
+1) Where to use anonymous type and why ?
+=> anonymous types are used to create objects without defining a specific class. They are particularly useful in scenarios where you need a simple, temporary object to hold a set of data, but don’t want to create a separate class for it. 
+
+2) Read example of lambda expression ?
+=> List<int> numbers = new List<int> { 5, 12, 7, 18, 3 };
+var filteredNumbers = numbers.Where(n => n > 10).ToList();
+
+3) where to use lambda with reason.
+=> where we want to use one line function and not to make another function for small task. We use it in linq.
+
+
+
+
+9/9/2024 : delegates, type inference, generics, get, set
+
+1) Where to use delegates with real life example ?
+=> when we want to trigger multple event, then we use delegates. Like add certain event we want to send notification and invoke multiple methods.
+
+2) What is type inference and where to use it?
+=>  C# is a feature that allows the compiler to automatically determine the type of a variable or expression based on the assigned value or expression. When we don't which type of data we are going to store in a variable. We use var keyword for that.
+
+3) What is generics and how to use generic in our code ?
+=> Generics in C# are designed to enhance the flexibility and reusability of classes, methods, interfaces, and delegates by allowing them to operate with any data type. Within angle brackets (<T>) immediately after the class name or method name.
+
+4) What is HashSet with example ?
+=> Hashset basically used to store only unique values.
+ ex.: like we want to store student data in, then in that case we want to give student a id which going to be unique which defining each student is unique.
+
+
+
+10/9/24 : entities, attributes, relationship, normalization, denormalization
+
+1) Where to use entities and how?
+=> when we want to store bulk amount of data then we use database, and at that time we use entities, which is basically means table format. We use create table table_name(col_name datatype contraint) command to create entity.
+
+2) What is attribute and what is the use of attributes with real example ?
+=> Attribute is nothing but the column names which we can give to entity(table). 
+   ex.: create table employee(emp_id int PRIMARY KEY, emp_name varchar(100), emp_adderess varchar(200));
+
+3) Difference between Normalization and Denormalization
+=> 1) Normalization:
+   	i) Remove redundancy
+   	ii) Improve consistency
+	iii) spliting the table
+   2) Denormalization:
+	i) increase redudancy
+	ii) Improve query performance
+	iii) Combining the table to improve performance
+
+4) What is the purpose to use Normalization/Denormalization
+=> Normalization : Used to reduce redundant data and increase data consistency
+   Denormalization : Used to increase redundant data to increase performance of query.
