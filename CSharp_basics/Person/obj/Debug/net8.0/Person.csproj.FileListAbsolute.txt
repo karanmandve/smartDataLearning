@@ -1,0 +1,15 @@
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\Person\bin\Debug\net8.0\Person.exe
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\Person\bin\Debug\net8.0\Person.deps.json
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\Person\bin\Debug\net8.0\Person.runtimeconfig.json
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\Person\bin\Debug\net8.0\Person.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\Person\bin\Debug\net8.0\Person.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\Person\obj\Debug\net8.0\Person.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\Person\obj\Debug\net8.0\Person.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\Person\obj\Debug\net8.0\Person.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\Person\obj\Debug\net8.0\Person.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\Person\obj\Debug\net8.0\Person.sourcelink.json
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\Person\obj\Debug\net8.0\Person.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\Person\obj\Debug\net8.0\refint\Person.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\Person\obj\Debug\net8.0\Person.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\Person\obj\Debug\net8.0\Person.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\Person\obj\Debug\net8.0\ref\Person.dll

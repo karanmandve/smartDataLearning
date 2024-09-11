@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "VQap0NkIC43m36j9A5+CnHuvjn38D4ItGAd8TTH4Gv0Q0mtrPTK1d7Gu2KPEL12XoIrg9Ac+5tMypDwqSsLeyQ==",
+  "dgSpecHash": "du9yjFLNk/8=",
   "success": true,
-  "projectFilePath": "D:\\Day Users\\vijayp\\Official\\sdirect_2024\\CSharp_basics\\CSharp_basics\\CSharp_basics.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\CSharp_basics\\CSharp_basics\\CSharp_basics.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\karanmandve\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\karanmandve\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\karanmandve\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\karanmandve\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.33\\microsoft.netcore.app.host.win-x64.6.0.33.nupkg.sha512"
+  ],
   "logs": []
 }
