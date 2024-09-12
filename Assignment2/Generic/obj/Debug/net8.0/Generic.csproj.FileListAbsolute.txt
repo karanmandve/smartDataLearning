@@ -1,0 +1,14 @@
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\Generic\bin\Debug\net8.0\Generic.exe
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\Generic\bin\Debug\net8.0\Generic.deps.json
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\Generic\bin\Debug\net8.0\Generic.runtimeconfig.json
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\Generic\bin\Debug\net8.0\Generic.dll
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\Generic\bin\Debug\net8.0\Generic.pdb
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\Generic\obj\Debug\net8.0\Generic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\Generic\obj\Debug\net8.0\Generic.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\Generic\obj\Debug\net8.0\Generic.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\Generic\obj\Debug\net8.0\Generic.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\Generic\obj\Debug\net8.0\Generic.dll
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\Generic\obj\Debug\net8.0\refint\Generic.dll
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\Generic\obj\Debug\net8.0\Generic.pdb
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\Generic\obj\Debug\net8.0\Generic.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\Generic\obj\Debug\net8.0\ref\Generic.dll
