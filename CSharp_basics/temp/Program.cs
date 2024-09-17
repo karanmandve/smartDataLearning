@@ -14,8 +14,71 @@ internal class Program
         //Console.WriteLine(ob1.GetValue());
         //Console.WriteLine(ob2.GetValue());
 
-        Console.WriteLine("hello world!!!");
+        //Console.WriteLine("hello world!!!");
 
+
+        // LINQ
+
+        //var list = new List<int>() { 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+        //var list = new List<string>() { "a", "ccc", "bbb", "dddd"};
+        //var list2 = list.Where(word => word.Length > 2).ToList();
+
+        //foreach (var item in list2)
+        //{
+        //    Console.WriteLine(item);
+        //}
+
+        //var list = new List<int>() { 1,2,3,4, 5, 6, 9, 12};
+        //Func<List<int>, List<int>> funcDelegate = l => l.Where(x => x % 3 == 0).ToList();
+        //var result = funcDelegate(list);
+        //foreach (var num in result)
+        //{
+        //    Console.WriteLine(num);
+        //}
+
+        //var smallList = list.Take(5);
+        //foreach (var item in smallList)
+        //{
+        //    Console.WriteLine(item);
+        //}
+
+        var lists = new List<int>() {1,2,2,2,3,4, 5, 6, 9, 12};
+        //var words = new List<string>() { "aaa", "b", "c", "dd" };
+        //var newList = list.Any(number  => number > 10); // returning boolean value
+        //Console.WriteLine(newList
+        //Console.WriteLine(list.Any());
+
+        //var newList = list.All(number => number == 0); // returning boolean value
+        //Console.WriteLine(newList);
+
+        //var list2 = list.Count(number => number == 2);
+        //Console.WriteLine(list2);
+
+        //var newlist = list.First();
+        //Console.WriteLine(newlist);
+
+        //var newList = lists.OrderBy(x => x).Last();
+        //Console.WriteLine(lists.Any());
+
+        //if (!words.Any())
+        //{
+        //    throw new Exception("Words not exist");
+        //}
+
+        //var word = words.OrderBy(word => word.Length).First();
+
+        //Console.WriteLine(word);
+
+        //var list = lists.Where((list, index) => index > 1);
+
+        //var allDates = dates.Where(date => date.DayOfWeek == DayOfWeek.Friday && date.Year == year).Distinct();
+        //return allDates;
+
+        var list = lists.Select(list => list * list);
+        foreach (var item in list)
+        {
+            Console.WriteLine(item);
+        }
 
 
     }

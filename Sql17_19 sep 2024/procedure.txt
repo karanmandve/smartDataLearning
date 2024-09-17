@@ -1,0 +1,88 @@
+/**
+--save the member data
+dbo.usptest_savemember
+@id=4,
+@name='Ashutosh',
+@point=350,
+@action='U';
+
+--select * from Member
+
+**/
+
+Create or alter procedure dbo.usptest_savemember
+@Id INT ,  
+@Name VARCHAR(25),  
+@Point INT,
+@action varchar(1)
+as
+Begin
+
+if @action ='A'
+Begin
+if not exists (select top 1 name from member where name=@name)
+begin
+INSERT INTO Member(id,Name,Point) VALUES (@id,@Name, @Point)
+end
+else
+begin
+select 'Already exists'
+End
+
+End
+else
+if @action ='U'
+Begin
+
+if not exists (select top 1 name from member where name=@name
+and id<>@id
+)
+begin
+Update Member
+set 
+Name=@Name,
+Point=@Point
+where id =@id
+end
+else
+begin
+select 'Already exists'
+End
+
+End
+if @action ='D'
+Begin
+delete  from Member where id =@id
+--isdeleted =1 and isactive=0
+end
+go
+
+
+
+
+
+
+
+
+
+
+
+/*
+--to get list
+dbo.usetest_getMemberlist 
+ dbo.usetest_getMemberlist 4
+*/
+
+Create  or alter procedure  dbo.usetest_getMemberlist
+@id int=0
+as
+Begin
+Set nocount on
+select * from member  where (@id=0 or id=@id)
+End
+
+go
+
+End
+go
+

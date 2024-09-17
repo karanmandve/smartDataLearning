@@ -13,11 +13,11 @@ namespace PracticeConsoleApp
             var students = GetStudents();
 
             students.ForEach(Console.WriteLine);
+            FilterationAndProjectionExample();
 
-
-            var test = students.OrderByDescending(x => x.StudentId);
-            foreach (var item in test)
-                Console.WriteLine(item.StudentName);
+            //var test = students.OrderByDescending(x => x.StudentId);
+            //foreach (var item in test)
+            //    Console.WriteLine(item.StudentName);
         }
 
         private static void RawDemoExample()
@@ -405,7 +405,7 @@ namespace PracticeConsoleApp
 
         private static List<Student> GetStudents()
         {
-            Stude list = new List<Student>();
+            var list = new List<Student>();
 
             for (int i = 1; i <= 20; i++)
             {

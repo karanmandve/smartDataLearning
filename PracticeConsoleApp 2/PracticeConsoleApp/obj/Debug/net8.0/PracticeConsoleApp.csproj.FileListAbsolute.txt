@@ -12,3 +12,18 @@ D:\Practice\PracticeConsoleApp\PracticeConsoleApp\obj\Debug\net8.0\refint\Practi
 D:\Practice\PracticeConsoleApp\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.pdb
 D:\Practice\PracticeConsoleApp\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.genruntimeconfig.cache
 D:\Practice\PracticeConsoleApp\PracticeConsoleApp\obj\Debug\net8.0\ref\PracticeConsoleApp.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\PracticeConsoleApp 2\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\karan mandve notes\PracticeConsoleApp 2\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\PracticeConsoleApp 2\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\karan mandve notes\PracticeConsoleApp 2\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\PracticeConsoleApp 2\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.sourcelink.json
+C:\Users\karanmandve\Desktop\karan mandve notes\PracticeConsoleApp 2\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\PracticeConsoleApp 2\PracticeConsoleApp\obj\Debug\net8.0\refint\PracticeConsoleApp.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\PracticeConsoleApp 2\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\PracticeConsoleApp 2\PracticeConsoleApp\bin\Debug\net8.0\PracticeConsoleApp.exe
+C:\Users\karanmandve\Desktop\karan mandve notes\PracticeConsoleApp 2\PracticeConsoleApp\bin\Debug\net8.0\PracticeConsoleApp.deps.json
+C:\Users\karanmandve\Desktop\karan mandve notes\PracticeConsoleApp 2\PracticeConsoleApp\bin\Debug\net8.0\PracticeConsoleApp.runtimeconfig.json
+C:\Users\karanmandve\Desktop\karan mandve notes\PracticeConsoleApp 2\PracticeConsoleApp\bin\Debug\net8.0\PracticeConsoleApp.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\PracticeConsoleApp 2\PracticeConsoleApp\bin\Debug\net8.0\PracticeConsoleApp.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\PracticeConsoleApp 2\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\PracticeConsoleApp 2\PracticeConsoleApp\obj\Debug\net8.0\ref\PracticeConsoleApp.dll

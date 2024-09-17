@@ -1,6 +1,7 @@
-﻿namespace PracticeConsoleApp
+﻿using System;
+namespace PracticeConsoleApp
 {
-    internal class Student
+    public class Student
     {
         private int studentId;
 

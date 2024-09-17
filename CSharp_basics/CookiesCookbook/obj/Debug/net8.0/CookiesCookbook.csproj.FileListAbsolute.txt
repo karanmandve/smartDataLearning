@@ -1,0 +1,15 @@
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\CookiesCookbook\bin\Debug\net8.0\CookiesCookbook.exe
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\CookiesCookbook\bin\Debug\net8.0\CookiesCookbook.deps.json
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\CookiesCookbook\bin\Debug\net8.0\CookiesCookbook.runtimeconfig.json
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\CookiesCookbook\bin\Debug\net8.0\CookiesCookbook.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\CookiesCookbook\bin\Debug\net8.0\CookiesCookbook.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\CookiesCookbook\obj\Debug\net8.0\CookiesCookbook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\CookiesCookbook\obj\Debug\net8.0\CookiesCookbook.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\CookiesCookbook\obj\Debug\net8.0\CookiesCookbook.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\CookiesCookbook\obj\Debug\net8.0\CookiesCookbook.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\CookiesCookbook\obj\Debug\net8.0\CookiesCookbook.sourcelink.json
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\CookiesCookbook\obj\Debug\net8.0\CookiesCookbook.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\CookiesCookbook\obj\Debug\net8.0\refint\CookiesCookbook.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\CookiesCookbook\obj\Debug\net8.0\CookiesCookbook.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\CookiesCookbook\obj\Debug\net8.0\CookiesCookbook.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\CookiesCookbook\obj\Debug\net8.0\ref\CookiesCookbook.dll

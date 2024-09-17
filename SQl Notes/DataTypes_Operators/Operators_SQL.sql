@@ -12,7 +12,7 @@ These operators are classified as follows in SQL Server.
 2] Arithmetic operator
 3] Comparison operator
 4] Logical operator
-5] Set operator 
+5] Set operator
 
 
 
@@ -41,7 +41,7 @@ SELECT 100 + 200 as result
 SELECT 45 - 74  as Result
 SELECT 25 * 4 
 SELECT 36 / 6 
-SELECT 17 % 4 
+SELECT 17 % 4
 
 
 --Create database EmployeeDB
@@ -163,6 +163,17 @@ INSERT INTO Employee100 VALUES('Sara',' Sara@g.com','Female', 'Payroll', 28000, 
 INSERT INTO Employee100 VALUES('Lima','Lima@g.com','Female','HR', 30000, 30,'Bangalore')
 INSERT INTO Employee100 VALUES('Dipak','Dipak@g.com','Male','Payroll', 32000, 25,'Bangalore')
 GO
+
+select distinct City from Employee100;
+select * from Employee100;
+select City, Count(City) as city_count from Employee100 group by City;
+
+SELECT City, Count(city) from Employee100 group by City having count(city) > 4;
+
+SELECT   City, AVG(Salary) 
+AS       avg_salary 
+FROM     Employee100 
+GROUP BY City;
 
 
 
