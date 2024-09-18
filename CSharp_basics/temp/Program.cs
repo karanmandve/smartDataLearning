@@ -15,7 +15,7 @@ internal class Program
         //Console.WriteLine(ob2.GetValue());
 
         //Console.WriteLine("hello world!!!");
-
+        
 
         // LINQ
 
@@ -42,7 +42,7 @@ internal class Program
         //    Console.WriteLine(item);
         //}
 
-        var lists = new List<int>() {1,2,2,2,3,4, 5, 6, 9, 12};
+        //var lists = new List<int>() {1,2,2,2,3,4, 5, 6, 9, 12};
         //var words = new List<string>() { "aaa", "b", "c", "dd" };
         //var newList = list.Any(number  => number > 10); // returning boolean value
         //Console.WriteLine(newList
@@ -74,11 +74,35 @@ internal class Program
         //var allDates = dates.Where(date => date.DayOfWeek == DayOfWeek.Friday && date.Year == year).Distinct();
         //return allDates;
 
-        var list = lists.Select(list => list * list);
-        foreach (var item in list)
-        {
-            Console.WriteLine(item);
-        }
+        //var list = lists.Select(list => list * list);
+        //foreach (var item in list)
+        //{
+        //    Console.WriteLine(item);
+        //}
+
+
+        //var lists = new List<List<int>>() {
+        //    new List<int> {1,2,2,2,3,4, 5, 6, 9, 12},
+        //    new List<int> {4,5,6,7,8,3,2}
+        //};
+
+
+        //var result = lists.Select(numbers => new {
+            
+        //    count = numbers.Count(),
+        //    avarage = numbers.Average()
+
+        //}).OrderByDescending(numbers => numbers.avarage).Select(numbers => $"Count {numbers.count}, avarage {numbers.avarage}");
+
+        //foreach (var item in result)
+        //{
+        //    Console.WriteLine(item);
+        //}
+
+
+        //var lists = new List<int>() {1,2,2,2,3,4, 5, 6, 9, 12};
+
+
 
 
     }
