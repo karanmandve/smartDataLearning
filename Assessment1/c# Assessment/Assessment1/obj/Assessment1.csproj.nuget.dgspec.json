@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karanmandve\\Desktop\\Assessment1\\Assessment1\\Assessment1.csproj": {}
+    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment1\\c# Assessment\\Assessment1\\Assessment1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karanmandve\\Desktop\\Assessment1\\Assessment1\\Assessment1.csproj": {
+    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment1\\c# Assessment\\Assessment1\\Assessment1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\Assessment1\\Assessment1\\Assessment1.csproj",
+        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment1\\c# Assessment\\Assessment1\\Assessment1.csproj",
         "projectName": "Assessment1",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\Assessment1\\Assessment1\\Assessment1.csproj",
+        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment1\\c# Assessment\\Assessment1\\Assessment1.csproj",
         "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\Assessment1\\Assessment1\\obj\\",
+        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment1\\c# Assessment\\Assessment1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",

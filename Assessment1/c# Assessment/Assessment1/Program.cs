@@ -7,11 +7,11 @@ public class Program
     {
         // FIBONACCI SERIES
 
-        //var result = FibonacciSeries.Fibonacci(2);
-        //foreach (var num in result)
-        //{
-        //    Console.WriteLine(num);
-        //}
+        var result = FibonacciSeries.Fibonacci(2);
+        foreach (var num in result)
+        {
+            Console.WriteLine(num);
+        }
 
 
 
