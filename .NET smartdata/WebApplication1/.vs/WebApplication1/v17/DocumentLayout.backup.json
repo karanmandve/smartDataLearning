@@ -1,7 +1,56 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\",
+  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\WebApplication1\\",
   "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06646B3F-6C8A-43E5-8A49-884760A049F3}|WebApplication1\\WebApplication1.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06646B3F-6C8A-43E5-8A49-884760A049F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D51DCD-C462-40F5-BC2F-9A464D79E13E}|..\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16CECD6-D73A-48FA-8C92-985562C3BC4E}|..\\ExampleWebApp\\Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp\\domain\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06646B3F-6C8A-43E5-8A49-884760A049F3}|WebApplication1\\WebApplication1.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06646B3F-6C8A-43E5-8A49-884760A049F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D51DCD-C462-40F5-BC2F-9A464D79E13E}|..\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp\\infrastructure\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16CECD6-D73A-48FA-8C92-985562C3BC4E}|..\\ExampleWebApp\\Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp\\domain\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16CECD6-D73A-48FA-8C92-985562C3BC4E}|..\\ExampleWebApp\\Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp\\domain\\studentcoursemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06646B3F-6C8A-43E5-8A49-884760A049F3}|WebApplication1\\WebApplication1.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\webapplication1\\webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06646B3F-6C8A-43E5-8A49-884760A049F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06646B3F-6C8A-43E5-8A49-884760A049F3}|WebApplication1\\WebApplication1.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\webapplication1\\webapplication1\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06646B3F-6C8A-43E5-8A49-884760A049F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06646B3F-6C8A-43E5-8A49-884760A049F3}|WebApplication1\\WebApplication1.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\webapplication1\\webapplication1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06646B3F-6C8A-43E5-8A49-884760A049F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDB93C3-70D4-4134-A9CA-F183A70DFFAF}|..\\ExampleWebApp\\App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp\\app.core\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDB93C3-70D4-4134-A9CA-F183A70DFFAF}|..\\ExampleWebApp\\App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp\\app.core\\models\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06646B3F-6C8A-43E5-8A49-884760A049F3}|WebApplication1\\WebApplication1.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\webapplication1\\webapplication1\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06646B3F-6C8A-43E5-8A49-884760A049F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06646B3F-6C8A-43E5-8A49-884760A049F3}|WebApplication1\\WebApplication1.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\webapplication1\\webapplication1\\services\\filepathhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06646B3F-6C8A-43E5-8A49-884760A049F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\filepathhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,90 +80,270 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-24T11:31:35.289Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDEAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\WebApplication1\\WebApplication1\\Program.cs*",
+              "RelativeToolTip": "WebApplication1\\Program.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:51:00.818Z",
+              "WhenOpened": "2024-09-24T10:58:32.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentCourseMapping.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Domain\\StudentCourseMapping.cs",
+              "RelativeDocumentMoniker": "..\\ExampleWebApp\\Domain\\StudentCourseMapping.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Domain\\StudentCourseMapping.cs",
+              "RelativeToolTip": "..\\ExampleWebApp\\Domain\\StudentCourseMapping.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:04:11.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Domain\\Student.cs",
+              "RelativeDocumentMoniker": "..\\ExampleWebApp\\Domain\\Student.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Domain\\Student.cs",
+              "RelativeToolTip": "..\\ExampleWebApp\\Domain\\Student.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:03:22.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Domain\\Course.cs",
+              "RelativeDocumentMoniker": "..\\ExampleWebApp\\Domain\\Course.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Domain\\Course.cs",
+              "RelativeToolTip": "..\\ExampleWebApp\\Domain\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:17:24.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Infrastructure\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "..\\ExampleWebApp\\Infrastructure\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Infrastructure\\Services\\StudentService.cs",
+              "RelativeToolTip": "..\\ExampleWebApp\\Infrastructure\\Services\\StudentService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:01:42.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\ExampleWebApp\\Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "..\\ExampleWebApp\\Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:30:34.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\WebApplication1\\WebApplication1\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\WebApplication1\\WebApplication1\\WeatherForecast.cs",
+              "RelativeToolTip": "WebApplication1\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:31:44.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\WebApplication1\\WebApplication1\\IStudentService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\WebApplication1\\WebApplication1\\IStudentService.cs",
+              "RelativeToolTip": "WebApplication1\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:33:12.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\WebApplication1\\WebApplication1\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\WebApplication1\\WebApplication1\\Models\\Student.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:33:28.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\App.Core\\IStudentService.cs",
+              "RelativeDocumentMoniker": "..\\ExampleWebApp\\App.Core\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\App.Core\\IStudentService.cs",
+              "RelativeToolTip": "..\\ExampleWebApp\\App.Core\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:32:20.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\App.Core\\Models\\StudentDto.cs",
+              "RelativeDocumentMoniker": "..\\ExampleWebApp\\App.Core\\Models\\StudentDto.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\App.Core\\Models\\StudentDto.cs",
+              "RelativeToolTip": "..\\ExampleWebApp\\App.Core\\Models\\StudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:32:12.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\WebApplication1\\WebApplication1\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\WebApplication1\\WebApplication1\\Services\\StudentService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\StudentService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:01:34.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FilePathHelper.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\WebApplication1\\WebApplication1\\Services\\FilePathHelper.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\FilePathHelper.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\WebApplication1\\WebApplication1\\Services\\FilePathHelper.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\FilePathHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:01:33.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T10:51:00.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "WebApplication1\\appsettings.Development.json",
               "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\appsettings.Development.json",
-              "RelativeToolTip": "WebApplication1\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-18T10:51:00.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
               "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\appsettings.json",
-              "RelativeToolTip": "WebApplication1\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-18T10:51:00.862Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "IStudentService.cs",
               "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\IStudentService.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\IStudentService.cs",
               "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\IStudentService.cs",
-              "RelativeToolTip": "WebApplication1\\IStudentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T10:51:00.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
               "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAIAxwA8AAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T10:51:00.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "StudentService.cs",
               "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\Services\\StudentService.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Services\\StudentService.cs",
               "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\Services\\StudentService.cs",
-              "RelativeToolTip": "WebApplication1\\Services\\StudentService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T10:51:00.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\StudentsController.cs",
               "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\WebApplication1\\WebApplication1\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\StudentsController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwA4AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T10:51:00.887Z"
             }

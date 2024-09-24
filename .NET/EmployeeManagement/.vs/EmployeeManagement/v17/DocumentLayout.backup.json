@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\EmployeeManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E493ACA-8CB4-42BD-B415-DCE1650495B2}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\employeemanagement\\employeemanagement\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E493ACA-8CB4-42BD-B415-DCE1650495B2}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E493ACA-8CB4-42BD-B415-DCE1650495B2}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\employeemanagement\\employeemanagement\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E493ACA-8CB4-42BD-B415-DCE1650495B2}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E493ACA-8CB4-42BD-B415-DCE1650495B2}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\employeemanagement\\employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E493ACA-8CB4-42BD-B415-DCE1650495B2}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E493ACA-8CB4-42BD-B415-DCE1650495B2}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\employeemanagement\\employeemanagement\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E493ACA-8CB4-42BD-B415-DCE1650495B2}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,25 +27,13 @@
       "RelativeMoniker": "D:0:0:{4E493ACA-8CB4-42BD-B415-DCE1650495B2}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E493ACA-8CB4-42BD-B415-DCE1650495B2}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\employeemanagement\\employeemanagement\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E493ACA-8CB4-42BD-B415-DCE1650495B2}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{252CE138-9065-4F68-85A1-F606EBE12D34}|..\\..\\WebApplication1\\WebApplication1\\WebApplication1.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\webapplication1\\webapplication1\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E493ACA-8CB4-42BD-B415-DCE1650495B2}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\employeemanagement\\employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E493ACA-8CB4-42BD-B415-DCE1650495B2}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{252CE138-9065-4F68-85A1-F606EBE12D34}|..\\..\\WebApplication1\\WebApplication1\\WebApplication1.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{252CE138-9065-4F68-85A1-F606EBE12D34}|..\\..\\WebApplication1\\WebApplication1\\WebApplication1.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\webapplication1\\webapplication1\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E493ACA-8CB4-42BD-B415-DCE1650495B2}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\employeemanagement\\employeemanagement\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E493ACA-8CB4-42BD-B415-DCE1650495B2}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E493ACA-8CB4-42BD-B415-DCE1650495B2}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\employeemanagement\\employeemanagement\\employeemanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -56,11 +56,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\EmployeeManagement\\EmployeeManagement\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "EmployeeManagement\\Controllers\\WeatherForecastController.cs",
@@ -73,46 +73,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\EmployeeManagement\\EmployeeManagement\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "EmployeeManagement\\Controllers\\EmployeesController.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\EmployeeManagement\\EmployeeManagement\\Controllers\\EmployeesController.cs*",
-              "RelativeToolTip": "EmployeeManagement\\Controllers\\EmployeesController.cs*",
-              "ViewState": "AgIAABwAAAAAAAAAAADwvysAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\EmployeeManagement\\EmployeeManagement\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "EmployeeManagement\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T09:53:38.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\WebApplication1\\WebApplication1\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "..\\..\\WebApplication1\\WebApplication1\\Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\WebApplication1\\WebApplication1\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "..\\..\\WebApplication1\\WebApplication1\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T09:44:46.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\EmployeeManagement\\EmployeeManagement\\Services\\EmployeeService.cs",
               "RelativeDocumentMoniker": "EmployeeManagement\\Services\\EmployeeService.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\EmployeeManagement\\EmployeeManagement\\Services\\EmployeeService.cs",
               "RelativeToolTip": "EmployeeManagement\\Services\\EmployeeService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T09:33:02.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\EmployeeManagement\\EmployeeManagement\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "EmployeeManagement\\Models\\Employee.cs",
@@ -125,20 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\WebApplication1\\WebApplication1\\Program.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "..\\..\\WebApplication1\\WebApplication1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T09:17:50.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\EmployeeManagement\\EmployeeManagement\\Program.cs",
               "RelativeDocumentMoniker": "EmployeeManagement\\Program.cs",
@@ -151,15 +125,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "IEmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\EmployeeManagement\\EmployeeManagement\\IEmployeeService.cs",
               "RelativeDocumentMoniker": "EmployeeManagement\\IEmployeeService.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\EmployeeManagement\\EmployeeManagement\\IEmployeeService.cs",
               "RelativeToolTip": "EmployeeManagement\\IEmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T09:25:16.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\WebApplication1\\WebApplication1\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "..\\..\\WebApplication1\\WebApplication1\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\WebApplication1\\WebApplication1\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "..\\..\\WebApplication1\\WebApplication1\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T09:44:46.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\WebApplication1\\WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "..\\..\\WebApplication1\\WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T09:17:50.995Z",
               "EditorCaption": ""
             },
             {
@@ -177,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\WebApplication1\\WebApplication1\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "..\\..\\WebApplication1\\WebApplication1\\Services\\StudentService.cs",

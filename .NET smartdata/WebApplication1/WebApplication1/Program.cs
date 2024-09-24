@@ -1,7 +1,10 @@
 using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using WebApplication1.Services;
+using Infrastructure;
 
 namespace WebApplication1
 {
@@ -14,6 +17,7 @@ namespace WebApplication1
             builder.Services.AddTransient<FilePathHelper, FilePathHelper>();
             builder.Services.AddTransient<IStudentService, StudentService>();
             //builder.Services.AddTransient<IStudentService, StudentService>();
+            builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             // Add services to the container.
 

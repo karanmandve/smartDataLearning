@@ -58,9 +58,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "StudentInstructorManagement.Controllers.InstructorCourseController",
+    "ContainingType": "StudentInstructorManagement.Controllers.InstructorCourseMappingController",
     "Method": "GetInstructorCourseMapping",
-    "RelativePath": "api/InstructorCourse",
+    "RelativePath": "api/InstructorCourseMapping",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -68,9 +68,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "StudentInstructorManagement.Controllers.InstructorCourseController",
+    "ContainingType": "StudentInstructorManagement.Controllers.InstructorCourseMappingController",
     "Method": "AddInstructorCourseMapping",
-    "RelativePath": "api/InstructorCourse",
+    "RelativePath": "api/InstructorCourseMapping",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -142,9 +142,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "StudentInstructorManagement.Controllers.StudentCourseController",
+    "ContainingType": "StudentInstructorManagement.Controllers.StudentCourseMappingController",
     "Method": "GetStudentCourseMapping",
-    "RelativePath": "api/StudentCourse",
+    "RelativePath": "api/StudentCourseMapping",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -152,9 +152,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "StudentInstructorManagement.Controllers.StudentCourseController",
+    "ContainingType": "StudentInstructorManagement.Controllers.StudentCourseMappingController",
     "Method": "AddStudentCourseMapping",
-    "RelativePath": "api/StudentCourse",
+    "RelativePath": "api/StudentCourseMapping",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
