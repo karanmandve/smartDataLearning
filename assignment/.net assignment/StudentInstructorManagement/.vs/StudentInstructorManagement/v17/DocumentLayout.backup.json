@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\.net assignment\\StudentInstructorManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF004B02-B642-4DA4-81C5-87266A77E86B}|StudentInstructorManagement\\StudentInstructorManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assignment\\.net assignment\\studentinstructormanagement\\studentinstructormanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF004B02-B642-4DA4-81C5-87266A77E86B}|StudentInstructorManagement\\StudentInstructorManagement.csproj|solutionrelative:studentinstructormanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BF004B02-B642-4DA4-81C5-87266A77E86B}|StudentInstructorManagement\\StudentInstructorManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assignment\\.net assignment\\studentinstructormanagement\\studentinstructormanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BF004B02-B642-4DA4-81C5-87266A77E86B}|StudentInstructorManagement\\StudentInstructorManagement.csproj|solutionrelative:studentinstructormanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF004B02-B642-4DA4-81C5-87266A77E86B}|StudentInstructorManagement\\StudentInstructorManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assignment\\.net assignment\\studentinstructormanagement\\studentinstructormanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF004B02-B642-4DA4-81C5-87266A77E86B}|StudentInstructorManagement\\StudentInstructorManagement.csproj|solutionrelative:studentinstructormanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF004B02-B642-4DA4-81C5-87266A77E86B}|StudentInstructorManagement\\StudentInstructorManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assignment\\.net assignment\\studentinstructormanagement\\studentinstructormanagement\\controllers\\studentmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,7 +73,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -105,8 +105,7 @@
               "RelativeToolTip": "StudentInstructorManagement\\Controllers\\StudentCourseMappingController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T13:37:26.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T13:37:26.711Z"
             },
             {
               "$type": "Document",
@@ -122,16 +121,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\.net assignment\\StudentInstructorManagement\\StudentInstructorManagement\\Program.cs",
               "RelativeDocumentMoniker": "StudentInstructorManagement\\Program.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\.net assignment\\StudentInstructorManagement\\StudentInstructorManagement\\Program.cs",
               "RelativeToolTip": "StudentInstructorManagement\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:00:15.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T07:00:15.204Z"
             },
             {
               "$type": "Document",
@@ -147,13 +145,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\.net assignment\\StudentInstructorManagement\\StudentInstructorManagement\\appsettings.json",
               "RelativeDocumentMoniker": "StudentInstructorManagement\\appsettings.json",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\.net assignment\\StudentInstructorManagement\\StudentInstructorManagement\\appsettings.json",
               "RelativeToolTip": "StudentInstructorManagement\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-23T08:45:10.534Z",
               "EditorCaption": ""
@@ -168,8 +166,7 @@
               "RelativeToolTip": "StudentInstructorManagement\\Controllers\\StudentManagementController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwCIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T09:05:46.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T09:05:46.199Z"
             },
             {
               "$type": "Document",

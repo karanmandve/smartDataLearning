@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\MiddlewareExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{420CA6B7-2E6A-415C-A579-848CFEBD9319}|MiddlewareExample\\MiddlewareExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\middlewareexample\\middlewareexample\\custommiddleware\\mycustommiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{420CA6B7-2E6A-415C-A579-848CFEBD9319}|MiddlewareExample\\MiddlewareExample.csproj|solutionrelative:middlewareexample\\custommiddleware\\mycustommiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{420CA6B7-2E6A-415C-A579-848CFEBD9319}|MiddlewareExample\\MiddlewareExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\middlewareexample\\middlewareexample\\custommiddleware\\middleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{420CA6B7-2E6A-415C-A579-848CFEBD9319}|MiddlewareExample\\MiddlewareExample.csproj|solutionrelative:middlewareexample\\custommiddleware\\middleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{420CA6B7-2E6A-415C-A579-848CFEBD9319}|MiddlewareExample\\MiddlewareExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\middlewareexample\\middlewareexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{420CA6B7-2E6A-415C-A579-848CFEBD9319}|MiddlewareExample\\MiddlewareExample.csproj|solutionrelative:middlewareexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{420CA6B7-2E6A-415C-A579-848CFEBD9319}|MiddlewareExample\\MiddlewareExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\middlewareexample\\middlewareexample\\middlewareexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{420CA6B7-2E6A-415C-A579-848CFEBD9319}|MiddlewareExample\\MiddlewareExample.csproj|solutionrelative:middlewareexample\\middlewareexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Middleware.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\MiddlewareExample\\MiddlewareExample\\CustomMiddleware\\Middleware.cs",
+              "RelativeDocumentMoniker": "MiddlewareExample\\CustomMiddleware\\Middleware.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\MiddlewareExample\\MiddlewareExample\\CustomMiddleware\\Middleware.cs",
+              "RelativeToolTip": "MiddlewareExample\\CustomMiddleware\\Middleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:48:35.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MiddlewareExample",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\MiddlewareExample\\MiddlewareExample\\MiddlewareExample.csproj",
+              "RelativeDocumentMoniker": "MiddlewareExample\\MiddlewareExample.csproj",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\MiddlewareExample\\MiddlewareExample\\MiddlewareExample.csproj",
+              "RelativeToolTip": "MiddlewareExample\\MiddlewareExample.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-25T05:59:52.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyCustomMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\MiddlewareExample\\MiddlewareExample\\CustomMiddleware\\MyCustomMiddleware.cs",
+              "RelativeDocumentMoniker": "MiddlewareExample\\CustomMiddleware\\MyCustomMiddleware.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\MiddlewareExample\\MiddlewareExample\\CustomMiddleware\\MyCustomMiddleware.cs",
+              "RelativeToolTip": "MiddlewareExample\\CustomMiddleware\\MyCustomMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:00:17.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\MiddlewareExample\\MiddlewareExample\\Program.cs",
+              "RelativeDocumentMoniker": "MiddlewareExample\\Program.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\MiddlewareExample\\MiddlewareExample\\Program.cs",
+              "RelativeToolTip": "MiddlewareExample\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T05:40:01.153Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

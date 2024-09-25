@@ -1,15 +1,95 @@
+using Microsoft.AspNetCore.Http;
+
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
 //app.MapGet("/", () => "Hello World!");
 app.Run(async (HttpContext context) =>
 {
-    // BODY
 
-    var reader = new StreamReader(context.Request.Body);
-    string bodyData = await reader.ReadToEndAsync();
-    var data = Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(bodyData);
-    await context.Response.WriteAsync(data["name"]);
+    // CALCULATOR PROJECT
+
+    //if (context.Request.Method == "GET")
+    //{
+    //    bool isFirstName = int.TryParse(context.Request.Query["firstNumber"], out var firstNumber);
+    //    bool isSecondName = int.TryParse(context.Request.Query["secondNumber"], out var secondNumber);
+    //    //var secondNumber = Convert.ToInt32(context.Request.Query["secondNumber"]);
+    //    var operation = context.Request.Query["operation"].ToString();
+
+
+    //    if (operation == "" || isFirstName == false || isSecondName == false)
+    //    {
+    //        context.Response.StatusCode = 400;
+    //        await context.Response.WriteAsync("Invalid Input");
+    //    }
+    //    else
+    //    {
+
+    //        switch (operation.ToLower())
+    //        {
+    //            case "add":
+    //                {
+    //                    var result = firstNumber + secondNumber;
+    //                    await context.Response.WriteAsync($"{result}");
+    //                    break;
+    //                }
+
+    //            case "sub":
+    //                {
+    //                    var result = firstNumber - secondNumber;
+    //                    await context.Response.WriteAsync($"{result}");
+    //                    break;
+    //                }
+
+    //            case "multiply":
+    //                {
+    //                    var result = firstNumber * secondNumber;
+    //                    await context.Response.WriteAsync($"{result}");
+    //                    break;
+    //                }
+
+    //            case "div":
+    //                {
+    //                    var result = firstNumber / secondNumber;
+    //                    await context.Response.WriteAsync($"{result}");
+    //                    break;
+    //                }
+
+    //            case "mod":
+    //                {
+    //                    var result = firstNumber % secondNumber;
+    //                    await context.Response.WriteAsync($"{result}");
+    //                    break;
+    //                }
+    //            default:
+    //                {
+    //                    context.Response.StatusCode = 200;
+    //                    await context.Response.WriteAsync($"Invalid input for 'operation'");
+    //                    break;
+    //                }
+
+    //        }
+
+    //    }
+
+
+
+
+
+    //}
+
+
+
+
+
+    // BODY
+    if (context.Request.Method == "GET")
+    {
+        var reader = new StreamReader(context.Request.Body);
+        string bodyData = await reader.ReadToEndAsync();
+        var data = Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(bodyData);
+        await context.Response.WriteAsync(data["name"]);
+    }
 
 
 
