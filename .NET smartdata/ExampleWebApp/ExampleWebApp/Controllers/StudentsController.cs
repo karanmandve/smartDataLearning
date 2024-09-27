@@ -23,6 +23,7 @@ namespace ExampleWebApp.Controllers
         {
             var student = new Student
             {
+                StudentId = model.StudentId,
                 FirstName = model.FirstName,
                 LastName = model.LastName,
                 DateOfBith = model.DateOfBith,

@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\employeemanagementsystem\\domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|solutionrelative:domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\employeemanagementsystem\\domain\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|solutionrelative:domain\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\karanmandve\\desktop\\employeemanagementsystem\\app.core\\apps\\employee\\command\\updateemployeebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\apps\\employee\\command\\updateemployeebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\karanmandve\\desktop\\employeemanagementsystem\\app.core\\apps\\employee\\command\\deleteemployeebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\apps\\employee\\command\\deleteemployeebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\karanmandve\\desktop\\employeemanagementsystem\\app.core\\apps\\employee\\command\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\apps\\employee\\command\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\karanmandve\\desktop\\employeemanagementsystem\\app.core\\models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2890034-96A0-4E0C-B4E9-948BB650277C}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\employeemanagementsystem\\infrastructure\\migrations\\20240927070556_initial-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2890034-96A0-4E0C-B4E9-948BB650277C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20240927070556_initial-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\karanmandve\\desktop\\employeemanagementsystem\\app.core\\apps\\employee\\query\\getemployeebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\apps\\employee\\query\\getemployeebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\karanmandve\\desktop\\employeemanagementsystem\\app.core\\apps\\department\\query\\getdepartmentbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\apps\\department\\query\\getdepartmentbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateEmployeeByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
+              "RelativeToolTip": "App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:02:07.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\App.core\\Models\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "App.core\\Models\\EmployeeDto.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\App.core\\Models\\EmployeeDto.cs",
+              "RelativeToolTip": "App.core\\Models\\EmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:01:04.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\Domain\\Department.cs",
+              "RelativeDocumentMoniker": "Domain\\Department.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\Domain\\Department.cs",
+              "RelativeToolTip": "Domain\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:00:41.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\Domain\\Employee.cs",
+              "RelativeDocumentMoniker": "Domain\\Employee.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\Domain\\Employee.cs",
+              "RelativeToolTip": "Domain\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:00:32.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeleteEmployeeByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
+              "RelativeToolTip": "App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:55:32.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateEmployeeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "RelativeToolTip": "App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:58:43.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240927070556_initial-migration.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\Infrastructure\\Migrations\\20240927070556_initial-migration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240927070556_initial-migration.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\Infrastructure\\Migrations\\20240927070556_initial-migration.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20240927070556_initial-migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:00:02.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetEmployeeByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
+              "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
+              "RelativeToolTip": "App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCIAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:59:51.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetDepartmentByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Query\\GetDepartmentByIdQuery.cs",
+              "RelativeDocumentMoniker": "App.core\\Apps\\Department\\Query\\GetDepartmentByIdQuery.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Query\\GetDepartmentByIdQuery.cs",
+              "RelativeToolTip": "App.core\\Apps\\Department\\Query\\GetDepartmentByIdQuery.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:59:33.84Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

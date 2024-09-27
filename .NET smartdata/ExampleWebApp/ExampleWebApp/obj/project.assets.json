@@ -4538,19 +4538,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\karanmandve\\.nuget\\packages\\": {}
+    "C:\\Users\\siddharthsupekar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj",
+      "projectUniqueName": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj",
       "projectName": "ExampleWebApp",
-      "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj",
-      "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\ExampleWebApp\\obj\\",
+      "projectPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj",
+      "packagesPath": "C:\\Users\\siddharthsupekar\\.nuget\\packages\\",
+      "outputPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\ExampleWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\siddharthsupekar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4565,8 +4565,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj"
+            "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

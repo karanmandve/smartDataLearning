@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj": {}
+    "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\App.Core\\App.Core.csproj": {
+    "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\App.Core\\App.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\App.Core\\App.Core.csproj",
+        "projectUniqueName": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\App.Core\\App.Core.csproj",
         "projectName": "App.Core",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\App.Core\\App.Core.csproj",
-        "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\App.Core\\obj\\",
+        "projectPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\App.Core\\App.Core.csproj",
+        "packagesPath": "C:\\Users\\siddharthsupekar\\.nuget\\packages\\",
+        "outputPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\App.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\siddharthsupekar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Domain\\Domain.csproj"
+              "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\Domain\\Domain.csproj": {
+                "projectPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\Domain\\Domain.csproj"
               }
             }
           }
@@ -69,17 +69,17 @@
         }
       }
     },
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Domain\\Domain.csproj": {
+    "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Domain\\Domain.csproj",
+        "projectUniqueName": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Domain\\obj\\",
+        "projectPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\siddharthsupekar\\.nuget\\packages\\",
+        "outputPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\siddharthsupekar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,17 +130,17 @@
         }
       }
     },
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj": {
+    "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj",
+        "projectUniqueName": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj",
         "projectName": "ExampleWebApp",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj",
-        "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\ExampleWebApp\\obj\\",
+        "projectPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj",
+        "packagesPath": "C:\\Users\\siddharthsupekar\\.nuget\\packages\\",
+        "outputPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\ExampleWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\siddharthsupekar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -155,8 +155,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj"
+              "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -210,17 +210,17 @@
         }
       }
     },
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj": {
+    "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Infrastructure\\obj\\",
+        "projectPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\siddharthsupekar\\.nuget\\packages\\",
+        "outputPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\siddharthsupekar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -235,11 +235,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\App.Core\\App.Core.csproj": {
-                "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\App.Core\\App.Core.csproj"
+              "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\App.Core\\App.Core.csproj": {
+                "projectPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\App.Core\\App.Core.csproj"
               },
-              "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp\\Domain\\Domain.csproj"
+              "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\Domain\\Domain.csproj": {
+                "projectPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\ExampleWebApp\\Domain\\Domain.csproj"
               }
             }
           }

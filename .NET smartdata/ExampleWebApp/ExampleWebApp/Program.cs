@@ -18,6 +18,7 @@ namespace ExampleWebApp
             var configuration = builder.Configuration;
 
             // Add services to the container.
+
             builder.Services.AddDbContext<AppDbContext>((provider, options) =>
             {
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
