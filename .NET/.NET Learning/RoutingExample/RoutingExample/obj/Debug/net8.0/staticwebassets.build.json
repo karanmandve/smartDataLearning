@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "AWRd2y/ra7v9E4U/BvZhhte2+a3qdF5SAkrnuG8gQbA=",
+  "Source": "RoutingExample",
+  "BasePath": "_content/RoutingExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RoutingExample\\wwwroot",
+      "Source": "RoutingExample",
+      "ContentRoot": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\RoutingExample\\RoutingExample\\wwwroot\\",
+      "BasePath": "_content/RoutingExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\RoutingExample\\RoutingExample\\wwwroot\\tempImage.jpg",
+      "SourceId": "RoutingExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\RoutingExample\\RoutingExample\\wwwroot\\",
+      "BasePath": "_content/RoutingExample",
+      "RelativePath": "tempImage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\tempImage.jpg"
+    }
+  ]
+}
