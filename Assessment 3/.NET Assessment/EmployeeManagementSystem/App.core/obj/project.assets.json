@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\App.core\\App.core.csproj",
+      "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\App.core.csproj",
       "projectName": "App.core",
-      "projectPath": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\App.core\\App.core.csproj",
+      "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\App.core.csproj",
       "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\App.core\\obj\\",
+      "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -716,8 +716,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\karanmandve\\Desktop\\EmployeeManagementSystem\\Domain\\Domain.csproj"
+            "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Domain.csproj"
             }
           }
         }

@@ -32,16 +32,15 @@ namespace App.core.Apps.Employee.Command
 
         public async Task<bool> Handle(UpdateEmployeeByIdCommand request, CancellationToken cancellationToken)
         {
-            var id = request.Id;
 
-            var employee = await _appDbContext.Set<Domain.Employee>().FindAsync(id);
+            var employee = await _appDbContext.Set<Domain.Employee>().FindAsync(request.Id);
 
             if (employee == null)
             {
                 return false;
             }
 
-            var department = await _appDbContext.Set<Domain.Department>().FindAsync(employee.DepartmentId);
+            var department = await _appDbContext.Set<Domain.Department>().FindAsync(request.Employee.DepartmentId);
 
             if (department == null)
             {

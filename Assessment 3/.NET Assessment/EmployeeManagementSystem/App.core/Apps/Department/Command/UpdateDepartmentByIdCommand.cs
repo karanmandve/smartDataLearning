@@ -1,12 +1,6 @@
-﻿using App.core.Apps.Employee.Command;
-using App.core.Interface;
+﻿using App.core.Interface;
 using App.core.Models;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace App.core.Apps.Department.Command
 {

@@ -1,11 +1,7 @@
 ﻿using App.core.Apps.Department.Command;
 using App.core.Apps.Department.Query;
-using App.core.Apps.Employee.Command;
-using App.core.Apps.Employee.Query;
 using App.core.Models;
-using Domain;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeManagementSystem.Controllers
@@ -53,7 +49,7 @@ namespace EmployeeManagementSystem.Controllers
         {
             var isDepartmentAdded = await _mediator.Send(new CreateDepartmentCommand { Department = model });
 
-            if (isDepartmentAdded == false)
+            if (!isDepartmentAdded)
             {
                 return BadRequest("Department Aleady Exist");
             }
@@ -68,7 +64,7 @@ namespace EmployeeManagementSystem.Controllers
         {
             var IsUpdated = await _mediator.Send(new UpdateDepartmentByIdCommand { Department = model, Id = id });
 
-            if (IsUpdated == false)
+            if (!IsUpdated)
             {
                 return NotFound("Department Not Found");
             }
@@ -82,7 +78,7 @@ namespace EmployeeManagementSystem.Controllers
         {
             var isDeleted = await _mediator.Send(new DeleteDepartmentByIdCommand { Id = id });
 
-            if(isDeleted == false)
+            if (!isDeleted)
             {
                 return NotFound("Department Not Found");
             }

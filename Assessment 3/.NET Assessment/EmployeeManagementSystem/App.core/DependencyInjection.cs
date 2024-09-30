@@ -20,6 +20,7 @@ namespace App.Core
                 cfg.RegisterServicesFromAssemblyContaining<DeleteEmployeeByIdCommand>();
                 cfg.RegisterServicesFromAssemblyContaining<GetEmployeeQuery>();
                 cfg.RegisterServicesFromAssemblyContaining<GetEmployeeByIdQuery>();
+                cfg.RegisterServicesFromAssemblyContaining<GetAllEmployeeByDeparmentId>();
 
                 // FOR DEPARTMENT
                 cfg.RegisterServicesFromAssemblyContaining<CreateDepartmentCommand>();

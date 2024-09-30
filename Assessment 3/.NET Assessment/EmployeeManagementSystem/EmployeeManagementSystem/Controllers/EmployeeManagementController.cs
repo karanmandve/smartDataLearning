@@ -3,7 +3,6 @@ using App.core.Apps.Employee.Query;
 using App.core.Models;
 using Domain;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeManagementSystem.Controllers
@@ -29,6 +28,21 @@ namespace EmployeeManagementSystem.Controllers
         }
 
 
+        [HttpGet("Get-All-Employee-By-DeparmentId/{id}")]
+        public async Task<IActionResult> GetAllEmployeeByDeparmentId(int id)
+        {
+            var allEmployeeByDepartmentId = await _mediator.Send(new GetAllEmployeeByDeparmentId { Id = id });
+
+            if (allEmployeeByDepartmentId == null || allEmployeeByDepartmentId.Count == 0)
+            {
+                return NotFound("Employee Not Found");
+            }
+
+            return Ok(allEmployeeByDepartmentId);
+        }
+
+
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetEmployeeById(int id)
         {
@@ -36,7 +50,7 @@ namespace EmployeeManagementSystem.Controllers
 
             if (employee == null)
             {
-                return NotFound("Department Not Found");
+                return NotFound("Employee Not Found");
             }
 
 
@@ -50,7 +64,7 @@ namespace EmployeeManagementSystem.Controllers
         {
             var isEmployeeAdded = await _mediator.Send(new CreateEmployeeCommand { Employee = model });
 
-            if (isEmployeeAdded == false) 
+            if (!isEmployeeAdded)
             {
                 return NotFound("Department Not Found");
             }
@@ -64,7 +78,7 @@ namespace EmployeeManagementSystem.Controllers
         {
             var isUpdated = await _mediator.Send(new UpdateEmployeeByIdCommand { Employee = model, Id = id });
 
-            if (isUpdated == false)
+            if (!isUpdated)
             {
                 return NotFound("Either Employee Or Department Not Found");
             }
@@ -78,7 +92,7 @@ namespace EmployeeManagementSystem.Controllers
         {
             var isDeleted = await _mediator.Send(new DeleteEmployeeByIdCommand { Id = id });
 
-            if(isDeleted == false)
+            if (!isDeleted)
             {
                 return NotFound("Employee Not Found");
             }
