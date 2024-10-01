@@ -1,12 +1,30 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.FileProviders;
 using RoutingExample.CustomeConstraints;
 
-var builder = WebApplication.CreateBuilder(args);
+//var builder = WebApplication.CreateBuilder(args);
+
+// wwwroot IS A DEFAULT ROOT FOLDER TO SERVER STATIC FILES, MAKE NEW FOLDER AS SET IT AS ROOT FOLDER
+var builder = WebApplication.CreateBuilder(new WebApplicationOptions()
+{
+    WebRootPath = "myroot"
+});
+
+
 builder.Services.AddRouting(option =>
 {
     option.ConstraintMap.Add("months", typeof(MonthCustomConstraint));
 });
 var app = builder.Build();
-app.UseStaticFiles();
+app.UseStaticFiles(); // MYROOT FOLDER
+
+// USE TWO ROOT FOLDER
+app.UseStaticFiles(new StaticFileOptions()
+{
+    FileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.ContentRootPath, "newmyroot"))
+});
+
+
 // enable routing
 app.UseRouting();
 
