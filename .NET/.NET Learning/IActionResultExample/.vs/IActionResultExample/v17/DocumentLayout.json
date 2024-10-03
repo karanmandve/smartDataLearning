@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{D29E5BBE-4D02-413A-BA1C-6A3066ADA7F2}|IActionResultExample\\IActionResultExample.csproj|solutionrelative:iactionresultexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D29E5BBE-4D02-413A-BA1C-6A3066ADA7F2}|IActionResultExample\\IActionResultExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\iactionresultexample\\iactionresultexample\\models\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D29E5BBE-4D02-413A-BA1C-6A3066ADA7F2}|IActionResultExample\\IActionResultExample.csproj|solutionrelative:iactionresultexample\\models\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D29E5BBE-4D02-413A-BA1C-6A3066ADA7F2}|IActionResultExample\\IActionResultExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\iactionresultexample\\iactionresultexample\\controllers\\bookstorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D29E5BBE-4D02-413A-BA1C-6A3066ADA7F2}|IActionResultExample\\IActionResultExample.csproj|solutionrelative:iactionresultexample\\controllers\\bookstorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,6 +55,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BookDto.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\IActionResultExample\\IActionResultExample\\Models\\BookDto.cs",
+              "RelativeDocumentMoniker": "IActionResultExample\\Models\\BookDto.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\IActionResultExample\\IActionResultExample\\Models\\BookDto.cs",
+              "RelativeToolTip": "IActionResultExample\\Models\\BookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T06:08:15.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BookStoreController.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\IActionResultExample\\IActionResultExample\\Controllers\\BookStoreController.cs",
               "RelativeDocumentMoniker": "IActionResultExample\\Controllers\\BookStoreController.cs",
@@ -69,14 +86,14 @@
               "RelativeDocumentMoniker": "IActionResultExample\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\IActionResultExample\\IActionResultExample\\Controllers\\HomeController.cs",
               "RelativeToolTip": "IActionResultExample\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T06:33:25.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\IActionResultExample\\IActionResultExample\\Program.cs",
               "RelativeDocumentMoniker": "IActionResultExample\\Program.cs",
@@ -84,8 +101,7 @@
               "RelativeToolTip": "IActionResultExample\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T06:31:03.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T06:31:03.191Z"
             }
           ]
         }

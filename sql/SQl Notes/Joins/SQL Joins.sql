@@ -3,6 +3,9 @@
 ---------------------------------------------*/
 
 -- drop table employee Table
+
+use office
+
 CREATE TABLE Employee (
   Id INT PRIMARY KEY,
   Name VARCHAR(100) NOT NULL,
@@ -50,7 +53,8 @@ INSERT INTO Projects (Title, ClientId, EmployeeId, StartDate, EndDate) VALUES
 ('MySQL database from my desktop application', 4, 1008, GETDATE(), (Getdate() + 80)),
 ('Develop new WordPress plugin for my business website', 2, NULL, GETDATE(), (Getdate() + 90));
 
-
+select * from Employee
+select * from Projects
 /*
 Inner Join in SQL Server
 

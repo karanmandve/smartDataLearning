@@ -1,6 +1,6 @@
 
 
-
+create database S_DirectLocal
 Use S_DirectLocal
 
 Create table Roles

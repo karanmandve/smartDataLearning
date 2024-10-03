@@ -36,7 +36,7 @@ INSERT INTO Department VALUES(2, 'HR')
 INSERT INTO Department VALUES(3, 'Sales')
 
 -- Create Employee Table
-CREATE TABLE Employee
+CREATE TABLE Employee101
 (
   ID INT PRIMARY KEY,
   Name VARCHAR(50),
@@ -47,12 +47,12 @@ CREATE TABLE Employee
 GO
 
 -- Populate the Employee Table with test data
-INSERT INTO Employee VALUES(1, 'Pranaya', 'Male','1996-02-29 10:53:27.060', 1)
-INSERT INTO Employee VALUES(2, 'Priyanka', 'Female','1995-05-25 10:53:27.060', 2)
-INSERT INTO Employee VALUES(3, 'Anurag', 'Male','1995-04-19 10:53:27.060', 2)
-INSERT INTO Employee VALUES(4, 'Preety', 'Female','1996-03-17 10:53:27.060', 3)
-INSERT INTO Employee VALUES(5, 'Sambit', 'Male','1997-01-15 10:53:27.060', 1)
-INSERT INTO Employee VALUES(6, 'Hina', 'Female','1995-07-12 10:53:27.060', 2)
+INSERT INTO Employee101 VALUES(1, 'Pranaya', 'Male','1996-02-29 10:53:27.060', 1)
+INSERT INTO Employee101 VALUES(2, 'Priyanka', 'Female','1995-05-25 10:53:27.060', 2)
+INSERT INTO Employee101 VALUES(3, 'Anurag', 'Male','1995-04-19 10:53:27.060', 2)
+INSERT INTO Employee101 VALUES(4, 'Preety', 'Female','1996-03-17 10:53:27.060', 3)
+INSERT INTO Employee101 VALUES(5, 'Sambit', 'Male','1997-01-15 10:53:27.060', 1)
+INSERT INTO Employee101 VALUES(6, 'Hina', 'Female','1995-07-12 10:53:27.060', 2)
 
 GO
 
@@ -72,13 +72,13 @@ can also be called an updatable view or dynamic view.
 -- View with all columns 
 CREATE VIEW vwAllEmployees1 
 AS 
-SELECT * FROM Employee
+SELECT * FROM Employee101
 
 -- View with specific columns
 CREATE VIEW vwAllEmployees2 
 AS 
 SELECT ID, Name, Gender
-FROM Employee
+FROM Employee101
 
 
 -- DML Operations on the Simple Views in SQL Server:
@@ -91,7 +91,7 @@ VALUES(7, 'Rohit', 'Male' )
 -- When you execute the above insert statement, 
 -- it will successfully insert the record into the Employee table.
 
-SELECT * FROM Employee 
+SELECT * FROM Employee101
 
 UPDATE vwAllEmployees1 SET
   Name = 'Rohit Kumar'
@@ -115,17 +115,18 @@ CREATE VIEW vwAllEmployees3
 AS 
 SELECT emp.ID, emp.Name, emp.Gender, emp.DOB, 
   dep.Name as DepartmentName
-FROM Employee emp
+FROM Employee101 emp
 INNER JOIN Department dep
 on emp.DeptID = dep.ID
 
-
+select * from vwAllEmployees3
 
 CREATE VIEW vwAllEmployees4
 AS 
 SELECT Gender, Count(*) as TotalEmployee
 FROM Employee Group BY Gender
 
+select * from vwAllEmployees4
 /*
 Can we drop a table that has dependent views on it?
 Yes, you can drop a table even if any dependent views are
