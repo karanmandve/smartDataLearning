@@ -21,3 +21,15 @@ C:\Users\karanmandve\Desktop\karan mandve notes\.NET smartdata\ExampleWebApp wit
 C:\Users\karanmandve\Desktop\karan mandve notes\.NET smartdata\ExampleWebApp with logger and exception handling\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\karanmandve\Desktop\karan mandve notes\.NET smartdata\ExampleWebApp with logger and exception handling\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\karanmandve\Desktop\karan mandve notes\.NET smartdata\ExampleWebApp with logger and exception handling\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\user\Desktop\smartDataLearning\.NET smartdata\ExampleWebApp with logger,excep handle, validation\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\user\Desktop\smartDataLearning\.NET smartdata\ExampleWebApp with logger,excep handle, validation\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\user\Desktop\smartDataLearning\.NET smartdata\ExampleWebApp with logger,excep handle, validation\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\user\Desktop\smartDataLearning\.NET smartdata\ExampleWebApp with logger,excep handle, validation\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\smartDataLearning\.NET smartdata\ExampleWebApp with logger,excep handle, validation\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\smartDataLearning\.NET smartdata\ExampleWebApp with logger,excep handle, validation\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\user\Desktop\smartDataLearning\.NET smartdata\ExampleWebApp with logger,excep handle, validation\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\smartDataLearning\.NET smartdata\ExampleWebApp with logger,excep handle, validation\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\user\Desktop\smartDataLearning\.NET smartdata\ExampleWebApp with logger,excep handle, validation\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\user\Desktop\smartDataLearning\.NET smartdata\ExampleWebApp with logger,excep handle, validation\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\user\Desktop\smartDataLearning\.NET smartdata\ExampleWebApp with logger,excep handle, validation\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\user\Desktop\smartDataLearning\.NET smartdata\ExampleWebApp with logger,excep handle, validation\Domain\obj\Debug\net8.0\ref\Domain.dll

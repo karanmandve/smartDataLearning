@@ -1,42 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\controllers\\studentscqrscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\controllers\\studentscqrscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\controllers\\studentscqrscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\models\\testmodeldtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\models\\testmodeldtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\models\\testmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\models\\testmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\filters\\appexceptionfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\filters\\appexceptionfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\filters\\appexceptionfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\models\\testmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\models\\testmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\models\\testmodeldtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\models\\testmodeldtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\examplewebapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\examplewebapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\examplewebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\examplewebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\logs\\log-20240930.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\logs\\log-20240930.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net smartdata\\examplewebapp with logger,excep handle, validation\\app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net smartdata\\examplewebapp with logger,excep handle, validation\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net smartdata\\examplewebapp with logger,excep handle, validation\\examplewebapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,142 +54,150 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppExceptionFilterAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Filters\\AppExceptionFilterAttribute.cs",
-              "RelativeDocumentMoniker": "ExampleWebApp\\Filters\\AppExceptionFilterAttribute.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Filters\\AppExceptionFilterAttribute.cs",
-              "RelativeToolTip": "ExampleWebApp\\Filters\\AppExceptionFilterAttribute.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T09:08:46.909Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Program.cs",
-              "RelativeDocumentMoniker": "ExampleWebApp\\Program.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Program.cs",
-              "RelativeToolTip": "ExampleWebApp\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Title": "TestModelDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Models\\TestModelDtoValidator.cs",
+              "RelativeDocumentMoniker": "ExampleWebApp\\Models\\TestModelDtoValidator.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Models\\TestModelDtoValidator.cs",
+              "RelativeToolTip": "ExampleWebApp\\Models\\TestModelDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:46:00.425Z"
+              "WhenOpened": "2024-10-03T16:05:47.971Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "TestModelDto.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Models\\TestModelDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Models\\TestModelDto.cs",
               "RelativeDocumentMoniker": "ExampleWebApp\\Models\\TestModelDto.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Models\\TestModelDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Models\\TestModelDto.cs",
               "RelativeToolTip": "ExampleWebApp\\Models\\TestModelDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:45:18.997Z",
+              "WhenOpened": "2024-10-03T16:05:16.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentsCQRSController.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Controllers\\StudentsCQRSController.cs",
-              "RelativeDocumentMoniker": "ExampleWebApp\\Controllers\\StudentsCQRSController.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Controllers\\StudentsCQRSController.cs",
-              "RelativeToolTip": "ExampleWebApp\\Controllers\\StudentsCQRSController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwDsAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T07:42:31.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestModelDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Models\\TestModelDtoValidator.cs",
-              "RelativeDocumentMoniker": "ExampleWebApp\\Models\\TestModelDtoValidator.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Models\\TestModelDtoValidator.cs",
-              "RelativeToolTip": "ExampleWebApp\\Models\\TestModelDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T07:46:09.017Z",
+              "DocumentIndex": 6,
+              "Title": "ExampleWebApp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\ExampleWebApp.csproj",
+              "RelativeDocumentMoniker": "ExampleWebApp\\ExampleWebApp.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\ExampleWebApp.csproj",
+              "RelativeToolTip": "ExampleWebApp\\ExampleWebApp.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-03T14:43:35.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\appsettings.json",
               "RelativeDocumentMoniker": "ExampleWebApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\appsettings.json",
               "RelativeToolTip": "ExampleWebApp\\appsettings.json",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAABgZmZmZmYkwBcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-30T08:59:43.857Z"
+              "WhenOpened": "2024-10-03T15:22:33.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppExceptionFilterAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Filters\\AppExceptionFilterAttribute.cs",
+              "RelativeDocumentMoniker": "ExampleWebApp\\Filters\\AppExceptionFilterAttribute.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Filters\\AppExceptionFilterAttribute.cs",
+              "RelativeToolTip": "ExampleWebApp\\Filters\\AppExceptionFilterAttribute.cs",
+              "ViewState": "AgIAAAMAAABgZmZmZmYkwBAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T14:56:00.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "ExampleWebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Program.cs",
+              "RelativeToolTip": "ExampleWebApp\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwPRgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T14:42:28.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentsCQRSController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Controllers\\StudentsCQRSController.cs",
+              "RelativeDocumentMoniker": "ExampleWebApp\\Controllers\\StudentsCQRSController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Controllers\\StudentsCQRSController.cs",
+              "RelativeToolTip": "ExampleWebApp\\Controllers\\StudentsCQRSController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T14:44:40.453Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "log-20240930.txt",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\logs\\log-20240930.txt",
-              "RelativeDocumentMoniker": "ExampleWebApp\\logs\\log-20240930.txt",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\logs\\log-20240930.txt",
-              "RelativeToolTip": "ExampleWebApp\\logs\\log-20240930.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-30T10:06:31.949Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ExampleWebApp.http",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\ExampleWebApp.http",
-              "RelativeDocumentMoniker": "ExampleWebApp\\ExampleWebApp.http",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\ExampleWebApp.http",
-              "RelativeToolTip": "ExampleWebApp\\ExampleWebApp.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-09-30T10:17:27.056Z"
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\App.Core\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "App.Core\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\App.Core\\DependencyInjection.cs",
+              "RelativeToolTip": "App.Core\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T14:59:39.747Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "ExampleWebApp\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\WeatherForecast.cs",
-              "RelativeToolTip": "ExampleWebApp\\WeatherForecast.cs",
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "ExampleWebApp\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "ExampleWebApp\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAACMAAAAAzMzMzMwEwAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T14:44:44.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Infrastructure",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-03T14:44:59.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ExampleWebApp\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET smartdata\\ExampleWebApp with logger,excep handle, validation\\ExampleWebApp\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ExampleWebApp\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:53:20.128Z"
+              "WhenOpened": "2024-10-03T14:44:47.797Z",
+              "EditorCaption": ""
             }
           ]
         }
