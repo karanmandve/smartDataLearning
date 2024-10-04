@@ -1,0 +1,14 @@
+D:\Practice\PracticeConsoleApp\PracticeConsoleApp\bin\Debug\net8.0\PracticeConsoleApp.exe
+D:\Practice\PracticeConsoleApp\PracticeConsoleApp\bin\Debug\net8.0\PracticeConsoleApp.deps.json
+D:\Practice\PracticeConsoleApp\PracticeConsoleApp\bin\Debug\net8.0\PracticeConsoleApp.runtimeconfig.json
+D:\Practice\PracticeConsoleApp\PracticeConsoleApp\bin\Debug\net8.0\PracticeConsoleApp.dll
+D:\Practice\PracticeConsoleApp\PracticeConsoleApp\bin\Debug\net8.0\PracticeConsoleApp.pdb
+D:\Practice\PracticeConsoleApp\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\PracticeConsoleApp\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.AssemblyInfoInputs.cache
+D:\Practice\PracticeConsoleApp\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.AssemblyInfo.cs
+D:\Practice\PracticeConsoleApp\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.csproj.CoreCompileInputs.cache
+D:\Practice\PracticeConsoleApp\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.dll
+D:\Practice\PracticeConsoleApp\PracticeConsoleApp\obj\Debug\net8.0\refint\PracticeConsoleApp.dll
+D:\Practice\PracticeConsoleApp\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.pdb
+D:\Practice\PracticeConsoleApp\PracticeConsoleApp\obj\Debug\net8.0\PracticeConsoleApp.genruntimeconfig.cache
+D:\Practice\PracticeConsoleApp\PracticeConsoleApp\obj\Debug\net8.0\ref\PracticeConsoleApp.dll

@@ -12,6 +12,8 @@ useful for simplifying complex queries,
 making them more readable and manageable.
 */
 
+CREATE DATABASE CTE_practice
+USE CTE_practice
 
 -- Create the Employees table
 CREATE TABLE Employeesss (
@@ -75,18 +77,19 @@ FROM EmployeeToInsert;
 
 
 -- Define the CTE to update data
-;WITH EmployeeToUpdate AS (
+WITH EmployeeToUpdate AS (
 
     SELECT EmployeeID, 
-	      'Johnson' AS NewLastName
+	      'Doe' AS NewLastName
     FROM Employeesss
     WHERE FirstName = 'Robert'
 
 )
 -- Update the data in the Employees table based on the CTE
 UPDATE Employeesss
-SET LastName = NewLastName
-FROM EmployeeToUpdate;
+SET LastName = empu.NewLastName
+FROM EmployeeToUpdate empu
+WHERE Employeesss.EmployeeID = empu.EmployeeID;
 
 
 select *

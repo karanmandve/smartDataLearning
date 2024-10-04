@@ -1,5 +1,0 @@
-C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\DayOfWeeks\obj\Debug\net8.0\DayOfWeeks.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\DayOfWeeks\obj\Debug\net8.0\DayOfWeeks.AssemblyInfoInputs.cache
-C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\DayOfWeeks\obj\Debug\net8.0\DayOfWeeks.AssemblyInfo.cs
-C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\DayOfWeeks\obj\Debug\net8.0\DayOfWeeks.csproj.CoreCompileInputs.cache
-C:\Users\karanmandve\Desktop\karan mandve notes\CSharp_basics\DayOfWeeks\obj\Debug\net8.0\DayOfWeeks.sourcelink.json
