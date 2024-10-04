@@ -704,12 +704,14 @@ END
 --   patients into 'Child' (age < 18), 'Adult' (age 18-65), and 'Senior' (age > 65) based on their date of birth.
 
 SELECT
-	CONCAT(FirstName, ' ', LastName) as [Full Name], dob,
-	CASE
-		when DATEDIFF(YEAR, Dob, GETDATE()) < 18 then 'Child'
-		when DATEDIFF(YEAR, Dob, GETDATE()) BETWEEN 18 and 65 then 'Adult'
-		when DATEDIFF(YEAR, Dob, GETDATE()) > 65 then 'Senior'
-	end as AgeGroup
+
+CONCAT(FirstName, ' ', LastName) as [Full Name], dob,
+CASE
+	when DATEDIFF(YEAR, Dob, GETDATE()) < 18 then 'Child'
+	when DATEDIFF(YEAR, Dob, GETDATE()) BETWEEN 18 and 65 then 'Adult'
+	when DATEDIFF(YEAR, Dob, GETDATE()) > 65 then 'Senior'
+end as AgeGroup
+
 FROM Patient
 
 
@@ -723,9 +725,7 @@ left join PatientInsurance as patins on pat.PatientId = patins.PatientId
 
 --23] Give me a select query which get date after 20 days 
 
-
-
-
+SELECT DATEADD(Day, 20, GETDATE()) AS DateAfter20Days;
 
 
 --24] Question: Write a SQL query to retrieve a list of all appointments along with the following information:
@@ -734,6 +734,16 @@ left join PatientInsurance as patins on pat.PatientId = patins.PatientId
 --    Practitioner's FirstName and LastName
 --    Appointment Date and Time
 --    Appointment Status Description
+
+
+SELECT    CONCAT(pat.FirstName, ' ', pat.LastName) as [Patient Full Name], 
+		  CONCAT(pract.FirstName, ' ', pract.LastName) as [Practitioner Full Name], 
+	      app.AppointmentDate, app.AppointmentTime, appstat.StatusDescription
+FROM      Patient as pat 
+left join Appointment as app on pat.PatientId = app.PatientId
+left join Practitioners as pract on app.PractitionerId = pract.PractitionerId 
+left join AppointmentStatus as appstat on appstat.StatusId = app.StatusId
+
 
 --25] Patient Insurance and Contact Information
 
@@ -744,6 +754,16 @@ left join PatientInsurance as patins on pat.PatientId = patins.PatientId
 --    Contact Value from PatientContact
 --    Contact Type Description
 
+
+SELECT    CONCAT(pat.FirstName, ' ', pat.LastName), inspro.InsuranceProviderName, patcon.ContactValue, contype.ContactType
+FROM      Patient as pat 
+left join PatientInsurance as patins on pat.PatientId = patins.PatientId
+left join InsuranceProviders as inspro on patins.InsuranceProviderId = inspro.InsuranceProviderId
+left join PatientContact as patcon on pat.PatientId = patcon.PatientId
+left join ContactType as contype on patcon.ContactTypeId = contype.ContactTypeId
+
+
+
 --26] Question: Write a query that displays the following details:
 
 --    Patient's Full Name (FirstName and LastName)
@@ -751,12 +771,30 @@ left join PatientInsurance as patins on pat.PatientId = patins.PatientId
 --    Practitioner’s Full Name (FirstName and LastName) who prescribed the medication
 --    Appointment Date
 
+
+SELECT    CONCAT(pat.FirstName, ' ', pat.LastName) as [Patient Full Name], med.MedicationName, 
+          CONCAT(pract.FirstName, ' ', pract.LastName) as [Practitioner Full Name], app.AppointmentDate  
+FROM      Patient as pat 
+left join Medication as med on pat.PatientId = med.PatientId 
+left join Appointment as app on pat.PatientId = app.PatientId
+left join Practitioners as pract on app.PractitionerId = pract.PractitionerId
+
+
 --27] Question: Create a query that retrieves a summary of claims for each patient, including:
 
 --    Patient's Full Name
 --    Appointment Date
 --    Claim Status
 --    Practitioner's Full Name who handled the appointment
+
+
+SELECT    CONCAT(pat.FirstName, ' ', pat.LastName) as [Patient Full Name], app.AppointmentDate, claim.ClaimStatus,
+	      CONCAT(pract.FirstName, ' ', pract.LastName) as [Practitioner Full Name]
+FROM      Patient as pat 
+left join Appointment as app on pat.PatientId = app.PatientId
+left join ClaimProcess as claim on claim.AppointmentId = app.AppointmentId
+left join Practitioners as pract on app.PractitionerId = pract.PractitionerId
+
 
 --28] Question: Write a SQL query to list all patients along with their address and insurance details, including:
 
