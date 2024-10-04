@@ -7,12 +7,15 @@ namespace ModelValidationExample.CustomValidator
     {
         protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
         {
-            if (value is DateTime date)
+            if (value != null)
             {
+                var date = (DateTime)value;
 
                 if (date.Year < 2000)
                 {
-                    return new ValidationResult("Minimum year allowed is 2000");
+
+                    return new ValidationResult(ErrorMessage);
+                    //return new ValidationResult("Minimum year allowed is 2000");
                 }
 
                 return ValidationResult.Success;

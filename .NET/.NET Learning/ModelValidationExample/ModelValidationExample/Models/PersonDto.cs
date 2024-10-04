@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using ModelValidationExample.CustomValidator;
+using System.ComponentModel.DataAnnotations;
 
 namespace ModelValidationExample.Models
 {
@@ -17,10 +18,12 @@ namespace ModelValidationExample.Models
         public string? ConfirmPassword { get; set; }
         public double? Price { get; set; }
 
+        [MinimalYearValidatorAttribute(ErrorMessage = "Minimum year allowed is 2000")]
+        public DateTime? DateOfBirth { get; set; }
 
         public override string ToString()
         {
-            return $"name : {PersonName}, Email : {Email}, Phone : {Phone}, Password : {Password}, ConfirmPassword : {ConfirmPassword}, Price : {Price}";
+            return $"name : {PersonName}, Email : {Email}, Phone : {Phone}, Password : {Password}, ConfirmPassword : {ConfirmPassword}, Price : {Price}, Date Of Birth : {DateOfBirth}";
         }
     }
 }

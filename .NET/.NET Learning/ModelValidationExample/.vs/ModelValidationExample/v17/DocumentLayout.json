@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\modelvalidationexample\\modelvalidationexample\\customvalidator\\minimalyearvalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|solutionrelative:modelvalidationexample\\customvalidator\\minimalyearvalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\modelvalidationexample\\modelvalidationexample\\models\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|solutionrelative:modelvalidationexample\\models\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\modelvalidationexample\\modelvalidationexample\\customvalidator\\minimalyearvalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|solutionrelative:modelvalidationexample\\customvalidator\\minimalyearvalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\modelvalidationexample\\modelvalidationexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +46,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MinimalYearValidatorAttribute.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\CustomValidator\\MinimalYearValidatorAttribute.cs",
               "RelativeDocumentMoniker": "ModelValidationExample\\CustomValidator\\MinimalYearValidatorAttribute.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\CustomValidator\\MinimalYearValidatorAttribute.cs",
               "RelativeToolTip": "ModelValidationExample\\CustomValidator\\MinimalYearValidatorAttribute.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T10:31:25.162Z",
               "EditorCaption": ""
@@ -65,20 +65,20 @@
               "RelativeDocumentMoniker": "ModelValidationExample\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ModelValidationExample\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBAAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAACPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T09:04:25.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PersonDto.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\Models\\PersonDto.cs",
               "RelativeDocumentMoniker": "ModelValidationExample\\Models\\PersonDto.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\Models\\PersonDto.cs",
               "RelativeToolTip": "ModelValidationExample\\Models\\PersonDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T09:04:23.914Z",
               "EditorCaption": ""
