@@ -460,6 +460,8 @@ SELECT    CONCAT(pat.FirstName, ' ', pat.LastName) as [Patient Full Name],
 		  isnull(patcon.ContactValue, 'No Email') as [Contact Details]
 FROM      Patient as pat 
 left join PatientContact as patcon on pat.PatientId = patcon.PatientId
+WHERE     patcon.ContactTypeId = 201  -- only checking email id so replace "no email" where email is null, not a contact ( 201 is for email id )
+
 
 
 --10] Use ISNULL to replace any NULL values in the ContactValue field of the PatientContact table with 'No Contact'.
@@ -732,7 +734,7 @@ left join PatientInsurance as patins on pat.PatientId = patins.PatientId
 --23] Give me a select query which get date after 20 days 
 
 
-SELECT DATEADD(Day, 20, GETDATE()) AS DateAfter20Days;
+SELECT DATEADD(Day, 20, GETDATE()) AS [Date After 20 Days];
 
 
 --24] Question: Write a SQL query to retrieve a list of all appointments along with the following information:
