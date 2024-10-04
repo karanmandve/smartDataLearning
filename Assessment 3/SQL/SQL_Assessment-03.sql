@@ -402,6 +402,7 @@ SELECT * FROM #PatientPerEthnicity
 
 --5] Write an INSERT statement to add a new role called 'Nurse' to the Roles table.
 
+
 INSERT INTO Roles (RoleName) 
 VALUES            ('Nurse')
 
@@ -493,7 +494,7 @@ FROM      Practitioners as pract
 left join Appointment as app on pract.PractitionerId = app.PractitionerId 
 GROUP BY  pract.FirstName, pract.LastName, pract.Specialty;
 
-SELECT * FROM vwPractitionerNumberOfAppointment
+SELECT * FROM vwPractitionerNumberOfAppointment --INSERTED ADDITIONAL APPOINTMENT AFTER RUNNING THIS SO CHANGES IN VALUES
 
 
 --13] Write a query to get the patient with only EmailAddres.
@@ -526,6 +527,7 @@ left join Appointment as app on app.AppointmentId = med.AppointmentId
 select * from patient
 select * from CategoryToCode
 select * from GlobalCategory
+
 EXECUTE SPGetPatientsByCriteria 500, 505, 1 
 
 */
@@ -661,7 +663,7 @@ END
 
 
 
---20] Create stored procedure which accepts 4 parameters
+--20] Create stored procedure which accepts 5 parameters
 --  @PatientId,
 --	@PatientFirstName,
 --	@AppointmentStatus,
@@ -675,26 +677,28 @@ END
 
 /* 
 
-EXECUTE SPInsertPatientContact 1, 'John', 300
+EXECUTE SPInsertPatientContact 1, 'John', 300, 'Dean'
 
 select * from Patient
 select * from Appointment
 select * from AppointmentStatus
 select * from Roles
-
+select * from Users
 */
+
 
 CREATE OR ALTER PROCEDURE SPInsertPatientContact @PatientId INT = NULL,
 												 @PatientFirstName VARCHAR(70) = NULL,
 												 @AppointmentStatus INT = NULL,
-												 @Roles INT = NULL -- confusing in roles because foreign key in users table but question given on patient
-
+												 @RoleName VARCHAR(50) = NULL 
 AS
 BEGIN
 	SELECT    *
 	FROM      Patient as pat 
 	left join Appointment as app on pat.PatientId = app.PatientId
-	WHERE     pat.PatientId = @PatientId and pat.FirstName = @PatientFirstName and app.StatusId = @AppointmentStatus 
+	left join Users as [user] on [user].UserId = app.CreatedBy
+	left join Roles as [role] on [role].RoleId = [user].RoleId
+	WHERE     pat.PatientId = @PatientId and pat.FirstName = @PatientFirstName and app.StatusId = @AppointmentStatus and [Role].RoleName = @RoleName
 END
 
 
@@ -702,6 +706,7 @@ END
 --21] Write a SQL query to select all patients and display their 
 --   names along with a new column called AgeGroup, which categorizes 
 --   patients into 'Child' (age < 18), 'Adult' (age 18-65), and 'Senior' (age > 65) based on their date of birth.
+
 
 SELECT
 
@@ -718,12 +723,14 @@ FROM Patient
 --22] Create a query that retrieves all patients and displays a new column InsuranceStatus. 
 --    Use the IIF function to show 'Insured' if the patient has an insurance record and 'Uninsured' otherwise.
 
+
 SELECT    pat.*, iif(patins.PatientInsuranceId is NULL,'Uninsured','Insured') as InsuranceStatus 
 FROM      Patient as pat 
 left join PatientInsurance as patins on pat.PatientId = patins.PatientId 
 
 
 --23] Give me a select query which get date after 20 days 
+
 
 SELECT DATEADD(Day, 20, GETDATE()) AS DateAfter20Days;
 
@@ -802,6 +809,7 @@ left join Practitioners as pract on app.PractitionerId = pract.PractitionerId
 --    Address Line 1 and Line 2
 --    Insurance Provider Name
 --    Coverage Details
+
 
 SELECT    CONCAT(pat.FirstName, ' ', pat.LastName) as [Patient Full Name], 
 		  patadd.AddressLine1, patadd.AddressLine2, inspro.InsuranceProviderName, patins.CoverageDetails  
