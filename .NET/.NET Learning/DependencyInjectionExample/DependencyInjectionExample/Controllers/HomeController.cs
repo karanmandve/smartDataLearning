@@ -27,8 +27,7 @@ namespace DependencyInjectionExample.Controllers
         public IActionResult Index()
         {
             var cities = _citiesService.GetCities();
-            var guidValue = _citiesService.GetGuid();
-            return View(guidValue);
+            return View(cities);
         }
     }
 }

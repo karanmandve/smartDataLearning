@@ -12,16 +12,11 @@ namespace ModelValidationExample.CustomValidator
         public MinimalYearValidatorAttribute()
         {
         }
-
-<<<<<<< HEAD
+       
         public MinimalYearValidatorAttribute(int minimumYear)
         {
                 MinimumYear = minimumYear;
-=======
-        public MinimalYearValidatorAttribute(int minimalYear)
-        {
-            MinimumYear = minimalYear;
->>>>>>> a481215384b3a90034f443260c598c5c18b7c020
+
         }
 
         protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)

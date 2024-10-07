@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\Services\\Services.csproj": {}
+    "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\DependencyInjectionExample\\Services\\Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\ServiceContracts\\ServiceContracts.csproj": {
+    "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\DependencyInjectionExample\\ServiceContracts\\ServiceContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\ServiceContracts\\ServiceContracts.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\DependencyInjectionExample\\ServiceContracts\\ServiceContracts.csproj",
         "projectName": "ServiceContracts",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\ServiceContracts\\ServiceContracts.csproj",
-        "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\ServiceContracts\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\DependencyInjectionExample\\ServiceContracts\\ServiceContracts.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\DependencyInjectionExample\\ServiceContracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,8 +39,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -61,21 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\Services\\Services.csproj": {
+    "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\DependencyInjectionExample\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\DependencyInjectionExample\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\Services\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\DependencyInjectionExample\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\DependencyInjectionExample\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,8 +91,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\ServiceContracts\\ServiceContracts.csproj": {
-                "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\ServiceContracts\\ServiceContracts.csproj"
+              "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\DependencyInjectionExample\\ServiceContracts\\ServiceContracts.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\DependencyInjectionExample\\ServiceContracts\\ServiceContracts.csproj"
               }
             }
           }
@@ -104,8 +105,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -126,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

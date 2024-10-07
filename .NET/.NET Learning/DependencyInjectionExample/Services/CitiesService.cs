@@ -24,11 +24,6 @@ namespace Services
 
         }
 
-        public Guid GetGuid()
-        {
-            return Guid.NewGuid();
-
-        }
 
     }
 }

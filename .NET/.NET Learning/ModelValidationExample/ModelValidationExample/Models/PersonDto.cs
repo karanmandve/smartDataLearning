@@ -19,13 +19,11 @@ namespace ModelValidationExample.Models
         public string? ConfirmPassword { get; set; }
         public double? Price { get; set; }
 
-<<<<<<< HEAD
-        [MinimalYearValidatorAttribute(2005, ErrorMessage = "Minimum year allowed is 2000")]
-=======
-        //[MinimalYearValidatorAttribute(2005, ErrorMessage = "Minimum year allowed is {0}")]
-        [MinimalYearValidatorAttribute(2005)]
+
+        //[MinimalYearValidatorAttribute(2005, ErrorMessage = "Minimum year allowed is 2000")]
+        [MinimalYearValidatorAttribute(2005, ErrorMessage = "Minimum year allowed is {0}")]
+        //[MinimalYearValidatorAttribute(2005)]
         //[BindNever]
->>>>>>> a481215384b3a90034f443260c598c5c18b7c020
         public DateTime? DateOfBirth { get; set; }
 
         public DateTime? FromDate { get; set; }

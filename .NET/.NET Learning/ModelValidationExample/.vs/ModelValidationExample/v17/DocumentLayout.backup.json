@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\modelvalidationexample\\modelvalidationexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\modelvalidationexample\\modelvalidationexample\\models\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|solutionrelative:modelvalidationexample\\models\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\modelvalidationexample\\modelvalidationexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|solutionrelative:modelvalidationexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\modelvalidationexample\\modelvalidationexample\\customvalidator\\daterangevalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|solutionrelative:modelvalidationexample\\customvalidator\\daterangevalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\modelvalidationexample\\modelvalidationexample\\customvalidator\\minimalyearvalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|solutionrelative:modelvalidationexample\\customvalidator\\minimalyearvalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\modelvalidationexample\\modelvalidationexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|solutionrelative:modelvalidationexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\modelvalidationexample\\modelvalidationexample\\custommodelbinders\\personbinderprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|solutionrelative:modelvalidationexample\\custommodelbinders\\personbinderprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\modelvalidationexample\\modelvalidationexample\\custommodelbinders\\personmodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|solutionrelative:modelvalidationexample\\custommodelbinders\\personmodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\modelvalidationexample\\modelvalidationexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|solutionrelative:modelvalidationexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\modelvalidationexample\\modelvalidationexample\\modelvalidationexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B8140D6D-89FD-478A-B54F-232C9D29C117}|ModelValidationExample\\ModelValidationExample.csproj|solutionrelative:modelvalidationexample\\modelvalidationexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +42,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "PersonBinderProvider.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\CustomModelBinders\\PersonBinderProvider.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\CustomModelBinders\\PersonBinderProvider.cs",
               "RelativeDocumentMoniker": "ModelValidationExample\\CustomModelBinders\\PersonBinderProvider.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\CustomModelBinders\\PersonBinderProvider.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\CustomModelBinders\\PersonBinderProvider.cs",
               "RelativeToolTip": "ModelValidationExample\\CustomModelBinders\\PersonBinderProvider.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -44,25 +60,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PersonModelBinder.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\CustomModelBinders\\PersonModelBinder.cs",
-              "RelativeDocumentMoniker": "ModelValidationExample\\CustomModelBinders\\PersonModelBinder.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\CustomModelBinders\\PersonModelBinder.cs",
-              "RelativeToolTip": "ModelValidationExample\\CustomModelBinders\\PersonModelBinder.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T08:24:08.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MinimalYearValidatorAttribute.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\CustomValidator\\MinimalYearValidatorAttribute.cs",
               "RelativeDocumentMoniker": "ModelValidationExample\\CustomValidator\\MinimalYearValidatorAttribute.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\CustomValidator\\MinimalYearValidatorAttribute.cs",
               "RelativeToolTip": "ModelValidationExample\\CustomValidator\\MinimalYearValidatorAttribute.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T06:24:15.793Z",
               "EditorCaption": ""
@@ -71,61 +74,73 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "DateRangeValidatorAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\CustomValidator\\DateRangeValidatorAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\CustomValidator\\DateRangeValidatorAttribute.cs",
               "RelativeDocumentMoniker": "ModelValidationExample\\CustomValidator\\DateRangeValidatorAttribute.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\CustomValidator\\DateRangeValidatorAttribute.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\CustomValidator\\DateRangeValidatorAttribute.cs",
               "RelativeToolTip": "ModelValidationExample\\CustomValidator\\DateRangeValidatorAttribute.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAMwCoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T05:20:21.847Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ModelValidationExample\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ModelValidationExample\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T06:24:18.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\Program.cs",
-              "RelativeDocumentMoniker": "ModelValidationExample\\Program.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\Program.cs",
-              "RelativeToolTip": "ModelValidationExample\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T06:41:32.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "PersonDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\Models\\PersonDto.cs",
               "RelativeDocumentMoniker": "ModelValidationExample\\Models\\PersonDto.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\Models\\PersonDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\Models\\PersonDto.cs",
               "RelativeToolTip": "ModelValidationExample\\Models\\PersonDto.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T06:24:12.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonModelBinder.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\CustomModelBinders\\PersonModelBinder.cs",
+              "RelativeDocumentMoniker": "ModelValidationExample\\CustomModelBinders\\PersonModelBinder.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\CustomModelBinders\\PersonModelBinder.cs",
+              "RelativeToolTip": "ModelValidationExample\\CustomModelBinders\\PersonModelBinder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:24:08.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\Program.cs",
+              "RelativeDocumentMoniker": "ModelValidationExample\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\Program.cs",
+              "RelativeToolTip": "ModelValidationExample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:41:32.32Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "ModelValidationExample.csproj",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\ModelValidationExample.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\ModelValidationExample.csproj",
               "RelativeDocumentMoniker": "ModelValidationExample\\ModelValidationExample.csproj",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\ModelValidationExample.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ModelValidationExample\\ModelValidationExample\\ModelValidationExample.csproj",
               "RelativeToolTip": "ModelValidationExample\\ModelValidationExample.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
