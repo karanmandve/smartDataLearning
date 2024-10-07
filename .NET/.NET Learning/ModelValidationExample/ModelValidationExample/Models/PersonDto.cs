@@ -1,9 +1,10 @@
-﻿using ModelValidationExample.CustomValidator;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
+using ModelValidationExample.CustomValidator;
 using System.ComponentModel.DataAnnotations;
 
 namespace ModelValidationExample.Models
 {
-    public class PersonDto
+    public class PersonDto : IValidatableObject
     {
         [Required(ErrorMessage = "Person name can't be empty or null")]
         [StringLength(40, MinimumLength = 3, ErrorMessage = "Person name should be between {2} and {1}")]
@@ -18,12 +19,33 @@ namespace ModelValidationExample.Models
         public string? ConfirmPassword { get; set; }
         public double? Price { get; set; }
 
+<<<<<<< HEAD
         [MinimalYearValidatorAttribute(2005, ErrorMessage = "Minimum year allowed is 2000")]
+=======
+        //[MinimalYearValidatorAttribute(2005, ErrorMessage = "Minimum year allowed is {0}")]
+        [MinimalYearValidatorAttribute(2005)]
+        //[BindNever]
+>>>>>>> a481215384b3a90034f443260c598c5c18b7c020
         public DateTime? DateOfBirth { get; set; }
+
+        public DateTime? FromDate { get; set; }
+
+        [DateRangeValidatorAttribute("FromDate", ErrorMessage = "'From Date' should be older or equal to 'To Date'")]
+        public DateTime? ToDate { get; set; }
+
+        public int? Age { get; set; }
 
         public override string ToString()
         {
             return $"name : {PersonName}, Email : {Email}, Phone : {Phone}, Password : {Password}, ConfirmPassword : {ConfirmPassword}, Price : {Price}, Date Of Birth : {DateOfBirth}";
+        }
+
+        public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+        {
+            if (DateOfBirth.HasValue == false && Age.HasValue == false)
+            {
+                yield return new ValidationResult("Either date of birth or age is supplied.");
+            }
         }
     }
 }

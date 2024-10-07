@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "k421/lcqpco01N3hgKN2qN97iIBaqbJpi2UKWhw+N2M=",
+  "Source": "DependencyInjectionExample",
+  "BasePath": "_content/DependencyInjectionExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DependencyInjectionExample\\wwwroot",
+      "Source": "DependencyInjectionExample",
+      "ContentRoot": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\DependencyInjectionExample\\wwwroot\\",
+      "BasePath": "_content/DependencyInjectionExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\DependencyInjectionExample\\wwwroot\\StyleSheet.css",
+      "SourceId": "DependencyInjectionExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\DependencyInjectionExample\\wwwroot\\",
+      "BasePath": "_content/DependencyInjectionExample",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2A358E-ACD7-4966-AB1C-9EBAA104FCD9}|Services\\Services.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\dependencyinjectionexample\\services\\citiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2A358E-ACD7-4966-AB1C-9EBAA104FCD9}|Services\\Services.csproj|solutionrelative:services\\citiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366572D9-6FCB-488C-AF28-2A891E483911}|ServiceContracts\\ServiceContracts.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\dependencyinjectionexample\\servicecontracts\\icitiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{366572D9-6FCB-488C-AF28-2A891E483911}|ServiceContracts\\ServiceContracts.csproj|solutionrelative:servicecontracts\\icitiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB24944-0166-4993-A0A3-88529200B1D3}|DependencyInjectionExample\\DependencyInjectionExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\dependencyinjectionexample\\dependencyinjectionexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB24944-0166-4993-A0A3-88529200B1D3}|DependencyInjectionExample\\DependencyInjectionExample.csproj|solutionrelative:dependencyinjectionexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB24944-0166-4993-A0A3-88529200B1D3}|DependencyInjectionExample\\DependencyInjectionExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\dependencyinjectionexample\\dependencyinjectionexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB24944-0166-4993-A0A3-88529200B1D3}|DependencyInjectionExample\\DependencyInjectionExample.csproj|solutionrelative:dependencyinjectionexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB24944-0166-4993-A0A3-88529200B1D3}|DependencyInjectionExample\\DependencyInjectionExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\dependencyinjectionexample\\dependencyinjectionexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EB24944-0166-4993-A0A3-88529200B1D3}|DependencyInjectionExample\\DependencyInjectionExample.csproj|solutionrelative:dependencyinjectionexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB24944-0166-4993-A0A3-88529200B1D3}|DependencyInjectionExample\\DependencyInjectionExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\dependencyinjectionexample\\dependencyinjectionexample\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EB24944-0166-4993-A0A3-88529200B1D3}|DependencyInjectionExample\\DependencyInjectionExample.csproj|solutionrelative:dependencyinjectionexample\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB24944-0166-4993-A0A3-88529200B1D3}|DependencyInjectionExample\\DependencyInjectionExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\dependencyinjectionexample\\dependencyinjectionexample\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EB24944-0166-4993-A0A3-88529200B1D3}|DependencyInjectionExample\\DependencyInjectionExample.csproj|solutionrelative:dependencyinjectionexample\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB24944-0166-4993-A0A3-88529200B1D3}|DependencyInjectionExample\\DependencyInjectionExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\dependencyinjectionexample\\dependencyinjectionexample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EB24944-0166-4993-A0A3-88529200B1D3}|DependencyInjectionExample\\DependencyInjectionExample.csproj|solutionrelative:dependencyinjectionexample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICitiesService.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\ServiceContracts\\ICitiesService.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\ICitiesService.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\ServiceContracts\\ICitiesService.cs",
+              "RelativeToolTip": "ServiceContracts\\ICitiesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T12:07:28.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\DependencyInjectionExample\\Program.cs",
+              "RelativeDocumentMoniker": "DependencyInjectionExample\\Program.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\DependencyInjectionExample\\Program.cs",
+              "RelativeToolTip": "DependencyInjectionExample\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T11:36:04.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\DependencyInjectionExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DependencyInjectionExample\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\DependencyInjectionExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DependencyInjectionExample\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:29:17.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\DependencyInjectionExample\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DependencyInjectionExample\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\DependencyInjectionExample\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "DependencyInjectionExample\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T10:27:40.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\DependencyInjectionExample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DependencyInjectionExample\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\DependencyInjectionExample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DependencyInjectionExample\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T10:24:31.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CitiesService.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\Services\\CitiesService.cs",
+              "RelativeDocumentMoniker": "Services\\CitiesService.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\Services\\CitiesService.cs",
+              "RelativeToolTip": "Services\\CitiesService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:15:47.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\DependencyInjectionExample\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DependencyInjectionExample\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\DependencyInjectionExample\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DependencyInjectionExample\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T11:27:03.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\DependencyInjectionExample\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "DependencyInjectionExample\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\DependencyInjectionExample\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "DependencyInjectionExample\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T10:29:05.655Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
