@@ -18,7 +18,7 @@ namespace ModelValidationExample.Models
         public string? ConfirmPassword { get; set; }
         public double? Price { get; set; }
 
-        [MinimalYearValidatorAttribute(ErrorMessage = "Minimum year allowed is 2000")]
+        [MinimalYearValidatorAttribute(2005, ErrorMessage = "Minimum year allowed is 2000")]
         public DateTime? DateOfBirth { get; set; }
 
         public override string ToString()
