@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\wwwroot\\StyleSheet.css",
+      "Id": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\wwwroot\\StyleSheet.css",
       "PackagePath": "staticwebassets\\StyleSheet.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ConfigurationExample.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ConfigurationExample.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,45 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ConfigurationExample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\configurationexample\\configurationexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\configurationexample\\configurationexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|solutionrelative:configurationexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\configurationexample\\configurationexample\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|solutionrelative:configurationexample\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\configurationexample\\configurationexample\\myownconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|solutionrelative:configurationexample\\myownconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\karanmandve\\AppData\\Roaming\\Microsoft\\UserSecrets\\967ba1bf-6cc3-4aef-8160-5c71d50b4ea3\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\configurationexample\\configurationexample\\configurationexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\configurationexample\\configurationexample\\configurationexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|solutionrelative:configurationexample\\configurationexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\configurationexample\\configurationexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|solutionrelative:configurationexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\configurationexample\\configurationexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|solutionrelative:configurationexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\configurationexample\\configurationexample\\weatherapioptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|solutionrelative:configurationexample\\weatherapioptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\configurationexample\\configurationexample\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|solutionrelative:configurationexample\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\configurationexample\\configurationexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|solutionrelative:configurationexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\configurationexample\\configurationexample\\wwwroot\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AB2890BD-86A5-4F4F-A400-B763438AB26C}|ConfigurationExample\\ConfigurationExample.csproj|solutionrelative:configurationexample\\wwwroot\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,156 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "secrets.json",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\AppData\\Roaming\\Microsoft\\UserSecrets\\967ba1bf-6cc3-4aef-8160-5c71d50b4ea3\\secrets.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\967ba1bf-6cc3-4aef-8160-5c71d50b4ea3\\secrets.json",
-              "ToolTip": "C:\\Users\\karanmandve\\AppData\\Roaming\\Microsoft\\UserSecrets\\967ba1bf-6cc3-4aef-8160-5c71d50b4ea3\\secrets.json",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\967ba1bf-6cc3-4aef-8160-5c71d50b4ea3\\secrets.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-08T11:55:40.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ConfigurationExample",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\ConfigurationExample.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\ConfigurationExample.csproj",
               "RelativeDocumentMoniker": "ConfigurationExample\\ConfigurationExample.csproj",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\ConfigurationExample.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\ConfigurationExample.csproj",
               "RelativeToolTip": "ConfigurationExample\\ConfigurationExample.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-08T11:55:19.885Z",
+              "WhenOpened": "2024-10-08T16:24:33.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ConfigurationExample\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ConfigurationExample\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Title": "MyOwnConfig.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\MyOwnConfig.json",
+              "RelativeDocumentMoniker": "ConfigurationExample\\MyOwnConfig.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\MyOwnConfig.json",
+              "RelativeToolTip": "ConfigurationExample\\MyOwnConfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-08T11:36:08.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ConfigurationExample\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ConfigurationExample\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCQAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T10:10:08.482Z",
+              "WhenOpened": "2024-10-08T16:09:10.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\Program.cs",
               "RelativeDocumentMoniker": "ConfigurationExample\\Program.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\Program.cs",
-              "RelativeToolTip": "ConfigurationExample\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABeAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\Program.cs*",
+              "RelativeToolTip": "ConfigurationExample\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:46:02.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WeatherApiOptions.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\WeatherApiOptions.cs",
-              "RelativeDocumentMoniker": "ConfigurationExample\\WeatherApiOptions.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\WeatherApiOptions.cs",
-              "RelativeToolTip": "ConfigurationExample\\WeatherApiOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T11:16:23.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "ConfigurationExample\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\appsettings.Development.json",
-              "RelativeToolTip": "ConfigurationExample\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-08T11:35:57.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\appsettings.json",
-              "RelativeDocumentMoniker": "ConfigurationExample\\appsettings.json",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\appsettings.json",
-              "RelativeToolTip": "ConfigurationExample\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-08T09:46:06.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ConfigurationExample\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ConfigurationExample\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T10:10:40.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StyleSheet.css",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\wwwroot\\StyleSheet.css",
-              "RelativeDocumentMoniker": "ConfigurationExample\\wwwroot\\StyleSheet.css",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ConfigurationExample\\ConfigurationExample\\wwwroot\\StyleSheet.css",
-              "RelativeToolTip": "ConfigurationExample\\wwwroot\\StyleSheet.css",
-              "ViewState": "AgIAABABAAAAAAAAAAAwwB4BAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-08T10:25:46.412Z",
+              "WhenOpened": "2024-10-08T16:06:38.618Z",
               "EditorCaption": ""
             }
           ]
