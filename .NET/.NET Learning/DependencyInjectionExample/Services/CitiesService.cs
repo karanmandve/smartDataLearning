@@ -2,11 +2,16 @@
 
 namespace Services
 {
-    public class CitiesService : ICitiesService
+    public class CitiesService : ICitiesService, IDisposable
     {
+
+        public Guid ServiceInstanceId { get; }
+
         private List<string> _cities;
         public CitiesService()
         {
+            ServiceInstanceId = Guid.NewGuid();
+
             _cities = new List<string>()
             {
                 "London",
@@ -15,6 +20,10 @@ namespace Services
                 "Tokyo",
                 "Rome"
             };
+
+
+            // OPEN THE DB CONNECTION
+
         }
 
 
@@ -24,6 +33,9 @@ namespace Services
 
         }
 
-
+        public void Dispose()
+        {
+            // CLOSE THE DB CONNECTION
+        }
     }
 }

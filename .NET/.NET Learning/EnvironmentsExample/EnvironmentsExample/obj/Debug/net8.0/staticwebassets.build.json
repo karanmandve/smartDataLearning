@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "0B5OZtNqXhCZOhpIz0hyM8rf47PFqIAIMJQTJsgz7/s=",
+  "Source": "EnvironmentsExample",
+  "BasePath": "_content/EnvironmentsExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EnvironmentsExample\\wwwroot",
+      "Source": "EnvironmentsExample",
+      "ContentRoot": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\wwwroot\\",
+      "BasePath": "_content/EnvironmentsExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\wwwroot\\StyleSheet (1).css",
+      "SourceId": "EnvironmentsExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\wwwroot\\",
+      "BasePath": "_content/EnvironmentsExample",
+      "RelativePath": "StyleSheet (1).css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet (1).css"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+Declare @number int;
+--select @number=2;
+set @number=2;
+
+--if 
+if @number is null
+begin
+select 'null value found'
+end
+else
+begin
+select 'null value not found'
+end
+
+
+--case 
+select case when @number is null then 'null' else 'not null' end
+
+
+--while
+
+Declare @min int =1 ,@max int=10
+while @min<=@max
+Begin
+
+print @min
+
+set @min=@min+1
+End

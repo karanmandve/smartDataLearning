@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\environmentsexample\\environmentsexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|solutionrelative:environmentsexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\environmentsexample\\environmentsexample\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|solutionrelative:environmentsexample\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\environmentsexample\\environmentsexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|solutionrelative:environmentsexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\environmentsexample\\environmentsexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|solutionrelative:environmentsexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\environmentsexample\\environmentsexample\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|solutionrelative:environmentsexample\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\environmentsexample\\environmentsexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|solutionrelative:environmentsexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\environmentsexample\\environmentsexample\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|solutionrelative:environmentsexample\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\environmentsexample\\environmentsexample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|solutionrelative:environmentsexample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\environmentsexample\\environmentsexample\\environmentsexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1F231C4F-DAFE-49F6-9447-F97F6B4A258D}|EnvironmentsExample\\EnvironmentsExample.csproj|solutionrelative:environmentsexample\\environmentsexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "EnvironmentsExample\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "EnvironmentsExample\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T08:54:40.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "EnvironmentsExample\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "EnvironmentsExample\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T07:01:44.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EnvironmentsExample\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EnvironmentsExample\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T06:59:00.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EnvironmentsExample\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EnvironmentsExample\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T06:54:50.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\Program.cs",
+              "RelativeDocumentMoniker": "EnvironmentsExample\\Program.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\Program.cs",
+              "RelativeToolTip": "EnvironmentsExample\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T06:41:39.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EnvironmentsExample\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EnvironmentsExample\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-08T06:48:18.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EnvironmentsExample\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EnvironmentsExample\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T06:56:01.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\appsettings.json",
+              "RelativeDocumentMoniker": "EnvironmentsExample\\appsettings.json",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\appsettings.json",
+              "RelativeToolTip": "EnvironmentsExample\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-08T06:54:44.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EnvironmentsExample.csproj",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\EnvironmentsExample.csproj",
+              "RelativeDocumentMoniker": "EnvironmentsExample\\EnvironmentsExample.csproj",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\EnvironmentsExample\\EnvironmentsExample\\EnvironmentsExample.csproj",
+              "RelativeToolTip": "EnvironmentsExample\\EnvironmentsExample.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-08T06:49:25.299Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

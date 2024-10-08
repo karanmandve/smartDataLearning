@@ -33,3 +33,6 @@ C:\Users\karanmandve\Desktop\karan mandve notes\.NET\.NET Learning\DependencyInj
 C:\Users\karanmandve\Desktop\karan mandve notes\.NET\.NET Learning\DependencyInjectionExample\DependencyInjectionExample\obj\Debug\net8.0\Dependen.577DB490.Up2Date
 C:\Users\karanmandve\Desktop\karan mandve notes\.NET\.NET Learning\DependencyInjectionExample\DependencyInjectionExample\bin\Debug\net8.0\ServiceContracts.dll
 C:\Users\karanmandve\Desktop\karan mandve notes\.NET\.NET Learning\DependencyInjectionExample\DependencyInjectionExample\bin\Debug\net8.0\ServiceContracts.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\.NET\.NET Learning\DependencyInjectionExample\DependencyInjectionExample\bin\Debug\net8.0\Autofac.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\.NET\.NET Learning\DependencyInjectionExample\DependencyInjectionExample\bin\Debug\net8.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\.NET\.NET Learning\DependencyInjectionExample\DependencyInjectionExample\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
