@@ -1,3 +1,6 @@
+using StockAppApiFetchExample.ServiceContracts;
+using StockAppApiFetchExample.Services;
+
 namespace StockAppApiFetchExample
 {
     public class Program
@@ -7,7 +10,11 @@ namespace StockAppApiFetchExample
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddControllersWithViews();
-            
+            builder.Services.AddHttpClient();
+
+            builder.Services.AddScoped<IFinnhubService, FinnhubService>();
+
+
             var app = builder.Build();
 
             app.UseStaticFiles();

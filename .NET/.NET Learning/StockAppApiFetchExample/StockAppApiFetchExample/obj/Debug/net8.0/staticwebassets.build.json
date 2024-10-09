@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "VR2Wx0Khl4Ah/FvB79yXp2hdau3IIH6dLmEC7iEmJoA=",
+  "Source": "StockAppApiFetchExample",
+  "BasePath": "_content/StockAppApiFetchExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StockAppApiFetchExample\\wwwroot",
+      "Source": "StockAppApiFetchExample",
+      "ContentRoot": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\wwwroot\\",
+      "BasePath": "_content/StockAppApiFetchExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\wwwroot\\StyleSheet.css",
+      "SourceId": "StockAppApiFetchExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\wwwroot\\",
+      "BasePath": "_content/StockAppApiFetchExample",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}
