@@ -5,46 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A6AEEF74-F12D-4C98-8D7C-FC877E4DC9DC}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\clean architecture practice\\infrastructure\\configuration\\patientaddressconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6AEEF74-F12D-4C98-8D7C-FC877E4DC9DC}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configuration\\patientaddressconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6AEEF74-F12D-4C98-8D7C-FC877E4DC9DC}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\clean architecture practice\\infrastructure\\migrations\\20241010091159_initial-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6AEEF74-F12D-4C98-8D7C-FC877E4DC9DC}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241010091159_initial-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{297ACA9A-6BE8-41A8-802E-7936F7F93CCE}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\clean architecture practice\\domain\\patient\\patientaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{297ACA9A-6BE8-41A8-802E-7936F7F93CCE}|Domain\\Domain.csproj|solutionrelative:domain\\patient\\patientaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6AEEF74-F12D-4C98-8D7C-FC877E4DC9DC}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\clean architecture practice\\infrastructure\\ehrdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6AEEF74-F12D-4C98-8D7C-FC877E4DC9DC}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ehrdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{297ACA9A-6BE8-41A8-802E-7936F7F93CCE}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\clean architecture practice\\domain\\common\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{297ACA9A-6BE8-41A8-802E-7936F7F93CCE}|Domain\\Domain.csproj|solutionrelative:domain\\common\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6AEEF74-F12D-4C98-8D7C-FC877E4DC9DC}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\clean architecture practice\\infrastructure\\configuration\\patientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6AEEF74-F12D-4C98-8D7C-FC877E4DC9DC}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configuration\\patientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9002AA4C-FE04-4D4D-A1C1-085C46EFE8B2}|API\\API.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\clean architecture practice\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9002AA4C-FE04-4D4D-A1C1-085C46EFE8B2}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9002AA4C-FE04-4D4D-A1C1-085C46EFE8B2}|API\\API.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\clean architecture practice\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9002AA4C-FE04-4D4D-A1C1-085C46EFE8B2}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9002AA4C-FE04-4D4D-A1C1-085C46EFE8B2}|API\\API.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\clean architecture practice\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9002AA4C-FE04-4D4D-A1C1-085C46EFE8B2}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{297ACA9A-6BE8-41A8-802E-7936F7F93CCE}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\clean architecture practice\\domain\\patient\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{297ACA9A-6BE8-41A8-802E-7936F7F93CCE}|Domain\\Domain.csproj|solutionrelative:domain\\patient\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3E5170F-790F-45C0-A81A-1736A07AA5BE}|Core\\Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\clean architecture practice\\core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3E5170F-790F-45C0-A81A-1736A07AA5BE}|Core\\Core.csproj|solutionrelative:core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,145 +38,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20241010091159_initial-migration.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Infrastructure\\Migrations\\20241010091159_initial-migration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241010091159_initial-migration.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Infrastructure\\Migrations\\20241010091159_initial-migration.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20241010091159_initial-migration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T09:11:59.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PatientAddressConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Infrastructure\\Configuration\\PatientAddressConfiguration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Configuration\\PatientAddressConfiguration.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Infrastructure\\Configuration\\PatientAddressConfiguration.cs",
               "RelativeToolTip": "Infrastructure\\Configuration\\PatientAddressConfiguration.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T08:42:05.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PatientConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Infrastructure\\Configuration\\PatientConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Configuration\\PatientConfiguration.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Infrastructure\\Configuration\\PatientConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Configuration\\PatientConfiguration.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T08:05:20.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuditableEntity.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Domain\\Common\\AuditableEntity.cs",
-              "RelativeDocumentMoniker": "Domain\\Common\\AuditableEntity.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Domain\\Common\\AuditableEntity.cs",
-              "RelativeToolTip": "Domain\\Common\\AuditableEntity.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T07:36:12.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PatientAddress.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Domain\\Patient\\PatientAddress.cs",
-              "RelativeDocumentMoniker": "Domain\\Patient\\PatientAddress.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Domain\\Patient\\PatientAddress.cs",
-              "RelativeToolTip": "Domain\\Patient\\PatientAddress.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T07:39:48.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\API\\appsettings.json",
-              "RelativeDocumentMoniker": "API\\appsettings.json",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\API\\appsettings.json",
-              "RelativeToolTip": "API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-10T08:50:52.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EhrDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Infrastructure\\EhrDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\EhrDbContext.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Infrastructure\\EhrDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\EhrDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T07:46:12.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T08:51:53.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Domain\\Patient\\Patient.cs",
-              "RelativeDocumentMoniker": "Domain\\Patient\\Patient.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Domain\\Patient\\Patient.cs",
-              "RelativeToolTip": "Domain\\Patient\\Patient.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwA8AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T07:39:35.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "API.csproj",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\API\\API.csproj",
-              "RelativeDocumentMoniker": "API\\API.csproj",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\API\\API.csproj",
-              "RelativeToolTip": "API\\API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-10T06:59:02.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Core\\Class1.cs",
-              "RelativeDocumentMoniker": "Core\\Class1.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Core\\Class1.cs",
-              "RelativeToolTip": "Core\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T06:56:39.462Z",
+              "WhenOpened": "2024-10-10T10:28:44.099Z",
               "EditorCaption": ""
             }
           ]

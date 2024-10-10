@@ -3,8 +3,7 @@
 /************************************************/
 
 -- Create one new Database and execute below tables to solve questions
-create database PracticeAssignment
-use PracticeAssignment
+
 
 CREATE TABLE Students (
     StudentID INT,
@@ -32,50 +31,21 @@ VALUES
     (101, 'Mathematics'),
     (102, 'History'),
     (103, 'Physics'),
-    (104, 'Computer Science');
+    (104, 'Computer Science'),
+    (101, 'Mathematics');
 
+/*****************************************************************************
 
--- 1] Write a SQL query using a Common Table Expression to list all students who are enrolled in the 'Mathematics' course.
-
-
-WITH AllStudentCTE AS(
-	SELECT stud.*
-	FROM   Students stud left join Courses as course on stud.CourseID = course.CourseID
-	WHERE  course.CourseName = 'Mathematics'
-)
-
-select * from AllStudentCTE
-
+1] Write a SQL query using a Common Table Expression to list all students who are enrolled in the 'Mathematics' course.
  
--- 2] Create a CTE that counts the number of duplicate student records in the 'Students' table.
-
-WITH DuplicateStudentCTE AS(
-
-	SELECT   stud.StudentName, count(*) as [Duplicate Count]
-	FROM     Students stud 
-	GROUP BY stud.StudentName
-	HAVING   count(*) > 1
-)
-
-select * from DuplicateStudentCTE
+2] Create a CTE that counts the number of duplicate student records in the 'Students' table.
  
-
--- 3] Write a CTE query to find the average number of courses each student is enrolled in.
-
-WITH StudentCourseCountCTE AS (
-    SELECT StudentID, COUNT(CourseID) AS CourseCount
-    FROM Students
-    GROUP BY StudentID
-)
-SELECT AVG(CourseCount) AS AverageCoursesPerStudent
-FROM StudentCourseCountCTE;
-
-
+3] Write a CTE query to find the average number of courses each student is enrolled in.
  
--- 4] Create a CTE that joins the 'Students' and 'Courses' tables to list the names of students along with the courses they are enrolled in.
+4] Create a CTE that joins the 'Students' and 'Courses' tables to list the names of students along with the courses they are enrolled in.
 
 
-
+********************************************************************************************************/
 
 
 -- Create Below tables if required drop above tables and create below 
@@ -202,5 +172,100 @@ Create a Stored Procedure to Delete Appointments by Date:
 
 /*********************************************************************************************************/
                        --                   ALL THE BEST                --
-/*********************************************************************************************************/
+/*********************************************************************************************************/*/
+
+-- List all students enrolled in the 'Mathematics' course.
+WITH MathematicsStudents AS (
+    SELECT S.StudentID, S.StudentName
+    FROM Students S
+    JOIN Courses C ON S.CourseID = C.CourseID
+    WHERE C.CourseName = 'Mathematics'
+)
+SELECT * FROM MathematicsStudents;
+
+
+-- Count the number of duplicate student records in the 'Students' table.
+WITH DuplicateStudents AS (
+    SELECT FirstName, LastName, COUNT(*) AS Count
+    FROM Students
+    GROUP BY FirstName, LastName
+    HAVING COUNT(*) > 1
+)
+SELECT * FROM DuplicateStudents;
+
+
+--Find the average number of courses each student is enrolled in.
+WITH StudentCourseCount AS (
+    SELECT StudentID, COUNT(CourseID) AS CourseCount
+    FROM Students
+    GROUP BY StudentID
+)
+SELECT AVG(CourseCount) AS AverageCourses
+FROM StudentCourseCount;
+
+
+-- List the names of students along with the courses they are enrolled in.
+WITH StudentCourse AS (
+    SELECT S.StudentName, C.CourseName
+    FROM Students S
+    JOIN Courses C ON S.CourseID = C.CourseID
+)
+SELECT * FROM StudentCourse;
+
+
+-- Retrieve first and last names of students with duplicate names.
+
+SELECT FirstName, LastName
+FROM Students
+WHERE (FirstName, LastName) IN (
+    SELECT FirstName, LastName
+    FROM Students
+    GROUP BY FirstName, LastName
+    HAVING COUNT(*) > 1
+);
+
+
+-- List course names taught by instructors whose names contain "Smith."
+
+SELECT CourseName
+FROM Courses
+WHERE Instructor LIKE '%Smith%';
+
+-- Count the number of courses with duplicate names.
+
+SELECT CourseName, COUNT(*)
+FROM Courses
+GROUP BY CourseName
+HAVING COUNT(*) > 1;
+
+
+-- Find students enrolled in the same courses as a specific student (e.g., John Doe).
+
+SELECT S2.FirstName, S2.LastName
+FROM Students S1
+JOIN Students S2 ON S1.CourseID = S2.CourseID
+WHERE S1.FirstName = 'John' AND S1.LastName = 'Doe' AND S2.StudentID != S1.StudentID;
+
+
+-- Stored Procedure to List Patients by Age Range
+
+CREATE PROCEDURE ListPatientsByAgeRange (
+    IN p_MinAge INT,
+    IN p_MaxAge INT
+)
+BEGIN
+    SELECT * FROM Patients
+    WHERE Age BETWEEN p_MinAge AND p_MaxAge;
+END;
+
+
+-- Stored Procedure to Delete Appointments by Date
+
+CREATE PROCEDURE DeleteAppointmentsByDate (
+    IN p_AppointmentDate DATE
+)
+BEGIN
+    DELETE FROM Appointments
+    WHERE AppointmentDate = p_AppointmentDate;
+END;
 
