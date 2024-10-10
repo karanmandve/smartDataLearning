@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\app.core\\apps\\student\\command\\createstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\student\\command\\createstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\app.core\\apps\\student\\query\\getstudentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\student\\query\\getstudentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,6 +19,26 @@
       "RelativeMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|solutionrelative:app.core\\interfaces\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\examplewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\examplewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\app.core\\apps\\student\\command\\createstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\student\\command\\createstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\app.core\\apps\\student\\query\\getstudentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\student\\query\\getstudentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7997021C-56F8-41DF-9FD0-8A4312C2F770}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\domain\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7997021C-56F8-41DF-9FD0-8A4312C2F770}|Domain\\Domain.csproj|solutionrelative:domain\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{7997021C-56F8-41DF-9FD0-8A4312C2F770}|Domain\\Domain.csproj|solutionrelative:domain\\studentcoursemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\examplewebapp\\controllers\\studentscqrscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\controllers\\studentscqrscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -49,18 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\infrastructure\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\examplewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\examplewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7997021C-56F8-41DF-9FD0-8A4312C2F770}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net smartdata\\examplewebapp with cqrs\\domain\\emp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -105,38 +105,47 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateStudentCommand.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\Apps\\Student\\Command\\CreateStudentCommand.cs",
-              "RelativeDocumentMoniker": "App.Core\\Apps\\Student\\Command\\CreateStudentCommand.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\Apps\\Student\\Command\\CreateStudentCommand.cs",
-              "RelativeToolTip": "App.Core\\Apps\\Student\\Command\\CreateStudentCommand.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAlwC0AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T09:14:09.534Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetStudentsQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\Apps\\Student\\Query\\GetStudentsQuery.cs",
-              "RelativeDocumentMoniker": "App.Core\\Apps\\Student\\Query\\GetStudentsQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\Apps\\Student\\Query\\GetStudentsQuery.cs",
-              "RelativeToolTip": "App.Core\\Apps\\Student\\Query\\GetStudentsQuery.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAABAAAAAAAAAAA==",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "App.Core\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\DependencyInjection.cs",
+              "RelativeToolTip": "App.Core\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T09:16:03.821Z",
+              "WhenOpened": "2024-09-26T08:56:18.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\ExampleWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "ExampleWebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\ExampleWebApp\\Program.cs",
+              "RelativeToolTip": "ExampleWebApp\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T08:38:07.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\ExampleWebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "ExampleWebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\ExampleWebApp\\appsettings.json",
+              "RelativeToolTip": "ExampleWebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-26T08:40:48.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "IAppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\Interfaces\\IAppDbContext.cs",
               "RelativeDocumentMoniker": "App.Core\\Interfaces\\IAppDbContext.cs",
@@ -150,19 +159,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "App.Core\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\DependencyInjection.cs",
-              "RelativeToolTip": "App.Core\\DependencyInjection.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T08:56:18.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "IStudentService.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\IStudentService.cs",
               "RelativeDocumentMoniker": "App.Core\\IStudentService.cs",
@@ -175,46 +171,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\Domain\\Student.cs",
-              "RelativeDocumentMoniker": "Domain\\Student.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\Domain\\Student.cs",
-              "RelativeToolTip": "Domain\\Student.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA0AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T09:47:38.315Z",
+              "WhenOpened": "2024-09-26T08:57:40.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "StudentDto.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\Models\\StudentDto.cs",
-              "RelativeDocumentMoniker": "App.Core\\Models\\StudentDto.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\Models\\StudentDto.cs",
-              "RelativeToolTip": "App.Core\\Models\\StudentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T09:34:24.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StudentCourseMapping.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\Domain\\StudentCourseMapping.cs",
-              "RelativeDocumentMoniker": "Domain\\StudentCourseMapping.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\Domain\\StudentCourseMapping.cs",
-              "RelativeToolTip": "Domain\\StudentCourseMapping.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T10:29:11.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\Infrastructure\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
@@ -227,7 +197,68 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateStudentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\Apps\\Student\\Command\\CreateStudentCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Student\\Command\\CreateStudentCommand.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\Apps\\Student\\Command\\CreateStudentCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Student\\Command\\CreateStudentCommand.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAlwC0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T09:14:09.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\Domain\\Student.cs",
+              "RelativeDocumentMoniker": "Domain\\Student.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\Domain\\Student.cs",
+              "RelativeToolTip": "Domain\\Student.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T09:47:38.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetStudentsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\Apps\\Student\\Query\\GetStudentsQuery.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Student\\Query\\GetStudentsQuery.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\Apps\\Student\\Query\\GetStudentsQuery.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Student\\Query\\GetStudentsQuery.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T09:16:03.821Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "StudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\Models\\StudentDto.cs",
+              "RelativeDocumentMoniker": "App.Core\\Models\\StudentDto.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\App.Core\\Models\\StudentDto.cs",
+              "RelativeToolTip": "App.Core\\Models\\StudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T09:34:24.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentCourseMapping.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\Domain\\StudentCourseMapping.cs",
+              "RelativeDocumentMoniker": "Domain\\StudentCourseMapping.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\Domain\\StudentCourseMapping.cs",
+              "RelativeToolTip": "Domain\\StudentCourseMapping.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:29:11.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\ExampleWebApp\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "ExampleWebApp\\Controllers\\StudentsController.cs",
@@ -235,12 +266,11 @@
               "RelativeToolTip": "ExampleWebApp\\Controllers\\StudentsController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T07:49:38.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T07:49:38.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "StudentsCQRSController.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\ExampleWebApp\\Controllers\\StudentsCQRSController.cs",
               "RelativeDocumentMoniker": "ExampleWebApp\\Controllers\\StudentsCQRSController.cs",
@@ -248,12 +278,11 @@
               "RelativeToolTip": "ExampleWebApp\\Controllers\\StudentsCQRSController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwBgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T08:39:37.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T08:39:37.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\Infrastructure\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Services\\StudentService.cs",
@@ -261,47 +290,7 @@
               "RelativeToolTip": "Infrastructure\\Services\\StudentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T09:40:46.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T08:57:40.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\ExampleWebApp\\Program.cs",
-              "RelativeDocumentMoniker": "ExampleWebApp\\Program.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\ExampleWebApp\\Program.cs",
-              "RelativeToolTip": "ExampleWebApp\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T08:38:07.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\ExampleWebApp\\appsettings.json",
-              "RelativeDocumentMoniker": "ExampleWebApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET smartdata\\ExampleWebApp with CQRS\\ExampleWebApp\\appsettings.json",
-              "RelativeToolTip": "ExampleWebApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-26T08:40:48.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T09:40:46.341Z"
             },
             {
               "$type": "Document",
@@ -313,8 +302,7 @@
               "RelativeToolTip": "Domain\\Emp\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T08:56:41.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T08:56:41.375Z"
             },
             {
               "$type": "Document",
@@ -326,8 +314,7 @@
               "RelativeToolTip": "Infrastructure\\EmpDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T08:47:25.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T08:47:25.974Z"
             },
             {
               "$type": "Document",
@@ -339,8 +326,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\20240924092714_InitDb.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T07:58:56.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T07:58:56.866Z"
             }
           ]
         }
