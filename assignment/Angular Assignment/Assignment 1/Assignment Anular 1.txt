@@ -1,0 +1,65 @@
+1) What is single page application ?
+
+=> i) An SPA (Single-page application) is a web app implementation that loads only a single web document, and then updates the body content of that single document via JavaScript APIs such as Fetch when different content is to be shown.
+ii) This therefore allows users to use websites without loading whole new pages from the server, which can result in performance gains and a more dynamic experience, with some tradeoff disadvantages such as SEO, more effort required to maintain state, implement navigation, and do meaningful performance monitoring.
+
+
+2) What is typescirpt ?
+
+=> TypeScript is a syntactic superset of JavaScript which adds static typing. This basically means that TypeScript adds syntax on top of JavaScript, allowing developers to add types.
+
+
+3) Difference between typescript and javascript.
+
+=> - JavaScript:
+
+1) Typing: Dynamically typed.
+2) Tools: Limited built-in tools.
+3) Syntax: Standard JavaScript syntax.
+4) Compatibility: Runs natively in browsers and Node.js.
+5) Debugging: May require more debugging and testing.
+6) Learning Curve: Easier to learn for beginners due to its simplicity and familiarity.
+
+- TypeScript:
+
+1) Typing: Provides static typing.
+2) Tool: Comes with robust tool support, including IDEs and code editors.
+3) Syntax: Extends JavaScript syntax with additional features like interfaces, enums, and generics.
+4) Compatibility: Needs to be compiled to JavaScript before running, but is backward compatible with JavaScript.
+5) Debugging: Stronger typing can help identify errors during development, reducing runtime errors.
+6) Learning Curve: May take more time to learn due to additional features and stricter typing.
+
+
+
+4) Difference between monolith and microservices architecture.
+
+=> - Monolithic Architecture:
+
+1) Architecture: Single-tier architecture.
+2) Size: Large, all components tightly coupled.
+3) Deployment: Deployed as a single unit.
+4) Scalability: Horizontal scaling can be challenging.
+5) Development: Development is simpler initially.
+6) Technology: Limited technology choices.
+7) Fault Tolerance: Entire application may fail if a part fails.
+8) Maintenance: Easier to maintain due to its simplicity.
+9) Flexibility: Less flexible as all components are tightly coupled.
+10) Communication: Communication between components is faster.
+
+- Microservice Architecture:
+
+1) Architecture: Multi-tier architecture.
+2) Size: Small, loosely coupled components.
+3) Deployment: Individual services can be deployed independently.
+4) Scalability: Easier to scale horizontally.
+5) Development: Complex due to managing multiple services.
+6) Technology: Freedom to choose the best technology for each service.
+7) Fault Tolerance: Individual services can fail without affecting others.
+8) Maintenance: Requires more effort to manage multiple services.
+9) Flexibility: More flexible as components can be developed, deployed, and scaled independently.
+10) Communication: Communication may be slower due to network calls.
+
+
+5) Why logger is important in production ?
+
+

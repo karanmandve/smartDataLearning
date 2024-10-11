@@ -1,5 +1,6 @@
 
-
+create database FunctionPractice
+use FunctionPractice
 
 /******************************************************************
                    User Define Functions.
@@ -38,8 +39,8 @@ a function should always return a value that is mandatory.
 Types of User-Defined Function:
 In SQL Server, we can create three types of User-Defined Functions, such as
 
-1] Scalar Valued Functions
-2] Inline Table-Valued Functions
+1] Scalar Valued Functions (Return only single value) 
+2] Inline Table-Valued Functions (Return table)
 3] Multi-Statement Table-Valued Functions
 
 
