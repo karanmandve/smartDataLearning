@@ -13,7 +13,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<EhrDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("EhrConnection"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("HomeConnection"));
 });
 
 var app = builder.Build();

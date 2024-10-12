@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\Clean Architecture Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6AEEF74-F12D-4C98-8D7C-FC877E4DC9DC}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\clean architecture practice\\infrastructure\\migrations\\20241011124035_stored precedure migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6AEEF74-F12D-4C98-8D7C-FC877E4DC9DC}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241011124035_stored precedure migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9002AA4C-FE04-4D4D-A1C1-085C46EFE8B2}|API\\API.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\clean architecture practice\\api\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9002AA4C-FE04-4D4D-A1C1-085C46EFE8B2}|API\\API.csproj|solutionrelative:api\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6AEEF74-F12D-4C98-8D7C-FC877E4DC9DC}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\clean architecture practice\\infrastructure\\ehrdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6AEEF74-F12D-4C98-8D7C-FC877E4DC9DC}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\clean architecture practice\\infrastructure\\ehrdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6AEEF74-F12D-4C98-8D7C-FC877E4DC9DC}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ehrdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,52 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241011124035_stored precedure migration.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Infrastructure\\Migrations\\20241011124035_stored precedure migration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241011124035_stored precedure migration.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Infrastructure\\Migrations\\20241011124035_stored precedure migration.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20241011124035_stored precedure migration.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T12:40:35.88Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "EhrDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Infrastructure\\EhrDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\Clean Architecture Practice\\Infrastructure\\EhrDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\EhrDbContext.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\Clean Architecture Practice\\Infrastructure\\EhrDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\Clean Architecture Practice\\Infrastructure\\EhrDbContext.cs",
               "RelativeToolTip": "Infrastructure\\EhrDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T12:39:34.189Z"
+              "WhenOpened": "2024-10-12T13:16:05.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\Clean Architecture Practice\\API\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\Clean Architecture Practice\\API\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "API\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAACIAAABAmZmZmZkpwC4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:00:45.224Z",
+              "EditorCaption": ""
             }
           ]
         }

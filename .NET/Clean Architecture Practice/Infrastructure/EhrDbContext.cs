@@ -1,6 +1,7 @@
 ﻿
 using Domain.Patient;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel;
 using System.Reflection;
 
 namespace Infrastructure
@@ -11,6 +12,11 @@ namespace Infrastructure
 
         public DbSet<Patient> Patients { get; set; }
         public DbSet<PatientAddress> Addresses { get; set; }
+
+        public async Task<List<Patient>> sp_GetAllPatient()
+        {
+            return await Patients.FromSqlRaw("EXECUTE [dbo].[GetAllPatient]").ToListAsync();
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
