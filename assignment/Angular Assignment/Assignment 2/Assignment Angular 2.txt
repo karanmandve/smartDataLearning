@@ -1,0 +1,24 @@
+1) What is CSR, SSR, SSG and ISR ?
+
+=>
+
+i) Client-Side Rendering (CSR)
+How it works: The browser downloads a minimal HTML file, along with JavaScript and CSS files. The JavaScript then dynamically fetches data and renders the content in the browser.
+first html then js then css then js fetch data
+Pros: Highly interactive user experience.
+Cons: Slower initial page load and potential SEO challenges.
+
+ii) Server-Side Rendering (SSR)
+How it works: The server renders the web page and sends the fully-rendered HTML to the client’s browser. This allows the page to be displayed immediately.
+Pros: Better SEO and faster initial page load.
+Cons: Increased server load and complexity.
+
+iii) Static Site Generation (SSG)
+How it works: Pages are pre-rendered as static HTML files at build time. These files are then served to the user.
+Pros: Excellent performance, scalability, and security.
+Cons: Not suitable for highly dynamic content.
+
+iv) Incremental Static Regeneration (ISR)
+How it works: Combines the benefits of SSR and SSG. Some pages are pre-rendered at build time, while others are regenerated on-the-fly and cached for subsequent requests.
+Pros: Balances performance and real-time data.
+Cons: Requires careful management of dynamic data.
