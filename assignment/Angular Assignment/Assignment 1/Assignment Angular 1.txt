@@ -514,3 +514,16 @@ export class MyComponent {
     this.data = myService.getData();
   }
 }
+
+
+17) What is directive ? 
+
+=>
+
+directives are classes that add additional behavior to elements in your Angular applications. They are a core feature of Angular and are used to manipulate the DOM (Document Object Model). There are three main types of directives in Angular:
+
+i) Components: These are directives with a template. They are the most common type of directive and are used to create reusable UI components.
+ii) Attribute Directives: These change the appearance or behavior of an element, component, or another directive. Examples include NgClass (adds and removes a set of CSS classes) and NgStyle (adds and removes a set of HTML styles).
+iii) Structural Directives: These change the DOM layout by adding and removing DOM elements.
+     ngIf, ngFor
+
