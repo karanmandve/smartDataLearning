@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LogValidationExceptionExample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d38f192b25bda397d2ad412172b49f471997eb5f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f029d2bb6cbdf4a34f320b9c740cd9e2e3ff468")]
 [assembly: System.Reflection.AssemblyProductAttribute("LogValidationExceptionExample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LogValidationExceptionExample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
