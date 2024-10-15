@@ -22,3 +22,133 @@ iv) Incremental Static Regeneration (ISR)
 How it works: Combines the benefits of SSR and SSG. Some pages are pre-rendered at build time, while others are regenerated on-the-fly and cached for subsequent requests.
 Pros: Balances performance and real-time data.
 Cons: Requires careful management of dynamic data.
+
+
+2) Difference between app.moudle.ts and app.compenent.ts
+
+=>
+i) app.module.ts:
+-Role: It is the root module of the application.
+-Purpose: It defines how the application is structured and bootstrapped.
+-Responsibilities:
+  Importing other Angular modules (like BrowserModule, FormsModule, HttpClientModule, etc.).
+  Declaring components, directives, and pipes that belong to this module.
+  Bootstrapping the main application component (usually AppComponent).
+  Configuring providers for services (like HTTP, data storage, etc.).
+
+ii) app.component.ts:
+- Role: It is the root component of the application.
+- Purpose: It serves as the entry point to the user interface (UI) and contains the template and logic for the main screen.
+- Responsibilities:
+  Defining the HTML template that dictates the structure of the UI.
+  Defining the business logic and interactions for the root component.
+  May contain child components (which are declared in the app.module.ts).
+
+
+3) File structure in Angular.
+
+=>
+
+my-angular-app/
+├── e2e/                             # End-to-End testing folder (Protractor tests)
+│   ├── src/                         # Source folder for E2E tests
+│   │   ├── app.e2e-spec.ts          # E2E test for the main application
+│   │   └── app.po.ts                # Page object for the E2E tests
+├── node_modules/                    # Project dependencies (managed by npm)
+├── src/                             # Source code for the Angular app
+│   ├── app/                         # Core app source files
+│   │   ├── components/              # Reusable UI components
+│   │   │   ├── header/              # Example component (Header)
+│   │   │   │   ├── header.component.ts   # Component logic
+│   │   │   │   ├── header.component.html # Component template
+│   │   │   │   └── header.component.scss # Component styles
+│   │   │   └── ...
+│   │   ├── directives/              # Custom directives
+│   │   ├── models/                  # Application models (interfaces and classes)
+│   │   ├── pipes/                   # Custom pipes
+│   │   ├── services/                # Business logic and services
+│   │   ├── app.component.ts         # Root component
+│   │   ├── app.component.html       # Root component template
+│   │   ├── app.component.scss       # Root component styles
+│   │   ├── app.module.ts            # Main module file
+│   │   ├── app-routing.module.ts    # Routing module (defines app routes)
+│   │   └── core/                    # Core services, guards, etc.
+│   ├── assets/                      # Static assets like images and fonts
+│   ├── environments/                # Environment specific files
+│   │   ├── environment.ts           # Development environment config
+│   │   ├── environment.prod.ts      # Production environment config
+│   ├── favicon.ico                  # App favicon
+│   ├── index.html                   # Main HTML template
+│   ├── main.ts                      # Bootstraps the app (entry point)
+│   ├── polyfills.ts                 # Polyfills for cross-browser compatibility
+│   ├── styles.scss                  # Global styles
+│   └── tsconfig.app.json            # TypeScript configuration for the app
+├── angular.json                     # CLI project configuration
+├── package.json                     # NPM package configuration (dependencies, scripts)
+├── tsconfig.json                    # TypeScript configuration for the project
+├── tsconfig.app.json                # tsconfig.app.json in Angular configures TypeScript compiler options and file inclusions                                        specifically for the application code.
+├── tsconfig.spec.json               # TypeScript configuration for unit tests
+├── karma.conf.js                    # Karma test runner configuration
+├── protractor.conf.js               # Protractor E2E test configuration
+└── .editorconfig                    # Coding style configuration for editors
+
+
+4) What is provider and bootstrap ?
+
+=>
+
+i) Providers:
+Define how services are created and injected into components.
+Can be provided at the root level (global) or component level (local).
+Types include class, value, factory, and existing providers.
+
+ii) Bootstrap:
+Refers to the process of starting the Angular application and specifying the root component to load.
+Configured in the @NgModule using the bootstrap property, and initiated in main.ts.
+
+In Angular, bootstrap refers to the process of starting (or "bootstrapping") an Angular application. During bootstrapping, Angular initializes the root module (AppModule) and the root component (usually AppComponent) of your application. Essentially, it tells Angular which component to launch first.
+
+- Bootstrapping Process:
+  Root Module: When you create an Angular application, it generates a root module (AppModule) that acts as the main entry point to the app. This module typically includes all the other modules and configurations required for the application.
+
+  Root Component: When bootstrapping the application, Angular needs to know which component should be rendered first. This is typically done in the root module (in AppModule) through the bootstrap property.
+
+Example in app.module.ts:
+
+typescript
+Copy code
+@NgModule({
+  declarations: [AppComponent],
+  imports: [BrowserModule],
+  providers: [],
+  bootstrap: [AppComponent] // Bootstrap the root component
+})
+export class AppModule {}
+
+
+5) Why app.module.ts remove and in which version it remove ?
+
+=>
+
+- The app.module.ts file has not been removed from Angular.
+- Angular introduced standalone components in Angular 14, offering an alternative to NgModules, but they are optional and don't replace modules entirely.
+- Standalone components allow for simpler, less verbose Angular applications, but larger apps with advanced features like routing and lazy loading still benefit from the traditional NgModule structure.
+
+
+6) What JIT and AOT compilation method ?
+
+=>
+
+i) JIT (Just-In-Time) Compilation:
+- Compiled in the browser at runtime during development.
+- Slower initial load time as compilation happens in the browser.
+- Larger bundle size due to development tools and templates included.
+- Faster build cycle during development, ideal for debugging and quick iterations.
+
+ii) AOT (Ahead-Of-Time) Compilation:
+- Compiled at build time before serving the app, typically used for production.
+- Faster initial load time as the app is pre-compiled into optimized JavaScript.
+- Smaller bundle size due to removal of unnecessary code.
+- Catches errors early during build time (before runtime), improving production stability.
+
+

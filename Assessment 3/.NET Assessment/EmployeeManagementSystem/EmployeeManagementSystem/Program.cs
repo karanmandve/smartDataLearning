@@ -10,6 +10,21 @@ namespace EmployeeManagementSystem
         {
             var builder = WebApplication.CreateBuilder(args);
             var configuration = builder.Configuration;
+            //builder.Services.AddCors(options =>
+            //{
+            //    options.AddPolicy("AllowSpecificOrigin",
+            //        builder => builder.WithOrigins("http://localhost:4200")
+            //                          .AllowAnyHeader()
+            //                          .AllowAnyMethod());
+            //});
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    builder => builder.AllowAnyOrigin()
+                                      .AllowAnyHeader()
+                                      .AllowAnyMethod());
+            });
 
             // Add services to the container.
             builder.Services.AddApplication();
@@ -28,6 +43,8 @@ namespace EmployeeManagementSystem
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+
+            app.UseCors("AllowAll");
 
             app.UseAuthorization();
 
