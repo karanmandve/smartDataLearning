@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VR2Wx0Khl4Ah/FvB79yXp2hdau3IIH6dLmEC7iEmJoA=",
+  "Hash": "BVxYnUkYUqwvOMgEGpYfEy9PRPy3uTJHjW1dsnfc5vw=",
   "Source": "StockAppApiFetchExample",
   "BasePath": "_content/StockAppApiFetchExample",
   "Mode": "Default",
@@ -10,30 +10,116 @@
     {
       "Name": "StockAppApiFetchExample\\wwwroot",
       "Source": "StockAppApiFetchExample",
-      "ContentRoot": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\wwwroot\\",
       "BasePath": "_content/StockAppApiFetchExample",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\wwwroot\\StyleSheet.css",
+      "Identity": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\wwwroot\\StyleSheet.css",
       "SourceId": "StockAppApiFetchExample",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\wwwroot\\",
       "BasePath": "_content/StockAppApiFetchExample",
-      "RelativePath": "StyleSheet.css",
+      "RelativePath": "StyleSheet#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "okagqheipi",
+      "Integrity": "iDdvFBO4c05TYgSBuiYQLdgS6xzlYw3EuJFvzcKkqBg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "StyleSheet.css",
+      "AssetFile": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\wwwroot\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iDdvFBO4c05TYgSBuiYQLdgS6xzlYw3EuJFvzcKkqBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Oct 2024 14:59:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iDdvFBO4c05TYgSBuiYQLdgS6xzlYw3EuJFvzcKkqBg="
+        }
+      ]
+    },
+    {
+      "Route": "StyleSheet.okagqheipi.css",
+      "AssetFile": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\wwwroot\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iDdvFBO4c05TYgSBuiYQLdgS6xzlYw3EuJFvzcKkqBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Oct 2024 14:59:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "okagqheipi"
+        },
+        {
+          "Name": "label",
+          "Value": "StyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iDdvFBO4c05TYgSBuiYQLdgS6xzlYw3EuJFvzcKkqBg="
+        }
+      ]
     }
   ]
 }
