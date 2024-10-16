@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-12 text-center mt-4">
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button
+        type="button"
+        class="btn"
+        [ngClass]="
+          currentComponent == 'Template' ? 'btn-success' : 'btn-primary'
+        "
+        (click)="changeComponent('Template')"
+      >
+        Template
+      </button>
+      <button
+        type="button"
+        class="btn"
+        [ngClass]="
+          currentComponent == 'Reactive' ? 'btn-success' : 'btn-primary'
+        "
+        (click)="changeComponent('Reactive')"
+      >
+        Reactive
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12" *ngIf="currentComponent == 'Template'">
+    <app-template></app-template>
+  </div>
+  <div class="col-12" *ngIf="currentComponent == 'Reactive'">
+    <app-reactive></app-reactive>
+  </div>
+</div>

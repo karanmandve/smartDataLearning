@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './master.component.css'
 })
 export class MasterComponent {
-  currentConponent: string = "";
+  currentConponent: string = "Roles";
 
   changeComponent(currComponent: string){
     this.currentConponent = currComponent;
