@@ -78,8 +78,8 @@
 
 
 <div class="row">
-  <div class="col-12">
-    <table class="table table-bordered">
+  <div class="col-4">
+    <!-- <table class="table table-bordered">
       <thead>
         <tr>
           <th>Sr No.</th>
@@ -96,7 +96,18 @@
           <td>{{ item.salary }}</td>
         </tr>
       </tbody>
-    </table>
+    </table> -->
+
+    <div class="vertical-table">
+      <div *ngFor="let item of employeeList; let srNumber = index" class="employee-row">
+        <div><strong>Sr No:</strong> {{ srNumber + 1 }}</div>
+        <div><strong>First Name:</strong> {{ item.employeeFirstName }}</div>
+        <div><strong>Last Name:</strong> {{ item.employeeLastName }}</div>
+        <div><strong>Salary:</strong> {{ item.salary }}</div>
+        <hr>
+      </div>
+    </div>
+
   </div>
 
 </div>

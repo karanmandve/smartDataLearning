@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\CSharp_basics\\temp\\",
+  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\C#\\temp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B89E5F5-7524-47BE-950C-68CBE2516587}|temp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\csharp_basics\\temp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B89E5F5-7524-47BE-950C-68CBE2516587}|temp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\c#\\temp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B89E5F5-7524-47BE-950C-68CBE2516587}|temp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B89E5F5-7524-47BE-950C-68CBE2516587}|temp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\csharp_basics\\temp\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B89E5F5-7524-47BE-950C-68CBE2516587}|temp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\c#\\temp\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B89E5F5-7524-47BE-950C-68CBE2516587}|temp.csproj|solutionrelative:order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B89E5F5-7524-47BE-950C-68CBE2516587}|temp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\csharp_basics\\temp\\reactangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B89E5F5-7524-47BE-950C-68CBE2516587}|temp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\c#\\temp\\reactangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B89E5F5-7524-47BE-950C-68CBE2516587}|temp.csproj|solutionrelative:reactangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B89E5F5-7524-47BE-950C-68CBE2516587}|temp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\csharp_basics\\temp\\temp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{1B89E5F5-7524-47BE-950C-68CBE2516587}|temp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\c#\\temp\\temp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{1B89E5F5-7524-47BE-950C-68CBE2516587}|temp.csproj|solutionrelative:temp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -28,32 +28,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Reactangle.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\CSharp_basics\\temp\\Reactangle.cs",
-              "RelativeDocumentMoniker": "Reactangle.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\CSharp_basics\\temp\\Reactangle.cs",
-              "RelativeToolTip": "Reactangle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T05:32:20.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\CSharp_basics\\temp\\Order.cs",
-              "RelativeDocumentMoniker": "Order.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\CSharp_basics\\temp\\Order.cs",
-              "RelativeToolTip": "Order.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T05:32:01.194Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -76,26 +50,49 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Reactangle.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\C#\\temp\\Reactangle.cs",
+              "RelativeDocumentMoniker": "Reactangle.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\C#\\temp\\Reactangle.cs",
+              "RelativeToolTip": "Reactangle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T05:32:20.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\C#\\temp\\Order.cs",
+              "RelativeDocumentMoniker": "Order.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\C#\\temp\\Order.cs",
+              "RelativeToolTip": "Order.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T05:32:01.194Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "temp.csproj",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\CSharp_basics\\temp\\temp.csproj",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\C#\\temp\\temp.csproj",
               "RelativeDocumentMoniker": "temp.csproj",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\CSharp_basics\\temp\\temp.csproj",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\C#\\temp\\temp.csproj",
               "RelativeToolTip": "temp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-11T04:30:42.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T04:30:42.507Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\CSharp_basics\\temp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\C#\\temp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\CSharp_basics\\temp\\Program.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\C#\\temp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T08:12:03.699Z",
               "EditorCaption": ""

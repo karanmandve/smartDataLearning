@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\CSharp_basics\\temp\\temp.csproj",
+      "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\C#\\temp\\temp.csproj",
       "projectName": "temp",
-      "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\CSharp_basics\\temp\\temp.csproj",
+      "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\C#\\temp\\temp.csproj",
       "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\CSharp_basics\\temp\\obj\\",
+      "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\C#\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",

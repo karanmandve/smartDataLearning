@@ -15,11 +15,16 @@ internal class Program
         //Console.WriteLine(ob2.GetValue());
 
         //Console.WriteLine("hello world!!!");
-        
+
 
         // LINQ
 
-        //var list = new List<int>() { 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+        var list = new List<int>() { 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+        //foreach (var item in list.Skip(1).Take(4))
+        //{
+        //    Console.WriteLine(item);
+        //}
+
         //var list = new List<string>() { "a", "ccc", "bbb", "dddd"};
         //var list2 = list.Where(word => word.Length > 2).ToList();
 
@@ -88,7 +93,7 @@ internal class Program
 
 
         //var result = lists.Select(numbers => new {
-            
+
         //    count = numbers.Count(),
         //    avarage = numbers.Average()
 
@@ -175,5 +180,5 @@ internal class Program
 //    }
 //}
 
-    
+
 

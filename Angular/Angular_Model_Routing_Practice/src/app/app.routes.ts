@@ -12,6 +12,10 @@ export const routes: Routes = [
     path: 'user',
     component: UserComponent,
   },
+  // {
+  //   path: 'admin',
+  //   component: AdminComponent,
+  // },
   {
     path: 'admin',
     loadChildren: () => import('./admin/admin.module').then((mod) => mod.AdminModule),
