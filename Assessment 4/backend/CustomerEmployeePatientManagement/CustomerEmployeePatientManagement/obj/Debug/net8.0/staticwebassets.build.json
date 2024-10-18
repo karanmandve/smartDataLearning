@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Up9WvggTfmRmtBYrBM+7BGZDmPMnHVmrkws9lYX/wZU=",
+  "Source": "CustomerEmployeePatientManagement",
+  "BasePath": "_content/CustomerEmployeePatientManagement",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
