@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\App.core.csproj": {
+    "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\App.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\App.core.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\App.core.csproj",
         "projectName": "App.core",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\App.core.csproj",
-        "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\App.core.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Domain.csproj"
+              "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Domain.csproj"
               }
             }
           }
@@ -43,8 +43,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -79,21 +80,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Domain.csproj": {
+    "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -118,8 +119,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -140,21 +142,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -169,11 +171,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\App.core.csproj": {
-                "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\App.core.csproj"
+              "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\App.core.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\App.core.csproj"
               },
-              "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Domain.csproj"
+              "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Domain.csproj"
               }
             }
           }
@@ -186,8 +188,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -250,7 +253,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

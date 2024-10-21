@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 3\\.net assessment\\employeemanagementsystem\\domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,7 +19,15 @@
       "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\apps\\department\\command\\createdepartmentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 3\\.net assessment\\employeemanagementsystem\\employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2890034-96A0-4E0C-B4E9-948BB650277C}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2890034-96A0-4E0C-B4E9-948BB650277C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,7 +43,11 @@
       "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\apps\\department\\query\\getdepartmentquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 3\\.net assessment\\employeemanagementsystem\\employeemanagementsystem\\controllers\\employeemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\employeemanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\employeemanagementsystem\\controllers\\employeemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\employeemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -59,15 +71,15 @@
       "RelativeMoniker": "D:0:0:{A2890034-96A0-4E0C-B4E9-948BB650277C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\apps\\employee\\command\\deleteemployeebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\apps\\employee\\command\\deleteemployeebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\apps\\employee\\command\\deleteemployeebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\apps\\employee\\command\\updateemployeebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\apps\\employee\\command\\updateemployeebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\apps\\employee\\command\\updateemployeebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 3\\.net assessment\\employeemanagementsystem\\employeemanagementsystem\\controllers\\departmentmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\employeemanagementsystem\\controllers\\departmentmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\departmentmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -75,31 +87,39 @@
       "RelativeMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\apps\\employee\\query\\getemployeebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\apps\\department\\command\\updatedepartmentbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\apps\\department\\command\\updatedepartmentbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\apps\\employee\\query\\getemployeebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\apps\\employee\\query\\getemployeebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\apps\\employee\\query\\getallemployeebydeparmentid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\apps\\employee\\query\\getallemployeebydeparmentid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\apps\\employee\\query\\getallemployeebydeparmentid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\apps\\employee\\command\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\apps\\employee\\command\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\apps\\employee\\command\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 3\\.net assessment\\employeemanagementsystem\\domain\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 3\\.net assessment\\employeemanagementsystem\\domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|solutionrelative:domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\domain\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|solutionrelative:domain\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2890034-96A0-4E0C-B4E9-948BB650277C}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 3\\.net assessment\\employeemanagementsystem\\infrastructure\\migrations\\20240927070556_initial-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2890034-96A0-4E0C-B4E9-948BB650277C}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\infrastructure\\migrations\\20240927070556_initial-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2890034-96A0-4E0C-B4E9-948BB650277C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20240927070556_initial-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\apps\\department\\query\\getdepartmentbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\apps\\department\\query\\getdepartmentbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\apps\\department\\query\\getdepartmentbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -110,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -139,151 +159,40 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T16:56:08.438Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CreateDepartmentCommand.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Command\\CreateDepartmentCommand.cs",
-              "RelativeDocumentMoniker": "App.core\\Apps\\Department\\Command\\CreateDepartmentCommand.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Command\\CreateDepartmentCommand.cs",
-              "RelativeToolTip": "App.core\\Apps\\Department\\Command\\CreateDepartmentCommand.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T04:08:58.089Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\appsettings.json",
+              "RelativeToolTip": "EmployeeManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-17T16:47:52.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateDepartmentByIdCommand.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Command\\UpdateDepartmentByIdCommand.cs",
-              "RelativeDocumentMoniker": "App.core\\Apps\\Department\\Command\\UpdateDepartmentByIdCommand.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Command\\UpdateDepartmentByIdCommand.cs",
-              "RelativeToolTip": "App.core\\Apps\\Department\\Command\\UpdateDepartmentByIdCommand.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAUwCgAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T12:02:20.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Employee.cs",
-              "RelativeDocumentMoniker": "Domain\\Employee.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Employee.cs",
-              "RelativeToolTip": "Domain\\Employee.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T11:00:32.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Program.cs",
-              "RelativeDocumentMoniker": "App.core\\Program.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Program.cs",
-              "RelativeToolTip": "App.core\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T05:07:59.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "App.core\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\DependencyInjection.cs",
-              "RelativeToolTip": "App.core\\DependencyInjection.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T11:41:22.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetDepartmentQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Query\\GetDepartmentQuery.cs",
-              "RelativeDocumentMoniker": "App.core\\Apps\\Department\\Query\\GetDepartmentQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Query\\GetDepartmentQuery.cs",
-              "RelativeToolTip": "App.core\\Apps\\Department\\Query\\GetDepartmentQuery.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T04:56:30.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T04:07:47.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\AppDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T04:07:22.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IAppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Interfaces\\IAppDbContext.cs",
-              "RelativeDocumentMoniker": "App.core\\Interfaces\\IAppDbContext.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Interfaces\\IAppDbContext.cs",
-              "RelativeToolTip": "App.core\\Interfaces\\IAppDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T04:08:11.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmployeeManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeeManagementController.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\EmployeeManagementController.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeeManagementController.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\EmployeeManagementController.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAmwGUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DeleteEmployeeByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
+              "RelativeToolTip": "App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T11:16:01.332Z",
               "EditorCaption": ""
@@ -316,11 +225,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "UpdateEmployeeByIdCommand.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
               "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
               "RelativeToolTip": "App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAMwC8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -328,23 +237,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DeleteEmployeeByIdCommand.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
-              "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
-              "RelativeToolTip": "App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCYAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T10:55:32.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 1,
+              "Title": "EmployeeManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeeManagementController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\EmployeeManagementController.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeeManagementController.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\EmployeeManagementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:16:01.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DepartmentManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\DepartmentManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\DepartmentManagementController.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\DepartmentManagementController.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\DepartmentManagementController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\DepartmentManagementController.cs",
               "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\DepartmentManagementController.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAqwBkAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -352,11 +273,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 5,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "App.core\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\DependencyInjection.cs",
+              "RelativeToolTip": "App.core\\DependencyInjection.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:41:22.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateDepartmentByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Command\\UpdateDepartmentByIdCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\Apps\\Department\\Command\\UpdateDepartmentByIdCommand.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Command\\UpdateDepartmentByIdCommand.cs",
+              "RelativeToolTip": "App.core\\Apps\\Department\\Command\\UpdateDepartmentByIdCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T12:02:20.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -364,11 +309,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 8,
               "Title": "GetEmployeeByIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
               "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
               "RelativeToolTip": "App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAQwCUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -376,11 +321,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 9,
               "Title": "GetAllEmployeeByDeparmentId.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetAllEmployeeByDeparmentId.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetAllEmployeeByDeparmentId.cs",
               "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Query\\GetAllEmployeeByDeparmentId.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetAllEmployeeByDeparmentId.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetAllEmployeeByDeparmentId.cs",
               "RelativeToolTip": "App.core\\Apps\\Employee\\Query\\GetAllEmployeeByDeparmentId.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwCAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -388,11 +333,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 10,
               "Title": "CreateEmployeeCommand.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
               "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
               "RelativeToolTip": "App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -400,11 +345,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 13,
               "Title": "EmployeeDto.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Models\\EmployeeDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Models\\EmployeeDto.cs",
               "RelativeDocumentMoniker": "App.core\\Models\\EmployeeDto.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Models\\EmployeeDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Models\\EmployeeDto.cs",
               "RelativeToolTip": "App.core\\Models\\EmployeeDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -412,11 +357,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 12,
               "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Department.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Department.cs",
               "RelativeDocumentMoniker": "Domain\\Department.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Department.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Department.cs",
               "RelativeToolTip": "Domain\\Department.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -424,11 +369,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 11,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Employee.cs",
+              "RelativeDocumentMoniker": "Domain\\Employee.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Employee.cs",
+              "RelativeToolTip": "Domain\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:00:32.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "20240927070556_initial-migration.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\Migrations\\20240927070556_initial-migration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\Migrations\\20240927070556_initial-migration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240927070556_initial-migration.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\Migrations\\20240927070556_initial-migration.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\Migrations\\20240927070556_initial-migration.cs",
               "RelativeToolTip": "Infrastructure\\Migrations\\20240927070556_initial-migration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -436,11 +393,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 15,
               "Title": "GetDepartmentByIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Query\\GetDepartmentByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Query\\GetDepartmentByIdQuery.cs",
               "RelativeDocumentMoniker": "App.core\\Apps\\Department\\Query\\GetDepartmentByIdQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Query\\GetDepartmentByIdQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Query\\GetDepartmentByIdQuery.cs",
               "RelativeToolTip": "App.core\\Apps\\Department\\Query\\GetDepartmentByIdQuery.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAQwCMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
