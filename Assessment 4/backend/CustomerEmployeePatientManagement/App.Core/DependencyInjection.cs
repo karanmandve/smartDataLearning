@@ -31,6 +31,8 @@ namespace App.Core
                 cfg.RegisterServicesFromAssemblyContaining<DeleteEmployeeCommand>();
                 cfg.RegisterServicesFromAssemblyContaining<UpdateEmployeeCommand>();
                 cfg.RegisterServicesFromAssemblyContaining<GetEmployeeQuery>();
+
+                // 
             });
 
             return services;

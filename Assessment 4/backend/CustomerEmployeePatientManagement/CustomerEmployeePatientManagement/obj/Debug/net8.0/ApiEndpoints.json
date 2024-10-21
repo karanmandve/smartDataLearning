@@ -126,6 +126,69 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PatientEmployeePatientManagement.Controllers.PatientController",
+    "Method": "GetAllPatient",
+    "RelativePath": "api/Patient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PatientEmployeePatientManagement.Controllers.PatientController",
+    "Method": "AddPatient",
+    "RelativePath": "api/Patient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Domain.Patient",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PatientEmployeePatientManagement.Controllers.PatientController",
+    "Method": "UpdatePatientById",
+    "RelativePath": "api/Patient/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Domain.Patient",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PatientEmployeePatientManagement.Controllers.PatientController",
+    "Method": "DeletePatientById",
+    "RelativePath": "api/Patient/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CustomerEmployeePatientManagement.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

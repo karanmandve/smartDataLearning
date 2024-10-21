@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\Assessment 4\\Karan Mandve\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj",
+      "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj",
       "projectName": "App.Core",
-      "projectPath": "C:\\Users\\karanmandve\\Desktop\\Assessment 4\\Karan Mandve\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj",
+      "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj",
       "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karanmandve\\Desktop\\Assessment 4\\Karan Mandve\\backend\\CustomerEmployeePatientManagement\\App.Core\\obj\\",
+      "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -716,8 +716,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\karanmandve\\Desktop\\Assessment 4\\Karan Mandve\\backend\\CustomerEmployeePatientManagement\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\karanmandve\\Desktop\\Assessment 4\\Karan Mandve\\backend\\CustomerEmployeePatientManagement\\Domain\\Domain.csproj"
+            "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Domain.csproj"
             }
           }
         }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace App.Core.Apps.Customer.Command
 {
-    public class UpdateCustomerByIdCommand : IRequest<bool>
+    public class UpdateCustomerByIdCommand : IRequest<object>
     {
 
         public Domain.Customer Customer { get; set; }
@@ -18,7 +18,7 @@ namespace App.Core.Apps.Customer.Command
 
 
 
-    public class UpdateCustomerByIdCommandHandler : IRequestHandler<UpdateCustomerByIdCommand, bool>
+    public class UpdateCustomerByIdCommandHandler : IRequestHandler<UpdateCustomerByIdCommand, object>
     {
 
         private readonly IAppDbContext _appDbContext;
@@ -29,7 +29,7 @@ namespace App.Core.Apps.Customer.Command
         }
 
 
-        public async Task<bool> Handle(UpdateCustomerByIdCommand request, CancellationToken cancellationToken)
+        public async Task<object> Handle(UpdateCustomerByIdCommand request, CancellationToken cancellationToken)
         {
             var id = request.Id;
 
@@ -63,8 +63,14 @@ namespace App.Core.Apps.Customer.Command
             customer.CustomerRating = request.Customer.CustomerRating;
 
             await _appDbContext.SaveChangesAsync(cancellationToken);
+            var respose = new
+            {
+                status = 200,
+                message = "Customer updated succesffuly",
+                data = customer
+            };
 
-            return true;
+            return respose;
         }
     }
 

@@ -18,9 +18,9 @@ namespace App.Core.Apps.Customer.Query
 
         public async Task<List<Domain.Customer>> Handle(GetCustomerQuery request, CancellationToken cancellationToken)
         {
-            var allDepartment = await _appDbContext.Set<Domain.Customer>().ToListAsync();
+            var allCustomer = await _appDbContext.Set<Domain.Customer>().ToListAsync();
 
-            return allDepartment;
+            return allCustomer;
         }
     }
 }

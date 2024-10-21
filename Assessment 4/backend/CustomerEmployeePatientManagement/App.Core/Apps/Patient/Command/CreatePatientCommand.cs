@@ -13,7 +13,7 @@ namespace App.Core.Apps.Patient.Command
 
     public class CreatePatientCommand : IRequest<bool>
     {
-        public Domain.Customer Customer { get; set; }
+        public Domain.Patient Patient { get; set; }
     }
 
 
@@ -28,10 +28,10 @@ namespace App.Core.Apps.Patient.Command
 
         public async Task<bool> Handle(CreatePatientCommand request, CancellationToken cancellationToken)
         {
-            var customer = request.Customer;
+            var patient = request.Patient;
 
 
-            await _appDbContext.Set<Domain.Customer>().AddAsync(customer);
+            await _appDbContext.Set<Domain.Patient>().AddAsync(patient);
 
             await _appDbContext.SaveChangesAsync(cancellationToken);
 

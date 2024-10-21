@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1fAdhGmgGH4=",
+  "dgSpecHash": "Skj8IW4+E2A=",
   "success": true,
-  "projectFilePath": "C:\\Users\\karanmandve\\Desktop\\Assessment 4\\Karan Mandve\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj",
+  "projectFilePath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karanmandve\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
     "C:\\Users\\karanmandve\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",

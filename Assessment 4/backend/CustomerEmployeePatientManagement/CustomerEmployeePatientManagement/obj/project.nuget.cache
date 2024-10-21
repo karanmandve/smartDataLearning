@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o/7jdIu+AN4=",
+  "dgSpecHash": "jG8wEociv2w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\karanmandve\\Desktop\\Assessment 4\\Karan Mandve\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj",
+  "projectFilePath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karanmandve\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\karanmandve\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
