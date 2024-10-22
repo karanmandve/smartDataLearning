@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace App.Core.Apps.Customer.Command
 {
@@ -37,7 +38,12 @@ namespace App.Core.Apps.Customer.Command
 
             if (customer == null)
             {
-                return false;
+                return new
+                {
+                    status = 404,
+                    message = "Customer Not Found",
+                    data = customer
+                };
             }
 
 
@@ -61,6 +67,7 @@ namespace App.Core.Apps.Customer.Command
             customer.PreferredLanguage = request.Customer.PreferredLanguage;
             customer.CustomerStatus = request.Customer.CustomerStatus;
             customer.CustomerRating = request.Customer.CustomerRating;
+            customer.IsCustomerActive = request.Customer.IsCustomerActive;
 
             await _appDbContext.SaveChangesAsync(cancellationToken);
             var respose = new

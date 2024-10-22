@@ -6,44 +6,45 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.Core.Apps.Patient.Command
+namespace App.Core.Apps.Employee.Command
 {
-    public class DeletePatientByIdCommand : IRequest<bool>
+    public class DeleteEmployeePermanentCommand : IRequest<bool>
     {
         public int Id { get; set; }
+
     }
 
 
 
-    public class DeletePatientByIdCommandHandler : IRequestHandler<DeletePatientByIdCommand, bool>
+
+    public class DeleteEmployeeCommandHandler : IRequestHandler<DeleteEmployeePermanentCommand, bool>
     {
 
         private readonly IAppDbContext _appDbContext;
 
-        public DeletePatientByIdCommandHandler(IAppDbContext appDbContext)
+        public DeleteEmployeeCommandHandler(IAppDbContext appDbContext)
         {
             _appDbContext = appDbContext;
         }
 
-        public async Task<bool> Handle(DeletePatientByIdCommand request, CancellationToken cancellationToken)
+        public async Task<bool> Handle(DeleteEmployeePermanentCommand request, CancellationToken cancellationToken)
         {
             var id = request.Id;
 
-            var patient = await _appDbContext.Set<Domain.Patient>().FindAsync(id);
+            var employee = await _appDbContext.Set<Domain.Employee>().FindAsync(id);
 
-            if (patient == null)
+            if (employee == null)
             {
                 return false;
             }
 
-            _appDbContext.Set<Domain.Patient>().Remove(patient);
+            _appDbContext.Set<Domain.Employee>().Remove(employee);
 
             await _appDbContext.SaveChangesAsync(cancellationToken);
 
             return true;
         }
     }
-
 
 
 

@@ -57,6 +57,7 @@ namespace App.Core.Apps.Employee.Command
             employee.BenefitsPackage = request.Employee.BenefitsPackage;
             employee.VacationDays = request.Employee.VacationDays;
             employee.PerformanceRating = request.Employee.PerformanceRating;
+            employee.IsEmployeeActive = request.Employee.IsEmployeeActive;
 
             await _appDbContext.SaveChangesAsync(cancellationToken);
 

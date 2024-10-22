@@ -29,6 +29,7 @@ namespace Domain
         public string BenefitsPackage { get; set; }
         public int VacationDays { get; set; }
         public int PerformanceRating { get; set; }
+        public bool IsEmployeeActive { get; set; }
         
     }
 }

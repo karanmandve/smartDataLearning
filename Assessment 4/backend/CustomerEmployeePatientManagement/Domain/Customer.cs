@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -28,6 +29,7 @@ namespace Domain
         public string PreferredLanguage { get; set; }
         public string CustomerStatus { get; set; }
         public int CustomerRating { get; set; }
+        public bool IsCustomerActive { get; set; }
     }
 
 }

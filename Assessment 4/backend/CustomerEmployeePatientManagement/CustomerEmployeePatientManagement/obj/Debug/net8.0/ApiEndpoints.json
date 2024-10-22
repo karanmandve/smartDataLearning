@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "CustomerEmployeePatientManagement.Controllers.CustomerController",
-    "Method": "GetAllCustomer",
+    "Method": "GetActiveCustomer",
     "RelativePath": "api/Customer",
     "HttpMethod": "GET",
     "IsController": true,
@@ -63,8 +63,18 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CustomerEmployeePatientManagement.Controllers.CustomerController",
+    "Method": "GetAllCustomer",
+    "RelativePath": "api/Customer/allCustomer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CustomerEmployeePatientManagement.Controllers.EmployeeController",
-    "Method": "GetAllEmployee",
+    "Method": "GetActiveEmployee",
     "RelativePath": "api/Employee",
     "HttpMethod": "GET",
     "IsController": true,
@@ -126,8 +136,18 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CustomerEmployeePatientManagement.Controllers.EmployeeController",
+    "Method": "GetAllEmployee",
+    "RelativePath": "api/Employee/allEmployee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PatientEmployeePatientManagement.Controllers.PatientController",
-    "Method": "GetAllPatient",
+    "Method": "GetActivePatient",
     "RelativePath": "api/Patient",
     "HttpMethod": "GET",
     "IsController": true,
@@ -186,6 +206,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PatientEmployeePatientManagement.Controllers.PatientController",
+    "Method": "GetAllPatient",
+    "RelativePath": "api/Patient/allPatient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

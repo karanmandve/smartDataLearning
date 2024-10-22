@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace App.Core.Apps.Customer.Command
 {
-    public class DeleteCustomerByIdCommand : IRequest<bool>
+    public class DeleteCustomerByIdPermanentCommand : IRequest<bool>
     {
 
         public int Id { get; set; }
@@ -16,7 +16,7 @@ namespace App.Core.Apps.Customer.Command
 
 
 
-    public class DeleteCustomerByIdCommandHandler : IRequestHandler<DeleteCustomerByIdCommand, bool>
+    public class DeleteCustomerByIdCommandHandler : IRequestHandler<DeleteCustomerByIdPermanentCommand, bool>
     {
 
         private readonly IAppDbContext _appDbContext;
@@ -26,7 +26,7 @@ namespace App.Core.Apps.Customer.Command
             _appDbContext = appDbContext;
         }
 
-        public async Task<bool> Handle(DeleteCustomerByIdCommand request, CancellationToken cancellationToken)
+        public async Task<bool> Handle(DeleteCustomerByIdPermanentCommand request, CancellationToken cancellationToken)
         {
             var id = request.Id;
 

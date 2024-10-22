@@ -29,6 +29,8 @@ namespace Domain
         public DateTime NextAppointmentDate { get; set; }
         public string InsuranceProvider { get; set; }
         public int InsurancePolicyNumber { get; set; }
+
+        public bool IsPatientActive { get; set; }
     }
 
 

@@ -9,20 +9,20 @@ using System.Threading.Tasks;
 
 namespace App.Core.Apps.Patient.Query
 {
-    public class GetPatientQuery : IRequest<List<Domain.Patient>>
+    public class GetAllPatientQuery : IRequest<List<Domain.Patient>>
     {
     }
 
-    public class GetPatientQueryHandler : IRequestHandler<GetPatientQuery, List<Domain.Patient>>
+    public class GetAllPatientQueryHandler : IRequestHandler<GetAllPatientQuery, List<Domain.Patient>>
     {
         private readonly IAppDbContext _appDbContext;
 
-        public GetPatientQueryHandler(IAppDbContext appDbContext)
+        public GetAllPatientQueryHandler(IAppDbContext appDbContext)
         {
             _appDbContext = appDbContext;
         }
 
-        public async Task<List<Domain.Patient>> Handle(GetPatientQuery request, CancellationToken cancellationToken)
+        public async Task<List<Domain.Patient>> Handle(GetAllPatientQuery request, CancellationToken cancellationToken)
         {
             var allPatient = await _appDbContext.Set<Domain.Patient>().ToListAsync();
 

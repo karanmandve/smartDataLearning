@@ -22,9 +22,16 @@ namespace PatientEmployeePatientManagement.Controllers
 
 
         [HttpGet]
+        public async Task<IActionResult> GetActivePatient()
+        {
+            var allPatient = await _mediator.Send(new GetActivePatientQuery());
+            return Ok(allPatient);
+        }
+
+        [HttpGet("allPatient")]
         public async Task<IActionResult> GetAllPatient()
         {
-            var allPatient = await _mediator.Send(new GetPatientQuery());
+            var allPatient = await _mediator.Send(new GetAllPatientQuery());
             return Ok(allPatient);
         }
 
@@ -77,7 +84,7 @@ namespace PatientEmployeePatientManagement.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePatientById(int id)
         {
-            var isDeleted = await _mediator.Send(new DeletePatientByIdCommand { Id = id });
+            var isDeleted = await _mediator.Send(new DeletePatientByIdPermanentCommand { Id = id });
 
             if (!isDeleted)
             {

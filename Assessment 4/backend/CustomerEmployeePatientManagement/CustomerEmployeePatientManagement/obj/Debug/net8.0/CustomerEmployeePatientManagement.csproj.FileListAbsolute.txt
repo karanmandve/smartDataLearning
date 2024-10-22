@@ -302,6 +302,13 @@ C:\Users\karanmandve\Desktop\Assessment 4\Karan Mandve\backend\CustomerEmployeeP
 C:\Users\karanmandve\Desktop\Assessment 4\Karan Mandve\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\Customer.086F67B8.Up2Date
 C:\Users\karanmandve\Desktop\Assessment 4\Karan Mandve\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\CustomerEmployeePatientManagement.genruntimeconfig.cache
 C:\Users\karanmandve\Desktop\Assessment 4\Karan Mandve\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\ref\CustomerEmployeePatientManagement.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\CustomerEmployeePatientManagement.csproj.AssemblyReference.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\CustomerEmployeePatientManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\CustomerEmployeePatientManagement.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\CustomerEmployeePatientManagement.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\CustomerEmployeePatientManagement.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\CustomerEmployeePatientManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\CustomerEmployeePatientManagement.sourcelink.json
 C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\bin\Debug\net8.0\appsettings.json
 C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\bin\Debug\net8.0\CustomerEmployeePatientManagement.exe
@@ -433,14 +440,7 @@ C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmp
 C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\bin\Debug\net8.0\App.Core.pdb
 C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\bin\Debug\net8.0\Infrastructure.pdb
 C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\bin\Debug\net8.0\Domain.pdb
-C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\CustomerEmployeePatientManagement.csproj.AssemblyReference.cache
-C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\CustomerEmployeePatientManagement.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\CustomerEmployeePatientManagement.AssemblyInfoInputs.cache
-C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\CustomerEmployeePatientManagement.AssemblyInfo.cs
-C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\CustomerEmployeePatientManagement.csproj.CoreCompileInputs.cache
 C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\CustomerEmployeePatientManagement.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\CustomerEmployeePatientManagement.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\CustomerEmployeePatientManagement.sourcelink.json
 C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 4\backend\CustomerEmployeePatientManagement\CustomerEmployeePatientManagement\obj\Debug\net8.0\staticwebassets\msbuild.CustomerEmployeePatientManagement.Microsoft.AspNetCore.StaticWebAssets.props

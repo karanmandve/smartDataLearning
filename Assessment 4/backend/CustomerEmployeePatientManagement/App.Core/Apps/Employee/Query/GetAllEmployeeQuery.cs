@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace App.Core.Apps.Employee.Query
 {
-    public class GetEmployeeQuery : IRequest<List<Domain.Employee>>
+    public class GetAllEmployeeQuery : IRequest<List<Domain.Employee>>
     {
     }
-    public class GetEmployeeQueryHandler : IRequestHandler<GetEmployeeQuery, List<Domain.Employee>>
+    public class GetEmployeeQueryHandler : IRequestHandler<GetAllEmployeeQuery, List<Domain.Employee>>
     {
         private readonly IAppDbContext _appDbContext;
 
@@ -21,7 +21,7 @@ namespace App.Core.Apps.Employee.Query
             _appDbContext = appDbContext;
         }
 
-        public async Task<List<Domain.Employee>> Handle(GetEmployeeQuery request, CancellationToken cancellationToken)
+        public async Task<List<Domain.Employee>> Handle(GetAllEmployeeQuery request, CancellationToken cancellationToken)
         {
             var allEmployee = await _appDbContext.Set<Domain.Employee>().ToListAsync();
 

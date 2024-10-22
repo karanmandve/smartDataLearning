@@ -22,9 +22,16 @@ namespace CustomerEmployeePatientManagement.Controllers
 
 
         [HttpGet]
+        public async Task<IActionResult> GetActiveCustomer()
+        {
+            var allCustomer = await _mediator.Send(new GetActiveCustomerQuery());
+            return Ok(allCustomer);
+        }
+
+        [HttpGet("allCustomer")]
         public async Task<IActionResult> GetAllCustomer()
         {
-            var allCustomer = await _mediator.Send(new GetCustomerQuery());
+            var allCustomer = await _mediator.Send(new GetAllCustomer());
             return Ok(allCustomer);
         }
 
@@ -63,21 +70,20 @@ namespace CustomerEmployeePatientManagement.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCustomerById(Customer model, int id)
         {
-            var isUpdated = await _mediator.Send(new UpdateCustomerByIdCommand { Customer = model, Id = id });
+            var response = await _mediator.Send(new UpdateCustomerByIdCommand { Customer = model, Id = id });
 
-            if (!isUpdated)
-            {
-                return NotFound(new { message = "Customer Not Found" });
-            }
-
-            return Ok(new { message = "Update Customer Successfully" });
+            //if (!isUpdated)
+            //{
+            //    return NotFound(new { message = "Customer Not Found" });
+            //}
+            return Ok(response);
+            //return Ok(new { message = "Update Customer Successfully" });
         }
-
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCustomerById(int id)
         {
-            var isDeleted = await _mediator.Send(new DeleteCustomerByIdCommand { Id = id });
+            var isDeleted = await _mediator.Send(new DeleteCustomerByIdPermanentCommand { Id = id });
 
             if (!isDeleted)
             {
@@ -86,6 +92,19 @@ namespace CustomerEmployeePatientManagement.Controllers
 
             return Ok(new { message = "Customer Deleted Successfully" });
         }
+
+        //[HttpDelete("{id}")]
+        //public async Task<IActionResult> DeleteCustomerByIdPermenant(int id)
+        //{
+        //    var isDeleted = await _mediator.Send(new DeleteCustomerByIdCommand { Id = id });
+
+        //    if (!isDeleted)
+        //    {
+        //        return NotFound(new { message = "Customer Not Found" });
+        //    }
+
+        //    return Ok(new { message = "Customer Deleted Successfully" });
+        //}
 
 
     }

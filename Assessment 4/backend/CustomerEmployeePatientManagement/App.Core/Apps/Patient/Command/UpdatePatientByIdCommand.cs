@@ -57,6 +57,7 @@ namespace App.Core.Apps.Patient.Command
             patient.NextAppointmentDate = request.Patient.NextAppointmentDate;
             patient.InsuranceProvider = request.Patient.InsuranceProvider;
             patient.InsurancePolicyNumber = request.Patient.InsurancePolicyNumber;
+            patient.IsPatientActive = request.Patient.IsPatientActive;
 
 
 

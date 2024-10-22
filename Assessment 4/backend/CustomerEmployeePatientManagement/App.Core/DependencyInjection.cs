@@ -2,6 +2,8 @@
 using App.Core.Apps.Customer.Query;
 using App.Core.Apps.Employee.Command;
 using App.Core.Apps.Employee.Query;
+using App.Core.Apps.Patient.Command;
+using App.Core.Apps.Patient.Query;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -21,18 +23,26 @@ namespace App.Core
             services.AddMediatR(cfg =>
             {
                 // FOR CUSTOMER
-                cfg.RegisterServicesFromAssemblyContaining<GetCustomerQuery>();
+                cfg.RegisterServicesFromAssemblyContaining<GetAllCustomer>();
+                cfg.RegisterServicesFromAssemblyContaining<GetActiveCustomerQuery>();
                 cfg.RegisterServicesFromAssemblyContaining<CreateCustomerCommand>();
                 cfg.RegisterServicesFromAssemblyContaining<UpdateCustomerByIdCommand>();
-                cfg.RegisterServicesFromAssemblyContaining<DeleteCustomerByIdCommand>();
+                cfg.RegisterServicesFromAssemblyContaining<DeleteCustomerByIdPermanentCommand>();
 
                 //// FOR EMPLOYEE
                 cfg.RegisterServicesFromAssemblyContaining<CreateEmployeeCommand>();
-                cfg.RegisterServicesFromAssemblyContaining<DeleteEmployeeCommand>();
+                cfg.RegisterServicesFromAssemblyContaining<DeleteEmployeePermanentCommand>();
                 cfg.RegisterServicesFromAssemblyContaining<UpdateEmployeeCommand>();
-                cfg.RegisterServicesFromAssemblyContaining<GetEmployeeQuery>();
+                cfg.RegisterServicesFromAssemblyContaining<GetAllEmployeeQuery>();
+                cfg.RegisterServicesFromAssemblyContaining<GetActiveCustomerQuery>();
 
-                // 
+                // FOR PATIENT
+                cfg.RegisterServicesFromAssemblyContaining<CreatePatientCommand>();
+                cfg.RegisterServicesFromAssemblyContaining<DeletePatientByIdPermanentCommand>();
+                cfg.RegisterServicesFromAssemblyContaining<UpdatePatientByIdCommand>();
+                cfg.RegisterServicesFromAssemblyContaining<GetAllPatientQuery>();
+                cfg.RegisterServicesFromAssemblyContaining<GetActiveCustomerQuery>();
+
             });
 
             return services;
