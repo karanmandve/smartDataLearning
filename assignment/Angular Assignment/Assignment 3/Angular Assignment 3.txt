@@ -1,0 +1,171 @@
+1) What is obersevable and promists and full form rxjs ?
+
+=>
+
+rxjs full form in reactive extension javascript
+
+1) Observables :
+
+In Angular and RxJS, an Observable is a powerful tool for managing asynchronous data streams
+
+i)Lazy Execution:
+Observables do not start executing until they are subscribed to, allowing for deferred execution.
+ii)Multiple Values:
+Observables can emit multiple values over time, making them suitable for handling streams of data.
+iii) Cancellable:
+You can cancel an observable by unsubscribing from it, providing more control over ongoing operations.
+iv) Rich API:
+Observables come with a rich set of operators (e.g., map, filter, merge) for complex data manipulation and transformation.
+v) Error Handling:
+Observables offer robust error handling with operators like catchError, allowing for recovery and continuation of the stream.
+
+2) Promises
+
+i) Eager Execution:
+Promises execute immediately upon creation, without waiting for a subscription.
+ii) Single Value:
+Promises handle a single asynchronous event, either resolving with a value or rejecting with an error.
+iii) Not Cancellable:
+Once a promise is started, it cannot be cancelled.
+iv) Simpler API:
+Promises have a straightforward API with .then(), .catch(), and .finally() methods.
+v) Error Handling:
+Promises handle errors with .catch(), stopping the chain on error.
+
+
+2) What is observable and observer
+
+=>
+
+- Definition:
+An Observer is a consumer of values emitted by an Observable. It is an object that defines callback methods to handle the values, errors, and completion notifications from the Observable.
+
+- Methods:
+An Observer typically implements three methods:
+next(value): Handles each value emitted by the Observable.
+error(err): Handles any error that occurs during the emission process.
+complete(): Handles the completion notification when the Observable has finished emitting values.
+
+
+3) What is inject and injectable ?
+
+=>
+
+i) Injectable
+
+Decorator: The @Injectable() decorator marks a class as available for dependency injection. This allows Angular to create an instance of the class and inject it where needed.
+
+Service Creation: Typically used to create services that can be shared across components. Services can contain business logic, API calls, and other shared functionalities.
+
+Scope: The providedIn property can be used to specify the injector scope (e.g., root, platform, or any). Using providedIn: 'root' makes the service singleton and available throughout the application.
+
+Hierarchical Injectors: Angular supports hierarchical dependency injection, meaning services can be provided at different levels (module, component, etc.), allowing for different instances.
+
+Lazy Loading: Services can be injected in lazy-loaded modules, improving performance by reducing the initial load time of the application.
+
+ii) Inject
+
+Function: The @Inject() function is used to explicitly specify a token for a dependency, especially when the dependency is not the class type or when using multi-providers.
+
+Custom Tokens: Useful for injecting non-class dependencies, like strings or other values. You can create a custom token using InjectionToken.
+
+Constructor Injection: Typically used in a component’s or service’s constructor to declare the dependencies that Angular should inject.
+
+Optional Dependencies: You can use the @Optional() decorator with @Inject() to allow a dependency to be optional. If the dependency isn’t available, it will not throw an error.
+
+Type Safety: Using @Inject() helps maintain type safety when injecting dependencies, especially when dealing with multi-providers or when the type is not a class.
+
+
+4) Diff between String vs StringBuilder.
+
+=>
+
+i) String
+
+- Immutability:
+Strings are immutable, meaning once a string object is created, its value cannot be changed. Any modification creates a new string object12.
+
+- Memory Usage:
+Due to immutability, operations like concatenation or replacement create new string objects, which can lead to higher memory usage and fragmentation12.
+
+- Performance:
+String operations can be slower because each modification results in the creation of a new object, which involves memory allocation and garbage collection12.
+
+- Usage:
+Suitable for scenarios where the string value does not change frequently, such as constant values, messages, or configuration settings12.
+
+- Example:
+string str = "Hello";
+str += " World"; // Creates a new string object
+
+ii) StringBuilder
+
+- Mutability:
+StringBuilder is mutable, meaning you can modify the content without creating new objects. This makes it more efficient for frequent modifications12.
+
+- Memory Usage:
+Uses a resizable buffer to store characters, minimizing memory allocations by reusing the buffer when possible12.
+
+- Performance:
+Generally faster for operations involving frequent string modifications, as it avoids the overhead of creating new objects12.
+
+- Usage:
+Ideal for scenarios where strings are frequently modified, such as building dynamic strings, constructing SQL queries, or processing large text data12.
+
+- Example:
+StringBuilder sb = new StringBuilder("Hello");
+sb.Append(" World"); // Modifies the existing object
+
+
+
+5) What is optimization how to achieve it ?
+
+=>
+
+Optimization in programming refers to the process of making your code run more efficiently by improving its performance and reducing resource consumption.
+
+- Using new algrithm 
+- Reducing for loop
+- Imporve space and time complexity
+
+
+6) Diff in string and char.
+
+=>
+
+- string: Represents a sequence of characters (text). It is a reference type and can hold multiple characters (e.g., "Hello, World!").
+- char: Represents a single character. It is a value type and is used to store individual characters (e.g., 'A').
+
+
+7) what is skipandtake and takewithrange ?
+
+=>
+
+
+SkipAndTake and TakeWithRange are methods often used to paginate collections in programming. In C#, they can be implemented using LINQ's Skip and Take methods.
+
+i) SkipAndTake
+
+SkipAndTake is a common way to implement pagination. It skips a specified number of elements and then takes a specified number of elements from a collection.
+
+- Example
+Here's a simple implementation in C#:
+
+public static IEnumerable<T> SkipAndTake<T>(IEnumerable<T> source, int skipCount, int takeCount)
+{
+    return source.Skip(skipCount).Take(takeCount);
+}
+
+ii) TakeWithRange
+TakeWithRange is a similar concept where you can specify a starting index and a count of how many items to take, effectively combining Skip and Take.
+
+Example
+You can implement TakeWithRange like this:
+
+public static IEnumerable<T> TakeWithRange<T>(IEnumerable<T> source, int start, int count)
+{
+    return source.Skip(start).Take(count);
+}
+
+
+

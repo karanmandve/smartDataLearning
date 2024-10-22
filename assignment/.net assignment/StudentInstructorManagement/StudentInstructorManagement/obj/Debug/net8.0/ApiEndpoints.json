@@ -1,0 +1,228 @@
+[
+  {
+    "ContainingType": "StudentInstructorManagement.Controllers.CourseManagementController",
+    "Method": "GetAllCourses",
+    "RelativePath": "api/CourseManagement",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentInstructorManagement.Controllers.CourseManagementController",
+    "Method": "AddCourse",
+    "RelativePath": "api/CourseManagement",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "course",
+        "Type": "StudentInstructorManagement.Database.Entity.Course",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentInstructorManagement.Controllers.CourseManagementController",
+    "Method": "GetCoursesById",
+    "RelativePath": "api/CourseManagement/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentInstructorManagement.Controllers.CourseManagementController",
+    "Method": "DeleteCourseById",
+    "RelativePath": "api/CourseManagement/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentInstructorManagement.Controllers.InstructorCourseMappingController",
+    "Method": "GetInstructorCourseMapping",
+    "RelativePath": "api/InstructorCourseMapping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentInstructorManagement.Controllers.InstructorCourseMappingController",
+    "Method": "AddInstructorCourseMapping",
+    "RelativePath": "api/InstructorCourseMapping",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseInstructor",
+        "Type": "StudentInstructorManagement.Database.Entity.CourseInstructorMapping",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentInstructorManagement.Controllers.InstructorManagementController",
+    "Method": "GetAllInstructors",
+    "RelativePath": "api/InstructorManagement",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentInstructorManagement.Controllers.InstructorManagementController",
+    "Method": "AddInstructor",
+    "RelativePath": "api/InstructorManagement",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "instructor",
+        "Type": "StudentInstructorManagement.Database.Entity.Instructor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentInstructorManagement.Controllers.InstructorManagementController",
+    "Method": "GetInstructorsById",
+    "RelativePath": "api/InstructorManagement/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentInstructorManagement.Controllers.InstructorManagementController",
+    "Method": "DeleteInstructorById",
+    "RelativePath": "api/InstructorManagement/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentInstructorManagement.Controllers.StudentCourseMappingController",
+    "Method": "GetStudentCourseMapping",
+    "RelativePath": "api/StudentCourseMapping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentInstructorManagement.Controllers.StudentCourseMappingController",
+    "Method": "AddStudentCourseMapping",
+    "RelativePath": "api/StudentCourseMapping",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentCourse",
+        "Type": "StudentInstructorManagement.Database.Entity.StudentCourseMapping",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentInstructorManagement.Controllers.StudentManagementController",
+    "Method": "GetAllStudents",
+    "RelativePath": "api/StudentManagement",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentInstructorManagement.Controllers.StudentManagementController",
+    "Method": "AddStudent",
+    "RelativePath": "api/StudentManagement",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "StudentInstructorManagement.Database.Entity.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentInstructorManagement.Controllers.StudentManagementController",
+    "Method": "GetStudentById",
+    "RelativePath": "api/StudentManagement/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentInstructorManagement.Controllers.StudentManagementController",
+    "Method": "DeleteStudentById",
+    "RelativePath": "api/StudentManagement/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

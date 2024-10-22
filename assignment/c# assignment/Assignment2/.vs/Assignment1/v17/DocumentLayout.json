@@ -1,0 +1,217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{137784BC-0982-4F0A-8657-87DC32EF3A62}|AbstractionAndInterface\\AbstractionAndInterface.csproj|c:\\users\\karanmandve\\desktop\\assignment\\c# assignment\\assignment2\\abstractionandinterface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{137784BC-0982-4F0A-8657-87DC32EF3A62}|AbstractionAndInterface\\AbstractionAndInterface.csproj|solutionrelative:abstractionandinterface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{137784BC-0982-4F0A-8657-87DC32EF3A62}|AbstractionAndInterface\\AbstractionAndInterface.csproj|c:\\users\\karanmandve\\desktop\\assignment\\c# assignment\\assignment2\\abstractionandinterface\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{137784BC-0982-4F0A-8657-87DC32EF3A62}|AbstractionAndInterface\\AbstractionAndInterface.csproj|solutionrelative:abstractionandinterface\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{137784BC-0982-4F0A-8657-87DC32EF3A62}|AbstractionAndInterface\\AbstractionAndInterface.csproj|c:\\users\\karanmandve\\desktop\\assignment\\c# assignment\\assignment2\\abstractionandinterface\\abstraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{137784BC-0982-4F0A-8657-87DC32EF3A62}|AbstractionAndInterface\\AbstractionAndInterface.csproj|solutionrelative:abstractionandinterface\\abstraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{137784BC-0982-4F0A-8657-87DC32EF3A62}|AbstractionAndInterface\\AbstractionAndInterface.csproj|c:\\users\\karanmandve\\desktop\\assignment\\c# assignment\\assignment2\\abstractionandinterface\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{137784BC-0982-4F0A-8657-87DC32EF3A62}|AbstractionAndInterface\\AbstractionAndInterface.csproj|solutionrelative:abstractionandinterface\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6213402-BC2B-4C05-B839-BAC895D02956}|Assignment2\\ClassesAndObjects.csproj|c:\\users\\karanmandve\\desktop\\assignment\\c# assignment\\assignment2\\assignment2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6213402-BC2B-4C05-B839-BAC895D02956}|Assignment2\\ClassesAndObjects.csproj|solutionrelative:assignment2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6213402-BC2B-4C05-B839-BAC895D02956}|Assignment2\\ClassesAndObjects.csproj|c:\\users\\karanmandve\\desktop\\assignment\\c# assignment\\assignment2\\assignment2\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6213402-BC2B-4C05-B839-BAC895D02956}|Assignment2\\ClassesAndObjects.csproj|solutionrelative:assignment2\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1E02D81-5DE6-465A-9DB7-F0B1F19D67E8}|Delegates\\Delegates.csproj|c:\\users\\karanmandve\\desktop\\assignment\\c# assignment\\assignment2\\delegates\\delegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1E02D81-5DE6-465A-9DB7-F0B1F19D67E8}|Delegates\\Delegates.csproj|solutionrelative:delegates\\delegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1E02D81-5DE6-465A-9DB7-F0B1F19D67E8}|Delegates\\Delegates.csproj|c:\\users\\karanmandve\\desktop\\assignment\\c# assignment\\assignment2\\delegates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1E02D81-5DE6-465A-9DB7-F0B1F19D67E8}|Delegates\\Delegates.csproj|solutionrelative:delegates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4260F0DF-B523-4383-8C4A-4CF82CE7FE83}|LambdaExpression\\LambdaExpression.csproj|c:\\users\\karanmandve\\desktop\\assignment\\c# assignment\\assignment2\\lambdaexpression\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4260F0DF-B523-4383-8C4A-4CF82CE7FE83}|LambdaExpression\\LambdaExpression.csproj|solutionrelative:lambdaexpression\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67579B6A-7843-48C5-A098-BEEF454FF58F}|Generic\\Generic.csproj|c:\\users\\karanmandve\\desktop\\assignment\\c# assignment\\assignment2\\generic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67579B6A-7843-48C5-A098-BEEF454FF58F}|Generic\\Generic.csproj|solutionrelative:generic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67579B6A-7843-48C5-A098-BEEF454FF58F}|Generic\\Generic.csproj|c:\\users\\karanmandve\\desktop\\assignment\\c# assignment\\assignment2\\generic\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67579B6A-7843-48C5-A098-BEEF454FF58F}|Generic\\Generic.csproj|solutionrelative:generic\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\Assignment2\\Teacher.cs",
+              "RelativeDocumentMoniker": "Assignment2\\Teacher.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\Assignment2\\Teacher.cs",
+              "RelativeToolTip": "Assignment2\\Teacher.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wB4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T08:43:24.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\Assignment2\\Student.cs",
+              "RelativeDocumentMoniker": "Assignment2\\Student.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\Assignment2\\Student.cs",
+              "RelativeToolTip": "Assignment2\\Student.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T08:42:45.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delegate.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\Delegates\\Delegate.cs",
+              "RelativeDocumentMoniker": "Delegates\\Delegate.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\Delegates\\Delegate.cs",
+              "RelativeToolTip": "Delegates\\Delegate.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T08:09:03.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\Delegates\\Program.cs",
+              "RelativeDocumentMoniker": "Delegates\\Program.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\Delegates\\Program.cs",
+              "RelativeToolTip": "Delegates\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T08:03:12.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Abstraction.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\AbstractionAndInterface\\Abstraction.cs",
+              "RelativeDocumentMoniker": "AbstractionAndInterface\\Abstraction.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\AbstractionAndInterface\\Abstraction.cs",
+              "RelativeToolTip": "AbstractionAndInterface\\Abstraction.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T04:58:06.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Interface.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\AbstractionAndInterface\\Interface.cs",
+              "RelativeDocumentMoniker": "AbstractionAndInterface\\Interface.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\AbstractionAndInterface\\Interface.cs",
+              "RelativeToolTip": "AbstractionAndInterface\\Interface.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T04:58:06.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\AbstractionAndInterface\\Program.cs",
+              "RelativeDocumentMoniker": "AbstractionAndInterface\\Program.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\AbstractionAndInterface\\Program.cs",
+              "RelativeToolTip": "AbstractionAndInterface\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T03:57:34.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Record.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\AbstractionAndInterface\\Record.cs",
+              "RelativeDocumentMoniker": "AbstractionAndInterface\\Record.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\AbstractionAndInterface\\Record.cs",
+              "RelativeToolTip": "AbstractionAndInterface\\Record.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T04:34:21.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\LambdaExpression\\Program.cs",
+              "RelativeDocumentMoniker": "LambdaExpression\\Program.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\LambdaExpression\\Program.cs",
+              "RelativeToolTip": "LambdaExpression\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T04:59:17.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\Generic\\Program.cs",
+              "RelativeDocumentMoniker": "Generic\\Program.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\Generic\\Program.cs",
+              "RelativeToolTip": "Generic\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T08:28:50.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\Generic\\Student.cs",
+              "RelativeDocumentMoniker": "Generic\\Student.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\assignment\\c# assignment\\Assignment2\\Generic\\Student.cs",
+              "RelativeToolTip": "Generic\\Student.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T08:35:17.909Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
