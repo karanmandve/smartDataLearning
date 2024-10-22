@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ControllerExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE14B9D4-01ED-460D-9CFB-06D6C908D194}|ControllerExample\\ControllerExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\controllerexample\\controllerexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE14B9D4-01ED-460D-9CFB-06D6C908D194}|ControllerExample\\ControllerExample.csproj|solutionrelative:controllerexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE14B9D4-01ED-460D-9CFB-06D6C908D194}|ControllerExample\\ControllerExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\controllerexample\\controllerexample\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE14B9D4-01ED-460D-9CFB-06D6C908D194}|ControllerExample\\ControllerExample.csproj|solutionrelative:controllerexample\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE14B9D4-01ED-460D-9CFB-06D6C908D194}|ControllerExample\\ControllerExample.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\controllerexample\\controllerexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE14B9D4-01ED-460D-9CFB-06D6C908D194}|ControllerExample\\ControllerExample.csproj|solutionrelative:controllerexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ControllerExample\\ControllerExample\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "ControllerExample\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ControllerExample\\ControllerExample\\Models\\Person.cs",
+              "RelativeToolTip": "ControllerExample\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T05:55:31.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ControllerExample\\ControllerExample\\Program.cs",
+              "RelativeDocumentMoniker": "ControllerExample\\Program.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ControllerExample\\ControllerExample\\Program.cs",
+              "RelativeToolTip": "ControllerExample\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T05:13:51.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ControllerExample\\ControllerExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ControllerExample\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\ControllerExample\\ControllerExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ControllerExample\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T05:13:43.989Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

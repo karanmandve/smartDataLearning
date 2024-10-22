@@ -1,0 +1,284 @@
+<div class="container">
+    <div
+      class="rounded-2 title mt-5 align-middle"
+      style="color: whitesmoke; background-color: #77CDFF; height: 7rem"
+    >
+      <h1 class="mt-2 ps-2" style="display: inline-block">Customer Form</h1>
+      <p class="ps-2">Fill All Details</p>
+    </div>
+  
+    <form class="mt-2 row g-3 needs-validation" novalidate [formGroup]="customerForm">
+        <div class="col-md-4">
+          <label for="firstName" class="form-label">First Name</label>
+          <input formControlName="firstName" name="firstName" type="text" class="form-control" id="firstName" required minlength="3" />
+          <div class="text-danger" *ngIf="customerForm.controls['firstName'].touched || customerForm.controls['firstName'].dirty">
+            <span *ngIf="customerForm.controls['firstName'].errors?.['required']">This is required</span>
+            <span *ngIf="customerForm.controls['firstName'].errors?.['minlength']">Min 3 characters required</span>
+          </div>
+          <div class="valid-feedback">Looks good!</div>
+        </div>
+        <div class="col-md-4">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input formControlName="lastName" name="lastName" type="text" class="form-control" id="lastName" required />
+          <div class="valid-feedback">Looks good!</div>
+        </div>
+        <div class="col-md-4">
+          <label for="age" class="form-label">Age</label>
+          <input formControlName="age" name="age" type="number" class="form-control" id="age" required />
+          <div class="invalid-feedback">Please provide a valid age.</div>
+        </div>
+        <div class="col-md-4">
+          <label for="email" class="form-label">Email</label>
+          <input formControlName="email" name="email" type="email" class="form-control" id="email" required />
+          <div class="text-danger" *ngIf="customerForm.controls['email'].touched || customerForm.controls['email'].dirty">
+            <span *ngIf="customerForm.controls['email'].errors?.['email']">Email not valid</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="phoneNumber" class="form-label">Phone Number</label>
+          <input formControlName="phoneNumber" name="phoneNumber" type="text" class="form-control" id="phoneNumber" required />
+          <div class="invalid-feedback">Please provide a valid phone number.</div>
+        </div>
+        <div class="col-md-4">
+          <label for="address" class="form-label">Address</label>
+          <input formControlName="address" name="address" type="text" class="form-control" id="address" required />
+          <div class="invalid-feedback">Please provide a valid address.</div>
+        </div>
+        <div class="col-md-3">
+          <label for="city" class="form-label">City</label>
+          <input formControlName="city" name="city" type="text" class="form-control" id="city" required />
+          <div class="invalid-feedback">Please provide a valid city.</div>
+        </div>
+        <div class="col-md-3">
+          <label for="state" class="form-label">State</label>
+          <input formControlName="state" name="state" type="text" class="form-control" id="state" required />
+          <div class="invalid-feedback">Please provide a valid state.</div>
+        </div>
+        <div class="col-md-3">
+          <label for="country" class="form-label">Country</label>
+          <input formControlName="country" name="country" type="text" class="form-control" id="country" required />
+          <div class="invalid-feedback">Please provide a valid country.</div>
+        </div>
+        <div class="col-md-3">
+          <label for="postalCode" class="form-label">Postal Code</label>
+          <input formControlName="postalCode" name="postalCode" type="text" class="form-control" id="postalCode" required />
+          <div class="invalid-feedback">Please provide a valid postal code.</div>
+        </div>
+        <div class="col-md-3">
+          <label for="gender" class="form-label">Gender</label>
+          <input formControlName="gender" name="gender" type="text" class="form-control" id="gender" required />
+          <div class="invalid-feedback">Please provide a valid gender.</div>
+        </div>
+        <div class="col-md-3">
+          <label for="birthday" class="form-label">Birthday</label>
+          <input formControlName="birthday" name="birthday" type="datetime-local" class="form-control" id="birthday" required />
+          <div class="invalid-feedback">Please provide a valid birthday.</div>
+        </div>
+        <div class="col-md-3">
+          <label for="customerSince" class="form-label">Customer Since</label>
+          <input formControlName="customerSince" name="customerSince" type="datetime-local" class="form-control" id="customerSince" required />
+          <div class="invalid-feedback">Please provide a valid date.</div>
+        </div>
+        <div class="col-md-3">
+            <label for="totalSpent" class="form-label">Total Spent</label>
+            <input formControlName="totalSpent" name="totalSpent" type="number" class="form-control" id="totalSpent" required />
+            <div class="invalid-feedback">Please provide a valid amount.</div>
+        </div>
+        <div class="col-md-3">
+            <label for="lastPurchaseDate" class="form-label">Last Purchase Date</label>
+            <input formControlName="lastPurchaseDate" name="lastPurchaseDate" type="datetime-local" class="form-control" id="lastPurchaseDate" required />
+            <div class="invalid-feedback">Please provide a valid date.</div>
+        </div>
+        <div class="col-md-3">
+            <label for="preferredLanguage" class="form-label">Preferred Language</label>
+            <input formControlName="preferredLanguage" name="preferredLanguage" type="text" class="form-control" id="preferredLanguage" required />
+            <div class="invalid-feedback">Please provide a valid language.</div>
+        </div>
+        <div class="col-md-3">
+            <label for="customerStatus" class="form-label">Customer Status</label>
+            <input formControlName="customerStatus" name="customerStatus" type="text" class="form-control" id="customerStatus" required />
+            <div class="invalid-feedback">Please provide a valid status.</div>
+        </div>
+        <div class="col-md-3">
+            <label for="customerRating" class="form-label">Customer Rating</label>
+            <input formControlName="customerRating" name="customerRating" type="number" class="form-control" id="customerRating" required />
+            <div class="invalid-feedback">Please provide a valid rating.</div>
+        </div>
+        <div class="col-md-3 mt-5">
+          <label for="isMembershipActive" class="form-label">Membership Active</label>
+          <input formControlName="isMembershipActive" name="isMembershipActive" type="checkbox" class="ms-2 form-check-input" id="isMembershipActive" />
+        </div>
+        <!-- <div class="col-md-3 mt-5">
+          <label for="isCustomerActive" class="form-label">Customer Active</label>
+          <input formControlName="isCustomerActive" name="isCustomerActive" type="checkbox" class="ms-2 form-check-input" id="isCustomerActive" />
+        </div> -->
+
+        <div class="col-12 d-flex gap-3">
+            <button class="btn btn-primary" type="submit" (click)="resetForm()">
+              Reset form
+            </button>
+           
+
+                <button *ngIf="!updatedMode" class="btn btn-primary" type="submit" [disabled]="customerForm.invalid" (click)="onSubmit()">
+                    Submit form
+                </button>
+            
+                <button *ngIf="updatedMode" class="btn btn-primary" type="submit" [disabled]="customerForm.invalid" (click)="onUpdate()">
+                    Update form
+                </button>
+            
+          </div>
+      </form>
+  
+    <hr class="mt-4" />
+  
+    <!-- <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Action</th>
+                <th *ngFor="let item of allCustomer; let i = index">
+                    <button class="btn btn-primary me-2" (click)="updateCustomer(item)">Update</button>
+                    <button class="btn btn-warning" (click)="onDelete(item)">Delete</button>
+
+                </th>
+              </tr>
+          <tr>
+            <th>Sr. No.</th>
+            <th *ngFor="let item of allCustomer; let i = index">{{ i + 1 }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>First Name</th>
+            <td *ngFor="let item of allCustomer">{{ item.firstName }}</td>
+          </tr>
+          <tr>
+            <th>Last Name</th>
+            <td *ngFor="let item of allCustomer">{{ item.lastName }}</td>
+          </tr>
+          <tr>
+            <th>Age</th>
+            <td *ngFor="let item of allCustomer">{{ item.age }}</td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td *ngFor="let item of allCustomer">{{ item.email }}</td>
+          </tr>
+          <tr>
+            <th>Phone Number</th>
+            <td *ngFor="let item of allCustomer">{{ item.phoneNumber }}</td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td *ngFor="let item of allCustomer">{{ item.address }}</td>
+          </tr>
+          <tr>
+            <th>City</th>
+            <td *ngFor="let item of allCustomer">{{ item.city }}</td>
+          </tr>
+          <tr>
+            <th>State</th>
+            <td *ngFor="let item of allCustomer">{{ item.state }}</td>
+          </tr>
+          <tr>
+            <th>Country</th>
+            <td *ngFor="let item of allCustomer">{{ item.country }}</td>
+          </tr>
+          <tr>
+            <th>Postal Code</th>
+            <td *ngFor="let item of allCustomer">{{ item.postalCode }}</td>
+          </tr>
+          <tr>
+            <th>Gender</th>
+            <td *ngFor="let item of allCustomer">{{ item.gender }}</td>
+          </tr>
+          <tr>
+            <th>Birthday</th>
+            <td *ngFor="let item of allCustomer">{{ item.birthday }}</td>
+          </tr>
+          <tr>
+            <th>Customer Since</th>
+            <td *ngFor="let item of allCustomer">{{ item.customerSince }}</td>
+          </tr>
+          <tr>
+            <th>Membership Active</th>
+            <td *ngFor="let item of allCustomer">{{ item.isMembershipActive }}</td>
+          </tr>
+          <tr>
+            <th>Total Spent</th>
+            <td *ngFor="let item of allCustomer">{{ item.totalSpent }}</td>
+          </tr>
+          <tr>
+            <th>Last Purchase Date</th>
+            <td *ngFor="let item of allCustomer">{{ item.lastPurchaseDate }}</td>
+          </tr>
+          <tr>
+            <th>Preferred Language</th>
+            <td *ngFor="let item of allCustomer">{{ item.preferredLanguage }}</td>
+          </tr>
+          <tr>
+            <th>Customer Status</th>
+            <td *ngFor="let item of allCustomer">{{ item.customerStatus }}</td>
+          </tr>
+          <tr>
+            <th>Customer Rating</th>
+            <td *ngFor="let item of allCustomer">{{ item.customerRating }}</td>
+          </tr>
+          <tr>
+            <th>Active</th>
+            <td *ngFor="let item of allCustomer">{{ item.isCustomerActive }}</td>
+          </tr>
+        </tbody>
+      </table> -->
+      
+
+      
+<div class="row">
+  <div class="col-12">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Sr No.</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+          <th>Country</th>
+          <th>City</th>
+          <th>Gender</th>
+          <th>Birthday</th>
+          <th>Customer Rating</th>
+          <th>Action</th>
+
+
+
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of allCustomer;let srNumber = index">
+          <td>{{ srNumber+1 }}</td>
+          <td>{{ item.firstName }}</td>
+          <td>{{ item.lastName }}</td>
+          <td>{{ item.age }}</td>
+          <td>{{ item.country }}</td>
+          <td>{{ item.city }}</td>
+          <td>{{ item.gender }}</td>
+          <td>{{ item.birthday }}</td>
+          <td>{{ item.customerRating }}</td>
+          <td>
+            <button class="btn btn-primary me-2" (click)="updateCustomer(item)">Update</button>
+            <button class="btn btn-warning" (click)="onDelete(item)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+  </div>
+
+</div>
+
+
+
+
+    </div>

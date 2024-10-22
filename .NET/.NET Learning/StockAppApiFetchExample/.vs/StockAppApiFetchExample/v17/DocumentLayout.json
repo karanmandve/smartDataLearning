@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Roaming\\Microsoft\\UserSecrets\\9556c88a-7c05-49d8-b534-bd7310fac9e0\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\stockappapifetchexample\\stockappapifetchexample\\services\\finnhubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|solutionrelative:stockappapifetchexample\\services\\finnhubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\stockappapifetchexample\\stockappapifetchexample\\stockappapifetchexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|solutionrelative:stockappapifetchexample\\stockappapifetchexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\stockappapifetchexample\\stockappapifetchexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|solutionrelative:stockappapifetchexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\stockappapifetchexample\\stockappapifetchexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|solutionrelative:stockappapifetchexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\stockappapifetchexample\\stockappapifetchexample\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|solutionrelative:stockappapifetchexample\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\stockappapifetchexample\\stockappapifetchexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|solutionrelative:stockappapifetchexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\stockappapifetchexample\\stockappapifetchexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|solutionrelative:stockappapifetchexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\stockappapifetchexample\\stockappapifetchexample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|solutionrelative:stockappapifetchexample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\stockappapifetchexample\\stockappapifetchexample\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|solutionrelative:stockappapifetchexample\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\stockappapifetchexample\\stockappapifetchexample\\servicecontracts\\ifinnhubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|solutionrelative:stockappapifetchexample\\servicecontracts\\ifinnhubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\stockappapifetchexample\\stockappapifetchexample\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A211DB92-3451-4CBC-81E2-2B6F6D66696C}|StockAppApiFetchExample\\StockAppApiFetchExample.csproj|solutionrelative:stockappapifetchexample\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\karanmandve\\AppData\\Roaming\\Microsoft\\UserSecrets\\9556c88a-7c05-49d8-b534-bd7310fac9e0\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Services\\MyService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Roaming\\Microsoft\\UserSecrets\\9556c88a-7c05-49d8-b534-bd7310fac9e0\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\9556c88a-7c05-49d8-b534-bd7310fac9e0\\secrets.json",
+              "ToolTip": "C:\\Users\\user\\AppData\\Roaming\\Microsoft\\UserSecrets\\9556c88a-7c05-49d8-b534-bd7310fac9e0\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\9556c88a-7c05-49d8-b534-bd7310fac9e0\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-14T16:04:46.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "StockAppApiFetchExample\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "StockAppApiFetchExample\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T06:29:13.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StockAppApiFetchExample\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StockAppApiFetchExample\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T06:18:09.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FinnhubService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Services\\FinnhubService.cs",
+              "RelativeDocumentMoniker": "StockAppApiFetchExample\\Services\\FinnhubService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Services\\FinnhubService.cs",
+              "RelativeToolTip": "StockAppApiFetchExample\\Services\\FinnhubService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAtwBcAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T08:40:38.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Program.cs",
+              "RelativeDocumentMoniker": "StockAppApiFetchExample\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Program.cs",
+              "RelativeToolTip": "StockAppApiFetchExample\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T16:45:28.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\appsettings.json",
+              "RelativeDocumentMoniker": "StockAppApiFetchExample\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\appsettings.json",
+              "RelativeToolTip": "StockAppApiFetchExample\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-09T06:35:17.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "StockAppApiFetchExample\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "StockAppApiFetchExample\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T06:28:19.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StockAppApiFetchExample.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\StockAppApiFetchExample.csproj",
+              "RelativeDocumentMoniker": "StockAppApiFetchExample\\StockAppApiFetchExample.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\StockAppApiFetchExample.csproj",
+              "RelativeToolTip": "StockAppApiFetchExample\\StockAppApiFetchExample.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-09T08:58:04.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "StockAppApiFetchExample\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "StockAppApiFetchExample\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABEAAACAmZmZmZkdwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T06:16:44.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Models\\Stock.cs",
+              "RelativeDocumentMoniker": "StockAppApiFetchExample\\Models\\Stock.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Models\\Stock.cs",
+              "RelativeToolTip": "StockAppApiFetchExample\\Models\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T09:08:47.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IFinnhubService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\ServiceContracts\\IFinnhubService.cs",
+              "RelativeDocumentMoniker": "StockAppApiFetchExample\\ServiceContracts\\IFinnhubService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\ServiceContracts\\IFinnhubService.cs",
+              "RelativeToolTip": "StockAppApiFetchExample\\ServiceContracts\\IFinnhubService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T08:37:14.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "StockAppApiFetchExample\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\appsettings.Development.json",
+              "RelativeToolTip": "StockAppApiFetchExample\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-09T09:13:35.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\AppData\\Roaming\\Microsoft\\UserSecrets\\9556c88a-7c05-49d8-b534-bd7310fac9e0\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\karanmandve\\AppData\\Roaming\\Microsoft\\UserSecrets\\9556c88a-7c05-49d8-b534-bd7310fac9e0\\secrets.json",
+              "ToolTip": "C:\\Users\\karanmandve\\AppData\\Roaming\\Microsoft\\UserSecrets\\9556c88a-7c05-49d8-b534-bd7310fac9e0\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\karanmandve\\AppData\\Roaming\\Microsoft\\UserSecrets\\9556c88a-7c05-49d8-b534-bd7310fac9e0\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-09T09:01:47.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MyService.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Services\\MyService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Services\\MyService.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Services\\MyService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\StockAppApiFetchExample\\StockAppApiFetchExample\\Services\\MyService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T06:36:33.368Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

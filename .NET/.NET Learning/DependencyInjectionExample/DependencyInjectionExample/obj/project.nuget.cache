@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "VH0Bb/9KMXQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\DependencyInjectionExample\\DependencyInjectionExample\\DependencyInjectionExample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\karanmandve\\.nuget\\packages\\autofac\\8.1.0\\autofac.8.1.0.nupkg.sha512",
+    "C:\\Users\\karanmandve\\.nuget\\packages\\autofac.extensions.dependencyinjection\\10.0.0\\autofac.extensions.dependencyinjection.10.0.0.nupkg.sha512",
+    "C:\\Users\\karanmandve\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\karanmandve\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.1\\system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

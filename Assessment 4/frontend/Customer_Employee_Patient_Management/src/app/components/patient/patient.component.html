@@ -1,0 +1,236 @@
+
+<div class="container">
+  <div class="rounded-2 title mt-5 align-middle" style="color: whitesmoke; background-color: #77CDFF; height: 7rem">
+    <h1 class="mt-2 ps-2" style="display: inline-block">Patient Form</h1>
+    <p class="ps-2">Fill All Details</p>
+  </div>
+
+  <form class="mt-2 row g-3 needs-validation" novalidate [formGroup]="patientForm">
+    <div class="col-md-4">
+      <label for="firstName" class="form-label">First Name</label>
+      <input formControlName="firstName" name="firstName" type="text" class="form-control" id="firstName" required minlength="3" />
+      <div class="text-danger" *ngIf="patientForm.controls['firstName'].touched || patientForm.controls['firstName'].dirty">
+        <span *ngIf="patientForm.controls['firstName'].errors?.['required']">This is required</span>
+        <span *ngIf="patientForm.controls['firstName'].errors?.['minlength']">Min 3 characters required</span>
+      </div>
+      <div class="valid-feedback">Looks good!</div>
+    </div>
+
+    <div class="col-md-4">
+      <label for="lastName" class="form-label">Last Name</label>
+      <input formControlName="lastName" name="lastName" type="text" class="form-control" id="lastName" />
+      <div class="valid-feedback">Looks good!</div>
+    </div>
+
+    <div class="col-md-4">
+      <label for="age" class="form-label">Age</label>
+      <input formControlName="age" name="age" type="number" class="form-control" id="age" required />
+      <div class="invalid-feedback">Please provide a valid age between 0 and 130.</div>
+    </div>
+
+    <div class="col-md-4">
+      <label for="email" class="form-label">Email</label>
+      <input formControlName="email" name="email" type="email" class="form-control" id="email" required />
+      <div class="text-danger" *ngIf="patientForm.controls['email'].touched || patientForm.controls['email'].dirty">
+        <span *ngIf="patientForm.controls['email'].errors?.['email']">Email not valid</span>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <label for="gender" class="form-label">Gender</label>
+      <input formControlName="gender" name="gender" type="text" class="form-control" id="gender" />
+    </div>
+
+    <div class="col-md-4">
+      <label for="phoneNumber" class="form-label">Phone Number</label>
+      <input formControlName="phoneNumber" name="phoneNumber" type="text" class="form-control" id="phoneNumber" />
+    </div>
+
+    <div class="col-md-4">
+      <label for="address" class="form-label">Address</label>
+      <input formControlName="address" name="address" type="text" class="form-control" id="address" />
+    </div>
+
+    <div class="col-md-4">
+      <label for="city" class="form-label">City</label>
+      <input formControlName="city" name="city" type="text" class="form-control" id="city" />
+    </div>
+
+    <div class="col-md-4">
+      <label for="state" class="form-label">State</label>
+      <input formControlName="state" name="state" type="text" class="form-control" id="state" />
+    </div>
+
+    <div class="col-md-4">
+      <label for="country" class="form-label">Country</label>
+      <input formControlName="country" name="country" type="text" class="form-control" id="country" />
+    </div>
+
+    <div class="col-md-4">
+      <label for="postalCode" class="form-label">Postal Code</label>
+      <input formControlName="postalCode" name="postalCode" type="text" class="form-control" id="postalCode" />
+    </div>
+
+    <div class="col-md-4">
+      <label for="bloodType" class="form-label">Blood Type</label>
+      <input formControlName="bloodType" name="bloodType" type="text" class="form-control" id="bloodType" />
+    </div>
+
+    <div class="col-md-4">
+      <label for="height" class="form-label">Height (cm)</label>
+      <input formControlName="height" name="height" type="number" class="form-control" id="height" />
+      <div class="invalid-feedback">Please provide a valid height.</div>
+    </div>
+
+    <div class="col-md-4">
+      <label for="weight" class="form-label">Weight (kg)</label>
+      <input formControlName="weight" name="weight" type="number" class="form-control" id="weight" />
+      <div class="invalid-feedback">Please provide a valid weight.</div>
+    </div>
+
+    <div class="col-md-4">
+      <label for="medications" class="form-label">Medications</label>
+      <input formControlName="medications" name="medications" type="text" class="form-control" id="medications" />
+    </div>
+
+    <div class="col-md-4">
+      <label for="lastVisitDate" class="form-label">Last Visit Date</label>
+      <input formControlName="lastVisitDate" name="lastVisitDate" type="datetime-local" class="form-control" id="lastVisitDate" />
+    </div>
+
+    <div class="col-md-4">
+      <label for="nextAppointmentDate" class="form-label">Next Appointment Date</label>
+      <input formControlName="nextAppointmentDate" name="nextAppointmentDate" type="datetime-local" class="form-control" id="nextAppointmentDate" />
+    </div>
+
+    <div class="col-md-4">
+      <label for="insuranceProvider" class="form-label">Insurance Provider</label>
+      <input formControlName="insuranceProvider" name="insuranceProvider" type="text" class="form-control" id="insuranceProvider" />
+    </div>
+
+    <div class="col-md-4">
+      <label for="insurancePolicyNumber" class="form-label">Insurance Policy Number</label>
+      <input formControlName="insurancePolicyNumber" name="insurancePolicyNumber" type="number" class="form-control" id="insurancePolicyNumber" />
+    </div>
+
+    <!-- <div class="col-md-3 mt-5">
+      <label for="isPatientActive" class="form-label">Patient Active</label>
+      <input formControlName="isPatientActive" name="isPatientActive" type="checkbox" class="ms-2 form-check-input" id="isPatientActive" />
+    </div> -->
+
+    
+
+    <div class="col-12 d-flex gap-3">
+      <button class="btn btn-primary" type="submit" (click)="resetForm()">Reset form</button>
+      <button *ngIf="!updatedMode" class="btn btn-primary" type="submit" [disabled]="patientForm.invalid" (click)="onSubmit()">Submit form</button>
+      <button *ngIf="updatedMode" class="btn btn-primary" type="submit" [disabled]="patientForm.invalid" (click)="onUpdate()">Update form</button>
+    </div>
+    
+  </form>
+
+  <hr class="mt-4" />
+
+
+  <div class="row">
+    <div class="col-12">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Sr No.</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>Country</th>
+            <th>City</th>
+            <th>Gender</th>
+            <th>Blood Type</th>
+            <th>Medication</th>
+            <th>Next Appointment</th>
+            <th>Action</th>
+  
+  
+  
+  
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of allPatient;let srNumber = index">
+            <td>{{ srNumber+1 }}</td>
+            <td>{{ item.firstName }}</td>
+            <td>{{ item.lastName }}</td>
+            <td>{{ item.age }}</td>
+            <td>{{ item.country }}</td>
+            <td>{{ item.city }}</td>
+            <td>{{ item.gender }}</td>
+            <td>{{ item.bloodType }}</td>
+            <td>{{ item.medications }}</td>
+            <td>{{ item.nextAppointmentDate }}</td>
+            <td>
+              <button class="btn btn-primary me-2" (click)="updatePatient(item)">Update</button>
+              <button class="btn btn-warning" (click)="onDelete(item)">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  
+  
+    </div>
+  
+  </div>
+  
+ 
+
+
+
+
+
+
+  <!-- <table class="table table-bordered table-hover">
+    <thead>
+      <tr>
+        <th>Action</th>
+        <th *ngFor="let item of allPatient; let i = index">
+          <button class="btn btn-primary me-2" (click)="updatePatient(item)">Update</button>
+          <button class="btn btn-warning" (click)="onDelete(item)">Delete</button>
+        </th>
+      </tr>
+      <tr>
+        <th>Sr. No.</th>
+        <th *ngFor="let item of allPatient; let i = index">{{ i + 1 }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>First Name</th>
+        <td *ngFor="let item of allPatient">{{ item.firstName }}</td>
+      </tr>
+      <tr>
+        <th>Last Name</th>
+        <td *ngFor="let item of allPatient">{{ item.lastName }}</td>
+      </tr>
+      <tr>
+        <th>Age</th>
+        <td *ngFor="let item of allPatient">{{ item.age }}</td>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <td *ngFor="let item of allPatient">{{ item.email }}</td>
+      </tr>
+      <tr>
+        <th>Phone Number</th>
+        <td *ngFor="let item of allPatient">{{ item.phoneNumber }}</td>
+      </tr>
+      <tr>
+        <th>Address</th>
+        <td *ngFor="let item of allPatient">{{ item.address }}</td>
+      </tr>
+      <tr>
+        <th>City</th>
+        <td *ngFor="let item of allPatient">{{ item.city }}</td>
+      </tr>
+      <tr>
+        <th>State</th>
+        <td *ngFor="let item of allPatient">{{ item.state }}</td>
+      </tr>
+      <tr>
+        <th> -->

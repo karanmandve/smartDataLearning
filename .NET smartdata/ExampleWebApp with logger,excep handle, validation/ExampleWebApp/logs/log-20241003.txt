@@ -1,0 +1,61 @@
+2024-10-03 20:39:32.179 +05:30 [INF] Now listening on: http://localhost:5275
+2024-10-03 20:39:33.371 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-03 20:39:33.373 +05:30 [INF] Hosting environment: Development
+2024-10-03 20:39:33.373 +05:30 [INF] Content root path: C:\Users\user\Desktop\smartDataLearning\.NET smartdata\ExampleWebApp with logger,excep handle, validation\ExampleWebApp
+2024-10-03 20:39:44.336 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger - null null
+2024-10-03 20:39:46.121 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger - 301 0 null 1810.7775ms
+2024-10-03 20:39:46.146 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/index.html - null null
+2024-10-03 20:39:46.330 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/swagger-ui.css - null null
+2024-10-03 20:39:46.332 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/swagger-ui-bundle.js - null null
+2024-10-03 20:39:46.332 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/swagger-ui-standalone-preset.js - null null
+2024-10-03 20:39:46.344 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/index.html - 200 null text/html;charset=utf-8 198.6253ms
+2024-10-03 20:39:46.384 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5275/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-03 20:39:46.402 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5275/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 18.2795ms
+2024-10-03 20:39:46.448 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-10-03 20:39:46.448 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-10-03 20:39:46.451 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/swagger-ui.css - 200 143943 text/css 121.9019ms
+2024-10-03 20:39:46.451 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 119.0427ms
+2024-10-03 20:39:46.476 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5275/_vs/browserLink - null null
+2024-10-03 20:39:46.484 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-10-03 20:39:46.487 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 154.9844ms
+2024-10-03 20:39:46.911 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 435.4794ms
+2024-10-03 20:39:47.264 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - null null
+2024-10-03 20:39:47.398 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/favicon-32x32.png - null null
+2024-10-03 20:39:47.400 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-10-03 20:39:47.402 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/favicon-32x32.png - 200 628 image/png 3.8162ms
+2024-10-03 20:39:48.032 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 767.9684ms
+2024-10-03 20:51:35.250 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5275/api/StudentsCQRS/ValidationTest - application/json 40
+2024-10-03 20:51:35.255 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-10-03 20:51:35.287 +05:30 [INF] Executing endpoint 'ExampleWebApp.Controllers.StudentsCQRSController.ValidationTest (ExampleWebApp)'
+2024-10-03 20:51:35.451 +05:30 [INF] Route matched with {action = "ValidationTest", controller = "StudentsCQRS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ValidationTest(ExampleWebApp.Models.TestModelDto, FluentValidation.IValidator`1[ExampleWebApp.Models.TestModelDto]) on controller ExampleWebApp.Controllers.StudentsCQRSController (ExampleWebApp).
+2024-10-03 20:51:35.853 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-10-03 20:51:35.882 +05:30 [INF] Executed action ExampleWebApp.Controllers.StudentsCQRSController.ValidationTest (ExampleWebApp) in 420.7372ms
+2024-10-03 20:51:35.884 +05:30 [INF] Executed endpoint 'ExampleWebApp.Controllers.StudentsCQRSController.ValidationTest (ExampleWebApp)'
+2024-10-03 20:51:35.885 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5275/api/StudentsCQRS/ValidationTest - 400 null text/plain; charset=utf-8 634.2908ms
+2024-10-03 20:51:47.930 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5275/api/StudentsCQRS/ExceptionTest - null null
+2024-10-03 20:51:47.934 +05:30 [INF] Executing endpoint 'ExampleWebApp.Controllers.StudentsCQRSController.ExceptionTest (ExampleWebApp)'
+2024-10-03 20:51:47.943 +05:30 [INF] Route matched with {action = "ExceptionTest", controller = "StudentsCQRS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExceptionTest() on controller ExampleWebApp.Controllers.StudentsCQRSController (ExampleWebApp).
+2024-10-03 20:51:50.348 +05:30 [ERR]    at ExampleWebApp.Controllers.StudentsCQRSController.ExceptionTest() in C:\Users\user\Desktop\smartDataLearning\.NET smartdata\ExampleWebApp with logger,excep handle, validation\ExampleWebApp\Controllers\StudentsCQRSController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+System.Exception: Test
+   at ExampleWebApp.Controllers.StudentsCQRSController.ExceptionTest() in C:\Users\user\Desktop\smartDataLearning\.NET smartdata\ExampleWebApp with logger,excep handle, validation\ExampleWebApp\Controllers\StudentsCQRSController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-10-03 20:51:50.356 +05:30 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-03 20:51:50.381 +05:30 [INF] Executed action ExampleWebApp.Controllers.StudentsCQRSController.ExceptionTest (ExampleWebApp) in 2435.601ms
+2024-10-03 20:51:50.383 +05:30 [INF] Executed endpoint 'ExampleWebApp.Controllers.StudentsCQRSController.ExceptionTest (ExampleWebApp)'
+2024-10-03 20:51:50.384 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5275/api/StudentsCQRS/ExceptionTest - 500 null application/json; charset=utf-8 2453.9256ms
+2024-10-03 21:20:40.412 +05:30 [INF] Application is shutting down...

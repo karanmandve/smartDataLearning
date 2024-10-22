@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@inject ICitiesService citiesServiceInView
+
+@model IEnumerable<string>
+@{
+    ViewBag.Title = "Home";
+}
+
+
+<h1>Cities</h1>
+
+@{
+    var citiesFromServiceInView = citiesServiceInView.GetCities();
+}
+
+<ul class="list">
+@foreach (string city in citiesFromServiceInView)
+{
+    <li>@city</li>
+}
+</ul>
+
+
+<div>@ViewBag.InstaceId_CitiesService_1</div>
+<div>@ViewBag.InstaceId_CitiesService_2</div>
+<div>@ViewBag.InstaceId_CitiesService_3</div>
+<div>@citiesServiceInView.ServiceInstanceId</div>
+
+
+<div class="box">
+    <h4>Child Scope Dispose Service</h4>
+    @ViewBag.InstanceI_CitiesService_ChildScope
+</div>

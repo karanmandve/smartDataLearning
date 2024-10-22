@@ -1,0 +1,14 @@
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\LambdaExpression\bin\Debug\net8.0\LambdaExpression.exe
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\LambdaExpression\bin\Debug\net8.0\LambdaExpression.deps.json
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\LambdaExpression\bin\Debug\net8.0\LambdaExpression.runtimeconfig.json
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\LambdaExpression\bin\Debug\net8.0\LambdaExpression.dll
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\LambdaExpression\bin\Debug\net8.0\LambdaExpression.pdb
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\LambdaExpression\obj\Debug\net8.0\LambdaExpression.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\LambdaExpression\obj\Debug\net8.0\LambdaExpression.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\LambdaExpression\obj\Debug\net8.0\LambdaExpression.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\LambdaExpression\obj\Debug\net8.0\LambdaExpression.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\LambdaExpression\obj\Debug\net8.0\LambdaExpression.dll
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\LambdaExpression\obj\Debug\net8.0\refint\LambdaExpression.dll
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\LambdaExpression\obj\Debug\net8.0\LambdaExpression.pdb
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\LambdaExpression\obj\Debug\net8.0\LambdaExpression.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\assignment\c# assignment\Assignment2\LambdaExpression\obj\Debug\net8.0\ref\LambdaExpression.dll

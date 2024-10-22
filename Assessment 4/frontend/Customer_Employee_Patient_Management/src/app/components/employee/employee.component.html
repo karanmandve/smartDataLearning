@@ -1,0 +1,267 @@
+<div class="container">
+    <div
+      class="rounded-2 title mt-5 align-middle"
+      style="color: whitesmoke; background-color: #77CDFF; height: 7rem"
+    >
+      <h1 class="mt-2 ps-2" style="display: inline-block">Employee Form</h1>
+      <p class="ps-2">Fill All Details</p>
+    </div>
+  
+    <form class="mt-2 row g-3 needs-validation" novalidate [formGroup]="employeeForm">
+        <div class="col-md-4">
+          <label for="firstName" class="form-label">First Name</label>
+          <input formControlName="firstName" name="firstName" type="text" class="form-control" id="firstName" required minlength="3" />
+          <div class="text-danger" *ngIf="employeeForm.controls['firstName'].touched || employeeForm.controls['firstName'].dirty">
+            <span *ngIf="employeeForm.controls['firstName'].errors?.['required']">This is required</span>
+            <span *ngIf="employeeForm.controls['firstName'].errors?.['minlength']">Min 3 characters required</span>
+          </div>
+          <div class="valid-feedback">Looks good!</div>
+        </div>
+        <div class="col-md-4">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input formControlName="lastName" name="lastName" type="text" class="form-control" id="lastName" />
+          <div class="valid-feedback">Looks good!</div>
+        </div>
+        <div class="col-md-4">
+          <label for="age" class="form-label">Age</label>
+          <input formControlName="age" name="age" type="number" class="form-control" id="age" required />
+          <div class="invalid-feedback">Please provide a valid age between 18 and 130.</div>
+        </div>
+        <div class="col-md-4">
+          <label for="email" class="form-label">Email</label>
+          <input formControlName="email" name="email" type="email" class="form-control" id="email" required />
+          <div class="text-danger" *ngIf="employeeForm.controls['email'].touched || employeeForm.controls['email'].dirty">
+            <span *ngIf="employeeForm.controls['email'].errors?.['email']">Email not valid</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="gender" class="form-label">Gender</label>
+          <input formControlName="gender" name="gender" type="text" class="form-control" id="gender" />
+        </div>
+        <div class="col-md-4">
+          <label for="jobTitle" class="form-label">Job Title</label>
+          <input formControlName="jobTitle" name="jobTitle" type="text" class="form-control" id="jobTitle" />
+        </div>
+        <div class="col-md-4">
+          <label for="department" class="form-label">Department</label>
+          <input formControlName="department" name="department" type="text" class="form-control" id="department" />
+        </div>
+        <div class="col-md-4">
+          <label for="salary" class="form-label">Salary</label>
+          <input formControlName="salary" name="salary" type="number" class="form-control" id="salary" required />
+          <div class="invalid-feedback">Please provide a valid salary.</div>
+        </div>
+        <div class="col-md-4">
+          <label for="hireDate" class="form-label">Hire Date</label>
+          <input formControlName="hireDate" name="hireDate" type="datetime-local" class="form-control" id="hireDate" />
+        </div>
+        <div class="col-md-4">
+          <label for="address" class="form-label">Address</label>
+          <input formControlName="address" name="address" type="text" class="form-control" id="address" />
+        </div>
+        <div class="col-md-4">
+          <label for="city" class="form-label">City</label>
+          <input formControlName="city" name="city" type="text" class="form-control" id="city" />
+        </div>
+        <div class="col-md-4">
+          <label for="state" class="form-label">State</label>
+          <input formControlName="state" name="state" type="text" class="form-control" id="state" />
+        </div>
+        <div class="col-md-4">
+          <label for="postalCode" class="form-label">Postal Code</label>
+          <input formControlName="postalCode" name="postalCode" type="text" class="form-control" id="postalCode" />
+        </div>
+        <div class="col-md-4">
+          <label for="country" class="form-label">Country</label>
+          <input formControlName="country" name="country" type="text" class="form-control" id="country" />
+        </div>
+        <div class="col-md-4">
+          <label for="phoneNumber" class="form-label">Phone Number</label>
+          <input formControlName="phoneNumber" name="phoneNumber" type="text" class="form-control" id="phoneNumber" />
+        </div>
+        <div class="col-md-4">
+          <label for="startDate" class="form-label">Start Date</label>
+          <input formControlName="startDate" name="startDate" type="datetime-local" class="form-control" id="startDate" />
+        </div>
+        <div class="col-md-4">
+          <label for="benefitsPackage" class="form-label">Benefits Package</label>
+          <input formControlName="benefitsPackage" name="benefitsPackage" type="text" class="form-control" id="benefitsPackage" />
+        </div>
+        <div class="col-md-4">
+          <label for="vacationDays" class="form-label">Vacation Days</label>
+          <input formControlName="vacationDays" name="vacationDays" type="number" class="form-control" id="vacationDays" />
+          <div class="invalid-feedback">Please provide a valid number of vacation days.</div>
+        </div>
+        <div class="col-md-4">
+            <label for="performanceRating" class="form-label">Performance Rating</label>
+            <input formControlName="performanceRating" name="performanceRating" type="number" class="form-control" id="performanceRating" />
+            <div class="text-danger" *ngIf="employeeForm.controls['performanceRating'].touched || employeeForm.controls['performanceRating'].dirty">
+              <span *ngIf="employeeForm.controls['performanceRating'].errors?.['min']">Performance rating must be at least 0.</span>
+              <span *ngIf="employeeForm.controls['performanceRating'].errors?.['max']">Performance rating cannot exceed 5.</span>
+            </div>
+            <div class="invalid-feedback">Please provide a valid performance rating between 0 and 5.</div>
+          </div>
+
+          <!-- <div class="col-md-3 mt-5">
+            <label for="isEmployeeActive" class="form-label">Employee Active</label>
+            <input formControlName="isEmployeeActive" name="isEmployeeActive" type="checkbox" class="ms-2 form-check-input" id="isEmployeeActive" />
+          </div> -->
+
+        <div class="col-12 d-flex gap-3">
+          <button class="btn btn-primary" type="submit" (click)="resetForm()">Reset form</button>
+          <button *ngIf="!updatedMode" class="btn btn-primary" type="submit" [disabled]="employeeForm.invalid" (click)="onSubmit()">Submit form</button>
+          <button *ngIf="updatedMode" class="btn btn-primary" type="submit" [disabled]="employeeForm.invalid" (click)="onUpdate()">Update form</button>
+        </div>
+        
+      </form>
+  
+    <hr class="mt-4" />
+  
+
+      <!-- <table class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>Action</th>
+            <th *ngFor="let item of allEmployee; let i = index">
+              <button class="btn btn-primary me-2" (click)="updateEmployee(item)">Update</button>
+              <button class="btn btn-warning" (click)="onDelete(item)">Delete</button>
+            </th>
+          </tr>
+          <tr>
+            <th>Sr. No.</th>
+            <th *ngFor="let item of allEmployee; let i = index">{{ i + 1 }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>First Name</th>
+            <td *ngFor="let item of allEmployee">{{ item.firstName }}</td>
+          </tr>
+          <tr>
+            <th>Last Name</th>
+            <td *ngFor="let item of allEmployee">{{ item.lastName }}</td>
+          </tr>
+          <tr>
+            <th>Age</th>
+            <td *ngFor="let item of allEmployee">{{ item.age }}</td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td *ngFor="let item of allEmployee">{{ item.email }}</td>
+          </tr>
+          <tr>
+            <th>Phone Number</th>
+            <td *ngFor="let item of allEmployee">{{ item.phoneNumber }}</td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td *ngFor="let item of allEmployee">{{ item.address }}</td>
+          </tr>
+          <tr>
+            <th>City</th>
+            <td *ngFor="let item of allEmployee">{{ item.city }}</td>
+          </tr>
+          <tr>
+            <th>State</th>
+            <td *ngFor="let item of allEmployee">{{ item.state }}</td>
+          </tr>
+          <tr>
+            <th>Country</th>
+            <td *ngFor="let item of allEmployee">{{ item.country }}</td>
+          </tr>
+          <tr>
+            <th>Postal Code</th>
+            <td *ngFor="let item of allEmployee">{{ item.postalCode }}</td>
+          </tr>
+          <tr>
+            <th>Gender</th>
+            <td *ngFor="let item of allEmployee">{{ item.gender }}</td>
+          </tr>
+          <tr>
+            <th>Job Title</th>
+            <td *ngFor="let item of allEmployee">{{ item.jobTitle }}</td>
+          </tr>
+          <tr>
+            <th>Department</th>
+            <td *ngFor="let item of allEmployee">{{ item.department }}</td>
+          </tr>
+          <tr>
+            <th>Salary</th>
+            <td *ngFor="let item of allEmployee">{{ item.salary }}</td>
+          </tr>
+          <tr>
+            <th>Hire Date</th>
+            <td *ngFor="let item of allEmployee">{{ item.hireDate }}</td>
+          </tr>
+          <tr>
+            <th>Start Date</th>
+            <td *ngFor="let item of allEmployee">{{ item.startDate }}</td>
+          </tr>
+          <tr>
+            <th>Benefits Package</th>
+            <td *ngFor="let item of allEmployee">{{ item.benefitsPackage }}</td>
+          </tr>
+          <tr>
+            <th>Vacation Days</th>
+            <td *ngFor="let item of allEmployee">{{ item.vacationDays }}</td>
+          </tr>
+          <tr>
+            <th>Performance Rating</th>
+            <td *ngFor="let item of allEmployee">{{ item.performanceRating }}</td>
+          </tr>
+        </tbody>
+      </table> -->
+      
+      
+            
+<div class="row">
+  <div class="col-12">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Sr No.</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+          <th>Country</th>
+          <th>City</th>
+          <th>Gender</th>
+          <th>Hire Date</th>
+          <th>Vacation Days</th>
+          <th>Performance Rating</th>
+          <th>Action</th>
+
+
+
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of allEmployee;let srNumber = index">
+          <td>{{ srNumber+1 }}</td>
+          <td>{{ item.firstName }}</td>
+          <td>{{ item.lastName }}</td>
+          <td>{{ item.age }}</td>
+          <td>{{ item.country }}</td>
+          <td>{{ item.city }}</td>
+          <td>{{ item.gender }}</td>
+          <td>{{ item.hireDate }}</td>
+          <td>{{ item.vacationDays }}</td>
+          <td>{{ item.performanceRating }}</td>
+          <td>
+            <button class="btn btn-primary me-2" (click)="updateEmployee(item)">Update</button>
+            <button class="btn btn-warning" (click)="onDelete(item)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+  </div>
+
+</div>
+
+
+
+
+    </div>

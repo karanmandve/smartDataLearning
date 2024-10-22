@@ -1,0 +1,113 @@
+<p>roles works!</p>
+
+<!-- DATA BINDING -->
+
+<!-- <div class="row">
+  <div class="col-3"> -->
+<!-- This is called interpolation -->
+<!-- <p>Name : {{ name }}</p>
+  </div>
+  <div class="col-3">
+    <P> Current Date : {{ currentDate }} </P>
+  </div>
+  <div class="col-3">
+    <P> Version : {{ angularVersion }} </P>
+  </div>
+  <div class="col-3">
+    <P> Selected Value : {{ selectedState }} </P>
+  </div>
+</div> -->
+
+<!-- <div class="row">
+  <div class="col-3"> -->
+<!-- This is called property binding -->
+<!-- we are using here one way binding where we bind out data to propety -->
+<!-- In two way biding that data is assign when change from frontend the data is going to store inside the variable -->
+<!-- <input type="text" [value]="name" class="form-control" />
+  </div> -->
+
+<!-- <div class="col-3"> -->
+<!-- two way data binding only in input element -->
+<!-- <input type="text" [(ngModel)]="name" class="form-control" />
+  </div>
+
+  <div class="col-3">
+    <input [type]="inputType" />
+  </div>
+
+  <div class="col-3">
+    <select [(ngModel)]="selectedState">
+      <option value="MH">MH</option>
+      <option value="MP">MP</option>
+      <option value="Goa">Goa</option>
+    </select>
+  </div>
+</div> -->
+
+<!-- Event Binding -->
+<!-- <div class="row">
+
+  <div class="col-3">
+    <button class="btn btn-success" (click)="showWelcomAlert()">Show Alert</button>
+  </div>
+
+  <div class="col-3">
+    <button class="btn btn-success" (click)="showMessage('Welcome to message given from function parameter')">Show Message</button>
+  </div>
+</div> -->
+
+<!-- *nfFor PRACTICE -->
+
+<!-- <div class="row">
+  <div class="col-4">
+    <ul>
+      <li *ngFor="let item of employeeList">{{ item.employeeFirstName }}</li>
+    </ul>
+  </div>
+
+  <div class="col-4">
+    <select >
+      <option *ngFor="let item of employeeList" [value]="item.employeeId">{{item.employeeLastName}}</option>
+    </select>
+  </div>
+
+  <div class="col-4">
+    <button class="btn btn-warning mx-2" *ngFor="let item of employeeList">{{item.salary}}</button>
+  </div>
+</div> -->
+
+
+<div class="row">
+  <div class="col-4">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Sr No.</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of employeeList;let srNumber = index">
+          <td>{{ srNumber+1 }}</td>
+          <td>{{ item.employeeFirstName }}</td>
+          <td>{{ item.employeeLastName }}</td>
+          <td>{{ item.salary }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- <div class="vertical-table">
+      <div *ngFor="let item of employeeList; let srNumber = index" class="employee-row">
+        <div><strong>Sr No:</strong> {{ srNumber + 1 }}</div>
+        <div><strong>First Name:</strong> {{ item.employeeFirstName }}</div>
+        <div><strong>Last Name:</strong> {{ item.employeeLastName }}</div>
+        <div><strong>Salary:</strong> {{ item.salary }}</div>
+        <hr>
+      </div>
+    </div> -->
+
+  </div>
+
+</div>

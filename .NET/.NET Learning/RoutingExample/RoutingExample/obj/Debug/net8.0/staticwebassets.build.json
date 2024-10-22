@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "Y82PLxWh0fzi0aV2XJtylS4kso/gnlvQXXIl6SAa6kg=",
+  "Source": "RoutingExample",
+  "BasePath": "_content/RoutingExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RoutingExample\\wwwroot",
+      "Source": "RoutingExample",
+      "ContentRoot": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\RoutingExample\\RoutingExample\\wwwroot\\",
+      "BasePath": "_content/RoutingExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
