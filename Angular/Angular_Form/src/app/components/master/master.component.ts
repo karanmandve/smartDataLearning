@@ -8,12 +8,14 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [ReactiveComponent, TemplateComponent, CommonModule],
   templateUrl: './master.component.html',
-  styleUrl: './master.component.css'
+  styleUrls: ['./master.component.css']
 })
 export class MasterComponent {
   currentComponent: string = "";
 
   changeComponent(currComponent: string) {
-    this.currentComponent = currComponent;
+    if (this.currentComponent !== currComponent) {
+      this.currentComponent = currComponent;
+    }
   }
 }

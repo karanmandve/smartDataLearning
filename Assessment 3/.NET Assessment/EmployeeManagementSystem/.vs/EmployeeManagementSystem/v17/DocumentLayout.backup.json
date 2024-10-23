@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2890034-96A0-4E0C-B4E9-948BB650277C}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2890034-96A0-4E0C-B4E9-948BB650277C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\employeemanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\employeemanagementsystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2890034-96A0-4E0C-B4E9-948BB650277C}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\infrastructure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2890034-96A0-4E0C-B4E9-948BB650277C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2890034-96A0-4E0C-B4E9-948BB650277C}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2890034-96A0-4E0C-B4E9-948BB650277C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2890034-96A0-4E0C-B4E9-948BB650277C}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2890034-96A0-4E0C-B4E9-948BB650277C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\domain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|solutionrelative:domain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|solutionrelative:domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\domain\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|solutionrelative:domain\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C599A8FE-36B9-42E4-8FFE-75C32B09ED96}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\employeemanagementsystem\\controllers\\employeemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,14 +83,6 @@
       "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\apps\\employee\\command\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|solutionrelative:domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\domain\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42B991AC-09F5-4EC6-8ADE-6C9B909D59B1}|Domain\\Domain.csproj|solutionrelative:domain\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 3\\.net assessment\\employeemanagementsystem\\app.core\\models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704E1994-55A9-4C38-8052-21DA626B2F3E}|App.core\\App.core.csproj|solutionrelative:app.core\\models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -82,67 +102,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABMAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T16:56:08.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T05:21:21.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\appsettings.json",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\appsettings.json",
-              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\appsettings.json",
-              "RelativeToolTip": "EmployeeManagementSystem\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-17T16:47:52.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DeleteEmployeeByIdCommand.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
-              "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
-              "RelativeToolTip": "App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCYAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Program.cs",
+              "RelativeDocumentMoniker": "Domain\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Program.cs",
+              "RelativeToolTip": "Domain\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T10:55:32.805Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UpdateEmployeeByIdCommand.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
-              "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
-              "RelativeToolTip": "App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAMwC8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T11:02:07.838Z"
+              "WhenOpened": "2024-10-20T05:21:15.775Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\WeatherForecast.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T05:19:01.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBkAAAA5AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs*",
+              "RelativeToolTip": "EmployeeManagementSystem\\Program.cs*",
+              "ViewState": "AgIAABIAAAAAmZmZmZklwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T11:23:44.322Z",
               "EditorCaption": ""
@@ -150,115 +156,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EmployeeManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeeManagementController.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\EmployeeManagementController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeeManagementController.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\EmployeeManagementController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T11:16:01.332Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "App.core\\DependencyInjection.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\DependencyInjection.cs",
               "RelativeToolTip": "App.core\\DependencyInjection.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBQwA8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T11:41:22.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DepartmentManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\DepartmentManagementController.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\DepartmentManagementController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\DepartmentManagementController.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\DepartmentManagementController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBkAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T11:16:50.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UpdateDepartmentByIdCommand.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Command\\UpdateDepartmentByIdCommand.cs",
-              "RelativeDocumentMoniker": "App.core\\Apps\\Department\\Command\\UpdateDepartmentByIdCommand.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Command\\UpdateDepartmentByIdCommand.cs",
-              "RelativeToolTip": "App.core\\Apps\\Department\\Command\\UpdateDepartmentByIdCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T12:02:20.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T12:13:22.48Z"
+              "WhenOpened": "2024-09-27T11:41:22.16Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "GetEmployeeByIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
-              "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
-              "RelativeToolTip": "App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T10:59:51.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GetAllEmployeeByDeparmentId.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetAllEmployeeByDeparmentId.cs",
-              "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Query\\GetAllEmployeeByDeparmentId.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetAllEmployeeByDeparmentId.cs",
-              "RelativeToolTip": "App.core\\Apps\\Employee\\Query\\GetAllEmployeeByDeparmentId.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCAAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T11:19:19.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreateEmployeeCommand.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
-              "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
-              "RelativeToolTip": "App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T10:58:43.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EmployeeDto.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Models\\EmployeeDto.cs",
-              "RelativeDocumentMoniker": "App.core\\Models\\EmployeeDto.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Models\\EmployeeDto.cs",
-              "RelativeToolTip": "App.core\\Models\\EmployeeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T11:01:04.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Department.cs",
               "RelativeDocumentMoniker": "Domain\\Department.cs",
@@ -270,19 +179,187 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Program.cs",
+              "RelativeDocumentMoniker": "App.core\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Program.cs",
+              "RelativeToolTip": "App.core\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T21:41:20.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\appsettings.json",
+              "RelativeToolTip": "EmployeeManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-17T16:47:52.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\Program.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\Program.cs",
+              "RelativeToolTip": "Infrastructure\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T05:21:24.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T16:56:08.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeeManagementController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\EmployeeManagementController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeeManagementController.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\EmployeeManagementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:16:01.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Employee.cs",
               "RelativeDocumentMoniker": "Domain\\Employee.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Domain\\Employee.cs",
               "RelativeToolTip": "Domain\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBEAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T11:00:32.541Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateEmployeeByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
+              "RelativeToolTip": "App.core\\Apps\\Employee\\Command\\UpdateEmployeeByIdCommand.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAMwC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:02:07.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeleteEmployeeByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
+              "RelativeToolTip": "App.core\\Apps\\Employee\\Command\\DeleteEmployeeByIdCommand.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:55:32.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DepartmentManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\DepartmentManagementController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\DepartmentManagementController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\DepartmentManagementController.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\DepartmentManagementController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:16:50.681Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "UpdateDepartmentByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Command\\UpdateDepartmentByIdCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\Apps\\Department\\Command\\UpdateDepartmentByIdCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Command\\UpdateDepartmentByIdCommand.cs",
+              "RelativeToolTip": "App.core\\Apps\\Department\\Command\\UpdateDepartmentByIdCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T12:02:20.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T12:13:22.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetEmployeeByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
+              "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
+              "RelativeToolTip": "App.core\\Apps\\Employee\\Query\\GetEmployeeByIdQuery.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:59:51.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetAllEmployeeByDeparmentId.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetAllEmployeeByDeparmentId.cs",
+              "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Query\\GetAllEmployeeByDeparmentId.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Query\\GetAllEmployeeByDeparmentId.cs",
+              "RelativeToolTip": "App.core\\Apps\\Employee\\Query\\GetAllEmployeeByDeparmentId.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:19:19.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateEmployeeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "RelativeToolTip": "App.core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:58:43.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Models\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "App.core\\Models\\EmployeeDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Models\\EmployeeDto.cs",
+              "RelativeToolTip": "App.core\\Models\\EmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:01:04.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "20240927070556_initial-migration.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\Infrastructure\\Migrations\\20240927070556_initial-migration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240927070556_initial-migration.cs",
@@ -294,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "GetDepartmentByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 3\\.NET Assessment\\EmployeeManagementSystem\\App.core\\Apps\\Department\\Query\\GetDepartmentByIdQuery.cs",
               "RelativeDocumentMoniker": "App.core\\Apps\\Department\\Query\\GetDepartmentByIdQuery.cs",
