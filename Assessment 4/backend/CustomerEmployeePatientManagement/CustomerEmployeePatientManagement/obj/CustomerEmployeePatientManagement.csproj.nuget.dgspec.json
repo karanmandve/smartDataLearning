@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj": {}
+    "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj": {
+    "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj",
         "projectName": "App.Core",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj",
-        "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Domain.csproj"
+              "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Domain.csproj"
               }
             }
           }
@@ -43,8 +43,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -79,21 +80,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj": {
+    "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj",
         "projectName": "CustomerEmployeePatientManagement",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj",
-        "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,11 +109,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj": {
-                "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj"
+              "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj"
               },
-              "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -125,8 +126,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -166,21 +168,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Domain.csproj": {
+    "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -205,8 +207,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -227,21 +230,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -256,8 +259,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj": {
-                "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj"
+              "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj"
               }
             }
           }
@@ -270,8 +273,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -334,7 +338,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
