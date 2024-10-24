@@ -1,4 +1,5 @@
 ﻿using App.Core.Apps.User.Command;
+using App.Core.Apps.User.Query;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,8 @@ namespace App.Core
             services.AddMediatR(cfg =>
             {
                 cfg.RegisterServicesFromAssemblyContaining<CreateUserCommand>();
+                cfg.RegisterServicesFromAssemblyContaining<GetUserByEmailQuery>();
+
             });
             return services;
         }

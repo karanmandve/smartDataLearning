@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "RegisterLoginForget.Controllers.UserController",
+    "Method": "GetCustomerById",
+    "RelativePath": "api/User/get-user-by-email/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegisterLoginForget.Controllers.UserController",
     "Method": "ChangePassword",
     "RelativePath": "change-password",
     "HttpMethod": "POST",

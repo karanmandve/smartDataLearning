@@ -1,5 +1,6 @@
 ﻿using App.Core.Interface;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +28,16 @@ namespace App.Core.Apps.User.Command
         {
             var user = request.User;
 
+            var userData = _appDbContext.Set<Domain.User>().FirstOrDefaultAsync(us => us.Email == user.Email);
+
+            if (userData != null)
+            {
+                return false;
+            }
+
             user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password, 13);
+
+            user.DateCreated = DateTime.Now;
 
             await _appDbContext.Set<Domain.User>().AddAsync(user);
 

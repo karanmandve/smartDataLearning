@@ -38,19 +38,23 @@ namespace RegisterLoginForget.Controllers
 
 
 
-        //[HttpGet("{id}")]
-        //public async Task<IActionResult> GetCustomerById(int id)
-        //{
-        //    var customer = await _mediator.Send(new GetCustomerByIdQuery { Id = id });
+        [HttpGet("get-user-by-email/{email}")]
+        public async Task<IActionResult> GetCustomerById(string email)
+        {
+            var user = await _mediator.Send(new GetUserByEmailQuery { Email = email });
 
-        //    if (customer == null)
-        //    {
-        //        return NotFound("Customer Not Found");
-        //    }
+            if (user == null)
+            {
+                return NotFound(new
+                {
+                    message = "User Not Found",
+                    statusCode = 404
+                });
+            }
 
 
-        //    return Ok(customer);
-        //}
+            return Ok(user);
+        }
 
 
 
@@ -61,15 +65,17 @@ namespace RegisterLoginForget.Controllers
 
             if (!isUserAdded)
             {
-                return NotFound(new { 
-                    statusCode = 400,
-                    message = "User Not Added" 
+                return Conflict(new
+                {
+                    statusCode = 409,
+                    message = "User Already Exist"
                 });
             }
 
-            return Ok(new { 
+            return Ok(new
+            {
                 statusCode = 200,
-                message = "User Added Successfully" 
+                message = "User Added Successfully"
             });
         }
 

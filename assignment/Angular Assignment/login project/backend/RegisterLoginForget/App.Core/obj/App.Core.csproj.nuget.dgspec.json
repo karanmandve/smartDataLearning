@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\smartDataLearning\\assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\App.Core.csproj": {}
+    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\App.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\smartDataLearning\\assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\App.Core.csproj": {
+    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\App.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\smartDataLearning\\assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\App.Core.csproj",
+        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\App.Core.csproj",
         "projectName": "App.Core",
-        "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\App.Core.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\obj\\",
+        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\App.Core.csproj",
+        "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\smartDataLearning\\assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\Domain.csproj"
+              "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\Domain.csproj"
               }
             }
           }
@@ -43,9 +43,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -84,21 +83,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\smartDataLearning\\assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\Domain.csproj": {
+    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\smartDataLearning\\assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,9 +122,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -146,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
