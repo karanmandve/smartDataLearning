@@ -8,8 +8,8 @@ import {
 } from '@angular/forms';
 import { CustomerServiceService } from '../../services/customer-service/customer-service.service';
 import { CommonModule, JsonPipe } from '@angular/common';
-import { dateTimestampProvider } from 'rxjs/internal/scheduler/dateTimestampProvider';
 import { ToastrService } from 'ngx-toastr';
+import { CountryStateServiceService } from '../../services/country-state-service/country-state-service.service';
 
 @Component({
   selector: 'app-customer',
@@ -21,6 +21,7 @@ import { ToastrService } from 'ngx-toastr';
 export class CustomerComponent implements OnInit {
   customerService = inject(CustomerServiceService);
   toaster: any = inject(ToastrService);
+  countryStateService: any = inject(CountryStateServiceService)
   allCustomer: any[] = [];
 
   /**
@@ -29,9 +30,11 @@ export class CustomerComponent implements OnInit {
   constructor() {
     this.getCustomers();
   }
-
+  
   ngOnInit(): void {
     this.getCustomers();
+    this.getAllCountry();
+    this.loadState();
   }
 
   updatedMode: boolean = false;
@@ -48,8 +51,8 @@ export class CustomerComponent implements OnInit {
     phoneNumber: new FormControl(''),
     address: new FormControl(''),
     city: new FormControl(''),
-    state: new FormControl(''),
-    country: new FormControl(''),
+    state: new FormControl(0),
+    country: new FormControl(0),
     postalCode: new FormControl(''),
     gender: new FormControl(''),
     birthday: new FormControl(''),
@@ -73,8 +76,8 @@ export class CustomerComponent implements OnInit {
       phoneNumber: '',
       address: '',
       city: '',
-      state: '',
-      country: '',
+      state: 0,
+      country: 0,
       postalCode: '',
       gender: '',
       birthday: '',
@@ -130,18 +133,17 @@ export class CustomerComponent implements OnInit {
   updateCustomer(customerObj: any) {
     this.updatedMode = true;
     this.customerForm.patchValue(customerObj);
-    console.log(customerObj.value);
   }
 
   onUpdate() {
     this.formValue = this.customerForm.value;
     this.customerService.updateCustomerById(this.formValue).subscribe({
       next: (res) => {
-        this.getCustomers();
         this.showSucess('Customer Updated Successfully');
         // alert("Updation Successful")
         this.updatedMode = false;
         this.resetForm();
+        this.getCustomers();
       },
       error: (error) => {
         // alert("Updation Unsuccessful")
@@ -195,4 +197,62 @@ export class CustomerComponent implements OnInit {
   //     },
   //   });
   // }
+
+
+  allCountry : any [] = []
+
+
+  getAllCountry(){
+    this.countryStateService.getAllCountry().subscribe({
+      next : (res: any) => {
+        this.allCountry = res
+      },
+      error : (error: any) =>{
+        alert("I am in error")
+      }
+      
+    })
+  }
+
+
+  allState : any [] = []
+
+
+  loadState(){
+    this.countryStateService.getAllState().subscribe({
+      next : (res:any) => {
+        this.allState = res
+      },
+      error : (error: any) => {
+        alert("I am in error")
+      }
+    })
+  }
+
+  onChange(countrId : any){
+    this.countryStateService.getStateByCountryId(countrId).subscribe({
+      next : (res:any) => {
+        this.allState = res
+      },
+      error : (error: any) => {
+        alert("I am in error")
+      }
+    })
+  }
+
+
+
+
+  getCountryName(countryId: number): string {
+    const country = this.allCountry.find(c => c.countryId === countryId);
+    return country ? country.name : 'Not Found';
+  }
+
+  getStateName(stateId: number): string {
+    const state = this.allState.find(s => s.stateId === stateId);
+    return state ? state.name : 'Not Found';
+  }
+
+
+
 }

@@ -1,9 +1,11 @@
-﻿using App.Core.Apps.Customer.Command;
+﻿using App.Core.Apps.Country.Query;
+using App.Core.Apps.Customer.Command;
 using App.Core.Apps.Customer.Query;
 using App.Core.Apps.Employee.Command;
 using App.Core.Apps.Employee.Query;
 using App.Core.Apps.Patient.Command;
 using App.Core.Apps.Patient.Query;
+using App.Core.Apps.State.Query;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -42,6 +44,14 @@ namespace App.Core
                 cfg.RegisterServicesFromAssemblyContaining<UpdatePatientByIdCommand>();
                 cfg.RegisterServicesFromAssemblyContaining<GetAllPatientQuery>();
                 cfg.RegisterServicesFromAssemblyContaining<GetActiveCustomerQuery>();
+
+                // FOR COUNTRY
+                cfg.RegisterServicesFromAssemblyContaining<GetAllCountryQuery>();
+
+                // FOR STATE
+                cfg.RegisterServicesFromAssemblyContaining<GetAllStateByCountryIdQuery>();
+                cfg.RegisterServicesFromAssemblyContaining<GetAllState>();
+
 
             });
 
