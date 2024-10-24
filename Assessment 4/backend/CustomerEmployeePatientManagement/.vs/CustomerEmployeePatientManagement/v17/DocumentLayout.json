@@ -1,165 +1,171 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|solutionrelative:customeremployeepatientmanagement\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|solutionrelative:customeremployeepatientmanagement\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|solutionrelative:customeremployeepatientmanagement\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\country\\query\\getallcountryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\country\\query\\getallcountryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\customeremployeepatientmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|solutionrelative:customeremployeepatientmanagement\\customeremployeepatientmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|solutionrelative:customeremployeepatientmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\state\\query\\getallstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\state\\query\\getallstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|solutionrelative:customeremployeepatientmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\state\\query\\getallstatebycountryidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\state\\query\\getallstatebycountryidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Migrations\\20241023075115_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241023075115_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\customer\\command\\createcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\customer\\command\\createcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\app.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\app.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\customer\\query\\getallcustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\customer\\query\\getallcustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\infrastructure\\migrations\\20241022070627_added country and state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241022070627_added country and state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|solutionrelative:customeremployeepatientmanagement\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|solutionrelative:customeremployeepatientmanagement\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|solutionrelative:customeremployeepatientmanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\employee\\query\\getallemployeequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\employee\\query\\getallemployeequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\employee\\query\\getallemployeequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\employee\\query\\getactiveemployeequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\employee\\query\\getactiveemployeequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\employee\\query\\getactiveemployeequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\patient\\query\\getactivepatientquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\patient\\query\\getactivepatientquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\patient\\query\\getactivepatientquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\patient\\query\\getallpatientquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\patient\\query\\getallpatientquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\patient\\query\\getallpatientquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\customer\\query\\getactivecustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\customer\\query\\getactivecustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\customer\\query\\getactivecustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\customer\\command\\updatecustomerbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\customer\\query\\getallcustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\customer\\query\\getallcustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\customer\\command\\updatecustomerbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\customer\\command\\updatecustomerbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\customer\\command\\deletecustomerbyidpermanentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\customer\\command\\deletecustomerbyidpermanentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\customer\\command\\deletecustomerbyidpermanentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\employee\\command\\updateemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\employee\\command\\updateemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\employee\\command\\updateemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\patient\\command\\updatepatientbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\patient\\command\\updatepatientbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\patient\\command\\updatepatientbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|solutionrelative:customeremployeepatientmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\customeremployeepatientmanagement.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+=======
+      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\customeremployeepatientmanagement.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+>>>>>>> b683395744009a9ef93a343b34ba020f4aea7571
       "RelativeMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|solutionrelative:customeremployeepatientmanagement\\customeremployeepatientmanagement.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\patient\\command\\createpatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\patient\\command\\createpatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\patient\\command\\createpatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\customer\\command\\createcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\customer\\command\\createcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\infrastructure\\migrations\\20241018124310_patient-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241018124310_patient-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\app.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\app.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\infrastructure\\migrations\\20241018113009_employee added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241018113009_employee added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\employee\\command\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\employee\\command\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\employee\\command\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\employee\\command\\deleteemployeepermanentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\employee\\command\\deleteemployeepermanentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\employee\\command\\deleteemployeepermanentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|solutionrelative:customeremployeepatientmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\infrastructure\\migrations\\20241018044658_customer-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241018044658_customer-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Query\\GetCustomerQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Query\\GetCustomerQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App.Core\\Apps\\Customer\\Query\\GetCustomerQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\DeletePatientByIdCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\DeletePatientByIdCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App.Core\\Apps\\Patient\\Command\\DeletePatientByIdCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\assessment 4\\backend\\customeremployeepatientmanagement\\infrastructure\\migrations\\20241022050418_active status migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241022050418_active status migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -172,240 +178,215 @@
           "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StateController.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\StateController.cs",
-              "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\Controllers\\StateController.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\StateController.cs",
-              "RelativeToolTip": "CustomerEmployeePatientManagement\\Controllers\\StateController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T04:21:22.006Z",
+              "DocumentIndex": 1,
+              "Title": "CustomerEmployeePatientManagement",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj",
+              "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj",
+              "RelativeToolTip": "CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-23T18:04:17.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "App.Core\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\DependencyInjection.cs",
               "RelativeToolTip": "App.Core\\DependencyInjection.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwDQAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAABAZmZmZmYSwBcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T05:06:43.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetAllCountryQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Country\\Query\\GetAllCountryQuery.cs",
-              "RelativeDocumentMoniker": "App.Core\\Apps\\Country\\Query\\GetAllCountryQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Country\\Query\\GetAllCountryQuery.cs",
-              "RelativeToolTip": "App.Core\\Apps\\Country\\Query\\GetAllCountryQuery.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBwAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "CreateCustomerCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Command\\CreateCustomerCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Customer\\Command\\CreateCustomerCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Command\\CreateCustomerCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Customer\\Command\\CreateCustomerCommand.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T04:15:40.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "CustomerEmployeePatientManagement\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T04:52:34.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PatientController.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\PatientController.cs",
-              "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\Controllers\\PatientController.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\PatientController.cs",
-              "RelativeToolTip": "CustomerEmployeePatientManagement\\Controllers\\PatientController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAADgvyAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T05:27:26.962Z",
+              "WhenOpened": "2024-10-18T05:11:13.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GetAllState.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\State\\Query\\GetAllState.cs",
-              "RelativeDocumentMoniker": "App.Core\\Apps\\State\\Query\\GetAllState.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\State\\Query\\GetAllState.cs",
-              "RelativeToolTip": "App.Core\\Apps\\State\\Query\\GetAllState.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T08:34:43.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetAllStateByCountryIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\State\\Query\\GetAllStateByCountryIdQuery.cs",
-              "RelativeDocumentMoniker": "App.Core\\Apps\\State\\Query\\GetAllStateByCountryIdQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\State\\Query\\GetAllStateByCountryIdQuery.cs",
-              "RelativeToolTip": "App.Core\\Apps\\State\\Query\\GetAllStateByCountryIdQuery.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T04:15:12.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20241023075115_initial migration.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Migrations\\20241023075115_initial migration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241023075115_initial migration.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Migrations\\20241023075115_initial migration.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20241023075115_initial migration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T07:51:15.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\AppDbContext.cs",
               "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIAwwBMAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIAwwBQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T04:26:42.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Employee.cs",
-              "RelativeDocumentMoniker": "Domain\\Employee.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Employee.cs",
-              "RelativeToolTip": "Domain\\Employee.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBkAAAASAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T11:00:58.148Z",
+              "WhenOpened": "2024-10-18T04:26:18.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "CustomerEmployeePatientManagement\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAEkAAACAmZmZmZkjwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T04:52:34.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj",
+              "RelativeDocumentMoniker": "App.Core\\App.Core.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj",
+              "RelativeToolTip": "App.Core\\App.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-18T11:10:20.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Program.cs",
+              "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Program.cs",
+              "RelativeToolTip": "CustomerEmployeePatientManagement\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:02:53.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\appsettings.json",
+              "RelativeToolTip": "CustomerEmployeePatientManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-18T04:28:25.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "App.Core\\Interface\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeToolTip": "App.Core\\Interface\\IAppDbContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T04:10:32.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Patient.cs",
-              "RelativeDocumentMoniker": "Domain\\Patient.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Patient.cs",
-              "RelativeToolTip": "Domain\\Patient.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAywBQAAAASAAAAAAAAAA==",
+              "Title": "20241022070627_added country and state.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Migrations\\20241022070627_added country and state.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241022070627_added country and state.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Migrations\\20241022070627_added country and state.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241022070627_added country and state.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T11:57:47.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Customer.cs",
-              "RelativeDocumentMoniker": "Domain\\Customer.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Customer.cs",
-              "RelativeToolTip": "Domain\\Customer.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T03:56:12.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GetAllCustomerQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Query\\GetAllCustomerQuery.cs",
-              "RelativeDocumentMoniker": "App.Core\\Apps\\Customer\\Query\\GetAllCustomerQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Query\\GetAllCustomerQuery.cs",
-              "RelativeToolTip": "App.Core\\Apps\\Customer\\Query\\GetAllCustomerQuery.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T05:59:39.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Country.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Country.cs",
-              "RelativeDocumentMoniker": "Domain\\Country.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Country.cs",
-              "RelativeToolTip": "Domain\\Country.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T06:57:33.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CountryController.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\CountryController.cs",
-              "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\Controllers\\CountryController.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\CountryController.cs",
-              "RelativeToolTip": "CustomerEmployeePatientManagement\\Controllers\\CountryController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T04:17:43.618Z",
+              "WhenOpened": "2024-10-22T07:06:27.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "CustomerEmployeePatientManagement\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIAxwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T05:27:26.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Patient.cs",
+              "RelativeDocumentMoniker": "Domain\\Patient.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Patient.cs",
+              "RelativeToolTip": "Domain\\Patient.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAzwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:57:47.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Customer.cs",
+              "RelativeDocumentMoniker": "Domain\\Customer.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Customer.cs",
+              "RelativeToolTip": "Domain\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T03:56:12.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Country.cs",
+              "RelativeDocumentMoniker": "Domain\\Country.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Country.cs",
+              "RelativeToolTip": "Domain\\Country.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:57:33.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "State.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\State.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\State.cs",
               "RelativeDocumentMoniker": "Domain\\State.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\State.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\State.cs",
               "RelativeToolTip": "Domain\\State.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T06:59:09.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T06:59:09.371Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "CustomerEmployeePatientManagement\\Controllers\\EmployeeController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAABwAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -415,9 +396,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "GetActiveEmployeeQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Query\\GetActiveEmployeeQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Query\\GetActiveEmployeeQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Employee\\Query\\GetActiveEmployeeQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Query\\GetActiveEmployeeQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Query\\GetActiveEmployeeQuery.cs",
               "RelativeToolTip": "App.Core\\Apps\\Employee\\Query\\GetActiveEmployeeQuery.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAxwBoAAACCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -427,9 +408,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "GetAllEmployeeQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Query\\GetAllEmployeeQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Query\\GetAllEmployeeQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Employee\\Query\\GetAllEmployeeQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Query\\GetAllEmployeeQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Query\\GetAllEmployeeQuery.cs",
               "RelativeToolTip": "App.Core\\Apps\\Employee\\Query\\GetAllEmployeeQuery.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwBkAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -439,9 +420,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "GetActivePatientQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Query\\GetActivePatientQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Query\\GetActivePatientQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Query\\GetActivePatientQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Query\\GetActivePatientQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Query\\GetActivePatientQuery.cs",
               "RelativeToolTip": "App.Core\\Apps\\Patient\\Query\\GetActivePatientQuery.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAA5wCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -451,9 +432,9 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "GetAllPatientQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Query\\GetAllPatientQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Query\\GetAllPatientQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Query\\GetAllPatientQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Query\\GetAllPatientQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Query\\GetAllPatientQuery.cs",
               "RelativeToolTip": "App.Core\\Apps\\Patient\\Query\\GetAllPatientQuery.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -463,9 +444,9 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "GetActiveCustomerQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Query\\GetActiveCustomerQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Query\\GetActiveCustomerQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Customer\\Query\\GetActiveCustomerQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Query\\GetActiveCustomerQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Query\\GetActiveCustomerQuery.cs",
               "RelativeToolTip": "App.Core\\Apps\\Customer\\Query\\GetActiveCustomerQuery.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -474,10 +455,22 @@
             {
               "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "GetAllCustomerQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Query\\GetAllCustomerQuery.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Customer\\Query\\GetAllCustomerQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Query\\GetAllCustomerQuery.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Customer\\Query\\GetAllCustomerQuery.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T05:59:39.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "UpdateCustomerByIdCommand.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Command\\UpdateCustomerByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Command\\UpdateCustomerByIdCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Customer\\Command\\UpdateCustomerByIdCommand.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Command\\UpdateCustomerByIdCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Command\\UpdateCustomerByIdCommand.cs",
               "RelativeToolTip": "App.Core\\Apps\\Customer\\Command\\UpdateCustomerByIdCommand.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAAAEUAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -485,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -497,11 +490,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "UpdateEmployeeCommand.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Command\\UpdateEmployeeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Command\\UpdateEmployeeCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Employee\\Command\\UpdateEmployeeCommand.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Command\\UpdateEmployeeCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Command\\UpdateEmployeeCommand.cs",
               "RelativeToolTip": "App.Core\\Apps\\Employee\\Command\\UpdateEmployeeCommand.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAUwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -509,11 +502,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "DeleteCustomerByIdPermanentCommand.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Command\\DeleteCustomerByIdPermanentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Command\\DeleteCustomerByIdPermanentCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Customer\\Command\\DeleteCustomerByIdPermanentCommand.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Command\\DeleteCustomerByIdPermanentCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Command\\DeleteCustomerByIdPermanentCommand.cs",
               "RelativeToolTip": "App.Core\\Apps\\Customer\\Command\\DeleteCustomerByIdPermanentCommand.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAYwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -521,11 +514,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "UpdatePatientByIdCommand.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\UpdatePatientByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\UpdatePatientByIdCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Command\\UpdatePatientByIdCommand.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\UpdatePatientByIdCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\UpdatePatientByIdCommand.cs",
               "RelativeToolTip": "App.Core\\Apps\\Patient\\Command\\UpdatePatientByIdCommand.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAgwDsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -533,34 +526,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "GetCustomerQuery.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Query\\GetCustomerQuery.cs",
-              "RelativeDocumentMoniker": "App.Core\\Apps\\Customer\\Query\\GetCustomerQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Query\\GetCustomerQuery.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Query\\GetCustomerQuery.cs",
-              "RelativeToolTip": "App.Core\\Apps\\Customer\\Query\\GetCustomerQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Query\\GetCustomerQuery.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T04:57:40.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\appsettings.json",
-              "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\appsettings.json",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\appsettings.json",
-              "RelativeToolTip": "CustomerEmployeePatientManagement\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-18T04:28:25.127Z"
+              "DocumentIndex": 39,
+              "Title": "20241022050418_active status migration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Migrations\\20241022050418_active status migration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241022050418_active status migration.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Migrations\\20241022050418_active status migration.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241022050418_active status migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T05:04:18.674Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Employee.cs",
+              "RelativeDocumentMoniker": "Domain\\Employee.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Employee.cs",
+              "RelativeToolTip": "Domain\\Employee.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA7wB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:00:58.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "CustomerEmployeePatientManagement.http",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.http",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.http",
               "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.http",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.http",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.http",
               "RelativeToolTip": "CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
@@ -568,22 +573,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "DeletePatientByIdCommand.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\DeletePatientByIdCommand.cs",
-              "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Command\\DeletePatientByIdCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\DeletePatientByIdCommand.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\DeletePatientByIdCommand.cs",
-              "RelativeToolTip": "App.Core\\Apps\\Patient\\Command\\DeletePatientByIdCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\DeletePatientByIdCommand.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T13:02:56.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "CreatePatientCommand.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
               "RelativeToolTip": "App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -591,35 +596,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "CreateCustomerCommand.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Command\\CreateCustomerCommand.cs",
-              "RelativeDocumentMoniker": "App.Core\\Apps\\Customer\\Command\\CreateCustomerCommand.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Command\\CreateCustomerCommand.cs",
-              "RelativeToolTip": "App.Core\\Apps\\Customer\\Command\\CreateCustomerCommand.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIAwwAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T05:11:13.975Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "App.Core.csproj",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj",
-              "RelativeDocumentMoniker": "App.Core\\App.Core.csproj",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj",
-              "RelativeToolTip": "App.Core\\App.Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-18T11:10:20.043Z"
+              "Title": "20241018124310_patient-migration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Migrations\\20241018124310_patient-migration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241018124310_patient-migration.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Migrations\\20241018124310_patient-migration.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241018124310_patient-migration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:43:10.218Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
+              "Title": "20241018113009_employee added.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Migrations\\20241018113009_employee added.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241018113009_employee added.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Migrations\\20241018113009_employee added.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241018113009_employee added.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:30:09.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "CreateEmployeeCommand.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
               "RelativeToolTip": "App.Core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -627,11 +632,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "DeleteEmployeePermanentCommand.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Command\\DeleteEmployeePermanentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Command\\DeleteEmployeePermanentCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Employee\\Command\\DeleteEmployeePermanentCommand.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Command\\DeleteEmployeePermanentCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Command\\DeleteEmployeePermanentCommand.cs",
               "RelativeToolTip": "App.Core\\Apps\\Employee\\Command\\DeleteEmployeePermanentCommand.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwCwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -639,51 +644,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Program.cs",
-              "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\Program.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Program.cs",
-              "RelativeToolTip": "CustomerEmployeePatientManagement\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAEwAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T11:02:53.961Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 35,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAwwAoAAAAAAAAAAAAAAA==",
+              "Title": "20241018044658_Customer-migration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Migrations\\20241018044658_Customer-migration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241018044658_Customer-migration.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Migrations\\20241018044658_Customer-migration.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241018044658_Customer-migration.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T04:26:18.196Z"
+              "WhenOpened": "2024-10-18T04:46:58.926Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 36,
               "Title": "Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Infrastructure.csproj",
               "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-18T04:31:20.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "IAppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Interface\\IAppDbContext.cs",
-              "RelativeDocumentMoniker": "App.Core\\Interface\\IAppDbContext.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Interface\\IAppDbContext.cs",
-              "RelativeToolTip": "App.Core\\Interface\\IAppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAABRwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T04:10:32.374Z"
+              "WhenOpened": "2024-10-18T04:31:20.938Z",
+              "EditorCaption": ""
             }
           ]
         }
