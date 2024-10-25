@@ -83,7 +83,7 @@ export class RegisterLoginComponent {
           this.toaster.error("User Already Exist", "Error")
           this.registerForm.reset()
         }else{
-          alert("i am in register errrr")
+          alert("i am in register error")
           alert(JSON.stringify(error))
         }
       }

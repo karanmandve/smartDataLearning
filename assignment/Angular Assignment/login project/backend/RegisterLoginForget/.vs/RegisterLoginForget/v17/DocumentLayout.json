@@ -15,6 +15,14 @@
       "RelativeMoniker": "D:0:0:{FA132CC2-781F-4020-9123-744D52855B3A}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\user\\command\\changeuserpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assignment\\angular assignment\\login project\\backend\\registerloginforget\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assignment\\angular assignment\\login project\\backend\\registerloginforget\\domain\\modeldto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|solutionrelative:domain\\modeldto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FA132CC2-781F-4020-9123-744D52855B3A}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assignment\\angular assignment\\login project\\backend\\registerloginforget\\app.core\\apps\\user\\query\\getuserbyemailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA132CC2-781F-4020-9123-744D52855B3A}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\user\\query\\getuserbyemailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assignment\\angular assignment\\login project\\backend\\registerloginforget\\domain\\modeldto\\userdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|solutionrelative:domain\\modeldto\\userdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assignment\\angular assignment\\login project\\backend\\registerloginforget\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assignment\\angular assignment\\login project\\backend\\registerloginforget\\domain\\modeldto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|solutionrelative:domain\\modeldto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assignment\\angular assignment\\login project\\backend\\registerloginforget\\domain\\modeldto\\changeuserpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,26 +122,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetUserByEmailQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\Apps\\User\\Query\\GetUserByEmailQuery.cs",
-              "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Query\\GetUserByEmailQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\Apps\\User\\Query\\GetUserByEmailQuery.cs",
-              "RelativeToolTip": "App.Core\\Apps\\User\\Query\\GetUserByEmailQuery.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T06:17:21.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\RegisterLoginForget\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "RegisterLoginForget\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\RegisterLoginForget\\Controllers\\UserController.cs",
               "RelativeToolTip": "RegisterLoginForget\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T18:13:47.026Z",
               "EditorCaption": ""
@@ -154,7 +141,7 @@
               "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Command\\CreateUserCommand.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\Apps\\User\\Command\\CreateUserCommand.cs",
               "RelativeToolTip": "App.Core\\Apps\\User\\Command\\CreateUserCommand.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T17:50:43.279Z",
               "EditorCaption": ""
@@ -167,14 +154,13 @@
               "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Command\\ChangeUserPasswordCommand.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\Apps\\User\\Command\\ChangeUserPasswordCommand.cs",
               "RelativeToolTip": "App.Core\\Apps\\User\\Command\\ChangeUserPasswordCommand.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:47:00.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T18:47:00.242Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ValidateUserQuery.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\Apps\\User\\Query\\ValidateUserQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Query\\ValidateUserQuery.cs",
@@ -182,38 +168,11 @@
               "RelativeToolTip": "App.Core\\Apps\\User\\Query\\ValidateUserQuery.cs",
               "ViewState": "AgIAAA4AAACAzMzMzMwEwB4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:31:07.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T18:31:07.346Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserDetailsDto.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\ModelDto\\UserDetailsDto.cs",
-              "RelativeDocumentMoniker": "Domain\\ModelDto\\UserDetailsDto.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\ModelDto\\UserDetailsDto.cs",
-              "RelativeToolTip": "Domain\\ModelDto\\UserDetailsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T06:24:37.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\User.cs",
-              "RelativeDocumentMoniker": "Domain\\User.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\User.cs",
-              "RelativeToolTip": "Domain\\User.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:28:58.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\ModelDto\\LoginDto.cs",
               "RelativeDocumentMoniker": "Domain\\ModelDto\\LoginDto.cs",
@@ -221,8 +180,43 @@
               "RelativeToolTip": "Domain\\ModelDto\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:28:48.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T18:28:48.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\User.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\User.cs",
+              "RelativeToolTip": "Domain\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T17:28:58.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetUserByEmailQuery.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\Apps\\User\\Query\\GetUserByEmailQuery.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Query\\GetUserByEmailQuery.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\App.Core\\Apps\\User\\Query\\GetUserByEmailQuery.cs",
+              "RelativeToolTip": "App.Core\\Apps\\User\\Query\\GetUserByEmailQuery.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T06:17:21.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\ModelDto\\UserDetailsDto.cs",
+              "RelativeDocumentMoniker": "Domain\\ModelDto\\UserDetailsDto.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assignment\\Angular Assignment\\login project\\backend\\RegisterLoginForget\\Domain\\ModelDto\\UserDetailsDto.cs",
+              "RelativeToolTip": "Domain\\ModelDto\\UserDetailsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T06:24:37.853Z"
             },
             {
               "$type": "Document",
@@ -234,8 +228,7 @@
               "RelativeToolTip": "Domain\\ModelDto\\ChangeUserPasswordDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:48:52.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T18:48:52.026Z"
             },
             {
               "$type": "Document",
@@ -247,8 +240,7 @@
               "RelativeToolTip": "App.Core\\DependencyInjection.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAuwBIAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:41:45.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T17:41:45.392Z"
             },
             {
               "$type": "Document",
@@ -260,8 +252,7 @@
               "RelativeToolTip": "RegisterLoginForget\\Program.cs",
               "ViewState": "AgIAABAAAAAAmpmZmZnpvyQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:58:42.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T17:58:42.016Z"
             },
             {
               "$type": "Document",
@@ -273,8 +264,7 @@
               "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:55:49.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T17:55:49.188Z"
             },
             {
               "$type": "Document",
@@ -286,8 +276,7 @@
               "RelativeToolTip": "RegisterLoginForget\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-23T17:58:14.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T17:58:14.001Z"
             },
             {
               "$type": "Document",

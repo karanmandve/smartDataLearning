@@ -38,8 +38,6 @@ namespace App.Core.Apps.User.Command
 
             user.Password = BCrypt.Net.BCrypt.HashPassword(userPasswordDto.NewPassword, 13);
 
-            //_appDbContext.Set<Domain.User>().Update(user);
-
             await _appDbContext.SaveChangesAsync(cancellationToken);
 
             return true;

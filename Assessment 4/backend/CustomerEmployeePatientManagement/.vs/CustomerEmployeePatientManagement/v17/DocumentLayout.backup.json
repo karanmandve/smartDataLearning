@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|solutionrelative:customeremployeepatientmanagement\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\state\\query\\getallstatebycountryidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Migrations\\20241023075115_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241023075115_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,28 +55,12 @@
       "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\app.core\\apps\\customer\\query\\getallcustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC114CE-3020-4A76-8968-525602BFCED5}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\customer\\query\\getallcustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|solutionrelative:customeremployeepatientmanagement\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\domain\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E5DDAE3-E98D-42BF-A9D2-6C98112249B9}|Domain\\Domain.csproj|solutionrelative:domain\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{949577E5-6AF7-4A64-AFA0-308B17E0C7EE}|CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\customeremployeepatientmanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -160,6 +156,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\DeletePatientByIdCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App.Core\\Apps\\Patient\\Command\\DeletePatientByIdCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 4\\backend\\customeremployeepatientmanagement\\infrastructure\\migrations\\20241023075115_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37191496-9615-4664-9B92-0CEFF30AAEFA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241023075115_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -169,7 +169,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -193,59 +193,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "StateController.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\StateController.cs",
               "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\Controllers\\StateController.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\StateController.cs",
               "RelativeToolTip": "CustomerEmployeePatientManagement\\Controllers\\StateController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T04:21:22.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "App.Core\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\DependencyInjection.cs",
-              "RelativeToolTip": "App.Core\\DependencyInjection.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwDQAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T05:06:43.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetAllCountryQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Country\\Query\\GetAllCountryQuery.cs",
-              "RelativeDocumentMoniker": "App.Core\\Apps\\Country\\Query\\GetAllCountryQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Country\\Query\\GetAllCountryQuery.cs",
-              "RelativeToolTip": "App.Core\\Apps\\Country\\Query\\GetAllCountryQuery.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T04:15:40.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "CustomerEmployeePatientManagement\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T04:52:34.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "PatientController.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\PatientController.cs",
               "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\Controllers\\PatientController.cs",
@@ -253,12 +214,11 @@
               "RelativeToolTip": "CustomerEmployeePatientManagement\\Controllers\\PatientController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAADgvyAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T05:27:26.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T05:27:26.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "GetAllState.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\State\\Query\\GetAllState.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\State\\Query\\GetAllState.cs",
@@ -266,12 +226,99 @@
               "RelativeToolTip": "App.Core\\Apps\\State\\Query\\GetAllState.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwB0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T08:34:43.219Z",
+              "WhenOpened": "2024-10-23T08:34:43.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Customer.cs",
+              "RelativeDocumentMoniker": "Domain\\Customer.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Customer.cs",
+              "RelativeToolTip": "Domain\\Customer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T03:56:12.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Country.cs",
+              "RelativeDocumentMoniker": "Domain\\Country.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Country.cs",
+              "RelativeToolTip": "Domain\\Country.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:57:33.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\State.cs",
+              "RelativeDocumentMoniker": "Domain\\State.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\State.cs",
+              "RelativeToolTip": "Domain\\State.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:59:09.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Patient.cs",
+              "RelativeDocumentMoniker": "Domain\\Patient.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Patient.cs",
+              "RelativeToolTip": "Domain\\Patient.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:57:47.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "CustomerEmployeePatientManagement\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T04:52:34.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetAllCountryQuery.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Country\\Query\\GetAllCountryQuery.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Country\\Query\\GetAllCountryQuery.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Country\\Query\\GetAllCountryQuery.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Country\\Query\\GetAllCountryQuery.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T04:15:40.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "App.Core\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\DependencyInjection.cs",
+              "RelativeToolTip": "App.Core\\DependencyInjection.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T05:06:43.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "GetAllStateByCountryIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\State\\Query\\GetAllStateByCountryIdQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\State\\Query\\GetAllStateByCountryIdQuery.cs",
@@ -279,12 +326,11 @@
               "RelativeToolTip": "App.Core\\Apps\\State\\Query\\GetAllStateByCountryIdQuery.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T04:15:12.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T04:15:12.772Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 39,
               "Title": "20241023075115_initial migration.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Migrations\\20241023075115_initial migration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241023075115_initial migration.cs",
@@ -292,12 +338,11 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\20241023075115_initial migration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T07:51:15.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T04:23:56.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
@@ -305,12 +350,11 @@
               "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAIAwwBMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T04:26:42.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T04:26:42.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Employee.cs",
               "RelativeDocumentMoniker": "Domain\\Employee.cs",
@@ -318,34 +362,7 @@
               "RelativeToolTip": "Domain\\Employee.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAxwBkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T11:00:58.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Patient.cs",
-              "RelativeDocumentMoniker": "Domain\\Patient.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Patient.cs",
-              "RelativeToolTip": "Domain\\Patient.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAywBQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T11:57:47.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Customer.cs",
-              "RelativeDocumentMoniker": "Domain\\Customer.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Customer.cs",
-              "RelativeToolTip": "Domain\\Customer.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T03:56:12.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T11:00:58.148Z"
             },
             {
               "$type": "Document",
@@ -357,21 +374,7 @@
               "RelativeToolTip": "App.Core\\Apps\\Customer\\Query\\GetAllCustomerQuery.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T05:59:39.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Country.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Country.cs",
-              "RelativeDocumentMoniker": "Domain\\Country.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\Country.cs",
-              "RelativeToolTip": "Domain\\Country.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T06:57:33.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T05:59:39.563Z"
             },
             {
               "$type": "Document",
@@ -383,25 +386,11 @@
               "RelativeToolTip": "CustomerEmployeePatientManagement\\Controllers\\CountryController.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T04:17:43.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T04:17:43.618Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "State.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\State.cs",
-              "RelativeDocumentMoniker": "Domain\\State.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Domain\\State.cs",
-              "RelativeToolTip": "Domain\\State.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T06:59:09.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\Controllers\\EmployeeController.cs",
@@ -413,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "GetActiveEmployeeQuery.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Query\\GetActiveEmployeeQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Employee\\Query\\GetActiveEmployeeQuery.cs",
@@ -425,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "GetAllEmployeeQuery.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Query\\GetAllEmployeeQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Employee\\Query\\GetAllEmployeeQuery.cs",
@@ -437,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "GetActivePatientQuery.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Query\\GetActivePatientQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Query\\GetActivePatientQuery.cs",
@@ -449,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "GetAllPatientQuery.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Query\\GetAllPatientQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Query\\GetAllPatientQuery.cs",
@@ -461,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "GetActiveCustomerQuery.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Query\\GetActiveCustomerQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Customer\\Query\\GetActiveCustomerQuery.cs",
@@ -473,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "UpdateCustomerByIdCommand.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Command\\UpdateCustomerByIdCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Customer\\Command\\UpdateCustomerByIdCommand.cs",
@@ -485,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -497,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "UpdateEmployeeCommand.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Command\\UpdateEmployeeCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Employee\\Command\\UpdateEmployeeCommand.cs",
@@ -509,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "DeleteCustomerByIdPermanentCommand.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Command\\DeleteCustomerByIdPermanentCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Customer\\Command\\DeleteCustomerByIdPermanentCommand.cs",
@@ -521,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "UpdatePatientByIdCommand.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\UpdatePatientByIdCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Command\\UpdatePatientByIdCommand.cs",
@@ -533,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "GetCustomerQuery.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Query\\GetCustomerQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Customer\\Query\\GetCustomerQuery.cs",
@@ -544,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\appsettings.json",
               "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\appsettings.json",
@@ -556,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "CustomerEmployeePatientManagement.http",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.http",
               "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement.http",
@@ -568,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "DeletePatientByIdCommand.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\DeletePatientByIdCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Command\\DeletePatientByIdCommand.cs",
@@ -579,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "CreatePatientCommand.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
@@ -591,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "CreateCustomerCommand.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Customer\\Command\\CreateCustomerCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Customer\\Command\\CreateCustomerCommand.cs",
@@ -603,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "App.Core.csproj",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\App.Core.csproj",
               "RelativeDocumentMoniker": "App.Core\\App.Core.csproj",
@@ -615,7 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "CreateEmployeeCommand.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
@@ -627,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "DeleteEmployeePermanentCommand.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Apps\\Employee\\Command\\DeleteEmployeePermanentCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Employee\\Command\\DeleteEmployeePermanentCommand.cs",
@@ -639,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\CustomerEmployeePatientManagement\\Program.cs",
               "RelativeDocumentMoniker": "CustomerEmployeePatientManagement\\Program.cs",
@@ -651,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
@@ -663,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
@@ -675,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "IAppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 4\\backend\\CustomerEmployeePatientManagement\\App.Core\\Interface\\IAppDbContext.cs",
               "RelativeDocumentMoniker": "App.Core\\Interface\\IAppDbContext.cs",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RegisterLoginForget")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7e520af2f576c7cd062c2e2d8cd274fcfda5df9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbab966c80e087d631325d4330d6029d729e7ca6")]
 [assembly: System.Reflection.AssemblyProductAttribute("RegisterLoginForget")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RegisterLoginForget")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
