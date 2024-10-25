@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Girish\\project\\TrainningSessionExamples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|d:\\girish\\project\\trainningsessionexamples\\trainningsessionexamples\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|solutionrelative:trainningsessionexamples\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|d:\\girish\\project\\trainningsessionexamples\\trainningsessionexamples\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|solutionrelative:trainningsessionexamples\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|d:\\girish\\project\\trainningsessionexamples\\trainningsessionexamples\\rolerequirementhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|solutionrelative:trainningsessionexamples\\rolerequirementhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|d:\\girish\\project\\trainningsessionexamples\\trainningsessionexamples\\rolerequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|solutionrelative:trainningsessionexamples\\rolerequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|d:\\girish\\project\\trainningsessionexamples\\trainningsessionexamples\\jwtmanagerrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|solutionrelative:trainningsessionexamples\\jwtmanagerrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|d:\\girish\\project\\trainningsessionexamples\\trainningsessionexamples\\ijwtmanagerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|solutionrelative:trainningsessionexamples\\ijwtmanagerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|d:\\girish\\project\\trainningsessionexamples\\trainningsessionexamples\\controllers\\jwttokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|solutionrelative:trainningsessionexamples\\controllers\\jwttokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|d:\\girish\\project\\trainningsessionexamples\\trainningsessionexamples\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|solutionrelative:trainningsessionexamples\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|d:\\girish\\project\\trainningsessionexamples\\trainningsessionexamples\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|solutionrelative:trainningsessionexamples\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|d:\\girish\\project\\trainningsessionexamples\\trainningsessionexamples\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|solutionrelative:trainningsessionexamples\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|d:\\girish\\project\\trainningsessionexamples\\trainningsessionexamples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C568A8F4-9DB9-4127-BE85-6B62705339FB}|TrainningSessionExamples\\TrainningSessionExamples.csproj|solutionrelative:trainningsessionexamples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JWTManagerRepository .cs",
+              "DocumentMoniker": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\JWTManagerRepository .cs",
+              "RelativeDocumentMoniker": "TrainningSessionExamples\\JWTManagerRepository .cs",
+              "ToolTip": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\JWTManagerRepository .cs",
+              "RelativeToolTip": "TrainningSessionExamples\\JWTManagerRepository .cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowCsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:36:51.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\Startup.cs",
+              "RelativeDocumentMoniker": "TrainningSessionExamples\\Startup.cs",
+              "ToolTip": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\Startup.cs",
+              "RelativeToolTip": "TrainningSessionExamples\\Startup.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAwwGsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T09:01:47.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleRequirementHandler.cs",
+              "DocumentMoniker": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\RoleRequirementHandler.cs",
+              "RelativeDocumentMoniker": "TrainningSessionExamples\\RoleRequirementHandler.cs",
+              "ToolTip": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\RoleRequirementHandler.cs",
+              "RelativeToolTip": "TrainningSessionExamples\\RoleRequirementHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwA8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:59:58.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoleRequirement.cs",
+              "DocumentMoniker": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\RoleRequirement.cs",
+              "RelativeDocumentMoniker": "TrainningSessionExamples\\RoleRequirement.cs",
+              "ToolTip": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\RoleRequirement.cs",
+              "RelativeToolTip": "TrainningSessionExamples\\RoleRequirement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T09:00:59.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TrainningSessionExamples\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TrainningSessionExamples\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA9wCMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:21:36.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IJWTManagerRepository.cs",
+              "DocumentMoniker": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\IJWTManagerRepository.cs",
+              "RelativeDocumentMoniker": "TrainningSessionExamples\\IJWTManagerRepository.cs",
+              "ToolTip": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\IJWTManagerRepository.cs",
+              "RelativeToolTip": "TrainningSessionExamples\\IJWTManagerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:36:50.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JWTTokenResponse.cs",
+              "DocumentMoniker": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\Controllers\\JWTTokenResponse.cs",
+              "RelativeDocumentMoniker": "TrainningSessionExamples\\Controllers\\JWTTokenResponse.cs",
+              "ToolTip": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\Controllers\\JWTTokenResponse.cs",
+              "RelativeToolTip": "TrainningSessionExamples\\Controllers\\JWTTokenResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:21:33.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TrainningSessionExamples\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TrainningSessionExamples\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T09:06:14.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\appsettings.json",
+              "RelativeDocumentMoniker": "TrainningSessionExamples\\appsettings.json",
+              "ToolTip": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\appsettings.json",
+              "RelativeToolTip": "TrainningSessionExamples\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-24T11:36:45.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\Login.cs",
+              "RelativeDocumentMoniker": "TrainningSessionExamples\\Login.cs",
+              "ToolTip": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\Login.cs",
+              "RelativeToolTip": "TrainningSessionExamples\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T09:06:01.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\Program.cs",
+              "RelativeDocumentMoniker": "TrainningSessionExamples\\Program.cs",
+              "ToolTip": "D:\\Girish\\project\\TrainningSessionExamples\\TrainningSessionExamples\\Program.cs",
+              "RelativeToolTip": "TrainningSessionExamples\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T09:06:29.69Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
