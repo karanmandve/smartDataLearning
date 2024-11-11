@@ -4,7 +4,7 @@ import { Injectable } from "@angular/core";
   providedIn: 'root'
 })
 export class UtilsService {
-    private _session: boolean = false;
+    private _session: boolean = true;
   
     getSession(): boolean {
       return this._session;

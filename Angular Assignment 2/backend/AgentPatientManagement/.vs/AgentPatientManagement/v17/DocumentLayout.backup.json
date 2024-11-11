@@ -1,81 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\agentpatientmanagement\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|solutionrelative:agentpatientmanagement\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\app.core\\apps\\patient\\command\\updatepatientbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\patient\\command\\updatepatientbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\agentpatientmanagement\\registerloginforget.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|solutionrelative:agentpatientmanagement\\registerloginforget.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\agentpatientmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|solutionrelative:agentpatientmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\agentpatientmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|solutionrelative:agentpatientmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\app.core\\apps\\patient\\command\\createpatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\patient\\command\\createpatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\domain\\modeldto\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|solutionrelative:domain\\modeldto\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\domain\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|solutionrelative:domain\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|solutionrelative:domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\app.core\\apps\\patient\\query\\getactivepatientbyagentidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\patient\\query\\getactivepatientbyagentidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\app.core\\apps\\patient\\command\\deletepatientbyidpermanentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\patient\\command\\deletepatientbyidpermanentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\agentpatientmanagement\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\agentpatientmanagement\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|solutionrelative:agentpatientmanagement\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\agentpatientmanagement\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\agentpatientmanagement\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|solutionrelative:agentpatientmanagement\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\app.core\\apps\\agent\\query\\validateagentquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\agentpatientmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|solutionrelative:agentpatientmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57625193-BC75-4D43-B45B-21A58633653B}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57625193-BC75-4D43-B45B-21A58633653B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\agentpatientmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|solutionrelative:agentpatientmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\agentpatientmanagement\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|solutionrelative:agentpatientmanagement\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\agentpatientmanagement\\registerloginforget.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1BECC937-9ED6-4838-845A-1008CDD4E234}|AgentPatientManagement\\RegisterLoginForget.csproj|solutionrelative:agentpatientmanagement\\registerloginforget.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\app.core\\apps\\patient\\command\\createpatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\patient\\command\\createpatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\domain\\modeldto\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|solutionrelative:domain\\modeldto\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\domain\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|solutionrelative:domain\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|solutionrelative:domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\app.core\\apps\\patient\\query\\getactivepatientbyagentidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\patient\\query\\getactivepatientbyagentidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\app.core\\apps\\patient\\command\\deletepatientbyidpermanentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\patient\\command\\deletepatientbyidpermanentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\app.core\\apps\\agent\\query\\validateagentquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\agent\\query\\validateagentquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\app.core\\apps\\agent\\query\\getagentbyemailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\app.core\\apps\\agent\\query\\getagentbyemailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\agent\\query\\getagentbyemailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\domain\\modeldto\\agentdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\domain\\modeldto\\agentdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|solutionrelative:domain\\modeldto\\agentdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\domain\\modeldto\\agentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\domain\\modeldto\\agentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|solutionrelative:domain\\modeldto\\agentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\domain\\modeldto\\changeagentpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\domain\\modeldto\\changeagentpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FBAFCB6-899B-4F8E-872C-CD158E7F1296}|Domain\\Domain.csproj|solutionrelative:domain\\modeldto\\changeagentpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\app.core\\apps\\patient\\query\\getactivepatientquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\app.core\\apps\\patient\\query\\getactivepatientquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\patient\\query\\getactivepatientquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\angular assignment 2\\backend\\agentpatientmanagement\\app.core\\apps\\patient\\query\\getallpatientquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|c:\\users\\user\\desktop\\smartdatalearning\\angular assignment 2\\backend\\agentpatientmanagement\\app.core\\apps\\patient\\query\\getallpatientquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FC8E86F-472D-43A7-97D8-1A7D6A6180D3}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\patient\\query\\getallpatientquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -91,134 +99,161 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UpdatePatientByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Command\\UpdatePatientByIdCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Command\\UpdatePatientByIdCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Command\\UpdatePatientByIdCommand.cs*",
+              "RelativeToolTip": "App.Core\\Apps\\Patient\\Command\\UpdatePatientByIdCommand.cs*",
+              "ViewState": "AgIAABcAAACAMzMzMzMbwC0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:43:10.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:17:14.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "AgentPatientManagement\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\Properties\\launchSettings.json",
               "RelativeToolTip": "AgentPatientManagement\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-11T10:53:17.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterLoginForget",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\RegisterLoginForget.csproj",
-              "RelativeDocumentMoniker": "AgentPatientManagement\\RegisterLoginForget.csproj",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\RegisterLoginForget.csproj",
-              "RelativeToolTip": "AgentPatientManagement\\RegisterLoginForget.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-11T10:51:27.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\appsettings.json",
               "RelativeDocumentMoniker": "AgentPatientManagement\\appsettings.json",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\appsettings.json",
               "RelativeToolTip": "AgentPatientManagement\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-11T10:51:14.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\Program.cs",
               "RelativeDocumentMoniker": "AgentPatientManagement\\Program.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\Program.cs",
               "RelativeToolTip": "AgentPatientManagement\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T10:51:10.923Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Agent.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\Agent.cs",
-              "RelativeDocumentMoniker": "Domain\\Agent.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\Agent.cs",
-              "RelativeToolTip": "Domain\\Agent.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T04:56:47.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "PatientDto.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\ModelDto\\PatientDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\ModelDto\\PatientDto.cs",
               "RelativeDocumentMoniker": "Domain\\ModelDto\\PatientDto.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\ModelDto\\PatientDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\ModelDto\\PatientDto.cs",
               "RelativeToolTip": "Domain\\ModelDto\\PatientDto.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T06:56:54.868Z",
+              "WhenOpened": "2024-11-11T06:56:54.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "AgentPatientManagement\\Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "AgentPatientManagement\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAAEIAAAAAmJmZmZn5vyQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T04:42:06.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreatePatientCommand.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
-              "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
-              "RelativeToolTip": "App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAIwFcAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Agent.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\Agent.cs",
+              "RelativeDocumentMoniker": "Domain\\Agent.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\Agent.cs",
+              "RelativeToolTip": "Domain\\Agent.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T06:55:59.436Z",
+              "WhenOpened": "2024-11-11T04:56:47.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AgentController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\Controllers\\AgentController.cs",
+              "RelativeDocumentMoniker": "AgentPatientManagement\\Controllers\\AgentController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\Controllers\\AgentController.cs",
+              "RelativeToolTip": "AgentPatientManagement\\Controllers\\AgentController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T04:56:20.482Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\Patient.cs",
-              "RelativeDocumentMoniker": "Domain\\Patient.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\Patient.cs",
-              "RelativeToolTip": "Domain\\Patient.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowCQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T06:11:58.907Z",
-              "EditorCaption": ""
+              "Title": "RegisterLoginForget.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\RegisterLoginForget.csproj",
+              "RelativeDocumentMoniker": "AgentPatientManagement\\RegisterLoginForget.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\RegisterLoginForget.csproj",
+              "RelativeToolTip": "AgentPatientManagement\\RegisterLoginForget.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-11T10:51:27.423Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
+              "Title": "CreatePatientCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAIwFcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T06:55:59.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\Patient.cs",
+              "RelativeDocumentMoniker": "Domain\\Patient.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\Patient.cs",
+              "RelativeToolTip": "Domain\\Patient.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T06:11:58.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ValidateAgentQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Agent\\Query\\ValidateAgentQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Agent\\Query\\ValidateAgentQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Agent\\Query\\ValidateAgentQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Agent\\Query\\ValidateAgentQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Agent\\Query\\ValidateAgentQuery.cs",
               "RelativeToolTip": "App.Core\\Apps\\Agent\\Query\\ValidateAgentQuery.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAIwCEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -226,11 +261,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "AgentDto.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\ModelDto\\AgentDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\ModelDto\\AgentDto.cs",
               "RelativeDocumentMoniker": "Domain\\ModelDto\\AgentDto.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\ModelDto\\AgentDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\ModelDto\\AgentDto.cs",
               "RelativeToolTip": "Domain\\ModelDto\\AgentDto.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -238,11 +273,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ChangeAgentPasswordDto.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\ModelDto\\ChangeAgentPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\ModelDto\\ChangeAgentPasswordDto.cs",
               "RelativeDocumentMoniker": "Domain\\ModelDto\\ChangeAgentPasswordDto.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\ModelDto\\ChangeAgentPasswordDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\ModelDto\\ChangeAgentPasswordDto.cs",
               "RelativeToolTip": "Domain\\ModelDto\\ChangeAgentPasswordDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -250,11 +285,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "AgentDetailsDto.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\ModelDto\\AgentDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\ModelDto\\AgentDetailsDto.cs",
               "RelativeDocumentMoniker": "Domain\\ModelDto\\AgentDetailsDto.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\ModelDto\\AgentDetailsDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\ModelDto\\AgentDetailsDto.cs",
               "RelativeToolTip": "Domain\\ModelDto\\AgentDetailsDto.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAiwBAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -262,11 +297,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "GetAgentByEmailQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Agent\\Query\\GetAgentByEmailQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Agent\\Query\\GetAgentByEmailQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Agent\\Query\\GetAgentByEmailQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Agent\\Query\\GetAgentByEmailQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Agent\\Query\\GetAgentByEmailQuery.cs",
               "RelativeToolTip": "App.Core\\Apps\\Agent\\Query\\GetAgentByEmailQuery.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -274,23 +309,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AgentController.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\Controllers\\AgentController.cs",
-              "RelativeDocumentMoniker": "AgentPatientManagement\\Controllers\\AgentController.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\Controllers\\AgentController.cs",
-              "RelativeToolTip": "AgentPatientManagement\\Controllers\\AgentController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwB4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T04:56:20.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "DeletePatientByIdPermanentCommand.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Command\\DeletePatientByIdPermanentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Command\\DeletePatientByIdPermanentCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Command\\DeletePatientByIdPermanentCommand.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Command\\DeletePatientByIdPermanentCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Command\\DeletePatientByIdPermanentCommand.cs",
               "RelativeToolTip": "App.Core\\Apps\\Patient\\Command\\DeletePatientByIdPermanentCommand.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAwwCQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -298,11 +321,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "GetAllPatientQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Query\\GetAllPatientQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Query\\GetAllPatientQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Query\\GetAllPatientQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Query\\GetAllPatientQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Query\\GetAllPatientQuery.cs",
               "RelativeToolTip": "App.Core\\Apps\\Patient\\Query\\GetAllPatientQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -310,11 +333,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "GetActivePatientQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Query\\GetActivePatientQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Query\\GetActivePatientQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Query\\GetActivePatientQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Query\\GetActivePatientQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Query\\GetActivePatientQuery.cs",
               "RelativeToolTip": "App.Core\\Apps\\Patient\\Query\\GetActivePatientQuery.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -322,28 +345,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "GetActivePatientByAgentIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Query\\GetActivePatientByAgentIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Query\\GetActivePatientByAgentIdQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Query\\GetActivePatientByAgentIdQuery.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Query\\GetActivePatientByAgentIdQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Query\\GetActivePatientByAgentIdQuery.cs",
               "RelativeToolTip": "App.Core\\Apps\\Patient\\Query\\GetActivePatientByAgentIdQuery.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAgwB4AAACdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T04:43:52.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PatientController.cs",
-              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\Controllers\\PatientController.cs",
-              "RelativeDocumentMoniker": "AgentPatientManagement\\Controllers\\PatientController.cs",
-              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\Controllers\\PatientController.cs",
-              "RelativeToolTip": "AgentPatientManagement\\Controllers\\PatientController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAIwCQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T04:42:06.186Z"
+              "WhenOpened": "2024-11-11T04:43:52.34Z"
             }
           ]
         }

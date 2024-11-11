@@ -59,6 +59,7 @@ export class RegisterLoginComponent {
           this.router.navigate(["/profile"])
           this.session.setSession(true)
           localStorage.setItem("email", `${this.loginData.email}`);
+          localStorage.setItem("session", "true")
         }else{
           this.toaster.error("Server Error Occur", "Error")
         }
@@ -83,9 +84,8 @@ export class RegisterLoginComponent {
     this.userService.addUser(this.registerData).subscribe({
       next : (res: any) => {
         if(res.statusCode == 200){
-          this.toaster.success("user login successfully", "success")
+          this.toaster.success("user register successfully", "success")
           this.isLogin = true
-          this.session.setSession(true)
           this.router.navigate([""])
         }else{
           this.toaster.error("User Not Register", "Error")

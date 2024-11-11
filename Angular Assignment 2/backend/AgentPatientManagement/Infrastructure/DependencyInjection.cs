@@ -18,7 +18,7 @@ namespace Infrastructure
 
             services.AddDbContext<AppDbContext>((provider, options) =>
             {
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
+                options.UseSqlServer(configuration.GetConnectionString("HomeConnection"),
                     b => b.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName));
             });
 

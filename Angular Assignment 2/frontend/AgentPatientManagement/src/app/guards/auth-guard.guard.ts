@@ -5,7 +5,11 @@ import { UtilsService } from '../services/utils/session';
 export const authGuardGuard: CanActivateFn = (route: ActivatedRouteSnapshot, state: RouterStateSnapshot) => {
   const router: Router = inject(Router)
   const session = inject(UtilsService)
-  const isSessionActive: boolean = session.getSession()
+  // const isSessionActive: boolean = session.getSession()
+  let isSessionActive: boolean = false
+  if (localStorage.getItem("session") == "true"){
+    isSessionActive = true;
+  }
   const protectedRoutes: string[] = ["/profile"];
-  return protectedRoutes.includes(state.url) && !isSessionActive ? router.navigate(["/"]) : true;
+  return protectedRoutes.includes(state.url) && isSessionActive ? true : router.navigate(["/"]);
 };

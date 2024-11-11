@@ -39,6 +39,8 @@ export class ProfileComponent {
   agentDetails: any = [];
   allPatient: any[] = [];
   agentId: any = null;
+  minDate: string = "";
+  maxDate: string = ""
   
   
   
@@ -61,6 +63,14 @@ export class ProfileComponent {
   // }
   
   ngOnInit() {
+    const tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    this.minDate = tomorrow.toISOString().slice(0, 16);
+
+    const yesterday = new Date();
+    yesterday.setDate(yesterday.getDate() - 1);
+    this.maxDate = yesterday.toISOString().slice(0,16)
+
     this.getAgentDetails();
     this.getAllCountry();
     this.loadState();
@@ -94,8 +104,8 @@ export class ProfileComponent {
       nextAppointmentDate: new FormControl(new Date()),
       insuranceProvider: new FormControl(''),
       insurancePolicyNumber: new FormControl(0),
-      hasAgreeToTerms: new FormControl(true),
-      isPatientActive: new FormControl(true),
+      hasAgreeToTerms: new FormControl(false),
+      isPatientActive: new FormControl(false),
       aId: new FormControl(0)
   });
 
@@ -118,8 +128,8 @@ export class ProfileComponent {
       nextAppointmentDate: new Date(),
       insuranceProvider: '',
       insurancePolicyNumber: 0,
-      hasAgreeToTerms: true,
-      isPatientActive: true,
+      hasAgreeToTerms: false,
+      isPatientActive: false,
       aId: 0
     });
   }
@@ -142,7 +152,6 @@ export class ProfileComponent {
     this.patientService.getAllPatient(this.agentId).subscribe({
       next: (res: any) => {
         this.allPatient = res;
-        console.log(this.allPatient)
       },
       error: (error: any) => {
         alert(error);

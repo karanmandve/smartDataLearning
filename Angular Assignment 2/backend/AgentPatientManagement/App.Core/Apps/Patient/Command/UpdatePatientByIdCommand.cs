@@ -43,25 +43,25 @@ namespace App.Core.Apps.Patient.Command
                 return false;
             }
 
-            patient.FirstName = patient.FirstName;
-            patient.LastName = patient.LastName;
-            patient.Age = patient.Age;
-            patient.Gender = patient.Gender;
-            patient.Email = patient.Email;
-            patient.PhoneNumber = patient.PhoneNumber;
-            patient.Address = patient.Address;
-            patient.City = patient.City;
-            patient.State = patient.State;
-            patient.Country = patient.Country;
-            patient.PostalCode = patient.PostalCode;
-            patient.BloodType = patient.BloodType;
-            patient.Medications = patient.Medications;
-            patient.LastVisitDate = patient.LastVisitDate;
-            patient.NextAppointmentDate = patient.NextAppointmentDate;
-            patient.InsuranceProvider = patient.InsuranceProvider;
-            patient.InsurancePolicyNumber = patient.InsurancePolicyNumber;
-            patient.HasAgreeToTerms = patient.HasAgreeToTerms;
-            patient.IsPatientActive = patient.IsPatientActive;
+            patient.FirstName = request.Patient.FirstName;
+            patient.LastName = request.Patient.LastName;
+            patient.Age = request.Patient.Age;
+            patient.Gender = request.Patient.Gender;
+            patient.Email = request.Patient.Email;
+            patient.PhoneNumber = request.Patient.PhoneNumber;
+            patient.Address = request.Patient.Address;
+            patient.City = request.Patient.City;
+            patient.State = request.Patient.State;
+            patient.Country = request.Patient.Country;
+            patient.PostalCode = request.Patient.PostalCode;
+            patient.BloodType = request.Patient.BloodType;
+            patient.Medications = request.Patient.Medications;
+            patient.LastVisitDate = request.Patient.LastVisitDate;
+            patient.NextAppointmentDate = request.Patient.NextAppointmentDate;
+            patient.InsuranceProvider = request.Patient.InsuranceProvider;
+            patient.InsurancePolicyNumber = request.Patient.InsurancePolicyNumber;
+            patient.HasAgreeToTerms = request.Patient.HasAgreeToTerms;
+            patient.IsPatientActive = request.Patient.IsPatientActive;
 
 
 
