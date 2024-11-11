@@ -2,18 +2,24 @@ import { Component, inject } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { UtilsService } from '../../services/utils/session';
 import { ToastrService } from 'ngx-toastr';
-import { AgentServiceService } from '../../services/agent-service/agent-service.service';
+
 import { CountryStateServiceService } from '../../services/country-state-service/country-state-service.service';
+import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { UserServiceService } from '../../services/user/user-service.service';
+import { PatientServiceService } from '../../services/patient-service/patient-service.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-profile',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink, CommonModule, ReactiveFormsModule],
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.css'
 })
 export class ProfileComponent {
-  AgentEmail = localStorage.getItem("email")
+  
+  agentEmail: any = localStorage.getItem("email");
+  encodedAgentEmail = encodeURIComponent(this.agentEmail);
 
   session = inject(UtilsService)
   router = inject(Router)
@@ -25,60 +31,80 @@ export class ProfileComponent {
     this.router.navigate(["/"])
     this.toaster.success("Logout Successfull", "Success")
   }
-
-
-  customerService = inject(AgentServiceService);
-  countryStateService: any = inject(CountryStateServiceService)
-  allCustomer: any[] = [];
-
-  /**
-   *
-   */
-  constructor() {
-    this.getCustomers();
+  
+  
+  patientService = inject(PatientServiceService);
+  countryStateService: any = inject(CountryStateServiceService);
+  agentService = inject(UserServiceService)
+  agentDetails: any = [];
+  allPatient: any[] = [];
+  agentId: any = null;
+  
+  
+  
+  async getAgentDetails(){
+    this.agentService.getUserDetails(this.agentEmail).subscribe({
+      next: (res: any) => {
+        this.agentDetails = res
+        this.agentId = res.aId
+        this.getPatients()
+      },
+      error: (error: any) => {
+        alert("I am in error")
+        console.log(error)
+      }
+    })
   }
   
-  ngOnInit(): void {
-    this.getCustomers();
+  
+  // constructor() {
+  // }
+  
+  ngOnInit() {
+    this.getAgentDetails();
     this.getAllCountry();
     this.loadState();
   }
 
   updatedMode: boolean = false;
 
-  customerForm: FormGroup = new FormGroup({
-    customerId: new FormControl(0),
-    firstName: new FormControl('', [
-      Validators.required,
-      Validators.minLength(3),
-    ]),
-    lastName: new FormControl(''),
-    age: new FormControl([Validators.minLength(1), Validators.maxLength(130)]),
-    email: new FormControl('', [Validators.email]),
-    phoneNumber: new FormControl(''),
-    address: new FormControl(''),
-    city: new FormControl(''),
-    state: new FormControl(0),
-    country: new FormControl(0),
-    postalCode: new FormControl(''),
-    gender: new FormControl(''),
-    birthday: new FormControl(''),
-    customerSince: new FormControl(""),
-    isMembershipActive: new FormControl(false),
-    totalSpent: new FormControl(0),
-    lastPurchaseDate: new FormControl(""),
-    preferredLanguage: new FormControl(''),
-    customerStatus: new FormControl(''),
-    customerRating: new FormControl(0),
-    isCustomerActive : new FormControl(true)
+  patientForm: FormGroup = new FormGroup({
+    pId: new FormControl(0),
+    patientId: new FormControl(0),
+      firstName: new FormControl('', [
+        Validators.required,
+        Validators.minLength(3)
+      ]),
+      lastName: new FormControl(''),
+      age: new FormControl('', [
+        Validators.min(1),
+        Validators.max(130)
+      ]),
+      gender: new FormControl(''),
+      email: new FormControl('', Validators.email),
+      phoneNumber: new FormControl(''),
+      address: new FormControl(''),
+      city: new FormControl(''),
+      state: new FormControl(0),
+      country: new FormControl(0),
+      postalCode: new FormControl(''),
+      bloodType: new FormControl(''),
+      medications: new FormControl(''),
+      lastVisitDate: new FormControl(new Date()),
+      nextAppointmentDate: new FormControl(new Date()),
+      insuranceProvider: new FormControl(''),
+      insurancePolicyNumber: new FormControl(0),
+      hasAgreeToTerms: new FormControl(true),
+      isPatientActive: new FormControl(true),
+      aId: new FormControl(0)
   });
 
   resetForm() {
-    this.customerForm.reset({
-      customerId: 0,
+    this.patientForm.reset({
       firstName: '',
       lastName: '',
-      age: 0,
+      age: '',
+      gender: '',
       email: '',
       phoneNumber: '',
       address: '',
@@ -86,24 +112,24 @@ export class ProfileComponent {
       state: 0,
       country: 0,
       postalCode: '',
-      gender: '',
-      birthday: '',
-      customerSince: "",
-      isMembershipActive: false,
-      totalSpent: 0,
-      lastPurchaseDate: "",
-      preferredLanguage: '',
-      customerStatus: '',
-      customerRating: 0,
-      isCustomerActive: true
+      bloodType: '',
+      medications: '',
+      lastVisitDate: new Date(),
+      nextAppointmentDate: new Date(),
+      insuranceProvider: '',
+      insurancePolicyNumber: 0,
+      hasAgreeToTerms: true,
+      isPatientActive: true,
+      aId: 0
     });
   }
 
   formValue: any;
 
   onSubmit() {
-    this.formValue = this.customerForm.value;
-    this.addCustomers(this.formValue);
+    this.formValue = this.patientForm.value;
+    this.formValue.aId = this.agentDetails.aId
+    this.addPatients(this.formValue);
     this.resetForm();
   }
   showSucess(message: string) {
@@ -112,49 +138,52 @@ export class ProfileComponent {
     });
   }
 
-  getCustomers() {
-    this.customerService.getAllCustomer().subscribe({
+  getPatients() {
+    this.patientService.getAllPatient(this.agentId).subscribe({
       next: (res: any) => {
-        this.allCustomer = res;
+        this.allPatient = res;
+        console.log(this.allPatient)
       },
-      error: (error) => {
+      error: (error: any) => {
         alert(error);
       },
     });
   }
 
-  addCustomers(customer: any) {
-    this.customerService.addCustomer(customer).subscribe({
+  addPatients(Patient: any) {
+    this.patientService.addPatient(Patient).subscribe({
       next: (res) => {
-        this.showSucess('Customer Added Successfully');
-        this.getCustomers();
+        this.showSucess('Patient Added Successfully');
+        this.getPatients();
         // alert(res.message)
       },
       error: (error) => {
         alert(JSON.stringify(error));
-        this.toaster.error('Error While Adding Customer', 'Error');
+        this.toaster.error('Error While Adding Patient', 'Error');
       },
     });
   }
 
-  updateCustomer(customerObj: any) {
+  updatePatient(PatientObj: any) {
+    console.log(PatientObj);
     this.updatedMode = true;
-    this.customerForm.patchValue(customerObj);
+    this.patientForm.patchValue(PatientObj);
   }
 
   onUpdate() {
-    this.formValue = this.customerForm.value;
-    this.customerService.updateCustomerById(this.formValue).subscribe({
+    this.formValue = this.patientForm.value;
+    this.formValue.aId = this.agentDetails.aId
+    this.patientService.updatePatientById(this.formValue).subscribe({
       next: (res) => {
-        this.showSucess('Customer Updated Successfully');
+        this.showSucess('Patient Updated Successfully');
         // alert("Updation Successful")
         this.updatedMode = false;
         this.resetForm();
-        this.getCustomers();
+        this.getPatients();
       },
       error: (error) => {
         // alert("Updation Unsuccessful")
-        this.toaster.error('Error While Updating Customer', 'Error');
+        this.toaster.error('Error While Updating Patient', 'Error');
       },
     });
   }
@@ -162,23 +191,26 @@ export class ProfileComponent {
 
   // SOFT DELETE
 
-  onDelete(customer: any){
+  onDelete(Patient: any){
 
     let isConfirm: boolean = confirm("You really want to delete?");
 
     if (isConfirm){
 
-      customer.isCustomerActive = false;
-      this.formValue = customer;
+      Patient.isPatientActive = false;
+      this.formValue = Patient;
+      this.formValue.aId = this.agentDetails.aId
+
       
-      this.customerService.updateCustomerById(this.formValue).subscribe({
+      this.patientService.updatePatientById(this.formValue).subscribe({
         next: (res: any) => {
-          this.showSucess('Customer Deleted Successfully');
-          this.getCustomers();
+          this.showSucess('Patient Deleted Successfully');
+          this.getPatients();
         },
         error: (error: any) => {
           // alert("Updation Unsuccessful")
-          this.toaster.error('Error While Deleting Customer', 'Error');
+          console.log(error)
+          this.toaster.error('Error While Deleting Patient', 'Error');
         },
       });
     }else{
@@ -191,19 +223,19 @@ export class ProfileComponent {
 
 
 
-  // deleteCustomer(customerId: number) {
-  //   this.customerService.deleteCustomerById(customerId).subscribe({
-  //     next: (res) => {
-  //       this.getCustomers();
-  //       // alert("Deleted Successfully")
-  //       this.showSucess('Customer Deleted Successfully');
-  //     },
-  //     error: (error) => {
-  //       // alert("Deletion Unsuccessfull")
-  //       this.toaster.error('Error While Deleting Customer', 'Error');
-  //     },
-  //   });
-  // }
+  deletePatient(PatientId: number) {
+    this.patientService.deletePatientById(PatientId).subscribe({
+      next: (res) => {
+        this.getPatients();
+        // alert("Deleted Successfully")
+        this.showSucess('Patient Deleted Successfully');
+      },
+      error: (error) => {
+        // alert("Deletion Unsuccessfull")
+        this.toaster.error('Error While Deleting Patient', 'Error');
+      },
+    });
+  }
 
 
   allCountry : any [] = []
@@ -224,6 +256,8 @@ export class ProfileComponent {
 
   allState : any [] = []
 
+  allStateByCountryId: any[] = []
+
 
   loadState(){
     this.countryStateService.getAllState().subscribe({
@@ -239,7 +273,7 @@ export class ProfileComponent {
   onChange(countrId : any){
     this.countryStateService.getStateByCountryId(countrId).subscribe({
       next : (res:any) => {
-        this.allState = res
+        this.allStateByCountryId = res
       },
       error : (error: any) => {
         alert("I am in error")

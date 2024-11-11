@@ -5258,11 +5258,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\RegisterLoginForget.csproj",
+      "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\RegisterLoginForget.csproj",
       "projectName": "RegisterLoginForget",
-      "projectPath": "C:\\Users\\karanmandve\\Desktop\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\RegisterLoginForget.csproj",
+      "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\RegisterLoginForget.csproj",
       "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karanmandve\\Desktop\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\obj\\",
+      "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\AgentPatientManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5280,8 +5280,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\karanmandve\\Desktop\\Angular Assignment 2\\backend\\AgentPatientManagement\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\karanmandve\\Desktop\\Angular Assignment 2\\backend\\AgentPatientManagement\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

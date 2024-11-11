@@ -29,6 +29,13 @@ namespace PatientEmployeePatientManagement.Controllers
             return Ok(allPatient);
         }
 
+        [HttpGet("activePatientByAgentId/{agentId}")]
+        public async Task<IActionResult> GetActivePatientByAgentId(int agentId)
+        {
+            var allPatient = await _mediator.Send(new GetActivePatientByAgentIdQuery { Agentid = agentId });
+            return Ok(allPatient);
+        }
+
         [HttpGet("allPatient")]
         public async Task<IActionResult> GetAllPatient()
         {

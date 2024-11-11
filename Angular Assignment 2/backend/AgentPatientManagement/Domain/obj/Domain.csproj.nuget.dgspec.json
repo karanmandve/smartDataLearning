@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karanmandve\\Desktop\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\Domain.csproj": {}
+    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karanmandve\\Desktop\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\Domain.csproj": {
+    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",

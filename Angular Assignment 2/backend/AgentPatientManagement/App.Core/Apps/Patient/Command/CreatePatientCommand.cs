@@ -1,6 +1,7 @@
 ﻿using App.Core.Interface;
 using Domain;
 using Domain.ModelDto;
+using Mapster;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -85,7 +86,6 @@ namespace App.Core.Apps.Patient.Command
                 IsPatientActive = patient.IsPatientActive,
                 AId = patient.AId,
             };
-
 
 
             await _appDbContext.Set<Domain.Patient>().AddAsync(newPatient);

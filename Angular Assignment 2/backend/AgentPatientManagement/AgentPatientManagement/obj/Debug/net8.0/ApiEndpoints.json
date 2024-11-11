@@ -116,6 +116,22 @@
   },
   {
     "ContainingType": "PatientEmployeePatientManagement.Controllers.PatientController",
+    "Method": "GetActivePatientByAgentId",
+    "RelativePath": "api/Patient/activePatientByAgentId/{agentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PatientEmployeePatientManagement.Controllers.PatientController",
     "Method": "GetAllPatient",
     "RelativePath": "api/Patient/allPatient",
     "HttpMethod": "GET",

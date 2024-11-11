@@ -10,15 +10,15 @@ export class CountryStateServiceService {
 
 
   getAllCountry(){
-    return this.http.get("http://localhost:5189/api/Country");
+    return this.http.get("http://localhost:5258/api/Country");
   }
 
   getStateByCountryId(countryId: number){
-    return this.http.get(`http://localhost:5189/api/State/${countryId}`);
+    return this.http.get(`http://localhost:5258/api/State/${countryId}`);
   }
 
   getAllState(){
-    return this.http.get("http://localhost:5189/all-state");
+    return this.http.get("http://localhost:5258/all-state");
   }
 
 }

@@ -13,9 +13,9 @@ export class UserServiceService {
   addUser(userObj: any): Observable<any>{
     return this.http.post("http://localhost:5258/api/Agent", userObj)
   }
-
-  getUser(email: string){
-    return this.http.get(`http://localhost:5258/api/User/get-agent-by-email/${email}`)
+  
+  getUserDetails(email: any){
+    return this.http.get(`http://localhost:5258/api/Agent/get-agent-by-email/${email}`)
   }
 
   loginUser(loginData: any){
