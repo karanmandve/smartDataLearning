@@ -19,7 +19,6 @@ import { CommonModule } from '@angular/common';
 export class ProfileComponent {
   
   agentEmail: any = localStorage.getItem("email");
-  encodedAgentEmail = encodeURIComponent(this.agentEmail);
 
   session = inject(UtilsService)
   router = inject(Router)
@@ -159,14 +158,15 @@ export class ProfileComponent {
     });
   }
 
+
   addPatients(Patient: any) {
     this.patientService.addPatient(Patient).subscribe({
-      next: (res) => {
+      next: (res: any) => {
         this.showSucess('Patient Added Successfully');
         this.getPatients();
         // alert(res.message)
       },
-      error: (error) => {
+      error: (error: any) => {
         alert(JSON.stringify(error));
         this.toaster.error('Error While Adding Patient', 'Error');
       },
@@ -183,14 +183,14 @@ export class ProfileComponent {
     this.formValue = this.patientForm.value;
     this.formValue.aId = this.agentDetails.aId
     this.patientService.updatePatientById(this.formValue).subscribe({
-      next: (res) => {
+      next: (res: any) => {
         this.showSucess('Patient Updated Successfully');
         // alert("Updation Successful")
         this.updatedMode = false;
         this.resetForm();
         this.getPatients();
       },
-      error: (error) => {
+      error: (error: any) => {
         // alert("Updation Unsuccessful")
         this.toaster.error('Error While Updating Patient', 'Error');
       },
@@ -234,12 +234,12 @@ export class ProfileComponent {
 
   deletePatient(PatientId: number) {
     this.patientService.deletePatientById(PatientId).subscribe({
-      next: (res) => {
+      next: (res: any) => {
         this.getPatients();
         // alert("Deleted Successfully")
         this.showSucess('Patient Deleted Successfully');
       },
-      error: (error) => {
+      error: (error: any) => {
         // alert("Deletion Unsuccessfull")
         this.toaster.error('Error While Deleting Patient', 'Error');
       },

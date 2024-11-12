@@ -29,7 +29,7 @@ namespace App.Core.Apps.Agent.Command
         {
             var agentPasswordDto = request.AgentPasswordDto;
 
-            var agent = await _appDbContext.Set<Domain.Agent>().FirstOrDefaultAsync(agent => agent.Email == agentPasswordDto.Email);
+            var agent = await _appDbContext.Set<Domain.Agent>().FirstOrDefaultAsync(agent => agent.AId == agentPasswordDto.AId);
 
             if (agent == null || !BCrypt.Net.BCrypt.Verify(agentPasswordDto.OldPassword, agent.Password))
             {

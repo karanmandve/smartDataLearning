@@ -8,7 +8,7 @@ namespace Domain.ModelDto
 {
     public class ChangeAgentPasswordDto
     {
-        public string Email { get; set; }
+        public int AId { get; set; }
         public string OldPassword { get; set; }
         public string NewPassword { get; set; }
     }

@@ -1,4 +1,4 @@
-<div class="container mt-5 loginRegister">
+<div class="container mt-5 pb-5 loginRegister">
   <div class="card shadow-sm">
     <div class="card-body">
       <h5 class="card-title text-center">User Authentication</h5>
@@ -61,10 +61,25 @@
               "
               class="text-danger"
             >
-              Password is required
+            <span *ngIf="loginForm.controls['password'].errors?.['required']">This is required</span>
+            <span *ngIf="loginForm.controls['password'].errors?.['pattern']">Password must be at least 8 characters long, contain an uppercase letter, a lowercase letter, a number, and a special character</span>
             </div>
           </div>
         </div>
+
+
+
+        <!-- <div class="col-md-4">
+          <label for="password" class="form-label">Password</label>
+          <input formControlName="password" name="password" type="password" class="form-control" id="password" required />
+          <div class="text-danger" *ngIf="loginForm.controls['password'].touched || loginForm.controls['password'].dirty">
+            <span *ngIf="loginForm.controls['password'].errors?.['required']">This is required</span>
+            <span *ngIf="loginForm.controls['password'].errors?.['pattern']">Password must be at least 8 characters long, contain an uppercase letter, a lowercase letter, a number, and a special character</span>
+          </div>
+          <div class="valid-feedback">Looks good!</div>
+        </div> -->
+
+
 
         <div *ngIf="!isLogin">
           <div class="mb-3">
@@ -109,10 +124,48 @@
               Invalid email
             </div>
           </div>
+
+
+          <!-- <div class="mb-3">
+            <label for="loginPassword" class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="loginPassword"
+              formControlName="password"
+              placeholder="Password"
+              required
+            />
+            <div
+              *ngIf="
+                loginForm.get('password')?.invalid &&
+                loginForm.get('password')?.touched
+              "
+              class="text-danger"
+            >
+            <span *ngIf="loginForm.controls['password'].errors?.['required']">This is required</span>
+            <span *ngIf="loginForm.controls['password'].errors?.['pattern']">Password must be at least 8 characters long, contain an uppercase letter, a lowercase letter, a number, and a special character</span>
+            </div>
+          </div>
+        </div> -->
+
+
           <div class="mb-3">
             <label for="registerPassword" class="form-label">Password</label>
             <input type="password" class="form-control" id="registerPassword" formControlName="password" [(ngModel)]="password" placeholder="Password" required>
+            <div
+              *ngIf="
+                registerForm.get('password')?.invalid &&
+                registerForm.get('password')?.touched
+              "
+              class="text-danger"
+            >
+            <span *ngIf="registerForm.controls['password'].errors?.['required']">This is required</span>
+            <span *ngIf="registerForm.controls['password'].errors?.['pattern']">Password must be at least 8 characters long, contain an uppercase letter, a lowercase letter, a number, and a special character</span>
+            </div>
           </div>
+
+
           <div class="mb-3">
             <label for="registerConfirmPassword" class="form-label">Confirm Password</label>
             <input type="password" class="form-control" id="registerConfirmPassword" formControlName="confirmPassword" [(ngModel)]="confirmPassword" placeholder="Confirm Password" required>

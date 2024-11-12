@@ -22,5 +22,9 @@ export class UserServiceService {
     return this.http.post("http://localhost:5258/login-agent", loginData)
   }
 
+  changeUserPassword(changePasswordData: any){
+    return this.http.post("http://localhost:5258/change-password", changePasswordData)
+  }
+
 
 }

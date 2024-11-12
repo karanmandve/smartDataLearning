@@ -10,6 +10,6 @@ export const authGuardGuard: CanActivateFn = (route: ActivatedRouteSnapshot, sta
   if (localStorage.getItem("session") == "true"){
     isSessionActive = true;
   }
-  const protectedRoutes: string[] = ["/profile"];
+  const protectedRoutes: string[] = ["/profile", "/profile/change-password"];
   return protectedRoutes.includes(state.url) && isSessionActive ? true : router.navigate(["/"]);
 };
