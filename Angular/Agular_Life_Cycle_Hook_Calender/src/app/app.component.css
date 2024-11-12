@@ -1,0 +1,19 @@
+.hover-message {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+  }
+  
+  mat-calendar .mat-calendar-body-cell:hover {
+    background-color: #f0f0f0;
+  }
+  .mat-calendar-body-cell:hover {
+    background-color: #d0f0f0;
+  }
+  ::ng-deep .mat-tooltip {
+    z-index: 10000;  /* Ensure it appears above other content */
+  }
+  

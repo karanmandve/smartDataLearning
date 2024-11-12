@@ -78,8 +78,7 @@
               "RelativeToolTip": "App.Core\\Apps\\Patient\\Command\\DeletePatientByIdPermanentCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T06:31:47.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T06:31:47.313Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "App.Core\\Apps\\Patient\\Command\\CreatePatientCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T06:31:46.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T06:31:46.623Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "AgentPatientManagement\\Controllers\\AgentController.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAkwGsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T05:23:36.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T05:23:36.285Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "App.Core\\Apps\\Agent\\Command\\CreateAgentCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T05:14:53.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T05:14:53.759Z"
             },
             {
               "$type": "Document",
@@ -130,8 +126,7 @@
               "RelativeToolTip": "App.Core\\Apps\\Agent\\Command\\ChangeAgentPasswordCommand.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAkwCMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T05:14:23.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T05:14:23.456Z"
             },
             {
               "$type": "Document",
@@ -143,8 +138,7 @@
               "RelativeToolTip": "Domain\\ModelDto\\ChangeAgentPasswordDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:19:20.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:19:20.836Z"
             },
             {
               "$type": "Document",
@@ -156,8 +150,7 @@
               "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:14:39.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:14:39.545Z"
             },
             {
               "$type": "Document",
@@ -169,8 +162,7 @@
               "RelativeToolTip": "AgentPatientManagement\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-12T04:14:35.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:14:35.88Z"
             },
             {
               "$type": "Document",
@@ -180,7 +172,7 @@
               "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Command\\UpdatePatientByIdCommand.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Angular Assignment 2\\backend\\AgentPatientManagement\\App.Core\\Apps\\Patient\\Command\\UpdatePatientByIdCommand.cs",
               "RelativeToolTip": "App.Core\\Apps\\Patient\\Command\\UpdatePatientByIdCommand.cs",
-              "ViewState": "AgIAACkAAACAmZmZmZkpwDUAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAACAmZmZmZkhwDgAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T16:43:10.174Z",
               "EditorCaption": ""
