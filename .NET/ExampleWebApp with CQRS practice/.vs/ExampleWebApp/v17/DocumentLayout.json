@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\ExampleWebApp with CQRS practice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\examplewebapp with cqrs practice\\app.core\\apps\\student\\command\\updatestudentbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\student\\command\\updatestudentbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\examplewebapp with cqrs practice\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\examplewebapp with cqrs practice\\app.core\\apps\\student\\command\\deletestudentbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\student\\command\\deletestudentbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\examplewebapp with cqrs practice\\app.core\\apps\\student\\command\\updatestudentbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\student\\command\\updatestudentbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D501B761-7417-4988-9328-F698516EF1FC}|App.Core\\App.Core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\examplewebapp with cqrs practice\\app.core\\apps\\student\\query\\getstudentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DeleteStudentByIdCommand.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\ExampleWebApp with CQRS practice\\App.Core\\Apps\\Student\\Command\\DeleteStudentByIdCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Student\\Command\\DeleteStudentByIdCommand.cs",
@@ -94,8 +94,7 @@
               "RelativeToolTip": "App.Core\\Apps\\Student\\Command\\DeleteStudentByIdCommand.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T08:53:16.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T08:53:16.622Z"
             },
             {
               "$type": "Document",
@@ -135,28 +134,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\ExampleWebApp with CQRS practice\\Infrastructure\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\ExampleWebApp with CQRS practice\\Infrastructure\\AppDbContext.cs",
               "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowAwAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T05:58:18.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UpdateStudentByIdCommand.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\ExampleWebApp with CQRS practice\\App.Core\\Apps\\Student\\Command\\UpdateStudentByIdCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Student\\Command\\UpdateStudentByIdCommand.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\ExampleWebApp with CQRS practice\\App.Core\\Apps\\Student\\Command\\UpdateStudentByIdCommand.cs",
               "RelativeToolTip": "App.Core\\Apps\\Student\\Command\\UpdateStudentByIdCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T08:40:55.501Z"
+              "WhenOpened": "2024-09-27T08:40:55.501Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
