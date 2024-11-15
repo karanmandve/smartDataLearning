@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\Assessment 5\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48652A76-21E0-4A58-B105-8E4793CAF168}|backend\\backend.csproj|c:\\users\\karanmandve\\desktop\\assessment 5\\backend\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48652A76-21E0-4A58-B105-8E4793CAF168}|backend\\backend.csproj|solutionrelative:backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|c:\\users\\karanmandve\\desktop\\assessment 5\\backend\\core\\app\\user\\query\\sendotpquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|solutionrelative:core\\app\\user\\query\\sendotpquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|c:\\users\\karanmandve\\desktop\\assessment 5\\backend\\core\\app\\user\\query\\userloginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|solutionrelative:core\\app\\user\\query\\userloginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|c:\\users\\karanmandve\\desktop\\assessment 5\\backend\\core\\app\\user\\query\\verifyotpquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|solutionrelative:core\\app\\user\\query\\verifyotpquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67877168-4603-448E-A2EE-8CBCFFD8E860}|domain\\domain.csproj|c:\\users\\karanmandve\\desktop\\assessment 5\\backend\\domain\\modeldto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67877168-4603-448E-A2EE-8CBCFFD8E860}|domain\\domain.csproj|solutionrelative:domain\\modeldto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|c:\\users\\karanmandve\\desktop\\assessment 5\\backend\\core\\app\\user\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|solutionrelative:core\\app\\user\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67877168-4603-448E-A2EE-8CBCFFD8E860}|domain\\domain.csproj|c:\\users\\karanmandve\\desktop\\assessment 5\\backend\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67877168-4603-448E-A2EE-8CBCFFD8E860}|domain\\domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SendOtpQuery.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\Assessment 5\\backend\\core\\App\\User\\Query\\SendOtpQuery.cs",
+              "RelativeDocumentMoniker": "core\\App\\User\\Query\\SendOtpQuery.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\Assessment 5\\backend\\core\\App\\User\\Query\\SendOtpQuery.cs",
+              "RelativeToolTip": "core\\App\\User\\Query\\SendOtpQuery.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAADgvy0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T12:53:23.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserLoginQuery.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\Assessment 5\\backend\\core\\App\\User\\Query\\UserLoginQuery.cs",
+              "RelativeDocumentMoniker": "core\\App\\User\\Query\\UserLoginQuery.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\Assessment 5\\backend\\core\\App\\User\\Query\\UserLoginQuery.cs",
+              "RelativeToolTip": "core\\App\\User\\Query\\UserLoginQuery.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwCwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T12:51:38.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\Assessment 5\\backend\\domain\\ModelDto\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "domain\\ModelDto\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\Assessment 5\\backend\\domain\\ModelDto\\RegisterDto.cs",
+              "RelativeToolTip": "domain\\ModelDto\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:50:14.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\Assessment 5\\backend\\backend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\Assessment 5\\backend\\backend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "backend\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAArwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:49:50.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\Assessment 5\\backend\\domain\\User.cs",
+              "RelativeDocumentMoniker": "domain\\User.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\Assessment 5\\backend\\domain\\User.cs",
+              "RelativeToolTip": "domain\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:49:41.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\Assessment 5\\backend\\core\\App\\User\\Command\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "core\\App\\User\\Command\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\Assessment 5\\backend\\core\\App\\User\\Command\\CreateUserCommand.cs",
+              "RelativeToolTip": "core\\App\\User\\Command\\CreateUserCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:49:29.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VerifyOtpQuery.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\Assessment 5\\backend\\core\\App\\User\\Query\\VerifyOtpQuery.cs",
+              "RelativeDocumentMoniker": "core\\App\\User\\Query\\VerifyOtpQuery.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\Assessment 5\\backend\\core\\App\\User\\Query\\VerifyOtpQuery.cs",
+              "RelativeToolTip": "core\\App\\User\\Query\\VerifyOtpQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:32:23.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
