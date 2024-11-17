@@ -49,6 +49,7 @@ export class RegisterLoginComponent {
 
   onLoginSubmit() {
     this.loginData = this.loginForm.value;
+    delete this.loginData.otp
     this.userService.loginUser(this.loginData).subscribe({
       next: (res: any) => {
         if (res.statusCode == 200) {
@@ -59,8 +60,8 @@ export class RegisterLoginComponent {
           localStorage.setItem('expiry', expiry.toISOString());
           
           this.toaster.success("Login successful", "Success",{timeOut:3000, closeButton:true});
-          this.router.navigateByUrl('profile');
           localStorage.setItem("session", "true")
+          this.router.navigateByUrl('dashboard');
           
         } else {
           console.log(res);

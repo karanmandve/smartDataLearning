@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using core.Service;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,7 @@ namespace core
             {
                 config.RegisterServicesFromAssembly(typeof(DependencyInjection).Assembly);
             });
+            services.AddSingleton<OpenTokService>();
             return services;
         }
     }

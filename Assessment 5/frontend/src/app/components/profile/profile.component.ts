@@ -1,6 +1,7 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { Router, RouterLink, RouterOutlet } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
+import { OpenTokService } from '../../services/OpenTok/open-tok.service';
 
 @Component({
   selector: 'app-profile',
@@ -15,9 +16,9 @@ export class ProfileComponent implements OnInit {
   toaster = inject(ToastrService)
 
  
-  ngOnInit(): void {
-    this.checkTokenExpiry();
-  }
+  // ngOnInit(): void {
+  //   this.checkTokenExpiry();
+  // }
   
   checkTokenExpiry() {
     const expiryTime = localStorage.getItem('expiry');
@@ -51,4 +52,44 @@ export class ProfileComponent implements OnInit {
       this.toaster.success("You have successfully logged out.", "Logout Successful");
     }
   }
+
+  apiKey = 'b669c86a'; // Replace with your actual API Key
+  sessionId: string = "";
+  token: string = "";
+
+  constructor(private openTokService: OpenTokService) {}
+
+  ngOnInit(): void {
+    this.checkTokenExpiry();
+    // Fetch sessionId from backend
+    this.openTokService.getSessionId().subscribe(({ sessionId }) => {
+      this.sessionId = sessionId;
+
+      // Fetch token for the sessionId
+      this.openTokService.getToken(sessionId).subscribe(({ token }) => {
+        this.token = token;
+
+        // Initialize session and publish stream
+        this.openTokService.initSession(this.apiKey, sessionId, token);
+        this.openTokService.publishStream('publisherDiv');
+        this.openTokService.subscribeToStreams('subscriberDiv');
+      });
+    });
+  }
+
+  // Start screen sharing
+  startScreenShare(): void {
+    this.openTokService.shareScreen('screenDiv');
+  }
+
+
+
+
+
+
+
+
+
+
+
 }
