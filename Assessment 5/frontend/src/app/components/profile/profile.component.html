@@ -1,15 +1,14 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" routerLink="/patient">Navbar</a>
+      <a class="navbar-brand" routerLink="/dashboard">Navbar</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item d-flex">
-            <a class="nav-link active" aria-current="page" routerLink="/patient">Admin Profile</a>
+            <a class="nav-link active" aria-current="page" routerLink="/dashboard">Admin Profile</a>
           </li>
         </ul>
       </div>
       <div>
-        <a class="btn btn-outline-primary " aria-current="page" routerLink="/change-password">Change Password</a>
         <button class="btn btn-outline-danger mx-3" (click)="logout('manual')">Logout</button>
       </div>
     </div>
@@ -32,8 +31,9 @@
     <button (click)="startScreenShare()">Start Screen Share</button>
   </div>
   
-  <div class="screen-share">
+  <div class="screen-share" style="text-align: center; width: 100%;">
     <h3>Screen Share</h3>
     <div id="screenDiv" class="video-frame"></div>
   </div>
+
 

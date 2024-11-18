@@ -30,7 +30,7 @@ export class UserServiceService {
     return this.http.get(`https://localhost:7194/api/User/sendotp/${email}`)
   }
 
-  validateOtp(data: any){
-    return this.http.post("https://localhost:7194/api/User/verifyOtp", data)
-  }
+  // validateOtp(data: any){
+  //   return this.http.post("https://localhost:7194/api/User/verifyOtp", data)
+  // }
 }

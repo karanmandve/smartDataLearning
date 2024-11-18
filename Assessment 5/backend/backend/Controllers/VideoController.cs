@@ -23,15 +23,6 @@ namespace backend.Controllers
             _apiApplicationId = configuration["Vonage:ApplicationId"];
             _apiPrivateKey = configuration["Vonage:PrivateKey"];
             _logger = logger;
-            //var privateKeyPath = configuration["Vonage:PrivateKeyPath"];
-            ////var privateKeyPath = configuration["Vonage:PrivateKeyPath"];
-            //if (!File.Exists(privateKeyPath))
-            //{
-            //    _logger.LogError("Private key file not found at {Path}", privateKeyPath);
-            //    throw new FileNotFoundException("Private key file not found.");
-            //}
-            //_apiPrivateKey = File.ReadAllText(privateKeyPath);
-            //_apiPrivateKey = File.ReadAllText(privateKeyPath); // Read the private key
 
             if (string.IsNullOrEmpty(_apiApplicationId) || string.IsNullOrEmpty(_apiPrivateKey))
             {
@@ -39,8 +30,8 @@ namespace backend.Controllers
                 throw new ArgumentException("Vonage ApplicationId or PrivateKey is missing.");
             }
 
-            // Initialize OpenTok with ApplicationId and PrivateKey (for Bearer authentication)
             _openTok = new OpenTokSDK.OpenTok(_apiApplicationId, _apiPrivateKey);
+
         }
 
         [HttpGet("session")]

@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject } from '@angular/core';
-import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { ToastContainerDirective, ToastrService } from 'ngx-toastr';
 import { Router } from '@angular/router';
 import { UserServiceService } from '../../services/user/user-service.service';
+import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-register-login',
@@ -20,6 +20,9 @@ export class RegisterLoginComponent {
   registerData: any;
   otpSent: boolean = false;
   passwordRgx: RegExp = /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*]).{8,}$/
+  isResendDisabled: boolean = false;  // To control the resend button
+  countdown: number = 30; // Countdown timer for resend OTP
+  resendTimeout: any;
   // this.loginForm.get('email').value;
   
 
@@ -35,7 +38,7 @@ export class RegisterLoginComponent {
   loginForm: FormGroup = new FormGroup({
     email: new FormControl('', [Validators.required, Validators.email]),
     password: new FormControl('', [Validators.required]),
-    otp: new FormControl('')
+    otp: new FormControl('', [Validators.required])
   });
 
   registerForm = new FormGroup({
@@ -49,7 +52,6 @@ export class RegisterLoginComponent {
 
   onLoginSubmit() {
     this.loginData = this.loginForm.value;
-    delete this.loginData.otp
     this.userService.loginUser(this.loginData).subscribe({
       next: (res: any) => {
         if (res.statusCode == 200) {
@@ -113,6 +115,7 @@ export class RegisterLoginComponent {
     this.otpSent = true;  // Mark OTP as sent
     console.log("OTP Sent!");
     const email = this.loginForm.get('email')?.value;
+    this.startResendCountdown();
 
     this.userService.sendOtp(email).subscribe({
       next : (res: any) => {
@@ -123,8 +126,8 @@ export class RegisterLoginComponent {
         }
       },
       error : (error: any) => {
-        if(error.error.statusCode == 409){
-          this.toaster.error("Some error occur", "Error",{timeOut:3000, closeButton:true})
+        if(error.error.statusCode == 401){
+          this.toaster.error("Invalid Credential, Otp Not Send", "Error",{timeOut:3000, closeButton:true})
           this.registerForm.reset()
         }else{
           alert("i am in register error")
@@ -136,37 +139,50 @@ export class RegisterLoginComponent {
     })
   }
 
-  // Simulate validating OTP
-  validateOtp() {
-    const email = this.loginForm.get('email')?.value;
-    const otp = this.loginForm.get('otp')?.value;
-
-    const data = {
-      email: email,
-      otp: otp
+    // Start countdown for resend OTP button
+    startResendCountdown() {
+      this.isResendDisabled = true;  // Disable the resend button
+      this.countdown = 30;  // Set initial countdown time
+      this.resendTimeout = setInterval(() => {
+        this.countdown--;  // Decrease the countdown by 1 each second
+        if (this.countdown <= 0) {
+          clearInterval(this.resendTimeout);  // Stop the countdown when it reaches 0
+          this.isResendDisabled = false;  // Enable the resend button again
+        }
+      }, 1000);  // Run every second
     }
 
-    this.userService.validateOtp(data).subscribe({
-      next : (res: any) => {
-        if(res.statusCode == 200){
-          this.toaster.success("Otp Validated Successfully", "Success",{timeOut:3000, closeButton:true})
-        }else{
-          this.toaster.error("Otp Not Validated", "Error",{timeOut:3000, closeButton:true})
-        }
-      },
-      error : (error: any) => {
-        if(error.error.statusCode == 409){
-          this.toaster.error("Some error occur", "Error",{timeOut:3000, closeButton:true})
-          this.registerForm.reset()
-        }else{
-          alert("i am in register error")
-          alert(JSON.stringify(error))
-        }
-      }
+  // Simulate validating OTP
+  // validateOtp() {
+  //   const email = this.loginForm.get('email')?.value;
+  //   const otp = this.loginForm.get('otp')?.value;
 
-    })
+  //   const data = {
+  //     email: email,
+  //     otp: otp
+  //   }
 
-  }
+  //   this.userService.validateOtp(data).subscribe({
+  //     next : (res: any) => {
+  //       if(res.statusCode == 200){
+  //         this.toaster.success("Otp Validated Successfully", "Success",{timeOut:3000, closeButton:true})
+  //       }else{
+  //         this.toaster.error("Otp Not Validated", "Error",{timeOut:3000, closeButton:true})
+  //       }
+  //     },
+  //     error : (error: any) => {
+  //       if(error.error.statusCode == 409){
+  //         this.toaster.error("Some error occur", "Error",{timeOut:3000, closeButton:true})
+  //         this.registerForm.reset()
+  //       }else{
+  //         alert("i am in register error")
+  //         alert(JSON.stringify(error))
+  //       }
+  //     }
+
+  //   })
+
+  // }
 
 
 

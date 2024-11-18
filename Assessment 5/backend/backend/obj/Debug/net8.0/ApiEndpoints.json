@@ -64,22 +64,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "backend.Controllers.UserController",
-    "Method": "VerifyOtp",
-    "RelativePath": "api/User/verifyOtp",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "verifyOtpDto",
-        "Type": "domain.ModelDto.VerifyOtpDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "backend.Controllers.VideoController",
     "Method": "CreateSession",
     "RelativePath": "api/Video/session",

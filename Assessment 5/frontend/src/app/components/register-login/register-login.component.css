@@ -14,4 +14,18 @@
   .text-danger {
     font-size: 0.9rem;
   }
+
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .resend-otp{
+    margin-top: 2rem;
+  }
+
+.resend-otp-btn{
+    width: 9.5rem;
+  }
   

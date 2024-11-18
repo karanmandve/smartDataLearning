@@ -14,6 +14,7 @@ export class ProfileComponent implements OnInit {
 
   router = inject(Router)
   toaster = inject(ToastrService)
+  isScreenSharing: boolean = false;
 
  
   // ngOnInit(): void {
@@ -81,15 +82,7 @@ export class ProfileComponent implements OnInit {
   startScreenShare(): void {
     this.openTokService.shareScreen('screenDiv');
   }
-
-
-
-
-
-
-
-
-
+  
 
 
 }

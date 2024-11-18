@@ -105,47 +105,67 @@
               </button>
             </div>
           </div> -->
-          
-          <div class="mb-3">
-            
-            <label for="otp" class="form-label">Otp</label>
-            <input
+          <div class="d-flex justify-content-between">
+
+            <div class="mb-3 col-8">
+              
+              <label for="otp" class="form-label">Otp</label>
+              <input
               type="text"
               class="form-control"
               formControlName="otp"
               id="otp"
               placeholder="Otp"
-            />
-          </div>
-          
-          <!-- <div
+              />
+              <div
               *ngIf="
-                loginForm.get('otp')?.invalid && loginForm.get('otp')?.touched
+                loginForm.get('otp')?.invalid &&
+                loginForm.get('otp')?.touched
               "
               class="text-danger"
             >
-              OTP must be 6 digits
+              Otp Required
+            </div>
+            </div>
+            
+            <!-- <div
+            *ngIf="
+            loginForm.get('otp')?.invalid && loginForm.get('otp')?.touched
+            "
+            class="text-danger"
+            >
+            OTP must be 6 digits
             </div> -->
 
-            <div *ngIf="!otpSent">
-              <button
+            <div class="resend-otp">
+              <button *ngIf="!otpSent"
+              type="button"
+              class="btn btn-secondary w-100 mb-2"
+              (click)="sendOtp()"
+              [disabled]="otpSent || !loginForm.get('email')?.valid || !loginForm.get('password')?.valid"
+              
+              >
+              Send OTP
+            </button>
+            
+              <div *ngIf="otpSent" class="resend-otp-btn">
+                <button *ngIf="isResendDisabled && countdown > 0"
+                  type="button"
+                  class="btn btn-secondary w-100 mb-2"
+                  (click)="sendOtp()"
+                  [disabled]="isResendDisabled">
+                  Resend OTP ({{ countdown }}s)
+                </button>
+                
+                <button *ngIf="!isResendDisabled"
                 type="button"
                 class="btn btn-secondary w-100 mb-2"
                 (click)="sendOtp()"
-                [disabled]="loginForm.invalid"
-              >
-                Send OTP
-              </button>
-            </div>
-            <div *ngIf="otpSent">
-              <button
-                type="button"
-                class="btn btn-secondary w-100 mb-2"
-                (click)="validateOtp()"
-                [disabled]="!otpSent || loginForm.get('otp')?.invalid"
-              >
-                Validate OTP
-              </button>
+                [disabled]="isResendDisabled">
+                Resend OTP
+                </button>
+              </div>
+              </div>
             </div>
 
 

@@ -1,4 +1,5 @@
 ﻿using core.Interface;
+using domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -10,7 +11,6 @@ using System.Text;
 public class UserLoginQuery : IRequest<Object>
 {
     public domain.ModelDto.LoginDto LoginUser { get; set; }
-    public string Otp { get; set; } // Add OTP property
 }
 
 public class UserLoginQueryHandler : IRequestHandler<UserLoginQuery, Object>
@@ -30,14 +30,23 @@ public class UserLoginQueryHandler : IRequestHandler<UserLoginQuery, Object>
     {
         var user = request.LoginUser;
 
+
+
         var userExist = await _context.Set<domain.User>().FirstOrDefaultAsync(x => x.Email == user.Email);
 
         if (userExist == null || !BCrypt.Net.BCrypt.Verify(user.Password, userExist.Password))
         {
             return "Email or Password Invalid";
+
         }
 
-        
+        var otp = await _context.Set<Otp>().FirstOrDefaultAsync(x => x.Email == user.Email && x.Code == user.Otp);
+
+        if (otp == null || otp.Expiration < DateTime.Now)
+        {
+            return "Invalid OTP";
+        }
+
         var claim = new[]
          {
                 new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:Subject"]),
@@ -54,10 +63,11 @@ public class UserLoginQueryHandler : IRequestHandler<UserLoginQuery, Object>
             signingCredentials: signIn);
         var jwt = new JwtSecurityTokenHandler().WriteToken(token);
 
-        await _context.SaveChangesAsync();
+        //await _context.SaveChangesAsync();
 
 
-        //await _context.Set<domain.Otp>().AddAsync(new domain.Otp { Email = userExist.Email, Code = otp, Expiration = DateTime.Now.AddMinutes(5) });
+
+        //await _context.Set<domain.Otp>().AddAsync(new domain.Otp { Email = userExist.Email, Code = user.Otp, Expiration = DateTime.Now.AddMinutes(5) });
         // Generate OTP
         //var otp = new Random().Next(100000, 999999).ToString();
         // Store OTP in database or cache with expiration time

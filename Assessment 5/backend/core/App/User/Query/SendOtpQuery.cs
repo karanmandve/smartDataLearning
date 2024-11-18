@@ -1,5 +1,6 @@
 ﻿using core.Interface;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -36,6 +37,14 @@ namespace core.App.User.Query
         public async Task<Object> Handle(SendOtpQuery request, CancellationToken cancellationToken)
         {
             var email = request.Email;
+
+            var userExist = await _context.Set<domain.User>().FirstOrDefaultAsync(x => x.Email == email);
+
+            if (userExist == null)
+            {
+                return "Email or Password Invalid";
+
+            }
 
 
             var otp = new Random().Next(100000, 999999).ToString();

@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\testingOpenTok\\",
+  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\testingOpenTok\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F84AEDE-B9D0-4C6F-8FBC-044B445530EE}|testingOpenTok\\testingOpenTok.csproj|c:\\users\\user\\desktop\\smartdatalearning\\.net\\.net learning\\testingopentok\\testingopentok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F84AEDE-B9D0-4C6F-8FBC-044B445530EE}|testingOpenTok\\testingOpenTok.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\testingopentok\\testingopentok\\private.key||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9F84AEDE-B9D0-4C6F-8FBC-044B445530EE}|testingOpenTok\\testingOpenTok.csproj|solutionrelative:testingopentok\\private.key||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F84AEDE-B9D0-4C6F-8FBC-044B445530EE}|testingOpenTok\\testingOpenTok.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\testingopentok\\testingopentok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F84AEDE-B9D0-4C6F-8FBC-044B445530EE}|testingOpenTok\\testingOpenTok.csproj|solutionrelative:testingopentok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F84AEDE-B9D0-4C6F-8FBC-044B445530EE}|testingOpenTok\\testingOpenTok.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\.net\\.net learning\\testingopentok\\testingopentok\\testingopentok.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9F84AEDE-B9D0-4C6F-8FBC-044B445530EE}|testingOpenTok\\testingOpenTok.csproj|solutionrelative:testingopentok\\testingopentok.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "testingOpenTok",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\testingOpenTok\\testingOpenTok\\testingOpenTok.csproj",
+              "RelativeDocumentMoniker": "testingOpenTok\\testingOpenTok.csproj",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\testingOpenTok\\testingOpenTok\\testingOpenTok.csproj",
+              "RelativeToolTip": "testingOpenTok\\testingOpenTok.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-18T07:50:01.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "private.key",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\testingOpenTok\\testingOpenTok\\private.key",
+              "RelativeDocumentMoniker": "testingOpenTok\\private.key",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\testingOpenTok\\testingOpenTok\\private.key",
+              "RelativeToolTip": "testingOpenTok\\private.key",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-18T07:45:10.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\testingOpenTok\\testingOpenTok\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\testingOpenTok\\testingOpenTok\\Program.cs",
               "RelativeDocumentMoniker": "testingOpenTok\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\smartDataLearning\\.NET\\.NET Learning\\testingOpenTok\\testingOpenTok\\Program.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\.NET\\.NET Learning\\testingOpenTok\\testingOpenTok\\Program.cs",
               "RelativeToolTip": "testingOpenTok\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAMwB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T16:56:24.669Z",
               "EditorCaption": ""

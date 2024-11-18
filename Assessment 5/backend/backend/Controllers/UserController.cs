@@ -55,14 +55,15 @@ namespace backend.Controllers
         public async Task<IActionResult> LoginUser(LoginDto user)
         {
             var result = await _mediator.Send(new UserLoginQuery { LoginUser = user });
-            if (result is string && (string)result == "Email or Password Invalid")
+            if (result is string)
             {
                 return Unauthorized(new
                 {
                     statusCode = 401,
-                    message = "Invalid Credentials"
+                    message = result
                 });
             }
+
             return Ok(new
             {
                 statusCode = 200,
@@ -75,7 +76,7 @@ namespace backend.Controllers
         public async Task<IActionResult> SendOtp(string email)
         {
             var result = await _mediator.Send(new SendOtpQuery { Email = email });
-            if (result is string && (string)result == "Email or Password Invalid")
+            if (result is string)
             {
                 return Unauthorized(new
                 {
@@ -91,26 +92,26 @@ namespace backend.Controllers
             });
         }
 
-        [HttpPost("verifyOtp")]
-        public async Task<IActionResult> VerifyOtp([FromBody] VerifyOtpDto verifyOtpDto)
-        {
-            var query = await _mediator.Send(new VerifyOtpQuery { VerifyOtpDto = verifyOtpDto });
+        //[HttpPost("verifyOtp")]
+        //public async Task<IActionResult> VerifyOtp([FromBody] VerifyOtpDto verifyOtpDto)
+        //{
+        //    var query = await _mediator.Send(new VerifyOtpQuery { VerifyOtpDto = verifyOtpDto });
 
-            if (query is string && (string)query == "Invalid OTP")
-            {
-                return Unauthorized(new
-                {
-                    statusCode = 409,
-                    message = "Invalid Credentials"
-                });
-            }
+        //    if (query is string && (string)query == "Invalid OTP")
+        //    {
+        //        return Unauthorized(new
+        //        {
+        //            statusCode = 409,
+        //            message = "Invalid Credentials"
+        //        });
+        //    }
 
-            return Ok(new
-            {
-                statusCode = 200,
-                message = "Login Successfully",
-                data = query
-            });
-        }
+        //    return Ok(new
+        //    {
+        //        statusCode = 200,
+        //        message = "Login Successfully",
+        //        data = query
+        //    });
+        //}
     }
 }
