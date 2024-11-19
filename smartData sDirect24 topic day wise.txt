@@ -6,4 +6,4 @@
 
 9/9/2024 = type inference, delegates: func, predicate, actions
 
-10/9/2024 = entity, attribute, relationship, normalization, denormalization
+10/9/2024 = entity, attribute, relationship, normalization, denormalization 
