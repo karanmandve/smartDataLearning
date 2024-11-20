@@ -1,3 +1,5 @@
 - xss attack
 - csrf
 - how to securly stored jwt token
+- service worker
+- browser cache
