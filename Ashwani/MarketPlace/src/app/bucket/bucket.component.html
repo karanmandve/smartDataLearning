@@ -1,0 +1,6 @@
+<div>
+    <h1>Cart</h1>
+    <div *ngFor="let item of bucketData|async" class="display-flex">
+        {{item.name}} x {{item.quantity}}
+    </div>
+</div>
