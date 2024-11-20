@@ -85,3 +85,20 @@ C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\core\bin\De
 C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\core\obj\Debug\net8.0\core.csproj.Up2Date
 C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\core\obj\Debug\net8.0\core.genruntimeconfig.cache
 C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\core\obj\Debug\net8.0\ref\core.dll
+C:\Users\user\Desktop\Assessment 5\backend\core\bin\Debug\net8.0\core.deps.json
+C:\Users\user\Desktop\Assessment 5\backend\core\bin\Debug\net8.0\core.runtimeconfig.json
+C:\Users\user\Desktop\Assessment 5\backend\core\bin\Debug\net8.0\core.dll
+C:\Users\user\Desktop\Assessment 5\backend\core\bin\Debug\net8.0\core.pdb
+C:\Users\user\Desktop\Assessment 5\backend\core\bin\Debug\net8.0\domain.dll
+C:\Users\user\Desktop\Assessment 5\backend\core\bin\Debug\net8.0\domain.pdb
+C:\Users\user\Desktop\Assessment 5\backend\core\obj\Debug\net8.0\core.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Assessment 5\backend\core\obj\Debug\net8.0\core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Assessment 5\backend\core\obj\Debug\net8.0\core.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Assessment 5\backend\core\obj\Debug\net8.0\core.AssemblyInfo.cs
+C:\Users\user\Desktop\Assessment 5\backend\core\obj\Debug\net8.0\core.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Assessment 5\backend\core\obj\Debug\net8.0\core.csproj.Up2Date
+C:\Users\user\Desktop\Assessment 5\backend\core\obj\Debug\net8.0\core.dll
+C:\Users\user\Desktop\Assessment 5\backend\core\obj\Debug\net8.0\refint\core.dll
+C:\Users\user\Desktop\Assessment 5\backend\core\obj\Debug\net8.0\core.pdb
+C:\Users\user\Desktop\Assessment 5\backend\core\obj\Debug\net8.0\core.genruntimeconfig.cache
+C:\Users\user\Desktop\Assessment 5\backend\core\obj\Debug\net8.0\ref\core.dll

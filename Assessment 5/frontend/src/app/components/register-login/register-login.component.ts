@@ -112,14 +112,14 @@ export class RegisterLoginComponent {
 
 
   sendOtp() {
-    this.otpSent = true;  // Mark OTP as sent
-    console.log("OTP Sent!");
     const email = this.loginForm.get('email')?.value;
-    this.startResendCountdown();
-
+    
     this.userService.sendOtp(email).subscribe({
       next : (res: any) => {
         if(res.statusCode == 200){
+          console.log("OTP Sent!");
+          this.otpSent = true;  // Mark OTP as sent
+          this.startResendCountdown();
           this.toaster.success("Send Otp Successfully", "Success",{timeOut:3000, closeButton:true})
         }else{
           this.toaster.error("Otp Not Send", "Error",{timeOut:3000, closeButton:true})
@@ -134,8 +134,6 @@ export class RegisterLoginComponent {
           alert(JSON.stringify(error))
         }
       }
-
-
     })
   }
 

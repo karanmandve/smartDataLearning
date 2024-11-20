@@ -8231,19 +8231,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\karanmandve\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 5\\backend\\backend\\backend.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Assessment 5\\backend\\backend\\backend.csproj",
       "projectName": "backend",
-      "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 5\\backend\\backend\\backend.csproj",
-      "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 5\\backend\\backend\\obj\\",
+      "projectPath": "C:\\Users\\user\\Desktop\\Assessment 5\\backend\\backend\\backend.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Assessment 5\\backend\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8258,8 +8258,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 5\\backend\\infrastructure\\infrastructure.csproj": {
-              "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 5\\backend\\infrastructure\\infrastructure.csproj"
+            "C:\\Users\\user\\Desktop\\Assessment 5\\backend\\infrastructure\\infrastructure.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\Assessment 5\\backend\\infrastructure\\infrastructure.csproj"
             }
           }
         }
@@ -8272,8 +8272,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -8333,7 +8334,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

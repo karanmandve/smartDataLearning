@@ -1,9 +1,0 @@
-4/9/2024 = visual studio interaction, about dllls and exe,
-
-5/9/2024 = classes and objects
-
-6/9/2024 = anonymous types, functions, overview of lambda expression
-
-9/9/2024 = type inference, delegates: func, predicate, actions
-
-10/9/2024 = entity, attribute, relationship, normalization, denormalization 
