@@ -1,5 +1,5 @@
 import { createFeatureSelector, createSelector } from "@ngrx/store";
-import { Grocery } from "../../models/grocery.model";
+import { Grocery } from "../../Models/grocery.model";
 
 export const groceriesList=createFeatureSelector<Grocery[]>("groceries");
 

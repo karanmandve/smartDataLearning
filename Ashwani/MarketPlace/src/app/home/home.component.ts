@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { CommonModule } from '@angular/common'
-import { Grocery } from '../models/grocery.model';
 import { Bucket } from '../Models/bucket.model';
 import { BucketAdd, removeFromBucket } from '../store/action/bucket.action';
 import { groceriesList, groceriesListByType } from '../store/selector/grocery.selector';
+import { Grocery } from '../Models/grocery.model';
 
 @Component({
   selector: 'app-home',

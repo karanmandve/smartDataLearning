@@ -5,12 +5,13 @@ import { CounterState } from './store/counter.reducer';
 import { AppState } from './store/app.state';
 import { Observable } from 'rxjs';
 import { selectCount, selectCounterState } from './store/counter.selector';
-import { decreamentCoutner, increamentCoutner } from './store/counter.action';
+import { decreamentCoutner, increamentCoutner, resetCounter } from './store/counter.action';
+import { AsyncPipe } from '@angular/common';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ],
+  imports: [RouterOutlet, AsyncPipe],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -23,14 +24,14 @@ export class AppComponent {
   this.counter$ = this.store.select(selectCount)
 }
   increment() {
-    this.store.dispatch(increamentCoutner);
+    this.store.dispatch(increamentCoutner());
   }
 
   decrement() {
-    this.store.dispatch(decreamentCoutner);
+    this.store.dispatch(decreamentCoutner());
   }
 
   reset() {
-    this.store.dispatch(reset());
+    this.store.dispatch(resetCounter());
   }
 }
