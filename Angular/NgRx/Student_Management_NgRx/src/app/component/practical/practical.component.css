@@ -1,0 +1,53 @@
+.container {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .list-group-item {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .list-group-item:hover {
+    transform: scale(1.02);
+    background-color: #f8f9fa;
+  }
+  
+  .btn {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+  }
+  
+  .all-students {
+    background-color: #e3f2fd; /* Light blue */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Add spacing */
+  }
+  
+  .exam-students {
+    background-color: #ffebee; /* Light red */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Add spacing */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

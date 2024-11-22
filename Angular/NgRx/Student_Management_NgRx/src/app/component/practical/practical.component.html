@@ -1,0 +1,28 @@
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Practical</h1>
+    <div class="row justify-content-center">
+      <div class="col-md-5 all-students me-3">
+        <h2 class="text-primary">All Students</h2>
+        <ul class="list-group">
+          <li *ngFor="let student of allStudents$ | async" class="list-group-item d-flex justify-content-between align-items-center">
+            {{ student.name }}
+            <button 
+              class="btn btn-success btn-sm"
+              (click)="addToExam(student)" 
+              [disabled]="((examStudents$ | async)?.length ?? 0) >= 5 || false">
+              Add to Exam
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-5 exam-students">
+        <h2 class="text-danger">Students in Practical Exam</h2>
+        <ul class="list-group">
+          <li *ngFor="let student of examStudents$ | async" class="list-group-item d-flex justify-content-between align-items-center">
+            {{ student.name }}
+            <button class="btn btn-danger btn-sm" (click)="removeFromExam()">Remove from Exam</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>

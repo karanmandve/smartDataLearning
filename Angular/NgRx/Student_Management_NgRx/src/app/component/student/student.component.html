@@ -1,0 +1,40 @@
+<!-- src/app/student.component.html -->
+<div>
+    <h2>Student Management</h2>
+
+    <button class="btn btn-primary" routerLink="/practical">Practicals</button>
+  
+    <!-- Form to Add Student -->
+    <form [formGroup]="studentForm" (ngSubmit)="onSubmit()">
+      <div>
+        <label for="name">Name:</label>
+        <input id="name" formControlName="name" type="text" placeholder="Enter student name">
+        <div *ngIf="studentForm.get('name')?.touched && studentForm.get('name')?.invalid">
+          <small *ngIf="studentForm.get('name')?.errors?.['required']">Name is required.</small>
+          <small *ngIf="studentForm.get('name')?.errors?.['minlength']">Name must be at least 3 characters long.</small>
+        </div>
+      </div>
+  
+      <div>
+        <label for="age">Age:</label>
+        <input id="age" formControlName="age" type="number" placeholder="Enter student age">
+        <div *ngIf="studentForm.get('age')?.touched && studentForm.get('age')?.invalid">
+          <small *ngIf="studentForm.get('age')?.errors?.['required']">Age is required.</small>
+          <small *ngIf="studentForm.get('age')?.errors?.['min']">Age must be at least 18.</small>
+          <small *ngIf="studentForm.get('age')?.errors?.['max']">Age cannot be more than 100.</small>
+        </div>
+      </div>
+  
+      <button type="submit" [disabled]="studentForm.invalid">Add Student</button>
+    </form>
+  
+    <!-- List of Students -->
+    <h3>List of Students</h3>
+    <ul>
+      <li *ngFor="let student of students$ | async">
+        {{ student.name }}
+        <button (click)="onRemoveStudent(student.id)">Remove</button>
+      </li>
+    </ul>
+  </div>
+  
