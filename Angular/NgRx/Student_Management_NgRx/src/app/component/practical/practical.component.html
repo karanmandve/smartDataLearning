@@ -20,7 +20,7 @@
         <ul class="list-group">
           <li *ngFor="let student of examStudents$ | async" class="list-group-item d-flex justify-content-between align-items-center">
             {{ student.name }}
-            <button class="btn btn-danger btn-sm" (click)="removeFromExam()">Remove from Exam</button>
+            <button class="btn btn-danger btn-sm" (click)="removeFromExam(student)">Remove from Exam</button>
           </li>
         </ul>
       </div>

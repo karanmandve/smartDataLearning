@@ -1,0 +1,131 @@
+2024-11-23 13:49:59.512 +05:30 [INF] Now listening on: https://localhost:7175
+2024-11-23 13:49:59.552 +05:30 [INF] Now listening on: http://localhost:5275
+2024-11-23 13:49:59.596 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-23 13:49:59.598 +05:30 [INF] Hosting environment: Development
+2024-11-23 13:49:59.599 +05:30 [INF] Content root path: C:\Users\karanmandve\Desktop\karan mandve notes\Dinesh Sir\ExampleWebApp\ExampleWebApp\ExampleWebApp
+2024-11-23 13:50:00.783 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger - null null
+2024-11-23 13:50:00.943 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger - 301 0 null 161.421ms
+2024-11-23 13:50:00.950 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - null null
+2024-11-23 13:50:00.994 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - 200 null text/html;charset=utf-8 44.4624ms
+2024-11-23 13:50:01.003 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/swagger-ui.css - null null
+2024-11-23 13:50:01.008 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/swagger-ui-standalone-preset.js - null null
+2024-11-23 13:50:01.008 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/swagger-ui-bundle.js - null null
+2024-11-23 13:50:01.016 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-23 13:50:01.019 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - null null
+2024-11-23 13:50:01.028 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.4625ms
+2024-11-23 13:50:01.039 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-11-23 13:50:01.039 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-11-23 13:50:01.043 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 35.1442ms
+2024-11-23 13:50:01.043 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/swagger-ui.css - 200 143943 text/css 40.5629ms
+2024-11-23 13:50:01.056 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-11-23 13:50:01.059 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 51.1459ms
+2024-11-23 13:50:01.074 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.9378ms
+2024-11-23 13:50:01.272 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - null null
+2024-11-23 13:50:01.304 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/favicon-32x32.png - null null
+2024-11-23 13:50:01.309 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-11-23 13:50:01.313 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/favicon-32x32.png - 200 628 image/png 9.1071ms
+2024-11-23 13:50:01.384 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 111.6526ms
+2024-11-23 13:51:20.658 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/chathub/negotiate?negotiateVersion=1 - null null
+2024-11-23 13:51:20.663 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:20.665 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/chathub/negotiate?negotiateVersion=1 - 204 null null 7.3637ms
+2024-11-23 13:51:20.674 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7175/chathub/negotiate?negotiateVersion=1 - null 0
+2024-11-23 13:51:20.679 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:20.684 +05:30 [INF] Executing endpoint '/chathub/negotiate'
+2024-11-23 13:51:20.725 +05:30 [INF] Executed endpoint '/chathub/negotiate'
+2024-11-23 13:51:20.726 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7175/chathub/negotiate?negotiateVersion=1 - 200 316 application/json 51.7126ms
+2024-11-23 13:51:20.732 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:7175/chathub?id=86witQN3HpUUBiX48h4s1w - null null
+2024-11-23 13:51:20.735 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:20.736 +05:30 [INF] Executing endpoint '/chathub'
+2024-11-23 13:51:30.145 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/chathub/negotiate?negotiateVersion=1 - null null
+2024-11-23 13:51:30.148 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:30.149 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/chathub/negotiate?negotiateVersion=1 - 204 null null 3.8576ms
+2024-11-23 13:51:30.153 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7175/chathub/negotiate?negotiateVersion=1 - null 0
+2024-11-23 13:51:30.157 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:30.158 +05:30 [INF] Executing endpoint '/chathub/negotiate'
+2024-11-23 13:51:30.159 +05:30 [INF] Executed endpoint '/chathub/negotiate'
+2024-11-23 13:51:30.160 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7175/chathub/negotiate?negotiateVersion=1 - 200 316 application/json 7.029ms
+2024-11-23 13:51:30.215 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:7175/chathub?id=6L7xZYkzNKeoEhERnNe2kg - null null
+2024-11-23 13:51:30.219 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:30.220 +05:30 [INF] Executing endpoint '/chathub'
+2024-11-23 13:51:39.878 +05:30 [INF] Executed endpoint '/chathub'
+2024-11-23 13:51:39.881 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:7175/chathub?id=6L7xZYkzNKeoEhERnNe2kg - 200 null null 9665.6561ms
+2024-11-23 13:51:39.927 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/chathub/negotiate?negotiateVersion=1 - null null
+2024-11-23 13:51:39.931 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:39.933 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/chathub/negotiate?negotiateVersion=1 - 204 null null 5.1058ms
+2024-11-23 13:51:39.939 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7175/chathub/negotiate?negotiateVersion=1 - null 0
+2024-11-23 13:51:39.944 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:39.946 +05:30 [INF] Executing endpoint '/chathub/negotiate'
+2024-11-23 13:51:39.948 +05:30 [INF] Executed endpoint '/chathub/negotiate'
+2024-11-23 13:51:39.950 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7175/chathub/negotiate?negotiateVersion=1 - 200 316 application/json 10.4173ms
+2024-11-23 13:51:39.954 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:7175/chathub?id=jXMnAgFCP7PeCSomNiV2NQ - null null
+2024-11-23 13:51:39.959 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:39.960 +05:30 [INF] Executing endpoint '/chathub'
+2024-11-23 13:51:41.402 +05:30 [INF] Executed endpoint '/chathub'
+2024-11-23 13:51:41.404 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:7175/chathub?id=jXMnAgFCP7PeCSomNiV2NQ - 200 null null 1449.906ms
+2024-11-23 13:51:41.450 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/chathub/negotiate?negotiateVersion=1 - null null
+2024-11-23 13:51:41.454 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:41.455 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/chathub/negotiate?negotiateVersion=1 - 204 null null 5.7311ms
+2024-11-23 13:51:41.462 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7175/chathub/negotiate?negotiateVersion=1 - null 0
+2024-11-23 13:51:41.466 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:41.468 +05:30 [INF] Executing endpoint '/chathub/negotiate'
+2024-11-23 13:51:41.470 +05:30 [INF] Executed endpoint '/chathub/negotiate'
+2024-11-23 13:51:41.471 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7175/chathub/negotiate?negotiateVersion=1 - 200 316 application/json 9.4235ms
+2024-11-23 13:51:41.475 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:7175/chathub?id=Lu18_M_Mh9R8myvkDQHCkQ - null null
+2024-11-23 13:51:41.478 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:41.479 +05:30 [INF] Executing endpoint '/chathub'
+2024-11-23 13:51:42.691 +05:30 [INF] Executed endpoint '/chathub'
+2024-11-23 13:51:42.693 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:7175/chathub?id=Lu18_M_Mh9R8myvkDQHCkQ - 200 null null 1218.1562ms
+2024-11-23 13:51:42.730 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/chathub/negotiate?negotiateVersion=1 - null null
+2024-11-23 13:51:42.733 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:42.735 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/chathub/negotiate?negotiateVersion=1 - 204 null null 4.4072ms
+2024-11-23 13:51:42.741 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7175/chathub/negotiate?negotiateVersion=1 - null 0
+2024-11-23 13:51:42.745 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:42.746 +05:30 [INF] Executing endpoint '/chathub/negotiate'
+2024-11-23 13:51:42.748 +05:30 [INF] Executed endpoint '/chathub/negotiate'
+2024-11-23 13:51:42.751 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7175/chathub/negotiate?negotiateVersion=1 - 200 316 application/json 9.4985ms
+2024-11-23 13:51:42.757 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:7175/chathub?id=f4trQmokPooSRi1nq0y4BA - null null
+2024-11-23 13:51:42.761 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:42.762 +05:30 [INF] Executing endpoint '/chathub'
+2024-11-23 13:51:55.162 +05:30 [INF] Executed endpoint '/chathub'
+2024-11-23 13:51:55.164 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:7175/chathub?id=f4trQmokPooSRi1nq0y4BA - 200 null null 12406.8334ms
+2024-11-23 13:51:55.203 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/chathub/negotiate?negotiateVersion=1 - null null
+2024-11-23 13:51:55.208 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:55.209 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/chathub/negotiate?negotiateVersion=1 - 204 null null 5.7733ms
+2024-11-23 13:51:55.214 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7175/chathub/negotiate?negotiateVersion=1 - null 0
+2024-11-23 13:51:55.218 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:55.220 +05:30 [INF] Executing endpoint '/chathub/negotiate'
+2024-11-23 13:51:55.222 +05:30 [INF] Executed endpoint '/chathub/negotiate'
+2024-11-23 13:51:55.223 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7175/chathub/negotiate?negotiateVersion=1 - 200 316 application/json 8.7498ms
+2024-11-23 13:51:55.227 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:7175/chathub?id=Qe7hybIaJr3NWXmQ_VO1bg - null null
+2024-11-23 13:51:55.229 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:51:55.230 +05:30 [INF] Executing endpoint '/chathub'
+2024-11-23 13:52:02.744 +05:30 [INF] Executed endpoint '/chathub'
+2024-11-23 13:52:02.746 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:7175/chathub?id=86witQN3HpUUBiX48h4s1w - 200 null null 42014.4255ms
+2024-11-23 13:52:02.839 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/chathub/negotiate?negotiateVersion=1 - null null
+2024-11-23 13:52:02.843 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:52:02.845 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/chathub/negotiate?negotiateVersion=1 - 204 null null 5.2098ms
+2024-11-23 13:52:02.850 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7175/chathub/negotiate?negotiateVersion=1 - null 0
+2024-11-23 13:52:02.854 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:52:02.855 +05:30 [INF] Executing endpoint '/chathub/negotiate'
+2024-11-23 13:52:02.858 +05:30 [INF] Executed endpoint '/chathub/negotiate'
+2024-11-23 13:52:02.859 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7175/chathub/negotiate?negotiateVersion=1 - 200 316 application/json 9.538ms
+2024-11-23 13:52:02.863 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:7175/chathub?id=EoC_pyH1CdyHCefzb334eA - null null
+2024-11-23 13:52:02.865 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:52:02.866 +05:30 [INF] Executing endpoint '/chathub'
+2024-11-23 13:52:09.435 +05:30 [INF] Executed endpoint '/chathub'
+2024-11-23 13:52:09.437 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:7175/chathub?id=Qe7hybIaJr3NWXmQ_VO1bg - 200 null null 14210.4222ms
+2024-11-23 13:52:09.492 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/chathub/negotiate?negotiateVersion=1 - null null
+2024-11-23 13:52:09.496 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:52:09.497 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/chathub/negotiate?negotiateVersion=1 - 204 null null 5.5928ms
+2024-11-23 13:52:09.502 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7175/chathub/negotiate?negotiateVersion=1 - null 0
+2024-11-23 13:52:09.506 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:52:09.507 +05:30 [INF] Executing endpoint '/chathub/negotiate'
+2024-11-23 13:52:09.509 +05:30 [INF] Executed endpoint '/chathub/negotiate'
+2024-11-23 13:52:09.512 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7175/chathub/negotiate?negotiateVersion=1 - 200 316 application/json 8.9464ms
+2024-11-23 13:52:09.517 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:7175/chathub?id=GOQV6pUcPrNexlxnZQgJ2A - null null
+2024-11-23 13:52:09.520 +05:30 [INF] CORS policy execution successful.
+2024-11-23 13:52:09.520 +05:30 [INF] Executing endpoint '/chathub'
+2024-11-23 13:55:34.390 +05:30 [INF] Executed endpoint '/chathub'
+2024-11-23 13:55:34.392 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:7175/chathub?id=EoC_pyH1CdyHCefzb334eA - 200 null null 211527.6782ms
+2024-11-23 13:55:34.681 +05:30 [INF] Executed endpoint '/chathub'
+2024-11-23 13:55:34.684 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:7175/chathub?id=GOQV6pUcPrNexlxnZQgJ2A - 200 null null 205165.9174ms

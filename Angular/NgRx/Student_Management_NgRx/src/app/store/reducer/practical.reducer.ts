@@ -40,12 +40,13 @@ export const studentpReducer = createReducer(
     allStudents: state.allStudents.filter(s => s.id !== studentp.id),
     examStudents: [...state.examStudents, studentp]
   })),
-  on(removeStudentFromExam, (state) => {
+  on(removeStudentFromExam, (state, {}) => {
     if (state.examStudents.length === 0) {
       return state; // No students to remove from the exam
     }
 
-    const studentToRemove = state.examStudents[0]; // Remove the first student from the exam list
+    // const studentToRemove = state.examStudents[0]; // Remove the first student from the exam list
+    // const newExamStudents = state.examStudents.slice(1); // Remove the student from the exam list
     const newExamStudents = state.examStudents.slice(1); // Remove the student from the exam list
 
     if (state.allStudents.length === 0) {

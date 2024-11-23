@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Dinesh Sir\\ExampleWebApp\\ExampleWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\dinesh sir\\examplewebapp\\examplewebapp\\examplewebapp\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|solutionrelative:examplewebapp\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Dinesh Sir\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "ExampleWebApp\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Dinesh Sir\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "ExampleWebApp\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T08:19:20.161Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

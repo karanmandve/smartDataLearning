@@ -1,0 +1,32 @@
+﻿<h2 mat-dialog-title>{{(isEditMode ? 'Update': 'Add')}} Examination Type</h2>
+<form [formGroup]="examinationTypeForm" (ngSubmit)="onSubmitEvent()">
+    <mat-dialog-content>
+        <div class="row">
+            <div class="col-md-6">
+                <mat-form-field class="w-100">
+                    <mat-label>Mental Status Examination Id</mat-label>
+                    <input type="number" matInput placeholder="Mental Status Examination Id" formControlName="mentalStatusExaminationId" />
+                    <mat-error matErrorMessages></mat-error>
+                </mat-form-field>
+            </div>
+            <div class="col-md-6">
+                <mat-form-field class="w-100">
+                    <mat-label>Mental Type Name</mat-label>
+                    <input type="text" matInput placeholder="Mental Type Name" formControlName="mentalTypeName" />
+                    <mat-error matErrorMessages></mat-error>
+                </mat-form-field>
+            </div>
+        </div>
+    </mat-dialog-content>
+    <mat-dialog-actions>
+        <button type="submit" mat-flat-button color="primary" [disabled]="!examinationTypeForm.valid || isSaving">
+            <mat-icon *ngIf="isSaving">
+                <mat-spinner color="warn" [diameter]="15"></mat-spinner>
+            </mat-icon>
+            {{(isEditMode ? 'Update' : 'Save')}}
+        </button>
+        <button type="button" mat-flat-button color="warn" (click)="onCloseEvent()">
+            Cancel
+        </button>
+    </mat-dialog-actions>
+</form>
