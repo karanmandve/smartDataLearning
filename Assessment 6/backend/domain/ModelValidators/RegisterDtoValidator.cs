@@ -27,7 +27,7 @@ namespace domain.ModelValidators
 
             RuleFor(x => x.Role)
     .NotEmpty().WithMessage("Role is required.")
-    .MaximumLength(5).WithMessage("Role must be at most 20 characters long.").Must(role => new[] { "Admin", "User" }.Contains(role))
+    .MaximumLength(5).WithMessage("Role must be at most 5 characters long.").Must(role => new[] { "Admin", "User" }.Contains(role))
             .WithMessage("Role must be one of the following: Admin, User, Manager.");
 
             RuleFor(x => x.Password)

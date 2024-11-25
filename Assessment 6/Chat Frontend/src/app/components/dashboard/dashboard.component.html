@@ -1,0 +1,105 @@
+
+  <app-navbar></app-navbar>
+  <div class="d-flex justify-content-center align-items-center" style="height: 20vh;">
+    <h1>Hello {{ userAllData.firstName | titlecase}} {{ userAllData.lastName | titlecase }}</h1>
+  </div>
+
+<div *ngIf="isAdmin">
+
+  
+  <form class="mt-2 row g-3 needs-validation" novalidate [formGroup]="userForm" *ngIf="isUpdateMode">
+    <!-- First Name -->
+    <div class="col-md-4">
+      <label for="firstName" class="form-label">First Name</label>
+      <input formControlName="firstName" name="firstName" type="text" class="form-control" id="firstName" required minlength="3" />
+      <div class="text-danger" *ngIf="userForm.controls['firstName'].touched || userForm.controls['firstName'].dirty">
+        <span *ngIf="userForm.controls['firstName'].errors?.['required']">This is required</span>
+        <span *ngIf="userForm.controls['firstName'].errors?.['minlength']">Min 3 characters required</span>
+      </div>
+      <div class="valid-feedback">Looks good!</div>
+    </div>
+    
+    <!-- Last Name -->
+    <div class="col-md-4">
+      <label for="lastName" class="form-label">Last Name</label>
+      <input formControlName="lastName" name="lastName" type="text" class="form-control" id="lastName" required />
+      <div class="text-danger" *ngIf="userForm.controls['lastName'].touched || userForm.controls['lastName'].dirty">
+        <span *ngIf="userForm.controls['lastName'].errors?.['required']">This is required</span>
+      </div>
+      <div class="valid-feedback">Looks good!</div>
+    </div>
+    
+    <!-- Email -->
+    <div class="col-md-4">
+      <label for="email" class="form-label">Email</label>
+      <input formControlName="email" name="email" type="email" class="form-control" id="email" required />
+      <div class="text-danger" *ngIf="userForm.controls['email'].touched || userForm.controls['email'].dirty">
+        <span *ngIf="userForm.controls['email'].errors?.['required']">This is required</span>
+        <span *ngIf="userForm.controls['email'].errors?.['email']">Invalid email address</span>
+      </div>
+      <div class="valid-feedback">Looks good!</div>
+    </div>
+    
+    <!-- Role -->
+    <div class="col-md-4">
+      <label for="role" class="form-label">Role</label>
+      <select formControlName="role" name="role" class="form-control" id="role" required>
+        <option value="">Select Role</option>
+        <option value="Admin">Admin</option>
+        <option value="User">User</option>
+      </select>
+      <div class="text-danger" *ngIf="userForm.controls['role'].touched || userForm.controls['role'].dirty">
+        <span *ngIf="userForm.controls['role'].errors?.['required']">This is required</span>
+      </div>
+      <div class="valid-feedback">Looks good!</div>
+    </div>
+    
+    <div class="col-12 d-flex gap-3">
+      <button class="btn btn-primary" type="button" (click)="resetForm()">
+        Reset form
+      </button>
+      
+      <button class="btn btn-primary" type="submit" [disabled]="userForm.invalid" (click)="onUpdate()">
+        Update form
+      </button>
+    </div>
+  </form>
+  
+  
+  <div class="container-fluid usergrid">
+    
+    <div class="row" *ngIf="!isUpdateMode">
+      <div class="col-12">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Sr No.</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Email</th>
+              <th>Role</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let user of allUserData; let srNumber = index">
+              <td>{{ srNumber + 1 }}</td>
+              <td>{{ user.firstName }}</td>
+              <td>{{ user.lastName }}</td>
+              <td>{{ user.email }}</td>
+              <td>{{ user.role }}</td>
+              <td class="d-flex">
+                <button class="btn btn-primary me-2" (click)="updateUser(user)">Update</button>
+                <button class="btn btn-warning" (click)="deleteUser(user.userId)">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+      </table>
+    </div>
+  </div>
+  
+</div>
+
+</div>
+
+

@@ -27,10 +27,13 @@ namespace backend
             builder.Services.AddSignalR();
 
             // Add CORS policy
-            builder.Services.AddCors(options =>
-            {
-                options.AddPolicy("AllowAll", builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
-            });
+            //builder.Services.AddCors(options =>
+            //{
+            //    options.AddPolicy(" ", builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+            //});
+
+
+
 
             // JWT Authentication configuration
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
@@ -88,6 +91,12 @@ namespace backend
             });
 
             var app = builder.Build();
+
+            app.UseCors(builder =>
+  builder.WithOrigins("http://localhost:4200")
+         .AllowAnyHeader()
+         .AllowAnyMethod()
+         .AllowCredentials());
 
             // Configure middleware pipeline
             // Serve Swagger UI in both Development and Non-Development environments

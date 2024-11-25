@@ -72,7 +72,7 @@ namespace backend.Controllers
                 return Conflict(new
                 {
                     statusCode = 409,
-                    message = "Email already exist"
+                    message = "User already exist"
                 });
             }
             return Ok(new
@@ -132,6 +132,37 @@ namespace backend.Controllers
                 data = result
             });
         }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdatePatientById(UserDto model, int id)
+        {
+            var isUpdated = await _mediator.Send(new UpdateUserByIdCommand { User = model, Id = id });
+
+            if (!isUpdated)
+            {
+                return NotFound(new { message = "User Not Found" });
+            }
+
+            return Ok(new { message = "Update User Successfully" });
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletePatientById(int id)
+        {
+            var isDeleted = await _mediator.Send(new DeleteUserByIdPermanentCommand { Id = id });
+
+            if (!isDeleted)
+            {
+                return NotFound(new { message = "User Not Found" });
+            }
+
+            return Ok(new { message = "User Deleted Successfully" });
+        }
+
+
+
 
     }
 }

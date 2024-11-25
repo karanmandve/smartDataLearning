@@ -1,6 +1,7 @@
 ﻿using core.Interface;
 using Mapster;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace core.App.User.Command
 {
-    public class CreateUserCommand: IRequest<bool>
+    public class CreateUserCommand : IRequest<bool>
     {
         public domain.ModelDto.RegisterDto RegisterUser { get; set; }
     }
@@ -26,9 +27,11 @@ namespace core.App.User.Command
         {
             var user = request.RegisterUser;
 
-            if(user == null)
+            var userExist = await _context.Set<domain.User>().FirstOrDefaultAsync(us => us.Email == user.Email);
+
+            if (userExist != null)
             {
-                throw new Exception("User is null");
+                return false;
             }
 
             user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
