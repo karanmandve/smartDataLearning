@@ -1,56 +1,55 @@
 <app-navbar></app-navbar>
 
 <div class="container d-flex justify-content-center align-items-center min-vh-100">
-    <div class="card shadow-lg p-4" style="max-width: 600px; width: 100%; border-radius: 12px;">
-      <h2 class="text-center mb-4">Profile Information</h2>
-  
-      <!-- Check if user data is available -->
-      <div *ngIf="userAllData; else loading">
-        
-        <!-- User data form in a grid layout -->
-        <div class="row mb-3">
-          <label for="firstName" class="col-sm-4 col-form-label">First Name:</label>
-          <div class="col-sm-8">
-            <p id="firstName" class="fs-5">{{ userAllData.firstName | titlecase }}</p>
-          </div>
+  <div class="card shadow-lg p-4" style="max-width: 600px; width: 100%; border-radius: 12px;">
+    <h2 class="text-center mb-4">Profile Information</h2>
+
+    <!-- Check if user data is available -->
+    <div *ngIf="userAllData; else loading">
+      
+      <!-- User data form in a grid layout -->
+      <div class="row mb-3 align-items-center">
+        <label for="firstName" class="col-sm-4 col-form-label text-end">First Name:</label>
+        <div class="col-sm-8">
+          <p id="firstName" class="fs-5 text-center mb-0">{{ userAllData.firstName | titlecase }}</p>
         </div>
-  
-        <div class="row mb-3">
-          <label for="lastName" class="col-sm-4 col-form-label">Last Name:</label>
-          <div class="col-sm-8">
-            <p id="lastName" class="fs-5">{{ userAllData.lastName | titlecase }}</p>
-          </div>
-        </div>
-  
-        <div class="row mb-3">
-          <label for="email" class="col-sm-4 col-form-label">Email:</label>
-          <div class="col-sm-8">
-            <p id="email" class="fs-5">{{ userAllData.email }}</p>
-          </div>
-        </div>
-  
-        <div class="row mb-3">
-          <label for="role" class="col-sm-4 col-form-label">Role:</label>
-          <div class="col-sm-8">
-            <p id="role" class="fs-5">{{ userAllData.role }}</p>
-          </div>
-        </div>
-  
-        <div class="row mb-3">
-          <label for="dateCreated" class="col-sm-4 col-form-label">Account Created On:</label>
-          <div class="col-sm-8">
-            <p id="dateCreated" class="fs-5">{{ userAllData.dateCreated | date: 'longDate' }}</p>
-          </div>
-        </div>
-  
       </div>
-  
-      <!-- Loading state -->
-      <ng-template #loading>
-        <div class="text-center">
-          <p class="fs-5 text-muted">Loading user details...</p>
+
+      <div class="row mb-3 align-items-center">
+        <label for="lastName" class="col-sm-4 col-form-label text-end">Last Name:</label>
+        <div class="col-sm-8">
+          <p id="lastName" class="fs-5 text-center mb-0">{{ userAllData.lastName | titlecase }}</p>
         </div>
-      </ng-template>
+      </div>
+
+      <div class="row mb-3 align-items-center">
+        <label for="email" class="col-sm-4 col-form-label text-end">Email:</label>
+        <div class="col-sm-8">
+          <p id="email" class="fs-5 text-center mb-0">{{ userAllData.email }}</p>
+        </div>
+      </div>
+
+      <div class="row mb-3 align-items-center">
+        <label for="role" class="col-sm-4 col-form-label text-end">Role:</label>
+        <div class="col-sm-8">
+          <p id="role" class="fs-5 text-center mb-0">{{ userAllData.role }}</p>
+        </div>
+      </div>
+
+      <div class="row mb-3 align-items-center">
+        <label for="dateCreated" class="col-sm-4 col-form-label text-end">Account Created On:</label>
+        <div class="col-sm-8">
+          <p id="dateCreated" class="fs-5 text-center mb-0">{{ userAllData.dateCreated | date: 'longDate' }}</p>
+        </div>
+      </div>
+
     </div>
+
+    <!-- Loading state -->
+    <ng-template #loading>
+      <div class="text-center">
+        <p class="fs-5 text-muted">Loading user details...</p>
+      </div>
+    </ng-template>
   </div>
-  
+</div>

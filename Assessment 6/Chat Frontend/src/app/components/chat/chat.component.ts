@@ -50,7 +50,7 @@ export class ChatComponent {
     this.startHubConnection(this._chatHubConnection);
 
     this._chatHubConnection.on("messageRecieved", (message: string, user: string) => {
-      this.messages.push(`${user} : ${message}`);
+      this.messages.push(`${user } : ${message}`);
       this.message = "";
     });
   }

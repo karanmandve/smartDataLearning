@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|c:\\users\\karanmandve\\desktop\\assessment 6\\backend\\core\\app\\user\\command\\sendotpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|solutionrelative:core\\app\\user\\command\\sendotpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|c:\\users\\karanmandve\\desktop\\assessment 6\\backend\\core\\app\\user\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|solutionrelative:core\\app\\user\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|c:\\users\\karanmandve\\desktop\\assessment 6\\backend\\core\\app\\user\\command\\deleteuserbyidpermanentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|solutionrelative:core\\app\\user\\command\\deleteuserbyidpermanentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|c:\\users\\karanmandve\\desktop\\assessment 6\\backend\\core\\app\\user\\command\\sendotpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|solutionrelative:core\\app\\user\\command\\sendotpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0587EE84-98E4-4E3B-8E9B-C7C773B6B861}|core\\core.csproj|c:\\users\\karanmandve\\desktop\\assessment 6\\backend\\core\\app\\user\\command\\updateuserbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -154,7 +154,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -190,25 +190,24 @@
               "RelativeToolTip": "core\\App\\User\\Command\\UpdateUserByIdCommand.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAQwCwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:45:46.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T06:45:46.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "SendOtpCommand.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\core\\App\\User\\Command\\SendOtpCommand.cs",
               "RelativeDocumentMoniker": "core\\App\\User\\Command\\SendOtpCommand.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\core\\App\\User\\Command\\SendOtpCommand.cs",
               "RelativeToolTip": "core\\App\\User\\Command\\SendOtpCommand.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAUwDkAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA6wDkAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T12:53:23.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DeleteUserByIdPermanentCommand.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\core\\App\\User\\Command\\DeleteUserByIdPermanentCommand.cs",
               "RelativeDocumentMoniker": "core\\App\\User\\Command\\DeleteUserByIdPermanentCommand.cs",
@@ -216,25 +215,24 @@
               "RelativeToolTip": "core\\App\\User\\Command\\DeleteUserByIdPermanentCommand.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAawCMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:55:03.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T06:55:03.127Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CreateUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\core\\App\\User\\Command\\CreateUserCommand.cs",
               "RelativeDocumentMoniker": "core\\App\\User\\Command\\CreateUserCommand.cs",
               "ToolTip": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\core\\App\\User\\Command\\CreateUserCommand.cs",
               "RelativeToolTip": "core\\App\\User\\Command\\CreateUserCommand.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwBMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T11:49:29.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\backend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "backend\\Controllers\\UserController.cs",
@@ -242,8 +240,7 @@
               "RelativeToolTip": "backend\\Controllers\\UserController.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAAAEQAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T11:49:50.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T11:49:50.752Z"
             },
             {
               "$type": "Document",
@@ -255,8 +252,7 @@
               "RelativeToolTip": "domain\\ModelValidators\\LoginDtoValidator.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAQwA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:20:40.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T10:20:40.894Z"
             },
             {
               "$type": "Document",
@@ -268,8 +264,7 @@
               "RelativeToolTip": "domain\\ModelValidators\\RegisterDtoValidator.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:13:16.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T10:13:16.621Z"
             },
             {
               "$type": "Document",
@@ -281,8 +276,7 @@
               "RelativeToolTip": "domain\\ModelDto\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T11:22:23.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T11:22:23.851Z"
             },
             {
               "$type": "Document",
@@ -294,8 +288,7 @@
               "RelativeToolTip": "domain\\ModelDto\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T07:49:50.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T07:49:50.81Z"
             },
             {
               "$type": "Document",
@@ -307,8 +300,7 @@
               "RelativeToolTip": "domain\\ModelDto\\RegisterDto.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAvwA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T11:50:14.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T11:50:14.519Z"
             },
             {
               "$type": "Document",
@@ -320,8 +312,7 @@
               "RelativeToolTip": "core\\App\\User\\Query\\GetAllUsersQuery.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAgwCEAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T11:17:00.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T11:17:00.948Z"
             },
             {
               "$type": "Document",
@@ -333,8 +324,7 @@
               "RelativeToolTip": "domain\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T11:49:41.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T11:49:41.133Z"
             },
             {
               "$type": "Document",
@@ -346,8 +336,7 @@
               "RelativeToolTip": "backend\\backend.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-11-16T13:30:40.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T13:30:40.379Z"
             },
             {
               "$type": "Document",
@@ -359,8 +348,7 @@
               "RelativeToolTip": "backend\\Program.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAAAGIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T09:44:42.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T09:44:42.876Z"
             },
             {
               "$type": "Document",
@@ -372,8 +360,7 @@
               "RelativeToolTip": "core\\App\\User\\Query\\GetUserByEmailQuery.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAqwAwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:31:02.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T10:31:02.009Z"
             },
             {
               "$type": "Document",
@@ -385,8 +372,7 @@
               "RelativeToolTip": "backend\\Properties\\launchSettings.json",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-18T08:29:50.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T08:29:50.435Z"
             },
             {
               "$type": "Document",

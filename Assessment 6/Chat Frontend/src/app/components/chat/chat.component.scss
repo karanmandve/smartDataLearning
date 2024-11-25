@@ -1,66 +1,139 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Light background color for the body */
+}
 
-  
-  .container {
-    background-color: #f8f9fa; /* Light background color */
-  }
-  
+.container {
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.chat-container {
+  max-width: 600px; /* Increased width for better layout */
+  width: 100%;
+  height: 80vh; /* Ensure the container is not too tall */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow to give a floating effect */
+  border-radius: 12px;
+}
+
+/* Reduced size for list-group-item to make the chat box more compact */
+.list-group-item {
+  border: none; /* Remove border */
+  background-color: transparent; /* Make background transparent */
+  padding: 3px 6px; /* Further reduce padding for a smaller look */
+  font-size: 0.75rem; /* Even smaller font size */
+  line-height: 1.3; /* Reduce line height for more compactness */
+  margin: 0; /* Remove margin between items */
+}
+
+/* Header Styling */
+h1 {
+  font-size: 2rem; /* Slightly smaller font for the header */
+  font-weight: bold;
+  color: #495057;
+  text-align: center;
+}
+
+/* Chat Box Styling */
+.chat-box {
+  height: 60vh; /* Define the height for the chat box */
+  overflow-y: auto; /* Add vertical scrolling when content overflows */
+  border: 1px solid #e0e0e0; /* Border for the chat box */
+  padding: 8px; /* Reduced padding for a more compact look */
+  background-color: #f1f3f5;
+  margin-bottom: 15px;
+  flex-grow: 1; /* Ensures chat-box takes all remaining space */
+  border-radius: 8px; /* Rounded corners for chat box */
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Message Styling */
+.message {
+  // text-transform: capitalize;
+  max-width: 70%; /* Ensure message does not go beyond 70% width */
+  word-wrap: break-word; /* Prevents long words from overflowing */
+  padding: 6px 10px; /* Adjusted padding for a more compact message look */
+  font-size: 1rem; /* Smaller font size */
+  line-height: 1.4; /* Adjusted line-height for compactness */
+}
+
+/* User's Message (Green background for the user) */
+.bg-success {
+  background-color: #28a745 !important; /* Green background for the user's messages */
+  color: white !important; /* White text for user's messages */
+  border-radius: 12px;
+  border-top-right-radius: 0; /* Remove border radius from top right for smoother look */
+}
+
+/* Other User's Message (Blue background for the other user) */
+.bg-primary {
+  background-color: #007bff !important; /* Blue background for the other user's messages */
+  color: white !important; /* White text for the other user's messages */
+  border-radius: 12px;
+  border-top-left-radius: 0; /* Remove border radius from top left for smoother look */
+}
+
+/* Text color for all messages */
+.text-white {
+  color: white !important; /* White text for all messages */
+}
+
+/* Send Message Button Styling */
+button:disabled {
+  background-color: #cccccc; /* Gray button when disabled */
+  cursor: not-allowed; /* Change cursor when button is disabled */
+}
+
+button {
+  transition: background-color 0.3s ease;
+  border-radius: 8px; /* Rounded corners for button */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade of blue when hovered */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* To ensure smooth scrolling */
+.chat-box::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.chat-box::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.chat-box::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light background for scrollbar track */
+  border-radius: 10px;
+}
+
+/* Ensure responsive design */
+@media (max-width: 768px) {
   .chat-container {
-    max-width: 500px;
-    width: 100%;
-    height: 80vh; /* Ensure the container is not too tall */
-    display: flex;
-    flex-direction: column;
+    width: 100%; /* Full width for smaller screens */
+    padding: 15px;
   }
-  
   h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #495057;
+    font-size: 2rem;
   }
-  
-  .chat-box {
-    height: 60vh; /* Define the height for the chat box */
-    overflow-y: auto; /* Add vertical scrolling when content overflows */
-    border: 1px solid #e0e0e0; /* Border for the chat box */
+}
+
+@media (max-width: 576px) {
+  .chat-container {
+    width: 100%; /* Full width for small mobile screens */
     padding: 10px;
-    background-color: #f1f3f5;
-    margin-bottom: 15px;
-    flex-grow: 1; /* Ensures chat-box takes all remaining space */
   }
-  
-  button:disabled {
-    background-color: #cccccc; /* Gray button when disabled */
+  h1 {
+    font-size: 1.75rem;
   }
-  
-  .list-group-item {
-    background-color: #f8f9fa; /* Light gray for message background */
-    border: 1px solid #e0e0e0; /* Slightly darker border for list items */
-    margin-bottom: 5px; /* Space between messages */
-  }
-  
-  /* To ensure smooth scrolling */
-  .chat-box::-webkit-scrollbar {
-    width: 8px;
-  }
-  
-  .chat-box::-webkit-scrollbar-thumb {
-    background-color: #888;
-    border-radius: 10px;
-  }
-  
-  .chat-box::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
-  }
-  
-  button {
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #007bff; /* Darker shade of blue when hovered */
-  }
+}
