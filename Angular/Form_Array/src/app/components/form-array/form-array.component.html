@@ -1,0 +1,34 @@
+<!-- <form [formGroup]="form">
+    <div formArrayName="mobileNumber"> -->
+      <!-- Loop through the controls in the mobileNumber form array -->
+      <!-- <div *ngFor="let control of mobileNumbers.controls; let i = index">
+        <label for="mobileNumber{{ i }}">Mobile no. {{ i + 1 }}: </label>
+        <input
+          type="text"
+          id="mobileNumber{{ i }}"
+          placeholder="Enter Mobile Number"
+          [formControlName]="i" />
+          <button type="button" (click)="removePhoneNumber(i)">Remove</button>
+      </div>
+    </div>
+  
+    <button type="button" (click)="addMobileNumber()">Add Mobile Number</button>
+  </form> -->
+
+  <form [formGroup]="newForm">
+    <div formArrayName="form">
+      <!-- Loop through the controls in the form form array -->
+      <div *ngFor="let control of newFormFunction.controls; let i = index">
+        <label for="form{{ i }}">Mobile no. {{ i + 1 }}: </label>
+        <input
+          type="text"
+          id="form{{ i }}"
+          placeholder="Enter Mobile Number"
+          [formControlName]="i" />
+          <!-- <button type="button" (click)="removePhoneNumber(i)">Remove</button> -->
+      </div>
+    </div>
+  
+    <button type="button" (click)="addNewForm()">Add New Form</button>
+  </form>
+  
