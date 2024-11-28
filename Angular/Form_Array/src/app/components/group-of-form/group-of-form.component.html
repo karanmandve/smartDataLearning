@@ -1,0 +1,31 @@
+<div [formGroup]="stuentForm" class="container mt-4">
+    <div formArrayName="forms">
+      <div *ngFor="let form of stuentForm.get('forms').controls; index as i" class="form-section">
+        <div [formGroupName]="i" class="mb-4 border p-3 rounded shadow-lg form-group">
+          <label for="name" class="form-label">{{ formNames[i] }}</label>
+          <div class="mb-3">
+            <input type="text" formControlName="name" class="form-control form-control-lg shadow-input" placeholder="Enter name">
+          </div>
+          
+          <div formArrayName="phones" class="mb-3">
+            <div *ngFor="let phone of form.get('phones').controls; index as j" class="phone-entry mb-2 d-flex align-items-center">
+              <input type="number" [formControlName]="j" class="form-control me-2 shadow-input" placeholder="Phone number">
+              <button (click)="removePhone(i, j)" class="btn btn-danger btn-sm shadow-button">Remove</button>
+            </div>
+            <button (click)="addPhone(i)" class="btn btn-success btn-sm shadow-button">Add Phone</button>
+          </div>
+          
+          <button (click)="removeForm(i)" class="btn btn-danger btn-sm mt-3 shadow-button">Remove Form</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mt-4">
+      <button (click)="addForm()" class="btn btn-primary btn-lg shadow-button">Add Form</button>
+    </div>
+    
+    <div class="mt-3">
+      <button type="submit" (click)="submit()" class="btn btn-success btn-lg shadow-button">Submit</button>
+    </div>
+  </div>
+  

@@ -24,7 +24,7 @@ export class FormArrayComponent {
     // this.form = this.createFormFromJSON(this.formConfig);
     this.form = new FormGroup({
       name: new FormControl('', [Validators.required, customValidator]),
-      phoneNumbers: new FormArray([this.createPhoneNumber()]),
+      phoneNumbers: new FormArray([new FormControl('', [Validators.required, Validators.pattern(/^\d{10}$/)])]),
     });
   }
   createPhoneNumber(): FormGroup {

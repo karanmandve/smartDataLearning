@@ -1,4 +1,5 @@
-import { createAction, createActionGroup } from "@ngrx/store";
+import { createAction, createActionGroup, emptyProps, props } from "@ngrx/store";
+import { Grocery } from "../../../models/grocery.model";
 
 
 
@@ -10,7 +11,13 @@ import { createAction, createActionGroup } from "@ngrx/store";
 //     "[Grocery] Load Groceries Success"
 // )
 
-createActionGroup({
+export const groceryAction = createActionGroup({
     source: "Grocery API", // source is giving in square bracket in action name
-
+    events: {
+        "Load grocery": emptyProps(),
+        "Load grocery Success": props<{payload: Grocery[]}>(),
+        "Load grocery Failure": emptyProps(),
+    }
 })
+
+groceryAction.

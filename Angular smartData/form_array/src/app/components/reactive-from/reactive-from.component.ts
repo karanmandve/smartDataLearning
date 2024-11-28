@@ -4,13 +4,14 @@ import { ApiServiceService } from '../../services/api-service.service';
 import { Router, RouterLink } from '@angular/router';
 import { LifecycleHooksComponent } from '../lifecycle-hooks/lifecycle-hooks.component';
 import { ObservavalsPromisesComponent } from '../observavals-promises/observavals-promises.component';
+import { CommonModule } from '@angular/common';
 
 
 
 @Component({
   selector: 'app-reactive-from',
   standalone: true,
-  imports: [ReactiveFormsModule, RouterLink, LifecycleHooksComponent, ObservavalsPromisesComponent],
+  imports: [ReactiveFormsModule, RouterLink, LifecycleHooksComponent, ObservavalsPromisesComponent, CommonModule],
   templateUrl: './reactive-from.component.html',
   styleUrl: './reactive-from.component.scss'
 })

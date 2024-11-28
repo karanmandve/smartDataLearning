@@ -4,12 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { ApiServiceService } from '../../services/api-service.service';
 import { Router } from 'express';
 import { RouterLink } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 
 @Component({
   selector: 'app-template-driven',
   standalone: true,
-  imports: [FormsModule,RouterLink],
+  imports: [FormsModule,RouterLink, CommonModule],
   templateUrl: './template-driven.component.html',
   styleUrl: './template-driven.component.scss'
 })

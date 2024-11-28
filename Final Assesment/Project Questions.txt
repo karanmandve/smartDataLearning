@@ -1,0 +1,23 @@
+Questions :
+
+Username & Password Fields in Registration:
+
+How should the username and password be handled during registration?
+Why should the username be saved in encrypted form?
+
+Should the Forgot Password OTP be sent via email only?
+
+What is the concept of Product Code?
+
+What is the purpose of the Cart Master Table?
+
+Can we use both Dapper (for Get) and EF (for remaining methods) based on preference?
+
+What is the concept of the Payment Card?
+
+How should image uploads be handled (e.g., product image, user profile image)?
+
+What format should the payment receipt be in (PDF, Image, Text)?
+
+Should an API call be made for every increase and decrease in product quantity, 
+or should it only be changed on the frontend?
