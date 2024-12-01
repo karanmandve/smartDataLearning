@@ -1,0 +1,20 @@
+<h1>HELLO WORLD</h1>
+<form [formGroup]="uploadForm" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+  <div>
+    <label for="name">Name:</label>
+    <input id="name" formControlName="name" placeholder="Enter your name" required />
+    <div *ngIf="uploadForm.get('name')?.invalid && uploadForm.get('name')?.touched">
+      Name is required.
+    </div>
+  </div>
+
+  <div>
+    <label for="file">Upload File:</label>
+    <input id="file" type="file" (change)="onFileSelected($event)" />
+    <div *ngIf="uploadForm.get('file')?.invalid && uploadForm.get('file')?.touched">
+      File is required.
+    </div>
+  </div>
+
+  <button type="submit" [disabled]="uploadForm.invalid">Upload</button>
+</form>
