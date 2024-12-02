@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CL2Tf5YJ8lQ=",
+  "dgSpecHash": "szTuX2LIQBs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\domain\\domain.csproj",
+  "projectFilePath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\domain\\domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karanmandve\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512"
   ],

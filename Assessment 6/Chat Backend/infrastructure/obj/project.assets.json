@@ -7711,11 +7711,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\infrastructure\\infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\infrastructure\\infrastructure.csproj",
       "projectName": "infrastructure",
-      "projectPath": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\infrastructure\\infrastructure.csproj",
+      "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\infrastructure\\infrastructure.csproj",
       "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7733,11 +7733,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\core\\core.csproj": {
-              "projectPath": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\core\\core.csproj"
+            "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\core\\core.csproj": {
+              "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\core\\core.csproj"
             },
-            "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\domain\\domain.csproj": {
-              "projectPath": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\domain\\domain.csproj"
+            "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\domain\\domain.csproj": {
+              "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\domain\\domain.csproj"
             }
           }
         }

@@ -1,0 +1,28 @@
+<nav class="navbar nav navbar-expand-lg bg-body-tertiary shadow bg-body rounded">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="/dashboard">Navbar</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item d-flex">
+            <a class="nav-link active" aria-current="page" routerLink="/dashboard">Dashboard</a>
+          </li>
+        </ul>
+      </div>
+  
+      <!-- User Image and Dropdown -->
+      <div class="dropdown">
+        <button 
+          class="btn btn-link p-0"
+          id="userDropdown" 
+          data-bs-toggle="dropdown" 
+          aria-expanded="false">
+          <img [src]="imageUrl" alt="User Image" class="rounded-circle" width="50" height="50" style="object-fit: cover;">
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+          <li><a class="dropdown-item" routerLink="/profile">Profile</a></li>
+          <li><a class="dropdown-item" (click)="logout('manual')">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  

@@ -36,8 +36,8 @@ export class FileUploadComponent {
       this.http
         .post('https://localhost:7112/api/User/upload-profile-image-azure', formData)
         .subscribe(
-          (response) => console.log('Upload successful', response),
-          (error) => console.error('Upload failed', error)
+          (response: any) => console.log('Upload successful', response),
+          (error: any) => console.error('Upload failed', error)
         );
     } else {
       alert('Please fill all required fields.');

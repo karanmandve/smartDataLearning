@@ -55,11 +55,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\domain\\domain.csproj",
+      "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\domain\\domain.csproj",
       "projectName": "domain",
-      "projectPath": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\domain\\domain.csproj",
+      "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\domain\\domain.csproj",
       "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\domain\\obj\\",
+      "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",

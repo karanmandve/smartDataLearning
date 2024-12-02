@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\core\\core.csproj": {}
+    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\core\\core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\core\\core.csproj": {
+    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\core\\core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\core\\core.csproj",
+        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\core\\core.csproj",
         "projectName": "core",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\core\\core.csproj",
+        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\core\\core.csproj",
         "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\core\\obj\\",
+        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\domain\\domain.csproj": {
-                "projectPath": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\domain\\domain.csproj"
+              "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\domain\\domain.csproj": {
+                "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\domain\\domain.csproj"
               }
             }
           }
@@ -109,14 +109,14 @@
         }
       }
     },
-    "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\domain\\domain.csproj": {
+    "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\domain\\domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\domain\\domain.csproj",
+        "projectUniqueName": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\domain\\domain.csproj",
         "projectName": "domain",
-        "projectPath": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\domain\\domain.csproj",
+        "projectPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\domain\\domain.csproj",
         "packagesPath": "C:\\Users\\karanmandve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karanmandve\\Desktop\\Assessment 6\\backend\\domain\\obj\\",
+        "outputPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 6\\Chat Backend\\domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karanmandve\\AppData\\Roaming\\NuGet\\NuGet.Config",
