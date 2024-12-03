@@ -1,55 +1,69 @@
+<h1>Profile</h1>
+<!-- <div class="container mt-5">
+    <div class="card shadow-lg">
+      <div class="card-body">
+        <div class="text-center">
+          <div class="profile-image-container">
+            <img
+              [src]="profileData.profileImageUrl"
+              alt="Profile Image"
+              class="profile-image"
+            />
+            <label class="change-image-label">
+              <input type="file" (change)="onImageChange($event)" hidden />
+              <i class="bi bi-camera-fill"></i> Change Profile Image
+            </label>
+          </div>
+          <h2 class="mt-3">{{ profileData.firstName }} {{ profileData.lastName }}</h2>
+          <p class="text-muted">{{ profileData.username }}</p>
+        </div>
+  
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <h5>Personal Information</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>Email:</strong> {{ profileData.email }}
+              </li>
+              <li class="list-group-item">
+                <strong>Mobile:</strong> {{ profileData.mobile }}
+              </li>
+              <li class="list-group-item">
+                <strong>Date of Birth:</strong> {{ profileData.dob | date: 'mediumDate' }}
+              </li>
+              <li class="list-group-item">
+                <strong>Address:</strong> {{ profileData.address }}
+              </li>
+              <li class="list-group-item">
+                <strong>Zipcode:</strong> {{ profileData.zipcode }}
+              </li>
+            </ul>
+          </div>
+  
+          <div class="col-md-6">
+            <h5>Additional Information</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>Country ID:</strong> {{ profileData.countryId }}
+              </li>
+              <li class="list-group-item">
+                <strong>State ID:</strong> {{ profileData.stateId }}
+              </li>
+              <li class="list-group-item">
+                <strong>User Type ID:</strong> {{ profileData.userTypeId }}
+              </li>
+              <li class="list-group-item">
+                <strong>Date Created:</strong> {{ profileData.dateCreated | date: 'medium' }}
+              </li>
+            </ul>
+          </div>
+        </div>
 
-
-<div class="container d-flex justify-content-center align-items-center min-vh-100">
-  <div class="card shadow-lg p-4" style="max-width: 600px; width: 100%; border-radius: 12px;">
-    <h2 class="text-center mb-4">Profile Information</h2>
-
-    <!-- Check if user data is available -->
-    <div *ngIf="userAllData; else loading">
-      
-      <!-- User data form in a grid layout -->
-      <div class="row mb-3 align-items-center">
-        <label for="firstName" class="col-sm-4 col-form-label text-end">First Name:</label>
-        <div class="col-sm-8">
-          <p id="firstName" class="fs-5 text-center mb-0">{{ userAllData.firstName | titlecase }}</p>
+        <div class="mt-4 text-center">
+          <button class="btn btn-primary" (click)="editProfile()">Edit Profile</button>
+          <button class="btn btn-warning ms-2" (click)="changePassword()">Change Password</button>
         </div>
       </div>
-
-      <div class="row mb-3 align-items-center">
-        <label for="lastName" class="col-sm-4 col-form-label text-end">Last Name:</label>
-        <div class="col-sm-8">
-          <p id="lastName" class="fs-5 text-center mb-0">{{ userAllData.lastName | titlecase }}</p>
-        </div>
-      </div>
-
-      <div class="row mb-3 align-items-center">
-        <label for="email" class="col-sm-4 col-form-label text-end">Email:</label>
-        <div class="col-sm-8">
-          <p id="email" class="fs-5 text-center mb-0">{{ userAllData.email }}</p>
-        </div>
-      </div>
-
-      <div class="row mb-3 align-items-center">
-        <label for="role" class="col-sm-4 col-form-label text-end">Role:</label>
-        <div class="col-sm-8">
-          <p id="role" class="fs-5 text-center mb-0">{{ userAllData.role }}</p>
-        </div>
-      </div>
-
-      <div class="row mb-3 align-items-center">
-        <label for="dateCreated" class="col-sm-4 col-form-label text-end">Account Created On:</label>
-        <div class="col-sm-8">
-          <p id="dateCreated" class="fs-5 text-center mb-0">{{ userAllData.dateCreated | date: 'longDate' }}</p>
-        </div>
-      </div>
-
     </div>
-
-    <!-- Loading state -->
-    <ng-template #loading>
-      <div class="text-center">
-        <p class="fs-5 text-muted">Loading user details...</p>
-      </div>
-    </ng-template>
-  </div>
-</div>
+  </div> -->
+  

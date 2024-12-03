@@ -18,8 +18,12 @@ export class UserServiceService {
     return this.http.post("https://localhost:7238/api/User/Login", loginData)
   }
   
-  sendOtp(email: any, password:any){
-    return this.http.get(`https://localhost:7238/api/User/sendotp/${email}/${password}`)
+  sendOtp(username: any){
+    return this.http.get(`https://localhost:7238/api/User/sendotp/${username}`)
+  }
+
+  verifyOtp(username: any, otp: any){
+    return this.http.get(`https://localhost:7238/api/User/forget-password/${username}/${otp}`)
   }
 
   getUser(email: string){

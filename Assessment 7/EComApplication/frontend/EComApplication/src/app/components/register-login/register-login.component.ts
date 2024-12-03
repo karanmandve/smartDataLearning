@@ -1,9 +1,11 @@
 import { CommonModule } from '@angular/common';
-import { Component, inject } from '@angular/core';
+import { Component, ElementRef, inject, ViewChild } from '@angular/core';
 import { ToastContainerDirective, ToastrService } from 'ngx-toastr';
 import { Router } from '@angular/router';
 import { UserServiceService } from '../../services/user/user-service.service';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { LoaderService } from '../../services/loader/loader.service';
+declare var bootstrap: any;
 
 @Component({
   selector: 'app-register-login',
@@ -19,17 +21,23 @@ export class RegisterLoginComponent {
   loginData : any;
   registerData: any;
   otpSent: boolean = false;
+  forgetOtpSent: boolean = false;
   passwordRgx: RegExp = /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*]).{8,}$/
   isResendDisabled: boolean = false;  // To control the resend button
+  forgetOtpIsResendDisabled: boolean = false;  // To control the resend button
+  forgetOtpCountdown: number = 30; // Countdown timer for resend OTP
   countdown: number = 30; // Countdown timer for resend OTP
   resendTimeout: any;
-  // this.loginForm.get('email').value;
+  resendOtpTimeout: any;
+
+  @ViewChild('forgotPasswordModal') forgotPasswordModal!: ElementRef;
   
 
 
   userService = inject(UserServiceService)
   router = inject(Router)
   toaster = inject(ToastrService)
+  loader = inject(LoaderService)
 
   toggleForm() {
     this.isLogin = !this.isLogin;
@@ -55,18 +63,35 @@ export class RegisterLoginComponent {
     countryId: new FormControl(0, Validators.required),
   })
 
+  forgetPasswordForm = new FormGroup({
+    username: new FormControl('', Validators.required),
+    otp: new FormControl('', Validators.required),
+  })
+
   onFileSelected(event: Event) {
     const file = (event.target as HTMLInputElement).files?.[0];
     this.registerForm.patchValue({ file });
     this.registerForm.get('file')?.updateValueAndValidity();
   }
 
+  openForgotPasswordModal() {
+    const modal = new bootstrap.Modal(this.forgotPasswordModal.nativeElement);
+    modal.show();
+  }
+
+  closeForgotPasswordModal() {
+    const modalInstance = bootstrap.Modal.getInstance(this.forgotPasswordModal.nativeElement);
+    modalInstance.hide();
+  }
+
 
   onLoginSubmit() {
+    this.loader.show();
     this.loginData = this.loginForm.value;
     this.userService.loginUser(this.loginData).subscribe({
       next: (res: any) => {
         if (res.statusCode == 200) {
+          this.loader.hide();
           localStorage.setItem("token", res.data.token);
           // localStorage.setItem("username", this.loginData.username);
           localStorage.setItem("userDetails", JSON.stringify(res.data.data));
@@ -76,7 +101,7 @@ export class RegisterLoginComponent {
           
           this.toaster.success("Login successful", "Success",{timeOut:3000, closeButton:true});
           localStorage.setItem("session", "true")
-          this.router.navigateByUrl('dashboard');
+          this.router.navigateByUrl('home');
           
         } else {
           console.log(res);
@@ -84,11 +109,10 @@ export class RegisterLoginComponent {
         }
       },
       error: (error: any) => {
+        this.loader.hide();
         if (error.error.statusCode == 401) {
           this.toaster.error("Invalid Credential", "Error",{timeOut:3000, closeButton:true});
         } else {
-          alert("I am in login error");
-          alert(JSON.stringify(error));
           console.log(error);
         }
       }
@@ -129,15 +153,16 @@ export class RegisterLoginComponent {
 
 
   sendOtp() {
+    // this.loader.show();
     const username = this.loginForm.get('username')?.value;
-    const password = this.loginForm.get('password')?.value;
-    alert("Otp send take time 6 second. Don't click again")
-    this.otpSent = true;  // Mark OTP as sent
+    // alert("Otp send take time 6 second. Don't click again")
     this.startResendCountdown();
     
-    this.userService.sendOtp(username, password).subscribe({
+    this.userService.sendOtp(username).subscribe({
       next : (res: any) => {
         if(res.statusCode == 200){
+          // this.loader.hide();
+          this.otpSent = true;  // Mark OTP as sent
           console.log("OTP Sent!");
           this.toaster.success("Send Otp Successfully", "Success",{timeOut:3000, closeButton:true})
         }else{
@@ -145,6 +170,7 @@ export class RegisterLoginComponent {
         }
       },
       error : (error: any) => {
+        this.loader.hide();
         if(error.error.statusCode == 401){
           this.toaster.error("Invalid Credential, Otp Not Send", "Error",{timeOut:3000, closeButton:true})
           this.registerForm.reset()
@@ -154,6 +180,60 @@ export class RegisterLoginComponent {
         }
       }
     })
+  }
+
+sendForgetOtp() {
+  // this.loader.show();
+  const username = this.forgetPasswordForm.get('username')?.value;
+  // alert("Otp send take time 6 second. Don't click again")
+  this.startForgetOtpResendCountdown();
+  
+  this.userService.sendOtp(username).subscribe({
+    next : (res: any) => {
+      if(res.statusCode == 200){
+        // this.loader.hide();
+        this.forgetOtpSent = true;  // Mark OTP as sent
+        console.log("OTP Sent!");
+        this.toaster.success("Send Otp Successfully", "Success",{timeOut:3000, closeButton:true})
+      }else{
+        this.toaster.error("Otp Not Send", "Error",{timeOut:3000, closeButton:true})
+      }
+    },
+    error : (error: any) => {
+      this.loader.hide();
+      if(error.error.statusCode == 401){
+        this.toaster.error("Invalid Credential, Otp Not Send", "Error",{timeOut:3000, closeButton:true})
+        this.registerForm.reset()
+      }else{
+        alert("i am in register error")
+        alert(JSON.stringify(error))
+      }
+    }
+  })
+}
+
+  resetPassword() {
+    const username = this.forgetPasswordForm.get('username')?.value;
+    const otp = this.forgetPasswordForm.get('otp')?.value;
+
+    this.userService.verifyOtp(username, otp).subscribe({
+      next : (res: any) => {
+        if(res.statusCode == 200){
+          this.toaster.success("New Password Send To Your Registered Email", "Success",{timeOut:3000, closeButton:true})
+          this.closeForgotPasswordModal();
+        }else{
+          this.toaster.error("Password Not Send", "Error",{timeOut:3000, closeButton:true})
+        }
+      },
+      error : (error: any) => {
+        this.loader.hide();
+        if(error.error.statusCode == 401){
+          this.toaster.error("Invalid Credential, Password Not Send", "Error",{timeOut:3000, closeButton:true})
+          this.registerForm.reset()
+        }else{
+          alert(JSON.stringify(error))
+      }
+  }})
   }
 
     // Start countdown for resend OTP button
@@ -169,37 +249,17 @@ export class RegisterLoginComponent {
       }, 1000);  // Run every second
     }
 
-  // Simulate validating OTP
-  // validateOtp() {
-  //   const email = this.loginForm.get('email')?.value;
-  //   const otp = this.loginForm.get('otp')?.value;
-
-  //   const data = {
-  //     email: email,
-  //     otp: otp
-  //   }
-
-  //   this.userService.validateOtp(data).subscribe({
-  //     next : (res: any) => {
-  //       if(res.statusCode == 200){
-  //         this.toaster.success("Otp Validated Successfully", "Success",{timeOut:3000, closeButton:true})
-  //       }else{
-  //         this.toaster.error("Otp Not Validated", "Error",{timeOut:3000, closeButton:true})
-  //       }
-  //     },
-  //     error : (error: any) => {
-  //       if(error.error.statusCode == 409){
-  //         this.toaster.error("Some error occur", "Error",{timeOut:3000, closeButton:true})
-  //         this.registerForm.reset()
-  //       }else{
-  //         alert("i am in register error")
-  //         alert(JSON.stringify(error))
-  //       }
-  //     }
-
-  //   })
-
-  // }
+    startForgetOtpResendCountdown() {
+      this.forgetOtpIsResendDisabled = true;  // Disable the resend button
+      this.forgetOtpCountdown = 30;  // Set initial countdown time
+      this.resendOtpTimeout = setInterval(() => {
+        this.forgetOtpCountdown--;  // Decrease the countdown by 1 each second
+        if (this.forgetOtpCountdown <= 0) {
+          clearInterval(this.resendOtpTimeout);  // Stop the countdown when it reaches 0
+          this.forgetOtpIsResendDisabled = false;  // Enable the resend button again
+        }
+      }, 1000);  // Run every second
+    }
 
 
 

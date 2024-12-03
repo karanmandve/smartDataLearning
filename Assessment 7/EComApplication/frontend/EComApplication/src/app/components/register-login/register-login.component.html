@@ -65,46 +65,6 @@
             </div>
           </div>
 
-          <!-- <div class="mb-3" *ngIf="otpSent">
-            <label for="otp" class="form-label">OTP</label>
-            <input
-              type="text"
-              class="form-control"
-              id="otp"
-              placeholder="Enter OTP"
-              [readonly]="!otpSent"
-              required
-            />
-            <div
-              *ngIf="
-                loginForm.get('otp')?.invalid && loginForm.get('otp')?.touched
-              "
-              class="text-danger"
-            >
-              OTP must be 6 digits
-            </div>
-
-            <div *ngIf="!otpSent">
-              <button
-                type="button"
-                class="btn btn-secondary w-100 mb-2"
-                (click)="sendOtp()"
-                [disabled]="loginForm.invalid"
-              >
-                Send OTP
-              </button>
-            </div>
-            <div *ngIf="otpSent">
-              <button
-                type="button"
-                class="btn btn-secondary w-100 mb-2"
-                (click)="validateOtp()"
-                [disabled]="!otpSent || loginForm.get('otp')?.invalid"
-              >
-                Validate OTP
-              </button>
-            </div>
-          </div> -->
           <div class="d-flex justify-content-between">
             <div class="mb-3 col-8">
               <label for="otp" class="form-label">Otp</label>
@@ -124,15 +84,6 @@
                 Otp Required
               </div>
             </div>
-
-            <!-- <div
-            *ngIf="
-            loginForm.get('otp')?.invalid && loginForm.get('otp')?.touched
-            "
-            class="text-danger"
-            >
-            OTP must be 6 digits
-            </div> -->
 
             <div class="resend-otp">
               <button
@@ -171,6 +122,10 @@
                 </button>
               </div>
             </div>
+          </div>
+          
+          <div class="text-start mb-3">
+            <a style="cursor: pointer;" class="text-muted" (click)="openForgotPasswordModal()">Forgot Password?</a>
           </div>
         </div>
 
@@ -423,3 +378,103 @@
     </div>
   </div>
 </div>
+<!-- Forgot Password Modal -->
+<div class="modal" #forgotPasswordModal id="forgotPasswordModal" tabindex="-1" aria-labelledby="forgotPasswordModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="forgotPasswordModalLabel">Forgot Password</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="forgetPasswordForm">
+          <!-- Username Field -->
+          <div class="mb-3">
+            <label for="forgotUsername" class="form-label">Username</label>
+            <input
+              type="text"
+              class="form-control"
+              id="forgotUsername"
+              formControlName="username"
+              placeholder="Enter your username"
+              required
+            />
+            <div *ngIf="forgetPasswordForm.get('username')?.invalid && forgetPasswordForm.get('username')?.touched" class="text-danger">
+              Please enter your username.
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-between">
+            <div class="mb-3 col-8">
+              <label for="otp" class="form-label">Otp</label>
+              <input
+                type="text"
+                class="form-control"
+                formControlName="otp"
+                id="otp"
+                placeholder="Otp"
+              />
+              <div
+                *ngIf="
+                  forgetPasswordForm.get('otp')?.invalid && forgetPasswordForm.get('otp')?.touched
+                "
+                class="text-danger"
+              >
+                Otp Required
+              </div>
+            </div>
+
+            <div class="resend-otp">
+              <button
+                *ngIf="!forgetOtpSent"
+                type="button"
+                class="btn btn-secondary w-100 mb-2"
+                (click)="sendForgetOtp()"
+                [disabled]="
+                  forgetOtpSent ||
+                  !forgetPasswordForm.get('username')?.valid
+                "
+              >
+                Send OTP
+              </button>
+
+              <div *ngIf="forgetOtpSent" class="resend-otp-btn">
+                <button
+                  *ngIf="forgetOtpIsResendDisabled && forgetOtpCountdown > 0"
+                  type="button"
+                  class="btn btn-secondary w-100 mb-2"
+                  (click)="sendForgetOtp()"
+                  [disabled]="forgetOtpIsResendDisabled"
+                >
+                  Resend OTP ({{ forgetOtpCountdown }}s)
+                </button>
+
+                <button
+                  *ngIf="!forgetOtpIsResendDisabled"
+                  type="button"
+                  class="btn btn-secondary w-100 mb-2"
+                  (click)="sendForgetOtp()"
+                  [disabled]="forgetOtpIsResendDisabled"
+                >
+                  Resend OTP
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button
+          type="button"
+          class="btn btn-primary"
+          (click)="resetPassword()"
+          [disabled]="forgetPasswordForm.invalid || !forgetOtpSent"
+        >
+          Reset Password
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,36 +1,41 @@
-import { Component, inject, OnInit } from '@angular/core';
-import { UserServiceService } from '../../services/user/user-service.service';
-import { ToastrService } from 'ngx-toastr';
-import { CommonModule, DatePipe, TitleCasePipe } from '@angular/common';
+import { DatePipe } from '@angular/common';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-profile',
   standalone: true,
-  imports: [CommonModule, TitleCasePipe, DatePipe],
+  imports: [DatePipe],
   templateUrl: './profile.component.html',
-  styleUrl: './profile.component.scss'
+  styleUrl: './profile.component.css'
 })
-export class ProfileComponent implements OnInit {
-  userAllData: any;
-  email: string = localStorage.getItem('email') || '';
+export class ProfileComponent {
+  profileData: any;
+  
+  ngOnInit(): void {  
+    this.profileData = JSON.parse(localStorage.getItem("userDetails") || '{}'); 
+    console.log("i am here",this.profileData);
+    
+    
+  }
 
-  userService = inject(UserServiceService);
-  toaster = inject(ToastrService);
 
-  ngOnInit(): void {
+  onImageChange(event: any): void {
+    const file = event.target.files[0];
+    if (file) {
+      // Simulate image upload and update profile image
+      const reader = new FileReader();
+      reader.onload = () => {
+        this.profileData.profileImageUrl = reader.result as string;
+      };
+      reader.readAsDataURL(file);
+    }
+  }
 
-    this.userService.getUser(this.email).subscribe({
-      next: (res: any) => {
-        console.log(res)
-        this.userAllData = res;
-      },
-      error: (err: any) => {
-        this.toaster.error(
-          'An error occurred while fetching user details. Please try again later.',
-          'Error'
-        );
-      },
-    });
+  editProfile(): void {
+    alert('Edit Profile functionality not yet implemented.');
+  }
 
+  changePassword(): void {
+    alert('Change Password functionality not yet implemented.');
   }
 }
