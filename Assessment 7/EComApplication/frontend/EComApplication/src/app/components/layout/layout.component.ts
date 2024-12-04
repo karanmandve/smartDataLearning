@@ -14,6 +14,7 @@ import { CommonModule } from '@angular/common';
 export class LayoutComponent {
   imageUrl: string = '';
   cartCount: number = 0;
+  userDeatils = JSON.parse(localStorage.getItem('userDetails') || '{}');
 
 
   toaster: any = inject(ToastrService);
@@ -21,8 +22,10 @@ export class LayoutComponent {
   cartService: any = inject(CartService);
   
   ngOnInit() {
-    var userDeatils = JSON.parse(localStorage.getItem('userDetails') || '{}');
-    this.imageUrl = userDeatils.profileImageUrl;
+    this.imageUrl = this.userDeatils.profileImageUrl;
+
+    const userId = this.userDeatils.id;
+    this.cartService.updateCartCount(userId);
 
     // Subscribe to cart count updates
     this.cartService.cartCount$.subscribe((count: any) => {

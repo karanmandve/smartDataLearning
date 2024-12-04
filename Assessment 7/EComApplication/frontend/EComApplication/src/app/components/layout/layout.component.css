@@ -4,10 +4,18 @@
     height: 40px;
     object-fit: cover; /* Prevents stretching and maintains aspect ratio */
   }
+  .navbar{
+    background-color: white;
+  }
   .pointer{
     cursor: pointer;
   }
   .active:hover {
     color: #007BFF;
   }
+  nav.navbar {
+    background-color: #ffffff; /* White background */
+    border-radius: 5px; /* Optional: rounded corners */
+  }
+  
   

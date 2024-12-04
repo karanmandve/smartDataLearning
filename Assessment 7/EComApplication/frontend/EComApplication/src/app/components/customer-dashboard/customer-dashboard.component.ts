@@ -2,6 +2,7 @@ import { Component, inject } from '@angular/core';
 import { ProductService } from '../../services/product/product.service';
 import { CommonModule } from '@angular/common';
 import { CartService } from '../../services/cart/cart.service';
+import { ToastrService } from 'ngx-toastr';
 declare var bootstrap: any;
 
 @Component({
@@ -14,14 +15,15 @@ declare var bootstrap: any;
 export class CustomerDashboardComponent {
   products: any[] = [];  // Store the products
   selectedProduct: any;  // To store selected product details for the modal
+  userDetails = JSON.parse(localStorage.getItem("userDetails") || "{}");
 
   // Injecting the ProductService
   productService = inject(ProductService);
   cartService = inject(CartService);
+  toaster = inject(ToastrService)
 
   ngOnInit() {
     this.getAllProducts();
-    this.cartService.resetCartCount();
   }
 
   // Fetch all products from the service
@@ -46,8 +48,28 @@ export class CustomerDashboardComponent {
 
 
   addToCart(product: any) {
-    product.isAddedToCart = true; // Mark the product as added
-    this.cartService.incrementCartCount(); // Update the global cart counter
+    // product.isAddedToCart = true;
+    // this.cartService.incrementCartCount();
+
+    const productData = {
+      userId : this.userDetails.id,
+      productId : product.id,
+      quantity : 1
+    }
+
+    this.cartService.addToCart(productData).subscribe({
+      next: (res: any) => {
+        this.toaster.success("added to cart", "Success", {
+          progressBar: true,
+          timeOut: 1000
+        })
+        this.cartService.updateCartCount(this.userDetails.id);
+
+      },
+      error: (error: any) => {
+        console.log(error)
+      }
+    })
   }
 
 }

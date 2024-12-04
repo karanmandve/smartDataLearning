@@ -1,1 +1,45 @@
-<p>cart works!</p>
+<div class="cart-page">
+    <div class="container my-5">
+      <div class="row">
+        <!-- Left side: Product Details -->
+        <div class="col-md-8">
+          <div *ngFor="let product of cartProducts" class="cart-item d-flex align-items-center shadow-sm p-3 mb-3 rounded">
+            <div class="cart-item-image" style="width: 100px; height: 100px; overflow: hidden; position: relative;">
+              <img [src]="product.productImageUrl" alt="{{product.productName}}" class="img-fluid h-100 w-100 object-fit-cover">
+            </div>
+            <div class="cart-item-details ms-3 flex-grow-1">
+              <h5 class="product-name">{{ product.productName }}</h5>
+              <p class="product-category text-muted">{{ product.category }}</p>
+              <p class="product-price">₹{{ product.sellingPrice }}</p>
+            </div>
+            <div class="quantity-controls ms-3">
+              <button class="btn btn-outline-secondary btn-sm" (click)="decrementQuantity(product)">-</button>
+              <span class="quantity mx-2">{{ product.quantity }}</span>
+              <button class="btn btn-outline-secondary btn-sm" (click)="incrementQuantity(product)">+</button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Right side: Total Calculation -->
+        <div class="col-md-4">
+          <div class="total-summary shadow-sm p-3 rounded">
+            <h5>Total Calculation</h5>
+            <hr>
+            <div *ngFor="let product of cartProducts" class="d-flex justify-content-between">
+              <span>{{ product.quantity }}x ₹{{ product.sellingPrice }}</span>
+              <span>₹{{ product.quantity * product.sellingPrice }}</span>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+              <strong>Total:</strong>
+              <strong>₹{{ totalPrice }}</strong>
+            </div>
+            <div class="text-center mt-3">
+              <button class="btn btn-primary w-100">Proceed to Checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

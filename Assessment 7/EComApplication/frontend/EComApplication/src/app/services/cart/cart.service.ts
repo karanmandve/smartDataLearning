@@ -1,10 +1,13 @@
-import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Injectable, inject } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CartService {
+
+  http = inject(HttpClient);
 
   private cartCountSubject = new BehaviorSubject<number>(0); // Observable cart count
   cartCount$ = this.cartCountSubject.asObservable();
@@ -14,8 +17,28 @@ export class CartService {
     this.cartCountSubject.next(currentCount + 1);
   }
 
-  resetCartCount() {
-    this.cartCountSubject.next(0);
+
+
+  getCartCount(userId: number) {
+    return this.http.get(`https://localhost:7238/api/Cart/get-cart-count/${userId}`);
+  }
+
+  updateCartCount(userId: number) {
+    this.getCartCount(userId).subscribe((count: any) => {
+      this.cartCountSubject.next(count);
+    });
+  }
+
+  addToCart(product: any){
+    return this.http.post("https://localhost:7238/api/Cart/add-to-cart", product);
+  }
+
+  getCartProduct(userId: number){
+    return this.http.get(`https://localhost:7238/api/Cart/get-cart-products/${userId}`);
+  }
+
+  updateCartQuantity(cartQuantityData: any){
+    return this.http.put("https://localhost:7238/api/Cart/update-cart-quantity", cartQuantityData);
   }
   
 }
