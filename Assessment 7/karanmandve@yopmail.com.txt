@@ -1,11 +1,16 @@
-Username: EC_MANDVEK010123
 
+--admin (karanmandve@yopmail.com)
+Username: EC_MANDVEK010123
 Password: ZmKaXFOnGQ$%7
+
+--user (vinitpathak@yopmail.com)
+EC_PATHAKV031224
+ZBX!bh4gjTKN
 
 Home Credential
 
+--admin
 EC_MANDVEK310377
-
 Ib8%4n28IlCUB
 
 

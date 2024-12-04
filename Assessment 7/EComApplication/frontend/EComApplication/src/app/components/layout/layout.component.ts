@@ -1,22 +1,35 @@
 import { Component, inject } from '@angular/core';
 import { Router, RouterLink, RouterOutlet } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
+import { CartService } from '../../services/cart/cart.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [RouterOutlet, RouterLink],
+  imports: [RouterOutlet, RouterLink, CommonModule],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
 })
 export class LayoutComponent {
+  imageUrl: string = '';
+  cartCount: number = 0;
+
+
   toaster: any = inject(ToastrService);
   router: any = inject(Router);
-  imageUrl: string = '';
+  cartService: any = inject(CartService);
+  
   ngOnInit() {
     var userDeatils = JSON.parse(localStorage.getItem('userDetails') || '{}');
     this.imageUrl = userDeatils.profileImageUrl;
+
+    // Subscribe to cart count updates
+    this.cartService.cartCount$.subscribe((count: any) => {
+      this.cartCount = count;
+    });
     }
+
 
 
   logout(type: 'manual' | 'auto') {

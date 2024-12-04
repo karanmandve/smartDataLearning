@@ -1,8 +1,9 @@
-<h1>Inside Home</h1>
 
 @if (userDeatils.userTypeId == 1) {
+    <h1 style="text-align: center;">Admin Dashboard</h1>
     <app-admin-dashboard></app-admin-dashboard>
 }@else {
+    <h1 style="text-align: center;" class="mt-4">Welcome, {{ userDeatils.firstName | titlecase }} {{ userDeatils.lastName | titlecase }}</h1>
     <app-customer-dashboard></app-customer-dashboard>
 }
 

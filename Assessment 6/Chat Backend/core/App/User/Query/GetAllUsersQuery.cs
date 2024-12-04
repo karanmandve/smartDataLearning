@@ -1,4 +1,4 @@
-﻿using core.Interface;
+﻿ using core.Interface;
 using Dapper;
 using domain.ModelDto;
 using Mapster;

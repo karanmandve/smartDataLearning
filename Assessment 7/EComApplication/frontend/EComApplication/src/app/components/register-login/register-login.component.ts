@@ -86,12 +86,10 @@ export class RegisterLoginComponent {
 
 
   onLoginSubmit() {
-    this.loader.show();
     this.loginData = this.loginForm.value;
     this.userService.loginUser(this.loginData).subscribe({
       next: (res: any) => {
         if (res.statusCode == 200) {
-          this.loader.hide();
           localStorage.setItem("token", res.data.token);
           // localStorage.setItem("username", this.loginData.username);
           localStorage.setItem("userDetails", JSON.stringify(res.data.data));

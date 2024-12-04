@@ -1,0 +1,54 @@
+/* Modal Header Styling */
+.modal-header {
+    background-color: #007BFF; /* Vibrant orange color */
+    color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Modal Body Styling */
+  .modal-body {
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Text color */
+  }
+  
+  /* Modal Footer Styling */
+  .modal-footer {
+    background-color: #f1f1f1; /* Slightly darker gray for footer */
+  }
+  
+  /* "See Details" Button */
+  .btn-info {
+    background-color: #ff8800; /* Shade of orange for 'See Details' button */
+    border-color: #ff8800;
+    color: white; /* White text for better contrast */
+  }
+  
+  .btn-info:hover {
+    background-color: #e67300; /* Darker orange on hover */
+    border-color: #e67300;
+    color: white;
+  }
+  
+  /* "Add to Cart" Button */
+  .btn-primary {
+    background-color: #007bff; /* Blue color for 'Add to Cart' button */
+    border-color: #007bff;
+    color: white; /* White text for better contrast */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #004085;
+    color: white;
+  }
+  
+  /* Close Button */
+  .btn-close {
+    background-color: #ff4d4d; /* Red color for close button */
+    color: white;
+  }
+  
+  .btn-close:hover {
+    background-color: #e60000; /* Darker red on hover */
+  }
+  

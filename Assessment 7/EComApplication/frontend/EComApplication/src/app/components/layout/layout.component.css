@@ -4,4 +4,10 @@
     height: 40px;
     object-fit: cover; /* Prevents stretching and maintains aspect ratio */
   }
+  .pointer{
+    cursor: pointer;
+  }
+  .active:hover {
+    color: #007BFF;
+  }
   

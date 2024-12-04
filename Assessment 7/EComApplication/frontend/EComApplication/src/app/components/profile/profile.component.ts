@@ -13,7 +13,6 @@ export class ProfileComponent {
   
   ngOnInit(): void {  
     this.profileData = JSON.parse(localStorage.getItem("userDetails") || '{}'); 
-    console.log("i am here",this.profileData);
     
     
   }
