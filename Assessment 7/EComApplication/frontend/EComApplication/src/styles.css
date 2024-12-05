@@ -7,6 +7,6 @@ body {
   /* Optionally, you can apply to any other wrapper or component */
   app-root {
     background-color: #F1F3F6;
-    min-height: 100vh; /* Ensure the background covers the whole viewport */
+    min-height: 100vh;
   }
   

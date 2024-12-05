@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -39,6 +39,14 @@ export class CartService {
 
   updateCartQuantity(cartQuantityData: any){
     return this.http.put("https://localhost:7238/api/Cart/update-cart-quantity", cartQuantityData);
+  }
+
+  makePayment(paymentData: any){
+    return this.http.post("https://localhost:7238/api/Cart/pay", paymentData);
+  }
+
+  removeProductFromCart(productId: any, userId: any): Observable<any>{
+    return this.http.delete(`https://localhost:7238/api/Cart/remove-product-from-cart/${productId}/${userId}`)
   }
   
 }

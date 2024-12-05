@@ -5,7 +5,7 @@ Password: ZmKaXFOnGQ$%7
 
 --user (vinitpathak@yopmail.com)
 EC_PATHAKV031224
-ZBX!bh4gjTKN
+Karan@123
 
 Home Credential
 
@@ -16,5 +16,11 @@ Ib8%4n28IlCUB
 --user
 EC_PATHAKV021224
 2D7yHaNMY#rK7
+
+
+Card Details :
+6291528112087346
+03/2025
+988
 
 

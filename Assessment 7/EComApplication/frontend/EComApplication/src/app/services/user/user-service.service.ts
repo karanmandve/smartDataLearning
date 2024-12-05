@@ -39,13 +39,17 @@ export class UserServiceService {
     return this.http.put(`https://localhost:7194/api/User/${UserObj.userId}`, UserObj, { responseType: 'json' })
   }
 
+  updateUser(userObj: any): Observable<any>{
+    return this.http.put("https://localhost:7238/api/User/update-user", userObj)
+  }
+
   deletePatientById(UserId: any): Observable<any>{
     return this.http.delete(`https://localhost:7194/api/User/${UserId}`)
   }
 
-  // changePassword(data: any): Observable<any>{
-  //   return this.http.post("http://localhost:5258/change-password", data);
-  // }
+  changePassword(data: any): Observable<any>{
+    return this.http.post("https://localhost:7238/api/User/change-password", data);
+  }
 
 
 }

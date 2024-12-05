@@ -23,6 +23,7 @@ export class CustomerDashboardComponent {
   toaster = inject(ToastrService)
 
   ngOnInit() {
+    this.loadCartFromLocalStorage();
     this.getAllProducts();
   }
 
@@ -50,7 +51,7 @@ export class CustomerDashboardComponent {
   addToCart(product: any) {
     // product.isAddedToCart = true;
     // this.cartService.incrementCartCount();
-
+    this.cart.add(product.id);
     const productData = {
       userId : this.userDetails.id,
       productId : product.id,
@@ -59,10 +60,11 @@ export class CustomerDashboardComponent {
 
     this.cartService.addToCart(productData).subscribe({
       next: (res: any) => {
-        this.toaster.success("added to cart", "Success", {
-          progressBar: true,
-          timeOut: 1000
-        })
+        // this.toaster.success("added to cart", "Success", {
+        //   progressBar: true,
+        //   timeOut: 1000
+        // })
+        this.updateCartInLocalStorage();
         this.cartService.updateCartCount(this.userDetails.id);
 
       },
@@ -70,6 +72,25 @@ export class CustomerDashboardComponent {
         console.log(error)
       }
     })
+  }
+
+  cart = new Set<number>();
+  
+  isProductInCart(productId: number): boolean {
+    return this.cart.has(productId); 
+  }
+
+  
+  updateCartInLocalStorage() {
+    localStorage.setItem('cart', JSON.stringify(Array.from(this.cart)));
+  }
+
+  
+  loadCartFromLocalStorage() {
+    const storedCart = localStorage.getItem('cart');
+    if (storedCart) {
+      this.cart = new Set(JSON.parse(storedCart));  
+    }
   }
 
 }

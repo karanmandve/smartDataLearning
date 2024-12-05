@@ -8,12 +8,17 @@
             <h5 class="card-title">{{ product.productName }}</h5>
             <p class="card-text">{{ product.category }}</p>
             <p class="text-muted">₹{{ product.sellingPrice }}</p>
-            <button
+            <!-- <button
               class="btn btn-primary w-100"
-              [disabled]="product.isAddedToCart"
               (click)="addToCart(product)"
             >
-              {{ product.isAddedToCart ? 'Added to Cart' : 'Add to Cart' }}
+              Add to Cart
+            </button> -->
+            <button class="btn btn-primary w-100" *ngIf="!isProductInCart(product.id)" (click)="addToCart(product)">
+              Add to Cart
+            </button>
+            <button class="btn btn-primary w-100" disabled="true" *ngIf="isProductInCart(product.id)">
+              Already in Cart
             </button>
             <button class="btn btn-info w-100 mt-2" (click)="openModal(product)">See Details</button>
           </div>

@@ -10,7 +10,7 @@
     </div>
 
     <!-- User Image and Dropdown -->
-    <div class="cart-icon me-3 position-relative" routerLink="/cart">
+    <div *ngIf="userDeatils.userTypeId == 2" class="cart-icon me-3 position-relative" routerLink="/cart">
       <svg
         style="cursor: pointer;"
         xmlns="http://www.w3.org/2000/svg"

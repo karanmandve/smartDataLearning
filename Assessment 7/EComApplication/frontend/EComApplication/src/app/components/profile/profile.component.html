@@ -1,16 +1,16 @@
- <div class="container mt-5">
-    <div class="card shadow-lg">
+ <div class="container mt-5 mb-5">
+    <div class="card shadow-sm">
       <div class="card-body">
         <div class="text-center">
           <div class="profile-image-container">
             <img
-              [src]="profileData.profileImageUrl"
+              [src]="userDetails.profileImageUrl"
               alt="Profile Image"
               class="profile-image"
             />
           </div>
-          <h2 class="mt-3">{{ profileData.firstName }} {{ profileData.lastName }}</h2>
-          <p class="text-muted">{{ profileData.username }}</p>
+          <h2 class="mt-3">{{ userDetails.firstName }} {{ userDetails.lastName }}</h2>
+          <p class="text-muted">{{ userDetails.username }}</p>
         </div>
   
         <div class="row mt-4">
@@ -18,19 +18,19 @@
             <h5>Personal Information</h5>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                <strong>Email:</strong> {{ profileData.email }}
+                <strong>Email:</strong> {{ userDetails.email }}
               </li>
               <li class="list-group-item">
-                <strong>Mobile:</strong> {{ profileData.mobile }}
+                <strong>Mobile:</strong> {{ userDetails.mobile }}
               </li>
               <li class="list-group-item">
-                <strong>Date of Birth:</strong> {{ profileData.dob | date: 'mediumDate' }}
+                <strong>Date of Birth:</strong> {{ userDetails.dob | date: 'mediumDate' }}
               </li>
               <li class="list-group-item">
-                <strong>Address:</strong> {{ profileData.address }}
+                <strong>Address:</strong> {{ userDetails.address }}
               </li>
               <li class="list-group-item">
-                <strong>Zipcode:</strong> {{ profileData.zipcode }}
+                <strong>Zipcode:</strong> {{ userDetails.zipcode }}
               </li>
             </ul>
           </div>
@@ -39,16 +39,16 @@
             <h5>Additional Information</h5>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                <strong>Country ID:</strong> {{ profileData.countryId }}
+                <strong>Country ID:</strong> {{ userDetails.countryId }}
               </li>
               <li class="list-group-item">
-                <strong>State ID:</strong> {{ profileData.stateId }}
+                <strong>State ID:</strong> {{ userDetails.stateId }}
               </li>
               <li class="list-group-item">
-                <strong>User Type ID:</strong> {{ profileData.userTypeId }}
+                <strong>User Type ID:</strong> {{ userDetails.userTypeId }}
               </li>
               <li class="list-group-item">
-                <strong>Date Created:</strong> {{ profileData.dateCreated | date: 'medium' }}
+                <strong>Date Created:</strong> {{ userDetails.dateCreated | date: 'medium' }}
               </li>
             </ul>
           </div>
@@ -61,4 +61,146 @@
       </div>
     </div>
   </div> 
+  
+
+
+  <div class="modal fade" id="changePasswordModal" tabindex="-1" aria-labelledby="changePasswordModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="changePasswordModalLabel">Change Password</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form [formGroup]="changePasswordForm" (ngSubmit)="onChangePasswordSubmit()">
+            <div class="mb-3">
+              <label for="newPassword" class="form-label">New Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="newPassword"
+                formControlName="newPassword"
+                placeholder="Enter new password"
+                required
+              />
+              <div *ngIf="changePasswordForm.get('newPassword')?.invalid && changePasswordForm.get('newPassword')?.touched" class="text-danger">
+                New password is required
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="confirmNewPassword" class="form-label">Confirm New Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="confirmNewPassword"
+                formControlName="confirmNewPassword"
+                placeholder="Confirm new password"
+                required
+              />
+              <div *ngIf="changePasswordForm.get('confirmNewPassword')?.invalid && changePasswordForm.get('confirmNewPassword')?.touched" class="text-danger">
+                Please confirm your new password
+              </div>
+              <div *ngIf="newPasswordMismatch" class="text-danger">
+                Passwords do not match
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button type="submit" class="btn btn-primary" [disabled]="changePasswordForm.invalid || newPasswordMismatch">Change Password</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="modal fade" id="editProfileModal" tabindex="-1" aria-labelledby="editProfileModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="editProfileModalLabel">Edit Profile</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+            <div class="mb-3">
+              <label for="firstName" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="firstName" formControlName="firstName" />
+              <div *ngIf="f.firstName?.invalid && f.firstName?.touched" class="text-danger">
+                First name is required
+              </div>
+            </div>
+  
+            <div class="mb-3">
+              <label for="lastName" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="lastName" formControlName="lastName" />
+              <div *ngIf="f.lastName?.invalid && f.lastName?.touched" class="text-danger">
+                Last name is required
+              </div>
+            </div>
+  
+            <div class="mb-3">
+              <label for="mobile" class="form-label">Mobile</label>
+              <input type="text" class="form-control" id="mobile" formControlName="mobile" />
+              <div *ngIf="f.mobile?.invalid && f.mobile?.touched" class="text-danger">
+                Enter a valid mobile number
+              </div>
+            </div>
+  
+            <div class="mb-3">
+              <label for="dob" class="form-label">Date of Birth</label>
+              <input type="date" class="form-control" id="dob" formControlName="dob" />
+              <div *ngIf="f.dob?.invalid && f.dob?.touched" class="text-danger">
+                Date of birth is required
+              </div>
+            </div>
+  
+            <div class="mb-3">
+              <label for="address" class="form-label">Address</label>
+              <input type="text" class="form-control" id="address" formControlName="address" />
+              <div *ngIf="f.address?.invalid && f.address?.touched" class="text-danger">
+                Address is required
+              </div>
+            </div>
+  
+            <div class="mb-3">
+              <label for="zipcode" class="form-label">Zipcode</label>
+              <input type="text" class="form-control" id="zipcode" formControlName="zipcode" />
+              <div *ngIf="f.zipcode?.invalid && f.zipcode?.touched" class="text-danger">
+                Enter a valid zipcode
+              </div>
+            </div>
+  
+            <div class="mb-3">
+              <label for="stateId" class="form-label">State ID</label>
+              <input type="number" class="form-control" id="stateId" formControlName="stateId" />
+              <div *ngIf="f.stateId?.invalid && f.stateId?.touched" class="text-danger">
+                State ID is required
+              </div>
+            </div>
+  
+            <div class="mb-3">
+              <label for="countryId" class="form-label">Country ID</label>
+              <input type="number" class="form-control" id="countryId" formControlName="countryId" />
+              <div *ngIf="f.countryId?.invalid && f.countryId?.touched" class="text-danger">
+                Country ID is required
+              </div>
+            </div>
+  
+            <div class="mb-3">
+              <label for="imageFile" class="form-label">Profile Image</label>
+              <input type="file" class="form-control" id="imageFile" (change)="onFileSelected($event)" formControlName="imageFile" />
+            </div>
+  
+            <div class="d-flex justify-content-between">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button type="submit" class="btn btn-primary" [disabled]="userForm.invalid">Save Changes</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
   

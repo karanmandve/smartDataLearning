@@ -1,45 +1,136 @@
 <div class="cart-page">
-    <div class="container my-5">
-      <div class="row">
-        <!-- Left side: Product Details -->
-        <div class="col-md-8">
-          <div *ngFor="let product of cartProducts" class="cart-item d-flex align-items-center shadow-sm p-3 mb-3 rounded">
-            <div class="cart-item-image" style="width: 100px; height: 100px; overflow: hidden; position: relative;">
-              <img [src]="product.productImageUrl" alt="{{product.productName}}" class="img-fluid h-100 w-100 object-fit-cover">
-            </div>
-            <div class="cart-item-details ms-3 flex-grow-1">
-              <h5 class="product-name">{{ product.productName }}</h5>
-              <p class="product-category text-muted">{{ product.category }}</p>
-              <p class="product-price">₹{{ product.sellingPrice }}</p>
-            </div>
-            <div class="quantity-controls ms-3">
-              <button class="btn btn-outline-secondary btn-sm" (click)="decrementQuantity(product)">-</button>
-              <span class="quantity mx-2">{{ product.quantity }}</span>
-              <button class="btn btn-outline-secondary btn-sm" (click)="incrementQuantity(product)">+</button>
-            </div>
-          </div>
-        </div>
+  <h1 class="text-center mb-4">Shopping Cart</h1>
+
+  <div *ngIf="cartProducts.length === 0" class="d-flex justify-content-center align-items-center" style="height: 300px;">
+    <p class="text-center">There is no product in your cart</p>
+  </div>
   
-        <!-- Right side: Total Calculation -->
-        <div class="col-md-4">
-          <div class="total-summary shadow-sm p-3 rounded">
-            <h5>Total Calculation</h5>
-            <hr>
-            <div *ngFor="let product of cartProducts" class="d-flex justify-content-between">
-              <span>{{ product.quantity }}x ₹{{ product.sellingPrice }}</span>
-              <span>₹{{ product.quantity * product.sellingPrice }}</span>
-            </div>
-            <hr>
-            <div class="d-flex justify-content-between">
-              <strong>Total:</strong>
-              <strong>₹{{ totalPrice }}</strong>
-            </div>
-            <div class="text-center mt-3">
-              <button class="btn btn-primary w-100">Proceed to Checkout</button>
-            </div>
+  <div *ngIf="cartProducts.length > 0" class="container my-5">
+    <div class="row">
+      <!-- Left side: Product Details -->
+      <div class="col-md-8">
+        <div *ngFor="let product of cartProducts" class="cart-item d-flex align-items-center shadow-sm p-3 mb-3 rounded">
+          <div class="cart-item-image" style="width: 100px; height: 100px; overflow: hidden; position: relative;">
+            <img [src]="product.productImageUrl" alt="{{product.productName}}" class="img-fluid h-100 w-100 object-fit-cover">
+          </div>
+          <div class="cart-item-details ms-3 flex-grow-1">
+            <h5 class="product-name">{{ product.productName }}</h5>
+            <p class="product-category text-muted">{{ product.category }}</p>
+            <p class="product-price">₹{{ product.sellingPrice }}</p>
+          </div>
+          <div class="quantity-controls ms-3">
+            <button class="btn btn-outline-secondary btn-sm" (click)="decrementQuantity(product)">-</button>
+            <span class="quantity mx-2">{{ product.quantity }}</span>
+            <button class="btn btn-outline-secondary btn-sm" (click)="incrementQuantity(product)">+</button>
+          </div>
+          <button class="btn btn-danger btn-sm ms-3" (click)="removeProductFromCart(product)">Remove</button>
+        </div>
+      </div>
+
+      <!-- Right side: Total Calculation -->
+      <div class="col-md-4">
+        <div class="total-summary shadow-sm p-3 rounded">
+          <h5>Total Calculation</h5>
+          <hr>
+          <div *ngFor="let product of cartProducts" class="d-flex justify-content-between">
+            <span>{{ product.quantity }}x ₹{{ product.sellingPrice }}</span>
+            <span>₹{{ product.quantity * product.sellingPrice }}</span>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between">
+            <strong>Total:</strong>
+            <strong>₹{{ totalPrice }}</strong>
+          </div>
+          <div class="text-center mt-3">
+            <button class="btn btn-primary w-100" (click)="openAddressPopup()">Proceed to Checkout</button>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
+<!-- Address Modal -->
+<div id="addressModal" class="modal fade" tabindex="-1" aria-labelledby="addressModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addressModalLabel">Add / Edit Address</h5>
+        <button type="button" class="btn-close" (click)="closeModal('addressModal')"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="addressForm">
+          <div class="mb-3">
+            <label for="address" class="form-label">Address</label>
+            <input type="text" class="form-control" id="address" formControlName="address" required>
+          </div>
+          <div class="mb-3">
+            <label for="zipcode" class="form-label">Zipcode</label>
+            <input type="text" class="form-control" id="zipcode" formControlName="zipcode" required>
+          </div>
+          <div class="mb-3">
+            <label for="state" class="form-label">State</label>
+            <input type="text" class="form-control" id="state" formControlName="state" required>
+          </div>
+          <div class="mb-3">
+            <label for="country" class="form-label">Country</label>
+            <input type="text" class="form-control" id="country" formControlName="country" required>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="closeModal('addressModal')">Close</button>
+        <button type="button" class="btn btn-primary" (click)="saveAddress()">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Payment Modal -->
+<div id="paymentModal" class="modal fade" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="paymentModalLabel">Payment Details</h5>
+        <button type="button" class="btn-close" (click)="closeModal('paymentModal')"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="paymentForm">
+          <div class="mb-3">
+            <label for="cardNumber" class="form-label">Card Number</label>
+            <input type="text" class="form-control" id="cardNumber" formControlName="cardNumber" required>
+          </div>
+          <div class="mb-3">
+            <label for="expiryDate" class="form-label">Expiry Date</label>
+            <input type="text" class="form-control" id="expiryDate" formControlName="expiryDate" required>
+          </div>
+          <div class="mb-3">
+            <label for="cvv" class="form-label">CVV</label>
+            <input type="text" class="form-control" id="cvv" formControlName="cvv" required>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="closeModal('paymentModal')">Close</button>
+        <button type="button" class="btn btn-primary" (click)="makePayment()">Make Payment</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Success Modal -->
+<div id="successModal" class="modal fade" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="successModalLabel">Payment Successful</h5>
+      </div>
+      <div class="modal-body">
+        <p>Your payment has been processed successfully. Thank you for your purchase!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" (click)="closeModal('successModal')">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -53,7 +53,7 @@
   }
   .card-img-top {
     width: 100%; /* Ensures the image takes the full width of the card */
-    height: 200px; /* Fixed height for all images */
+    max-height: 100px; /* Fixed height for all images */
     object-fit: cover; /* Ensures the image scales and crops to fill the height without distortion */
     border-radius: 0.25rem; /* Matches the card's border-radius */
   }
