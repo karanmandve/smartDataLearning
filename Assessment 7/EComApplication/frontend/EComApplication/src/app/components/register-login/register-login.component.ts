@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import { UserServiceService } from '../../services/user/user-service.service';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { LoaderService } from '../../services/loader/loader.service';
+import { CountryStateServiceService } from '../../services/country-state-service/country-state-service.service';
 declare var bootstrap: any;
 
 @Component({
@@ -32,16 +33,20 @@ export class RegisterLoginComponent {
 
   @ViewChild('forgotPasswordModal') forgotPasswordModal!: ElementRef;
   
-
-
   userService = inject(UserServiceService)
   router = inject(Router)
   toaster = inject(ToastrService)
   loader = inject(LoaderService)
+  countryStateService: any = inject(CountryStateServiceService)
 
   toggleForm() {
     this.isLogin = !this.isLogin;
   }
+
+  ngOnInit() {
+    this.getAllCountry();
+  }
+
 
   loginForm: FormGroup = new FormGroup({
     username: new FormControl('', [Validators.required]),
@@ -93,6 +98,10 @@ export class RegisterLoginComponent {
           localStorage.setItem("token", res.data.token);
           // localStorage.setItem("username", this.loginData.username);
           localStorage.setItem("userDetails", JSON.stringify(res.data.data));
+
+          this.getState(res.data.data.countryId, res.data.data.stateId);
+
+
           
           const expiry = new Date(res.data.expiration)
           localStorage.setItem('expiry', expiry.toISOString());
@@ -259,6 +268,72 @@ sendForgetOtp() {
       }, 1000);  // Run every second
     }
 
+    allCountry : any [] = []
 
+
+    getAllCountry(){
+      this.countryStateService.getAllCountry().subscribe({
+        next : (res: any) => {
+          this.allCountry = res
+        },
+        error : (error: any) =>{
+          alert("I am in error")
+        }
+        
+      })
+    }
+  
+  
+    allState : any [] = []
+  
+  
+    // loadState(){
+    //   this.countryStateService.getAllState().subscribe({
+    //     next : (res:any) => {
+    //       this.allState = res
+    //     },
+    //     error : (error: any) => {
+    //       alert("I am in error")
+    //     }
+    //   })
+    // }
+  
+    onChange(countrId : any){
+      this.countryStateService.getStateByCountryId(countrId).subscribe({
+        next : (res:any) => {
+          this.allState = res
+        },
+        error : (error: any) => {
+          alert("I am in error")
+        }
+      })
+    }
+  
+    getState(countrId : any, stateId: any){
+      this.countryStateService.getStateByCountryId(countrId).subscribe({
+        next : (res:any) => {
+          this.allState = res
+          const state = this.allState.find(s => s.stateId === stateId);
+          localStorage.setItem("stateName", state.name)
+
+        },
+        error : (error: any) => {
+          alert("I am in error")
+        }
+      })
+    }
+  
+  
+  
+    getCountryName(countryId: number): string {
+      const country = this.allCountry.find(c => c.countryId === countryId);
+      return country ? country.name : 'Not Found';
+    }
+  
+    getStateName(stateId: number): string {
+      const state = this.allState.find(s => s.stateId === stateId);
+      return state ? state.name : 'Not Found';
+    }
+  
 
 }

@@ -1,0 +1,63 @@
+/* Container and spacing */
+.container {
+    padding: 20px;
+  }
+  
+  /* Order card styling */
+  .order-item {
+    background-color: #fff;  /* Set background color to white */
+    border-radius: 8px;       /* Rounded corners for the card */
+    padding: 20px;            /* Add padding inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a floating effect */
+    margin-bottom: 20px;      /* Space between order items */
+  }
+  
+  /* Styling the order details */
+  .order-details {
+    flex-grow: 1;
+  }
+  
+  .order-details h5 {
+    font-size: 18px;
+    color: #333; /* Darker text for invoice ID */
+    font-weight: bold;
+  }
+  
+  .order-details p {
+    font-size: 16px;
+    color: #555; /* Lighter text color */
+    margin-bottom: 10px; /* Space between each detail */
+  }
+  
+  .order-item button {
+    margin-left: 15px;  /* Add space between the button and the order details */
+    padding: 10px 20px; /* Add padding inside the button */
+    font-size: 16px;    /* Adjust button font size */
+    border-radius: 5px; /* Round the button edges */
+  }
+  
+  /* Button color styling */
+  .order-item button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3;     /* Same for border */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 767px) {
+    .order-item {
+      padding: 15px; /* Adjust padding on smaller screens */
+    }
+  
+    .order-details h5 {
+      font-size: 16px; /* Adjust font size on smaller screens */
+    }
+  
+    .order-details p {
+      font-size: 14px; /* Adjust font size on smaller screens */
+    }
+  
+    .order-item button {
+      padding: 8px 16px; /* Adjust button size */
+    }
+  }
+  

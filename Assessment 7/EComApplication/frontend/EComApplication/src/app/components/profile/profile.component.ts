@@ -1,8 +1,10 @@
 import { CommonModule, DatePipe } from '@angular/common';
-import { Component, inject } from '@angular/core';
+import { Component, Inject, inject } from '@angular/core';
 import { UserServiceService } from '../../services/user/user-service.service';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { ToastrService } from 'ngx-toastr';
+import { CountryStateServiceService } from '../../services/country-state-service/country-state-service.service';
+import { Router } from '@angular/router';
 declare var bootstrap: any;
 
 @Component({
@@ -15,14 +17,19 @@ declare var bootstrap: any;
 export class ProfileComponent {
   profileData: any;
   newPasswordMismatch: boolean = false;
+  isStateLoaded: boolean = false;
   userDetails = JSON.parse(localStorage.getItem("userDetails") || '{}');
   
   userService = inject(UserServiceService);
   toaster = inject(ToastrService);
+  countryStateService: any = inject(CountryStateServiceService)
+  router = inject(Router);
   
 
     ngOnInit(): void {  
-  
+      this.getAllCountry();
+      this.getState(this.userDetails.stateId);
+
       this.changePasswordForm.valueChanges.subscribe(() => {
         const newPassword = this.changePasswordForm.get('newPassword')?.value;
         const confirmPassword = this.changePasswordForm.get('confirmNewPassword')?.value;
@@ -94,6 +101,8 @@ export class ProfileComponent {
     const myModal = new bootstrap.Modal(document.getElementById('editProfileModal'));
     myModal.show();
     this.userForm.patchValue(this.userDetails);
+    this.getState(this.userDetails.countryId);
+    
   }
 
   closeModal(): void {
@@ -141,6 +150,64 @@ export class ProfileComponent {
   }
 
   
+  allCountry : any [] = []
+
+
+  getAllCountry(){
+    this.countryStateService.getAllCountry().subscribe({
+      next : (res: any) => {
+        this.allCountry = res
+      },
+      error : (error: any) =>{
+        alert("I am in error")
+      }
+      
+    })
+  }
+
+
+  allState : any [] = []
+
+
+  // loadState(){
+  //   this.countryStateService.getAllState().subscribe({
+  //     next : (res:any) => {
+  //       this.allState = res
+  //     },
+  //     error : (error: any) => {
+  //       alert("I am in error")
+  //     }
+  //   })
+  // }
+
+  getState(countrId : any){
+    this.countryStateService.getStateByCountryId(countrId).subscribe({
+      next : (res:any) => {
+        this.allState = res
+        console.log(this.allState);
+        this.isStateLoaded = true;
+        
+      },
+      error : (error: any) => {
+        alert("I am in error")
+      }
+    })
+  }
+
+
+
+
+
+
+  getCountryName(countryId: number): string {
+    const country = this.allCountry.find(c => c.countryId === countryId);
+    return country ? country.name : 'Not Found';
+  }
+
+  getStateName(stateId: number): string {
+    const state = this.allState.find(s => s.stateId === stateId);
+    return state ? state.name : 'Not Found';
+  }
 
 
 

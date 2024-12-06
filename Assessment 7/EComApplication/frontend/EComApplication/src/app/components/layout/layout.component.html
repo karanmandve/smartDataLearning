@@ -6,6 +6,9 @@
         <li class="nav-item d-flex">
           <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
         </li>
+        <li *ngIf="userDeatils.userTypeId == 2" class="nav-item d-flex">
+          <a class="nav-link active" aria-current="page" routerLink="/orders">Orders</a>
+        </li>
       </ul>
     </div>
 

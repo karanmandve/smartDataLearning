@@ -18,7 +18,7 @@
           <div class="card-body">
             <h5 class="card-title">{{ product.productName }}</h5>
             <p class="card-text">
-              <strong>Price:</strong> ${{ product.sellingPrice }}<br />
+              <strong>Price:</strong> ₹{{ product.sellingPrice }}<br />
               <strong>Stock:</strong> {{ product.stock }}
             </p>
             <button class="btn btn-warning btn-sm me-2" (click)="openModal(product)">Edit</button>
@@ -65,59 +65,156 @@
 
   
     <!-- Add/Edit Modal -->
-    <div class="modal" #productModel  id="productModal" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">{{ isEditing ? 'Edit Product' : 'Add Product' }}</h5>
-            <button type="button" class="btn-close" (click)="closeModal()"></button>
+<!-- Add/Edit Modal -->
+<div class="modal" #productModel id="productModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">{{ isEditing ? 'Edit Product' : 'Add Product' }}</h5>
+        <button type="button" class="btn-close" (click)="closeModal()"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="productForm">
+          <!-- Product Name -->
+          <div class="mb-3">
+            <label for="productName" class="form-label">Product Name</label>
+            <input
+              type="text"
+              id="productName"
+              class="form-control"
+              formControlName="productName"
+            />
+            <div *ngIf="productForm.get('productName')?.touched && productForm.get('productName')?.invalid" class="text-danger">
+              <div *ngIf="productForm.get('productName')?.hasError('required')">Product Name is required.</div>
+              <div *ngIf="productForm.get('productName')?.hasError('minlength')">Product Name must be at least 3 characters long.</div>
+            </div>
           </div>
-          <div class="modal-body">
-            <form [formGroup]="productForm">
-              <div class="mb-3">
-                <label for="productName" class="form-label">Product Name</label>
-                <input type="text" id="productName" class="form-control" formControlName="productName" />
-              </div>
-              <div class="mb-3">
-                <label for="productCode" class="form-label">Product Code</label>
-                <input type="text" id="productCode" class="form-control" formControlName="productCode" />
-              </div>
-              <div class="mb-3">
-                <label for="imageFile" class="form-label">Image File</label>
-                <input type="file" id="imageFile" (change)="onFileSelected($event)" formControlName="imageFile" class="form-control" />
-              </div>
-              <div class="mb-3">
-                <label for="category" class="form-label">Category</label>
-                <input type="text" id="category" class="form-control" formControlName="category" />
-              </div>
-              <div class="mb-3">
-                <label for="brand" class="form-label">Brand</label>
-                <input type="text" id="brand" class="form-control" formControlName="brand" />
-              </div>
-              <div class="mb-3">
-                <label for="sellingPrice" class="form-label">Selling Price</label>
-                <input type="number" id="sellingPrice" class="form-control" formControlName="sellingPrice" />
-              </div>
-              <div class="mb-3">
-                <label for="purchasePrice" class="form-label">Purchase Price</label>
-                <input type="number" id="purchasePrice" class="form-control" formControlName="purchasePrice" />
-              </div>
-              <div class="mb-3">
-                <label for="purchaseDate" class="form-label">Purchase Date</label>
-                <input type="date" id="purchaseDate" class="form-control" formControlName="purchaseDate" />
-              </div>
-              <div class="mb-3">
-                <label for="stock" class="form-label">Stock</label>
-                <input type="number" id="stock" class="form-control" formControlName="stock" />
-              </div>
-            </form>
+
+          <!-- Product Code -->
+          <div class="mb-3">
+            <label for="productCode" class="form-label">Product Code</label>
+            <input
+              type="text"
+              id="productCode"
+              class="form-control"
+              formControlName="productCode"
+            />
+            <div *ngIf="productForm.get('productCode')?.touched && productForm.get('productCode')?.invalid" class="text-danger">
+              <div *ngIf="productForm.get('productCode')?.hasError('required')">Product Code is required.</div>
+              <div *ngIf="productForm.get('productCode')?.hasError('pattern')">Product Code must be alphanumeric (5-10 characters).</div>
+            </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" (click)="closeModal()">Close</button>
-            <button type="button" class="btn btn-primary" (click)="saveProduct()">Save</button>
+
+          <!-- Image File -->
+          <div class="mb-3">
+            <label for="imageFile" class="form-label">Image File</label>
+            <input
+              type="file"
+              id="imageFile"
+              (change)="onFileSelected($event)"
+              formControlName="imageFile"
+              class="form-control"
+            />
+            <div *ngIf="productForm.get('imageFile')?.touched && productForm.get('imageFile')?.invalid" class="text-danger">
+              <div *ngIf="productForm.get('imageFile')?.hasError('required')">Image File is required.</div>
+            </div>
           </div>
-        </div>
+
+          <!-- Category -->
+          <div class="mb-3">
+            <label for="category" class="form-label">Category</label>
+            <input
+              type="text"
+              id="category"
+              class="form-control"
+              formControlName="category"
+            />
+            <div *ngIf="productForm.get('category')?.touched && productForm.get('category')?.invalid" class="text-danger">
+              <div *ngIf="productForm.get('category')?.hasError('required')">Category is required.</div>
+            </div>
+          </div>
+
+          <!-- Brand -->
+          <div class="mb-3">
+            <label for="brand" class="form-label">Brand</label>
+            <input
+              type="text"
+              id="brand"
+              class="form-control"
+              formControlName="brand"
+            />
+            <div *ngIf="productForm.get('brand')?.touched && productForm.get('brand')?.invalid" class="text-danger">
+              <div *ngIf="productForm.get('brand')?.hasError('required')">Brand is required.</div>
+            </div>
+          </div>
+
+          <!-- Selling Price -->
+          <div class="mb-3">
+            <label for="sellingPrice" class="form-label">Selling Price</label>
+            <input
+              type="number"
+              id="sellingPrice"
+              class="form-control"
+              formControlName="sellingPrice"
+            />
+            <div *ngIf="productForm.get('sellingPrice')?.touched && productForm.get('sellingPrice')?.invalid" class="text-danger">
+              <div *ngIf="productForm.get('sellingPrice')?.hasError('required')">Selling Price is required.</div>
+              <div *ngIf="productForm.get('sellingPrice')?.hasError('min')">Selling Price must be greater than or equal to 1.</div>
+            </div>
+          </div>
+
+          <!-- Purchase Price -->
+          <div class="mb-3">
+            <label for="purchasePrice" class="form-label">Purchase Price</label>
+            <input
+              type="number"
+              id="purchasePrice"
+              class="form-control"
+              formControlName="purchasePrice"
+            />
+            <div *ngIf="productForm.get('purchasePrice')?.touched && productForm.get('purchasePrice')?.invalid" class="text-danger">
+              <div *ngIf="productForm.get('purchasePrice')?.hasError('required')">Purchase Price is required.</div>
+              <div *ngIf="productForm.get('purchasePrice')?.hasError('min')">Purchase Price must be greater than or equal to 1.</div>
+            </div>
+          </div>
+
+          <!-- Purchase Date -->
+          <div class="mb-3">
+            <label for="purchaseDate" class="form-label">Purchase Date</label>
+            <input
+              type="datetime"
+              id="purchaseDate"
+              class="form-control"
+              formControlName="purchaseDate"
+            />
+            <div *ngIf="productForm.get('purchaseDate')?.touched && productForm.get('purchaseDate')?.invalid" class="text-danger">
+              <div *ngIf="productForm.get('purchaseDate')?.hasError('required')">Purchase Date is required.</div>
+            </div>
+          </div>
+
+          <!-- Stock -->
+          <div class="mb-3">
+            <label for="stock" class="form-label">Stock</label>
+            <input
+              type="number"
+              id="stock"
+              class="form-control"
+              formControlName="stock"
+            />
+            <div *ngIf="productForm.get('stock')?.touched && productForm.get('stock')?.invalid" class="text-danger">
+              <div *ngIf="productForm.get('stock')?.hasError('required')">Stock is required.</div>
+              <div *ngIf="productForm.get('stock')?.hasError('min')">Stock must be greater than or equal to 1.</div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="closeModal()">Close</button>
+        <button type="button" class="btn btn-primary" [disabled]="productForm.invalid" (click)="saveProduct()">Save</button>
       </div>
     </div>
+  </div>
+</div>
+
   </div>
   

@@ -3,6 +3,7 @@ import { CartService } from '../../services/cart/cart.service';
 import { CommonModule } from '@angular/common';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { ToastrService } from 'ngx-toastr';
+import { CountryStateServiceService } from '../../services/country-state-service/country-state-service.service';
 
 @Component({
   selector: 'app-cart',
@@ -19,22 +20,25 @@ export class CartComponent {
   invoiceUrl: any;
 
   cartService = inject(CartService);
-  toaster = inject(ToastrService)
+  toaster = inject(ToastrService);
+  countryStateService: any = inject(CountryStateServiceService);
 
   ngOnInit(): void {
+    this.getAllCountry();
+    // this.loadState();
     this.loadCart();
   }
 
   addressForm: FormGroup = new FormGroup({
     address: new FormControl('', [Validators.required]),
     zipcode: new FormControl('', [Validators.required]),
-    state: new FormControl('', [Validators.required]),
-    country: new FormControl('', [Validators.required])
+    state: new FormControl(0, [Validators.required]),
+    country: new FormControl(0, [Validators.required])
   });
   
   paymentForm: FormGroup = new FormGroup({
     cardNumber: new FormControl('', [Validators.required, Validators.pattern('^[0-9]{16}$')]),
-    expiryDate: new FormControl('', [Validators.required, Validators.pattern('^(0[1-9]|1[0-2])\/[0-9]{2}$')]),
+    expiryDate: new FormControl('', [Validators.required, Validators.pattern('^(0[1-9]|1[0-2])\/[0-9]{4}$')]),
     cvv: new FormControl('', [Validators.required, Validators.pattern('^[0-9]{3}$')])
   });
 
@@ -101,10 +105,12 @@ export class CartComponent {
       this.addressForm.patchValue({
         address: this.userDetails.address,
         zipcode: this.userDetails.zipcode,
-        state: this.userDetails.stateId,
-        country: this.userDetails.countryId
+        country: this.userDetails.countryId,
+        state: this.userDetails.stateId
       });
     }
+
+    this.getState(this.userDetails.countryId);
     // Show the modal by adding the class
     const modal = document.getElementById('addressModal');
     if (modal) {
@@ -183,4 +189,63 @@ export class CartComponent {
     };
     this.loadCart();
   }
+
+
+
+
+  allCountry : any [] = []
+
+
+  getAllCountry(){
+    this.countryStateService.getAllCountry().subscribe({
+      next : (res: any) => {
+        this.allCountry = res
+      },
+      error : (error: any) =>{
+        alert("I am in error")
+      }
+      
+    })
+  }
+
+
+  allState : any [] = []
+
+
+  // loadState(){
+  //   this.countryStateService.getAllState().subscribe({
+  //     next : (res:any) => {
+  //       this.allState = res
+  //     },
+  //     error : (error: any) => {
+  //       alert("I am in error")
+  //     }
+  //   })
+  // }
+
+  getState(countrId : any){
+    this.countryStateService.getStateByCountryId(countrId).subscribe({
+      next : (res:any) => {
+        this.allState = res
+      },
+      error : (error: any) => {
+        alert("I am in error")
+      }
+    })
+  }
+
+
+
+
+  getCountryName(countryId: number): string {
+    const country = this.allCountry.find(c => c.countryId === countryId);
+    return country ? country.name : 'Not Found';
+  }
+
+  getStateName(stateId: number): string {
+    const state = this.allState.find(s => s.stateId === stateId);
+    return state ? state.name : 'Not Found';
+  }
+
+
 }

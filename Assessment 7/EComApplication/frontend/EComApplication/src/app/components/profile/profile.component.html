@@ -18,19 +18,19 @@
             <h5>Personal Information</h5>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                <strong>Email:</strong> {{ userDetails.email }}
+                <strong>Email :</strong> {{ userDetails.email }}
               </li>
               <li class="list-group-item">
-                <strong>Mobile:</strong> {{ userDetails.mobile }}
+                <strong>Mobile :</strong> {{ userDetails.mobile }}
               </li>
               <li class="list-group-item">
-                <strong>Date of Birth:</strong> {{ userDetails.dob | date: 'mediumDate' }}
+                <strong>Date of Birth :</strong> {{ userDetails.dob | date: 'mediumDate' }}
               </li>
               <li class="list-group-item">
-                <strong>Address:</strong> {{ userDetails.address }}
+                <strong>Address :</strong> {{ userDetails.address }}
               </li>
               <li class="list-group-item">
-                <strong>Zipcode:</strong> {{ userDetails.zipcode }}
+                <strong>Zipcode :</strong> {{ userDetails.zipcode }}
               </li>
             </ul>
           </div>
@@ -39,13 +39,14 @@
             <h5>Additional Information</h5>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                <strong>Country ID:</strong> {{ userDetails.countryId }}
+                <strong>Country :</strong> {{ getCountryName(userDetails.countryId) }}
               </li>
               <li class="list-group-item">
-                <strong>State ID:</strong> {{ userDetails.stateId }}
-              </li>
-              <li class="list-group-item">
-                <strong>User Type ID:</strong> {{ userDetails.userTypeId }}
+                <strong>User :</strong>@if(userDetails.userTypeId == 1){
+                  Admin
+                }@else{
+                  Customer
+                }
               </li>
               <li class="list-group-item">
                 <strong>Date Created:</strong> {{ userDetails.dateCreated | date: 'medium' }}
@@ -173,21 +174,27 @@
               </div>
             </div>
   
+
             <div class="mb-3">
-              <label for="stateId" class="form-label">State ID</label>
-              <input type="number" class="form-control" id="stateId" formControlName="stateId" />
-              <div *ngIf="f.stateId?.invalid && f.stateId?.touched" class="text-danger">
-                State ID is required
-              </div>
-            </div>
+              <label for="country" class="form-label">Country</label>
+              <select (change)="getState(userForm.value.countryId)" formControlName="countryId" name="country" class="form-control" id="country" required>
+                  <option value="" disabled selected>Select a country</option>
+                  <option *ngFor="let country of allCountry" [value]="country.countryId">{{ country.name }}</option>
+                  
+              </select>
+              <div class="invalid-feedback">Please provide a valid country.</div>
+          </div>
   
-            <div class="mb-3">
-              <label for="countryId" class="form-label">Country ID</label>
-              <input type="number" class="form-control" id="countryId" formControlName="countryId" />
-              <div *ngIf="f.countryId?.invalid && f.countryId?.touched" class="text-danger">
-                Country ID is required
-              </div>
-            </div>
+  
+          <div class="mb-3">
+            <label for="state" class="form-label">State</label>
+            <select formControlName="stateId" name="state" class="form-control" id="state" required>
+                <option selected disabled>Select a state</option>
+                <option *ngFor="let state of allState" [value]="state.stateId">{{ state.name }}</option>
+                
+            </select>
+            <div class="invalid-feedback">Please provide a valid state.</div>
+         </div>
   
             <div class="mb-3">
               <label for="imageFile" class="form-label">Profile Image</label>

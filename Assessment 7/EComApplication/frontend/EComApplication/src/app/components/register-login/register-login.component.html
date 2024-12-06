@@ -300,53 +300,33 @@
             </div>
           </div>
 
-          <div class="mb-3">
-            <label for="registerState" class="form-label">State</label>
-            <select
-              class="form-control"
-              id="registerState"
-              formControlName="stateId"
-              required
-            >
-              <option value="" disabled selected>Select state</option>
-              <!-- Example state options -->
-              <option value="1">State 1</option>
-              <option value="2">State 2</option>
-            </select>
-            <div
-              *ngIf="
-                registerForm.get('stateId')?.invalid &&
-                registerForm.get('stateId')?.touched
-              "
-              class="text-danger"
-            >
-              Please select a state
-            </div>
-          </div>
+
 
           <div class="mb-3">
-            <label for="registerCountry" class="form-label">Country</label>
-            <select
-              class="form-control"
-              id="registerCountry"
-              formControlName="countryId"
-              required
-            >
-              <option value="" disabled selected>Select country</option>
-              <!-- Example country options -->
-              <option value="1">Country 1</option>
-              <option value="2">Country 2</option>
+            <label for="country" class="form-label">Country</label>
+            <select (change)="onChange(registerForm.value.countryId)" formControlName="countryId" name="country" class="form-control" id="country" required>
+                <option value="" disabled selected>Select a country</option>
+                <option *ngFor="let country of allCountry" [value]="country.countryId">{{ country.name }}</option>
+                
             </select>
-            <div
-              *ngIf="
-                registerForm.get('countryId')?.invalid &&
-                registerForm.get('countryId')?.touched
-              "
-              class="text-danger"
-            >
-              Please select a country
-            </div>
-          </div>
+            <div class="invalid-feedback">Please provide a valid country.</div>
+        </div>
+
+
+        <div class="mb-3">
+          <label for="state" class="form-label">State</label>
+          <select formControlName="stateId" name="state" class="form-control" id="state" required>
+              <option selected disabled>Select a state</option>
+              <option *ngFor="let state of allState" [value]="state.stateId">{{ state.name }}</option>
+              
+          </select>
+          <div class="invalid-feedback">Please provide a valid state.</div>
+       </div>
+
+
+  
+
+
           <div class="mb-3">
             <label class="form-label" for="file">Upload File:</label>
             <input
