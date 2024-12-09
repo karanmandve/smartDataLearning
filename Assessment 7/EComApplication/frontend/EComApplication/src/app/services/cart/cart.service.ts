@@ -9,19 +9,19 @@ export class CartService {
 
   http = inject(HttpClient);
 
-  private cartCountSubject = new BehaviorSubject<number>(0); // Observable cart count
+  private cartCountSubject = new BehaviorSubject<number>(0);
   cartCount$ = this.cartCountSubject.asObservable();
 
-  incrementCartCount() {
-    const currentCount = this.cartCountSubject.value;
-    this.cartCountSubject.next(currentCount + 1);
-  }
+  // incrementCartCount() {
+  //   const currentCount = this.cartCountSubject.value;
+  //   this.cartCountSubject.next(currentCount + 1);
+  // }
 
 
 
   getCartCount(userId: number) {
     return this.http.get(`https://localhost:7238/api/Cart/get-cart-count/${userId}`);
-  }
+  } 
 
   updateCartCount(userId: number) {
     this.getCartCount(userId).subscribe((count: any) => {

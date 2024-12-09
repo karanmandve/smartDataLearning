@@ -34,6 +34,7 @@ export class ProfileComponent {
         const newPassword = this.changePasswordForm.get('newPassword')?.value;
         const confirmPassword = this.changePasswordForm.get('confirmNewPassword')?.value;
         this.newPasswordMismatch = newPassword !== confirmPassword;
+        
       });
     }
   

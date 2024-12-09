@@ -27,7 +27,7 @@ export class CustomerDashboardComponent {
     this.getAllProducts();
   }
 
-  // Fetch all products from the service
+
   getAllProducts() {
     this.productService.getAllProduct().subscribe({
       next: (data: any) => {
@@ -40,7 +40,7 @@ export class CustomerDashboardComponent {
     });
   }
 
-  // Method to open the modal with product details
+
   openModal(product: any) {
     this.selectedProduct = product;  // Assign the selected product data
     const modal = new bootstrap.Modal(document.getElementById('productDetailsModal') as HTMLElement);

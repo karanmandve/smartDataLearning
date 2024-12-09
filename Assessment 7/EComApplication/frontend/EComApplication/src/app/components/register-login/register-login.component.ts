@@ -3,7 +3,7 @@ import { Component, ElementRef, inject, ViewChild } from '@angular/core';
 import { ToastContainerDirective, ToastrService } from 'ngx-toastr';
 import { Router } from '@angular/router';
 import { UserServiceService } from '../../services/user/user-service.service';
-import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { FormControl, FormGroup, ReactiveFormsModule, ValidationErrors, Validators } from '@angular/forms';
 import { LoaderService } from '../../services/loader/loader.service';
 import { CountryStateServiceService } from '../../services/country-state-service/country-state-service.service';
 declare var bootstrap: any;
@@ -30,6 +30,9 @@ export class RegisterLoginComponent {
   countdown: number = 30; // Countdown timer for resend OTP
   resendTimeout: any;
   resendOtpTimeout: any;
+  todayDate = new Date().toISOString().split('T')[0];
+  pastDate = new Date('1900-01-01').toISOString().split('T')[0];
+  fileSizeError = false;
 
   @ViewChild('forgotPasswordModal') forgotPasswordModal!: ElementRef;
   
@@ -45,6 +48,9 @@ export class RegisterLoginComponent {
 
   ngOnInit() {
     this.getAllCountry();
+    this.sanitizeField('firstName');
+    this.sanitizeField('lastName');
+
   }
 
 
@@ -55,18 +61,66 @@ export class RegisterLoginComponent {
   });
 
   registerForm = new FormGroup({
-    firstName: new FormControl('', Validators.required),
-    lastName: new FormControl('', Validators.required),
-    email: new FormControl('', [Validators.required, Validators.email]),
-    mobile: new FormControl('', [Validators.required]),
-    dob: new FormControl('', Validators.required),
-    userTypeId: new FormControl(0, Validators.required),
-    file: new FormControl<File | null>(null),
-    address: new FormControl('', Validators.required),
-    zipcode: new FormControl(0, [Validators.required]),
-    stateId: new FormControl(0, Validators.required),
-    countryId: new FormControl(0, Validators.required),
+    firstName: new FormControl('', [Validators.required, Validators.minLength(2), Validators.maxLength(20),Validators.pattern(/^[A-Za-z]+(?: [A-Za-z]+)*\s*$/)]),
+    lastName: new FormControl('', [Validators.required, Validators.minLength(2), Validators.maxLength(25),Validators.pattern(/^[A-Za-z]+(?: [A-Za-z]+)*\s*$/)]),
+    email: new FormControl('', [Validators.required, Validators.email, Validators.maxLength(50)]),
+    mobile: new FormControl('', [Validators.required, Validators.pattern(/^\d{10}$/)]),
+    dob: new FormControl('', [Validators.required, this.futureDateValidator]),
+    userTypeId: new FormControl("", Validators.required),
+    file: new FormControl<File | null>(null, Validators.required),
+    address: new FormControl('', [Validators.required, Validators.minLength(10), Validators.maxLength(150), Validators.pattern(/^[a-zA-Z0-9\s,.-]+$/)]),
+    zipcode: new FormControl(0, [Validators.required, Validators.pattern(/^\d{6}$/), Validators.minLength(6), Validators.maxLength(6)]),
+    countryId: new FormControl("", Validators.required),
+    stateId: new FormControl("", Validators.required)
   })
+
+
+  // Validation Functions
+
+  sanitizeField(fieldName: string): void {
+    this.registerForm.get(fieldName)?.valueChanges.subscribe((value) => {
+      if (value) {
+        
+        const sanitizedValue = value
+          .replace(/[^A-Za-z\s]/g, '') 
+          .replace(/\s{2,}/g, ' '); 
+        if (value !== sanitizedValue) {
+          this.registerForm.get(fieldName)?.setValue(sanitizedValue, {
+            emitEvent: false, 
+          });
+        }
+      }
+    });
+  }
+
+  onKeyPress(event: KeyboardEvent) {
+    const charCode = event.which ? event.which : event.keyCode;
+    // Allow only numeric characters (keycodes for 0-9)
+    if (charCode < 48 || charCode > 57) {
+      event.preventDefault(); // Block non-numeric characters
+    }
+  }
+
+  futureDateValidator(control: FormControl): ValidationErrors | null {
+    const today = new Date();
+    const pastDate = new Date('1900-01-01');
+    const selectedDate = new Date(control.value);
+
+    // Reset time to the start of the day (to avoid time comparisons)
+    // today.setHours(0, 0, 0, 0);
+
+    if (selectedDate > today) {
+      return { futureDate: true };  // Return error if date is in the future
+    }else if(selectedDate < pastDate){
+      return { pastDate: true };
+      }  // Return error if date is in the future
+    return null;  // Return null if date is valid
+  }
+
+
+
+
+
 
   forgetPasswordForm = new FormGroup({
     username: new FormControl('', Validators.required),
@@ -75,6 +129,30 @@ export class RegisterLoginComponent {
 
   onFileSelected(event: Event) {
     const file = (event.target as HTMLInputElement).files?.[0];
+    const maxSize = 5 * 1024 * 1024;
+
+    if (file) {
+      const validTypes = ['image/jpeg', 'image/jpg', 'image/png'];
+      if (!validTypes.includes(file.type)) {
+        // Set the custom error for invalid file type
+        this.registerForm.get('file')?.setErrors({ invalidType: true });
+      } else {
+        // Clear the error if the file type is valid
+        this.registerForm.get('file')?.setErrors(null);
+      }
+    }
+    if (file) {
+      // Check if the file size exceeds the 5 MB limit
+      if (file.size > maxSize) {
+        this.fileSizeError = true;
+        // Clear the file input if it exceeds the limit
+        if (event.target instanceof HTMLInputElement) {
+          event.target.value = '';
+        }
+      } else {
+        this.fileSizeError = false;
+      }
+    }
     this.registerForm.patchValue({ file });
     this.registerForm.get('file')?.updateValueAndValidity();
   }
@@ -128,6 +206,13 @@ export class RegisterLoginComponent {
 
   
   onRegisterSubmit() {
+
+    if (this.registerForm.invalid) {
+      this.registerForm.markAllAsTouched();
+      this.toaster.error("Please Fill And Correct All The fields", "Error");
+      return;
+    }
+
     const formData = new FormData();
     Object.keys(this.registerForm.controls).forEach(field => {
       const value = this.registerForm.get(field)?.value;
