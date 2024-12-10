@@ -30,18 +30,45 @@ export class CartComponent {
   }
 
   addressForm: FormGroup = new FormGroup({
-    address: new FormControl('', [Validators.required]),
-    zipcode: new FormControl('', [Validators.required]),
+    address: new FormControl('', [Validators.required, Validators.minLength(10), Validators.maxLength(150), Validators.pattern(/^[a-zA-Z0-9\s,.-]+$/)]),
+    zipcode: new FormControl('', [Validators.required, Validators.pattern(/^\d{6}$/), Validators.minLength(6), Validators.maxLength(6)]),
     state: new FormControl(0, [Validators.required]),
     country: new FormControl(0, [Validators.required])
   });
   
   paymentForm: FormGroup = new FormGroup({
     cardNumber: new FormControl('', [Validators.required, Validators.pattern('^[0-9]{16}$')]),
-    expiryDate: new FormControl('', [Validators.required, Validators.pattern('^(0[1-9]|1[0-2])\/[0-9]{4}$')]),
+    expiryYear: new FormControl('', [Validators.required]),
+    expiryMonth: new FormControl('', [Validators.required]),
     cvv: new FormControl('', [Validators.required, Validators.pattern('^[0-9]{3}$')])
   });
 
+  months = [
+    { value: '01', label: '01' },
+    { value: '02', label: '02' },
+    { value: '03', label: '03' },
+    { value: '04', label: '04' },
+    { value: '05', label: '05' },
+    { value: '06', label: '06' },
+    { value: '07', label: '07' },
+    { value: '08', label: '08' },
+    { value: '09', label: '09' },
+    { value: '10', label: '10' },
+    { value: '11', label: '11' },
+    { value: '12', label: '12' }
+  ];
+
+  
+  currentYear = new Date().getFullYear();
+  years = Array.from({ length: 20 }, (_, i) => this.currentYear + i);
+
+  onKeyPress(event: KeyboardEvent) {
+    const charCode = event.which ? event.which : event.keyCode;
+
+    if (charCode < 48 || charCode > 57) {
+      event.preventDefault(); 
+    }
+  }
 
   loadCart() {
     const userId = this.userDetails.id; // replace with actual user ID
@@ -148,10 +175,14 @@ export class CartComponent {
   makePayment() {
     console.log("i am outside");
     
- 
+      var paymentFormData = this.paymentForm.value;
+
+      var expiryDate = `${paymentFormData.expiryMonth}/${paymentFormData.expiryYear}`;
 
       const paymentData = {
-        ...this.paymentForm.value,
+        cardNumber : paymentFormData.cardNumber,
+        cvv : paymentFormData.cvv,
+        expiryDate: expiryDate,
         userId: this.userDetails.id,
         deliveryAddress: this.addressData.address,
         deliveryZipcode: this.addressData.zipcode,

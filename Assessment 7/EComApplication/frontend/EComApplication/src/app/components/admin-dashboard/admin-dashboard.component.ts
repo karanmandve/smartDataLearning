@@ -1,14 +1,15 @@
 import { Component, ElementRef, inject, ViewChild } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { AbstractControl, FormBuilder, FormControl, FormGroup, FormsModule, ReactiveFormsModule, ValidationErrors, ValidatorFn, Validators } from '@angular/forms';
 import { ProductService } from '../../services/product/product.service';
 import { CommonModule } from '@angular/common';
 import { ToastrService } from 'ngx-toastr';
+import Swal from 'sweetalert2';
 declare var bootstrap: any;
 
 @Component({
   selector: 'app-admin-dashboard',
   standalone: true,
-  imports: [ReactiveFormsModule, CommonModule],
+  imports: [ReactiveFormsModule, CommonModule, FormsModule],
   templateUrl: './admin-dashboard.component.html',
   styleUrl: './admin-dashboard.component.css'
 })
@@ -17,6 +18,11 @@ export class AdminDashboardComponent {
   products: any[] = [];
   isEditing = false;
   selectedProduct: any = null;
+  fileSizeError = false;
+  sellingPrice: number = 0;
+  purchasePrice: number = 0;
+  todayDate = new Date().toISOString().slice(0, 16);
+  pastDate = new Date('1900-01-01').toISOString().slice(0, 16);
 
   @ViewChild('productModel') productModel!: ElementRef;
   toaster = inject(ToastrService)
@@ -25,20 +31,72 @@ export class AdminDashboardComponent {
 
   ngOnInit(): void {
     this.loadProducts();
+    this.sanitizeField('sellingPrice');
+    this.sanitizeField('purchasePrice');
+    this.sanitizeField('stock');
   }
 
   productForm: FormGroup = new FormGroup({
     productName: new FormControl('', [Validators.required]),
-    productCode: new FormControl('', [Validators.required]),
+    productCode: new FormControl('', [Validators.required, Validators.pattern('^[A-Za-z0-9]{5,10}$')]),
     imageFile: new FormControl<File | null>(null),
-    category: new FormControl('', [Validators.required]),
+    category: new FormControl("", [Validators.required]),
+
     brand: new FormControl('', [Validators.required]),
     sellingPrice: new FormControl('', [Validators.required, Validators.min(1)]),
     purchasePrice: new FormControl('', [Validators.required, Validators.min(1)]),
-    purchaseDate: new FormControl('', [Validators.required]),
+    purchaseDate: new FormControl('', [Validators.required, this.futureDateValidator]),
     stock: new FormControl('', [Validators.required, Validators.min(1)]),
     userId: new FormControl(0)
   });
+
+
+  sanitizeField(fieldName: string): void {
+    this.productForm.get(fieldName)?.valueChanges.subscribe((value) => {
+      if (value) {
+        // Remove all non-numeric characters
+        let sanitizedValue = value.replace(/[^0-9]/g, '');
+        
+        // Limit the length to 6 digits
+        sanitizedValue = sanitizedValue.slice(0, 6);
+        
+        // If the sanitized value is different, update the form control
+        if (value !== sanitizedValue) {
+          this.productForm.get(fieldName)?.setValue(sanitizedValue, {
+            emitEvent: false,
+          });
+        }
+      }
+    });
+  }
+
+  futureDateValidator(control: FormControl): ValidationErrors | null {
+    const today = new Date();
+    const pastDate = new Date('1900-01-01');
+    const selectedDate = new Date(control.value);
+
+    // Reset time to the start of the day (to avoid time comparisons)
+    // today.setHours(0, 0, 0, 0);
+
+    if (selectedDate > today) {
+      return { futureDate: true };  // Return error if date is in the future
+    }else if(selectedDate < pastDate){
+      return { pastDate: true };
+      }  // Return error if date is in the future
+    return null;  // Return null if date is valid
+  }
+
+  categories: string[] = [
+    'Electronics',
+    'Fashion',
+    'Home & Living',
+    'Beauty & Health',
+    'Sports & Outdoors',
+    'Books & Stationery',
+    'Toys & Games',
+    'Groceries & Food'
+  ];
+  
 
 
   // Fetch all products from API
@@ -69,9 +127,7 @@ export class AdminDashboardComponent {
     if (this.isEditing) {
       // Populate form with selected product data
       this.productForm.patchValue(product);
-    } else {
-      this.productForm.reset();
-    }
+    } 
 
     const modal = document.getElementById('productModal');
     if (modal) {
@@ -95,16 +151,43 @@ export class AdminDashboardComponent {
 
   onFileSelected(event: Event) {
     const file = (event.target as HTMLInputElement).files?.[0];
-    if (file) {
-      // Update form control with selected file
-      this.productForm.patchValue({ imageFile: file });
-      this.productForm.get('imageFile')?.updateValueAndValidity();
-    }
-  }
+    const maxSize = 5 * 1024 * 1024;
 
+    if (file) {
+      const validTypes = ['image/jpeg', 'image/jpg', 'image/png'];
+      if (!validTypes.includes(file.type)) {
+        // Set the custom error for invalid file type
+        this.productForm.get('imageFile')?.setErrors({ invalidType: true });
+        if (event.target instanceof HTMLInputElement) {
+          event.target.value = '';
+        }
+      } else {
+        // Clear the error if the file type is valid
+        this.productForm.get('imageFile')?.setErrors(null);
+      }
+    }
+    if (file) {
+      // Check if the file size exceeds the 5 MB limit
+      if (file.size > maxSize) {
+        this.fileSizeError = true;
+        // Clear the file input if it exceeds the limit
+        if (event.target instanceof HTMLInputElement) {
+          event.target.value = '';
+        }
+      } else {
+        this.fileSizeError = false;
+      }
+    }
+    this.productForm.patchValue({ imageFile: file });
+    this.productForm.get('imageFile')?.updateValueAndValidity();
+  }
 
   saveProduct() {
     if (this.productForm.invalid) {
+      this.toaster.error('Please fill all required fields', 'Error');
+      return;
+    }else if(this.productForm.get('sellingPrice')?.value < this.productForm.get('purchasePrice')?.value){
+      this.toaster.error('Selling price cannot be less than purchase price', 'Error');
       return;
     }
 
@@ -146,11 +229,33 @@ export class AdminDashboardComponent {
     }
   }
 
+
+  confirmDeletion(productId: any): void {
+    Swal.fire({
+      title: 'Are you sure?',
+      text: 'You will not be able to recover this item!',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Yes, delete it!',
+      cancelButtonText: 'No, cancel!',
+    }).then((result) => {
+      if (result.isConfirmed) {
+        // Perform the delete operation
+        this.deleteProduct(productId);
+        
+      } else if (result.dismiss === Swal.DismissReason.cancel) {
+        // Swal.fire('Cancelled', 'Your item is safe.', 'info');
+      }
+    });
+  }
+
   // Delete Product
   deleteProduct(productId: number) {
-    if (confirm('Are you sure you want to delete this product?')) {
       this.productService.deleteProductById(productId).subscribe(
         () => {
+          Swal.fire('Deleted!', 'Your item has been deleted.', 'success');
           this.toaster.success('Product deleted successfully', 'Success');
           this.loadProducts()
         },
@@ -159,6 +264,8 @@ export class AdminDashboardComponent {
           console.error('Error deleting product:', error)
         }
       );
-    }
   }
+
+
+
 }
