@@ -3,3 +3,4 @@
 - how to securly stored jwt token in Cookies instead of localStorage
 - service worker
 - browser cache
+- thread safe

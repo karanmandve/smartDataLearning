@@ -19,6 +19,11 @@ EC_PATHAKV021224
 2D7yHaNMY#rK7
 
 
+userId = 7
+productId = 3
+quantity = 1
+
+
 Card Details :
 6291528112087346
 03/2025
