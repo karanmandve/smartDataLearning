@@ -62,31 +62,67 @@
         <form [formGroup]="addressForm">
           <!-- Address Field -->
           <div class="mb-3">
-            <label for="address" class="form-label">Address</label>
-            <input
-              type="text"
+            <label for="registerAddress" class="form-label">Address</label>
+            <textarea
+              type=""
+              min="10"
+              max="150"
               class="form-control"
-              id="address"
+              id="registerAddress"
               formControlName="address"
+              placeholder="Enter your address"
               required
-            />
-            <div *ngIf="addressForm.get('address')?.touched && addressForm.get('address')?.invalid" class="text-danger">
-              <div *ngIf="addressForm.get('address')?.hasError('required')">Address is required.</div>
+            ></textarea>
+            <div
+              *ngIf="addressForm.get('address')?.touched && addressForm.get('address')?.invalid"
+              class="text-danger"
+            >
+              <!-- Required error -->
+              <div *ngIf="addressForm.get('address')?.errors?.['required']">
+                Address is required.
+              </div>
+              <!-- Min Length error -->
+              <div *ngIf="addressForm.get('address')?.errors?.['minlength']">
+                Address must be at least 10 characters long.
+              </div>
+              <!-- Max Length error -->
+              <div *ngIf="addressForm.get('address')?.errors?.['maxlength']">
+                Address cannot exceed 150 characters.
+              </div>
+              <!-- Pattern error -->
+              <div *ngIf="addressForm.get('address')?.errors?.['pattern']">
+                Address can only contain letters, numbers, spaces, commas, periods, and hyphens.
+              </div>
             </div>
           </div>
+          
 
           <!-- Zipcode Field -->
           <div class="mb-3">
-            <label for="zipcode" class="form-label">Zipcode</label>
+            <label for="registerZipCode" class="form-label">ZIP Code</label>
             <input
               type="text"
+              minlength="6"
+              maxlength="6"
               class="form-control"
-              id="zipcode"
+              id="registerZipCode"
               formControlName="zipcode"
+              placeholder="Enter your ZIP code"
+              (keypress)="onKeyPress($event)"
               required
             />
-            <div *ngIf="addressForm.get('zipcode')?.touched && addressForm.get('zipcode')?.invalid" class="text-danger">
-              <div *ngIf="addressForm.get('zipcode')?.hasError('required')">Zipcode is required.</div>
+            <div
+              *ngIf="addressForm.get('zipcode')?.touched && addressForm.get('zipcode')?.invalid"
+              class="text-danger"
+            >
+              
+              <div *ngIf="addressForm.get('zipcode')?.errors?.['required']">
+                ZIP code is required.
+              </div>
+              
+              <div *ngIf="addressForm.get('zipcode')?.errors?.['pattern']">
+                Please enter a valid 6-digit ZIP code.
+              </div>
             </div>
           </div>
 
@@ -97,7 +133,12 @@
                 <option *ngFor="let country of allCountry" [value]="country.countryId">{{ country.name }}</option>
                 
             </select>
-            <div class="invalid-feedback">Please provide a valid country.</div>
+            <div
+            *ngIf="addressForm.get('country')?.invalid && addressForm.get('country')?.touched"
+            class="text-danger small mt-1"
+          >
+            Country is required.
+          </div>
         </div>
 
 
@@ -108,7 +149,12 @@
               <option *ngFor="let state of allState" [value]="state.stateId">{{ state.name }}</option>
               
           </select>
-          <div class="invalid-feedback">Please provide a valid state.</div>
+          <div
+          *ngIf="addressForm.get('state')?.invalid && addressForm.get('state')?.touched"
+          class="text-danger small mt-1"
+        >
+          State is required.
+        </div>
        </div>
 
         </form>
@@ -136,10 +182,12 @@
           <div class="mb-3">
             <label for="cardNumber" class="form-label">Card Number</label>
             <input
+            maxlength="16"
               type="text"
               class="form-control"
               id="cardNumber"
               formControlName="cardNumber"
+              (keypress)="onKeyPress($event)"
               required
             />
             <div *ngIf="paymentForm.get('cardNumber')?.touched && paymentForm.get('cardNumber')?.invalid" class="text-danger">
@@ -150,6 +198,35 @@
 
           <!-- Expiry Date -->
           <div class="mb-3">
+            <label for="expiryDate" class="form-label">Expiration Date</label>
+            <div class="d-flex">
+              <select class="form-control" id="expiryMonth" formControlName="expiryMonth">
+                <option value="" disabled selected>MM</option>
+                <option *ngFor="let month of months" [value]="month.value">{{ month.label }}</option>
+              </select>
+
+
+              <span class="mx-2">/</span>
+              
+              
+              <select class="form-control" id="expiryYear" formControlName="expiryYear">
+                <option value="" disabled selected>YYYY</option>
+                <option *ngFor="let year of years" [value]="year">{{ year }}</option>
+              </select>
+            
+            </div>
+            <div *ngIf="paymentForm.get('expiryMonth')?.touched && paymentForm.get('expiryMonth')?.invalid" class="text-danger">
+              <div *ngIf="paymentForm.get('expiryMonth')?.hasError('required')">Month is required.</div>
+            </div>
+            <div *ngIf="paymentForm.get('expiryYear')?.touched && paymentForm.get('expiryYear')?.invalid" class="text-danger">
+              <div *ngIf="paymentForm.get('expiryYear')?.hasError('required')">Year is required.</div>
+            </div>
+          </div>
+
+
+
+
+          <!-- <div class="mb-3">
             <label for="expiryDate" class="form-label">Expiry Date</label>
             <input
               type="text"
@@ -163,16 +240,20 @@
               <div *ngIf="paymentForm.get('expiryDate')?.hasError('required')">Expiry Date is required.</div>
               <div *ngIf="paymentForm.get('expiryDate')?.hasError('pattern')">Expiry Date must be in MM/YY format.</div>
             </div>
-          </div>
+          </div> -->
 
+
+          
           <!-- CVV -->
           <div class="mb-3">
             <label for="cvv" class="form-label">CVV</label>
             <input
+            maxlength="3"
               type="text"
               class="form-control"
               id="cvv"
               formControlName="cvv"
+              (keypress)="onKeyPress($event)"
               required
             />
             <div *ngIf="paymentForm.get('cvv')?.touched && paymentForm.get('cvv')?.invalid" class="text-danger">

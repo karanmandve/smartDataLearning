@@ -43,6 +43,7 @@ export class RegisterLoginComponent {
   countryStateService: any = inject(CountryStateServiceService)
 
   toggleForm() {
+    this.loginForm.reset();
     this.isLogin = !this.isLogin;
   }
 
@@ -50,14 +51,19 @@ export class RegisterLoginComponent {
     this.getAllCountry();
     this.sanitizeField('firstName');
     this.sanitizeField('lastName');
+    this.sanitizeFieldForEmail("email");
+    this.sanitizeFieldForLoginForm('username');
+    this.sanitizeFieldForForgetPasswordForm('username');
+    this.sanitizeFieldForOTP('otp');
+    this.sanitizeFieldForOTPForForgetPassword('otp');
 
   }
 
 
   loginForm: FormGroup = new FormGroup({
-    username: new FormControl('', [Validators.required]),
-    password: new FormControl('', [Validators.required]),
-    otp: new FormControl('', [Validators.required])
+    username: new FormControl('', [Validators.required, Validators.maxLength(20)]),
+    password: new FormControl('', [Validators.required, Validators.pattern(this.passwordRgx)]),
+    otp: new FormControl('', [Validators.required, Validators.minLength(6), Validators.maxLength(6)]),
   });
 
   registerForm = new FormGroup({
@@ -69,7 +75,7 @@ export class RegisterLoginComponent {
     userTypeId: new FormControl("", Validators.required),
     file: new FormControl<File | null>(null, Validators.required),
     address: new FormControl('', [Validators.required, Validators.minLength(10), Validators.maxLength(150), Validators.pattern(/^[a-zA-Z0-9\s,.-]+$/)]),
-    zipcode: new FormControl(0, [Validators.required, Validators.pattern(/^\d{6}$/), Validators.minLength(6), Validators.maxLength(6)]),
+    zipcode: new FormControl("", [Validators.required, Validators.pattern(/^\d{6}$/), Validators.minLength(6), Validators.maxLength(6)]),
     countryId: new FormControl("", Validators.required),
     stateId: new FormControl("", Validators.required)
   })
@@ -93,11 +99,87 @@ export class RegisterLoginComponent {
     });
   }
 
+  sanitizeFieldForOTP(fieldName: string): void {
+    this.loginForm.get(fieldName)?.valueChanges.subscribe((value) => {
+      if (value) {
+        const sanitizedValue = value.replace(/[^0-9]/g, ''); // Allow only numbers
+        if (value !== sanitizedValue) {
+          this.loginForm.get(fieldName)?.setValue(sanitizedValue, {
+            emitEvent: false, // Prevent triggering valueChanges again
+          });
+        }
+      }
+    });
+  }
+
+  sanitizeFieldForOTPForForgetPassword(fieldName: string): void {
+    this.forgetPasswordForm.get(fieldName)?.valueChanges.subscribe((value) => {
+      if (value) {
+        const sanitizedValue = value.replace(/[^0-9]/g, ''); // Allow only numbers
+        if (value !== sanitizedValue) {
+          this.forgetPasswordForm.get(fieldName)?.setValue(sanitizedValue, {
+            emitEvent: false, // Prevent triggering valueChanges again
+          });
+        }
+      }
+    });
+  }
+
+
+  sanitizeFieldForEmail(fieldName: string): void {
+    this.registerForm.get(fieldName)?.valueChanges.subscribe((value) => {
+      if (value) {
+        const sanitizedValue = value
+          .replace(/[^A-Za-z0-9@._-]/g, '')
+          .replace(/\s{2,}/g, '') 
+          .trim(); 
+        if (value !== sanitizedValue) {
+          this.registerForm.get(fieldName)?.setValue(sanitizedValue, {
+            emitEvent: false, // Prevent triggering valueChanges again
+          });
+        }
+      }
+    });
+  }
+  
+
+  sanitizeFieldForLoginForm(fieldName: string): void {
+    this.loginForm.get(fieldName)?.valueChanges.subscribe((value) => {
+      if (value) {
+        const sanitizedValue = value
+          .replace(/[^A-Za-z0-9_\s]/g, '') // Allow letters, numbers, and spaces
+          .replace(/\s{2,}/g, ' ') // Replace multiple spaces with a single space
+          .trim(); // Trim leading and trailing spaces
+        if (value !== sanitizedValue) {
+          this.loginForm.get(fieldName)?.setValue(sanitizedValue, {
+            emitEvent: false, // Prevent triggering valueChanges event again
+          });
+        }
+      }
+    });
+  }
+
+  sanitizeFieldForForgetPasswordForm(fieldName: string): void {
+    this.forgetPasswordForm.get(fieldName)?.valueChanges.subscribe((value) => {
+      if (value) {
+        const sanitizedValue = value
+          .replace(/[^A-Za-z0-9_\s]/g, '') // Allow letters, numbers, and spaces
+          .replace(/\s{2,}/g, ' ') // Replace multiple spaces with a single space
+          .trim(); // Trim leading and trailing spaces
+        if (value !== sanitizedValue) {
+          this.forgetPasswordForm.get(fieldName)?.setValue(sanitizedValue, {
+            emitEvent: false, // Prevent triggering valueChanges event again
+          });
+        }
+      }
+    });
+  }
+
   onKeyPress(event: KeyboardEvent) {
     const charCode = event.which ? event.which : event.keyCode;
-    // Allow only numeric characters (keycodes for 0-9)
+
     if (charCode < 48 || charCode > 57) {
-      event.preventDefault(); // Block non-numeric characters
+      event.preventDefault(); 
     }
   }
 
@@ -118,13 +200,9 @@ export class RegisterLoginComponent {
   }
 
 
-
-
-
-
   forgetPasswordForm = new FormGroup({
-    username: new FormControl('', Validators.required),
-    otp: new FormControl('', Validators.required),
+    username: new FormControl('', [Validators.required, Validators.maxLength(20)]),
+    otp: new FormControl('', [Validators.required, Validators.minLength(6), Validators.maxLength(6)])
   })
 
   onFileSelected(event: Event) {
@@ -136,6 +214,9 @@ export class RegisterLoginComponent {
       if (!validTypes.includes(file.type)) {
         // Set the custom error for invalid file type
         this.registerForm.get('file')?.setErrors({ invalidType: true });
+        if (event.target instanceof HTMLInputElement) {
+          event.target.value = '';
+        }
       } else {
         // Clear the error if the file type is valid
         this.registerForm.get('file')?.setErrors(null);
@@ -172,6 +253,7 @@ export class RegisterLoginComponent {
     this.loginData = this.loginForm.value;
     this.userService.loginUser(this.loginData).subscribe({
       next: (res: any) => {
+        this.loginForm.reset();
         if (res.statusCode == 200) {
           localStorage.setItem("token", res.data.token);
           // localStorage.setItem("username", this.loginData.username);
@@ -194,10 +276,11 @@ export class RegisterLoginComponent {
         }
       },
       error: (error: any) => {
-        this.loader.hide();
+        this.loginForm.reset(0);
         if (error.error.statusCode == 401) {
           this.toaster.error("Invalid Credential", "Error",{timeOut:3000, closeButton:true});
         } else {
+          this.toaster.error("Error Occurred From Our Side", "Error",{timeOut:3000, closeButton:true});
           console.log(error);
         }
       }
@@ -234,8 +317,11 @@ export class RegisterLoginComponent {
           this.toaster.error("User Already Exist", "Error",{timeOut:3000, closeButton:true})
           this.registerForm.reset()
         }else{
-          alert("i am in register error")
-          alert(JSON.stringify(error))
+          this.toaster.error("Error In Registation", "Error",{timeOut:3000, closeButton:true})
+          console.log(error);
+          
+          // alert("i am in register error")
+          // alert(JSON.stringify(error))
         }
       }
     
@@ -267,8 +353,11 @@ export class RegisterLoginComponent {
           this.toaster.error("Invalid Credential, Otp Not Send", "Error",{timeOut:3000, closeButton:true})
           this.registerForm.reset()
         }else{
-          alert("i am in register error")
-          alert(JSON.stringify(error))
+          this.toaster.error("Some Error Occurred, Otp Not Send", "Error",{timeOut:3000, closeButton:true})
+          console.log(error);
+          
+          // alert("i am in register error")
+          // alert(JSON.stringify(error))
         }
       }
     })
@@ -277,6 +366,9 @@ export class RegisterLoginComponent {
 sendForgetOtp() {
   // this.loader.show();
   const username = this.forgetPasswordForm.get('username')?.value;
+  console.log(username);
+  console.log(typeof(username));
+  
   // alert("Otp send take time 6 second. Don't click again")
   this.startForgetOtpResendCountdown();
   
@@ -292,13 +384,16 @@ sendForgetOtp() {
       }
     },
     error : (error: any) => {
-      this.loader.hide();
       if(error.error.statusCode == 401){
         this.toaster.error("Invalid Credential, Otp Not Send", "Error",{timeOut:3000, closeButton:true})
         this.registerForm.reset()
       }else{
-        alert("i am in register error")
-        alert(JSON.stringify(error))
+        this.toaster.error("Some Error Occurs, Otp Not Send", "Error",{timeOut:3000, closeButton:true})
+        console.log(error);
+        
+
+        // alert("i am in register error")
+        // alert(JSON.stringify(error))
       }
     }
   })
@@ -310,6 +405,7 @@ sendForgetOtp() {
 
     this.userService.verifyOtp(username, otp).subscribe({
       next : (res: any) => {
+        this.forgetPasswordForm.reset();
         if(res.statusCode == 200){
           this.toaster.success("New Password Send To Your Registered Email", "Success",{timeOut:3000, closeButton:true})
           this.closeForgotPasswordModal();
@@ -318,12 +414,15 @@ sendForgetOtp() {
         }
       },
       error : (error: any) => {
-        this.loader.hide();
+        this.forgetPasswordForm.reset();
         if(error.error.statusCode == 401){
           this.toaster.error("Invalid Credential, Password Not Send", "Error",{timeOut:3000, closeButton:true})
           this.registerForm.reset()
         }else{
-          alert(JSON.stringify(error))
+          this.toaster.error("Password Not Send, Error Occur", "Error",{timeOut:3000, closeButton:true})
+          console.log(error);
+          
+          // alert(JSON.stringify(error))
       }
   }})
   }
@@ -362,7 +461,8 @@ sendForgetOtp() {
           this.allCountry = res
         },
         error : (error: any) =>{
-          alert("I am in error")
+          console.log(error);
+          // alert("I am in error")
         }
         
       })
@@ -389,7 +489,8 @@ sendForgetOtp() {
           this.allState = res
         },
         error : (error: any) => {
-          alert("I am in error")
+          console.log(error);
+          // alert("I am in error")
         }
       })
     }
@@ -403,7 +504,9 @@ sendForgetOtp() {
 
         },
         error : (error: any) => {
-          alert("I am in error")
+          console.log(error);
+          
+          // alert("I am in error")
         }
       })
     }
