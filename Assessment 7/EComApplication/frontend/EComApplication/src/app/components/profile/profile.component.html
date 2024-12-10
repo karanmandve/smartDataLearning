@@ -396,6 +396,7 @@
               class="form-control"
               id="country"
               formControlName="countryId"
+              (change)="getState(userForm.get('countryId')?.value)"
             >
               <option value="" disabled selected>Select a country</option>
               <option
