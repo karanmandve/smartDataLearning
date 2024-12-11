@@ -1,9 +1,10 @@
-import { Component, inject } from '@angular/core';
+import { ChangeDetectorRef, Component, inject } from '@angular/core';
 import { CartService } from '../../services/cart/cart.service';
 import { CommonModule } from '@angular/common';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { ToastrService } from 'ngx-toastr';
 import { CountryStateServiceService } from '../../services/country-state-service/country-state-service.service';
+import { PaymentService } from '../../services/razorpay-payment/payment.service';
 
 @Component({
   selector: 'app-cart',
@@ -18,10 +19,14 @@ export class CartComponent {
   userDetails = JSON.parse(localStorage.getItem('userDetails') || '{}');
   addressData: any;
   invoiceUrl: any;
+  counter = 1;
+  timer: any;
 
   cartService = inject(CartService);
   toaster = inject(ToastrService);
   countryStateService: any = inject(CountryStateServiceService);
+  paymentService: any = inject(PaymentService);
+  changeDetector = inject(ChangeDetectorRef);
 
   ngOnInit(): void {
     this.getAllCountry();
@@ -81,6 +86,7 @@ export class CartComponent {
         cart.add(product.productId);
       });
       localStorage.setItem('cart', JSON.stringify(Array.from(cart)));
+      this.changeDetector.detectChanges();
     });
   }
 
@@ -152,12 +158,45 @@ export class CartComponent {
       this.addressData = this.addressForm.value;
 
     this.closeModal('addressModal');
-    this.openPaymentPopup();
+    this.openChoosePaymentPopup();
   }
 
-  openPaymentPopup() {
+  // choosePaymentPopup(){
+  //   const modal = document.getElementById('choosePaymentModal');
+  //   if (modal) {
+  //     modal.classList.add('show');
+  //     modal.style.display = 'block';
+  //   }
+  // }
+
+  openFakePaymentPopup() {
     // Show the payment modal
-    const modal = document.getElementById('paymentModal');
+    this.closeModal('choosePaymentModal');
+    const modal = document.getElementById('fakePaymentModal');
+    if (modal) {
+      modal.classList.add('show');
+      modal.style.display = 'block';
+    }
+  }
+
+  openWaitingPopup() {
+    const modal = document.getElementById('waitingModal');
+    if (modal) {
+      modal.classList.add('show');
+      modal.style.display = 'block';
+    }
+
+
+    this.timer = setInterval(() => {
+      this.counter = this.counter + 1;
+      this.changeDetector.detectChanges();
+    }, 900); 
+
+  }
+
+  openChoosePaymentPopup() {
+    // Show the payment modal
+    const modal = document.getElementById('choosePaymentModal');
     if (modal) {
       modal.classList.add('show');
       modal.style.display = 'block';
@@ -172,9 +211,10 @@ export class CartComponent {
     }
   }
 
-  makePayment() {
-    console.log("i am outside");
-    
+
+
+  makeFakePayment() {
+
       var paymentFormData = this.paymentForm.value;
 
       var expiryDate = `${paymentFormData.expiryMonth}/${paymentFormData.expiryYear}`;
@@ -190,16 +230,80 @@ export class CartComponent {
         deliveryCountryId: this.addressData.country
       };
 
-      this.cartService.makePayment(paymentData).subscribe((res: any) => {
+      this.cartService.makeFakePayment(paymentData).subscribe((res: any) => {
 
+        this.loadCart();
         this.invoiceUrl = res.invoiceUrl;
-        
-        
         this.cartService.updateCartCount(this.userDetails.id);
-        this.closeModal('paymentModal');
+        this.closeModal('fakePaymentModal');
         this.openSuccessPopup();
+      }, (error) => {
+        this.toaster.error('Invalid Payment Details', 'Error');
+
       });
 
+
+  }
+
+
+  makePayment() {
+    this.closeModal('choosePaymentModal');
+
+    this.paymentService.createOrder(this.totalPrice).subscribe((order: any) => {
+      console.log(order.id, order.amount);
+      
+      const options = {
+        key: 'rzp_test_j1n3HfglIVc3GS',  
+        amount: order.amount,
+        currency: order.currency,
+        order_id: order.id,
+        handler: (response: any) => {
+          this.verifyPayment(response.razorpay_payment_id, order.id);
+        },
+      };
+      if (window.Razorpay) {
+        const razorpay = new Razorpay(options);
+        razorpay.open();
+      } else {
+        console.error('Razorpay SDK is not loaded properly');
+      }
+    });
+
+  }
+
+
+  verifyPayment(paymentId: string, orderId: string) {
+    this.paymentService.verifyPayment(paymentId, orderId).subscribe(
+      (response: any) => {
+        this.openWaitingPopup();
+
+        console.log('Payment Verified', response);
+
+      const paymentData = {
+        userId: this.userDetails.id,
+        deliveryAddress: this.addressData.address,
+        deliveryZipcode: this.addressData.zipcode,
+        deliveryStateId: this.addressData.state,
+        deliveryCountryId: this.addressData.country
+      };
+
+      this.cartService.makePayment(paymentData).subscribe((res: any) => {
+        this.loadCart();
+        this.closeModal("waitingModal");
+        clearInterval(this.timer);  // Stop the timer
+        this.counter = 0
+        this.invoiceUrl = res.invoiceUrl;
+        this.cartService.updateCartCount(this.userDetails.id);
+        this.openSuccessPopup();
+      }, (error : any) => {
+        this.toaster.error('Invalid Payment Details', 'Error');
+      });
+
+      },
+      (error : any) => {
+        console.error('Payment verification failed', error);
+      }
+    );
   }
 
 
@@ -209,16 +313,24 @@ export class CartComponent {
       modal.classList.add('show');
       modal.style.display = 'block';
     }
-    const iframe = document.createElement('iframe');
-    iframe.style.display = 'none';  // Make the iframe invisible
-    iframe.src = this.invoiceUrl;
-    document.body.appendChild(iframe);  // Append it to the body to load the URL in the background
 
-    // Optional: Remove iframe after loading
-    iframe.onload = () => {
-        document.body.removeChild(iframe);
-    };
+    const link = document.createElement('a');
+    link.href = this.invoiceUrl;
+    link.click();
+    link.remove();
     this.loadCart();
+    
+
+    // const iframe = document.createElement('iframe');
+    // iframe.style.display = 'none';  // Make the iframe invisible
+    // iframe.src = this.invoiceUrl;
+    // document.body.appendChild(iframe);  // Append it to the body to load the URL in the background
+
+    // // Optional: Remove iframe after loading
+    // iframe.onload = () => {
+    //     document.body.removeChild(iframe);
+    // };
+    // this.loadCart();
   }
 
 

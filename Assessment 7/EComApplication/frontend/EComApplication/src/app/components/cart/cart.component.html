@@ -169,12 +169,12 @@
 
 
 
-<div id="paymentModal" class="modal fade" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
+<div id="fakePaymentModal" class="modal fade" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="paymentModalLabel">Payment Details</h5>
-        <button type="button" class="btn-close" (click)="closeModal('paymentModal')"></button>
+        <button type="button" class="btn-close" (click)="closeModal('fakePaymentModal')"></button>
       </div>
       <div class="modal-body">
         <form [formGroup]="paymentForm">
@@ -264,12 +264,33 @@
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" (click)="closeModal('paymentModal')">Close</button>
-        <button type="button" class="btn btn-primary" [disabled]="paymentForm.invalid" (click)="makePayment()">Make Payment</button>
+        <button type="button" class="btn btn-secondary" (click)="closeModal('fakePaymentModal')">Close</button>
+        <button type="button" class="btn btn-primary" [disabled]="paymentForm.invalid" (click)="makeFakePayment()">Make Payment</button>
       </div>
     </div>
   </div>
 </div>
+
+
+<div class="modal fade" id="choosePaymentModal" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="paymentModalLabel">Choose Payment Option</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="closeModal('choosePaymentModal')"></button>
+      </div>
+      <div class="modal-body text-center">
+        <p>Please select a payment method:</p>
+        <div class="d-flex justify-content-center gap-3">
+          <button type="button" class="btn btn-danger btn-lg" id="fakePayBtn" (click)="openFakePaymentPopup()">Fake Pay</button>
+          <button type="button" class="btn btn-success btn-lg" id="payBtn" (click)="makePayment()">Pay</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 <div id="successModal" class="modal fade" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -286,3 +307,22 @@
     </div>
   </div>
 </div>
+
+
+
+<div class="modal fade" id="waitingModal" tabindex="-1" aria-labelledby="waitingModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="waitingModalLabel">Please Wait</h5>
+      </div>
+      <div class="modal-body text-center">
+        <h4>Time: <span id="counterValue">{{ counter }} seconds</span></h4>
+        <p>We are generating recipt and sending to your mail.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

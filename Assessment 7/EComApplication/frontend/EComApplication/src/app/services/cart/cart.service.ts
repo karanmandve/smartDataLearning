@@ -45,6 +45,10 @@ export class CartService {
     return this.http.post("https://localhost:7238/api/Cart/pay", paymentData);
   }
 
+  makeFakePayment(paymentData: any){
+    return this.http.post("https://localhost:7238/api/Cart/fake-pay", paymentData);
+  }
+
   removeProductFromCart(productId: any, userId: any): Observable<any>{
     return this.http.delete(`https://localhost:7238/api/Cart/remove-product-from-cart/${productId}/${userId}`)
   }

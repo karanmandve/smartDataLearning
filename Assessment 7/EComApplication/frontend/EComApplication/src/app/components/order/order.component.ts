@@ -41,5 +41,6 @@ export class OrderComponent {
     const link = document.createElement('a');
     link.href = invoicePdfLink;
     link.click();
+    link.remove();
   }
 }

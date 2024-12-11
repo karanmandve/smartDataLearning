@@ -92,5 +92,82 @@
     }
   }
 
+  /* Modal Styling */
+#choosePaymentModal .modal-content {
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#choosePaymentModal .modal-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+
+#choosePaymentModal .modal-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+#choosePaymentModal .btn-close {
+  background-color: transparent;
+  border: none;
+  font-size: 1.25rem;
+  color: #888;
+}
+
+#choosePaymentModal .modal-body {
+  padding: 2rem;
+  font-size: 1.1rem;
+}
+
+#choosePaymentModal .modal-body p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+#choosePaymentModal .btn {
+  font-size: 1.1rem;
+  padding: 15px 30px;
+  border-radius: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#choosePaymentModal .btn-danger {
+  background-color: #e74c3c;
+  border: none;
+}
+
+#choosePaymentModal .btn-danger:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
+
+#choosePaymentModal .btn-success {
+  background-color: #2ecc71;
+  border: none;
+}
+
+#choosePaymentModal .btn-success:hover {
+  background-color: #27ae60;
+  transform: scale(1.05);
+}
+
+/* Responsive Styling */
+@media (max-width: 576px) {
+  #choosePaymentModal .modal-dialog {
+    max-width: 90%;
+  }
+
+  #choosePaymentModal .btn {
+    width: 100%;
+    font-size: 1.25rem;
+    padding: 12px;
+  }
+}
+
+
   
   
