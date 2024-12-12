@@ -33,6 +33,7 @@ export class RegisterLoginComponent {
   todayDate = new Date().toISOString().split('T')[0];
   pastDate = new Date('1900-01-01').toISOString().split('T')[0];
   fileSizeError = false;
+  imagePreview: string | ArrayBuffer | null = null;
 
   @ViewChild('forgotPasswordModal') forgotPasswordModal!: ElementRef;
   
@@ -208,34 +209,42 @@ export class RegisterLoginComponent {
   onFileSelected(event: Event) {
     const file = (event.target as HTMLInputElement).files?.[0];
     const maxSize = 5 * 1024 * 1024;
-
+  
     if (file) {
       const validTypes = ['image/jpeg', 'image/jpg', 'image/png'];
+      // Validate file type
       if (!validTypes.includes(file.type)) {
-        // Set the custom error for invalid file type
         this.registerForm.get('file')?.setErrors({ invalidType: true });
         if (event.target instanceof HTMLInputElement) {
-          event.target.value = '';
+          event.target.value = ''; // Clear invalid input
         }
+        return; // Exit if invalid type
       } else {
-        // Clear the error if the file type is valid
         this.registerForm.get('file')?.setErrors(null);
       }
-    }
-    if (file) {
-      // Check if the file size exceeds the 5 MB limit
+  
+      // Validate file size
       if (file.size > maxSize) {
         this.fileSizeError = true;
-        // Clear the file input if it exceeds the limit
         if (event.target instanceof HTMLInputElement) {
-          event.target.value = '';
+          event.target.value = ''; // Clear input if size is too large
         }
+        return; // Exit if size exceeds limit
       } else {
         this.fileSizeError = false;
       }
+  
+      // Set the file value in the form
+      this.registerForm.patchValue({ file });
+      this.registerForm.get('file')?.updateValueAndValidity();
+  
+      // File is valid, read and preview it
+      const reader = new FileReader();
+      reader.onload = () => {
+        this.imagePreview = reader.result as string; // Set the preview
+      };
+      reader.readAsDataURL(file);
     }
-    this.registerForm.patchValue({ file });
-    this.registerForm.get('file')?.updateValueAndValidity();
   }
 
   openForgotPasswordModal() {
@@ -471,17 +480,6 @@ sendForgetOtp() {
   
     allState : any [] = []
   
-  
-    // loadState(){
-    //   this.countryStateService.getAllState().subscribe({
-    //     next : (res:any) => {
-    //       this.allState = res
-    //     },
-    //     error : (error: any) => {
-    //       alert("I am in error")
-    //     }
-    //   })
-    // }
   
     onChange(countrId : any){
       this.countryStateService.getStateByCountryId(countrId).subscribe({

@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 8\\EHR Application\\backend\\EHR Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C57AAC2D-21E7-49AD-B4B7-6D3B58D62544}|infrastructure\\infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 8\\ehr application\\backend\\ehr application\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57AAC2D-21E7-49AD-B4B7-6D3B58D62544}|infrastructure\\infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7899D14-2BA9-4BAD-93A6-EB867A92118E}|domain\\domain.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 8\\ehr application\\backend\\ehr application\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E7899D14-2BA9-4BAD-93A6-EB867A92118E}|domain\\domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57AAC2D-21E7-49AD-B4B7-6D3B58D62544}|infrastructure\\infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 8\\ehr application\\backend\\ehr application\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C57AAC2D-21E7-49AD-B4B7-6D3B58D62544}|infrastructure\\infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{747CDDD5-B5C4-48B3-811D-80DFB02E3363}|core\\core.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 8\\ehr application\\backend\\ehr application\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{747CDDD5-B5C4-48B3-811D-80DFB02E3363}|core\\core.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57AAC2D-21E7-49AD-B4B7-6D3B58D62544}|infrastructure\\infrastructure.csproj|c:\\users\\karanmandve\\desktop\\karan mandve notes\\assessment 8\\ehr application\\backend\\ehr application\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57AAC2D-21E7-49AD-B4B7-6D3B58D62544}|infrastructure\\infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "infrastructure",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 8\\EHR Application\\backend\\EHR Application\\infrastructure\\infrastructure.csproj",
+              "RelativeDocumentMoniker": "infrastructure\\infrastructure.csproj",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 8\\EHR Application\\backend\\EHR Application\\infrastructure\\infrastructure.csproj",
+              "RelativeToolTip": "infrastructure\\infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-12T12:37:58.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "domain",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 8\\EHR Application\\backend\\EHR Application\\domain\\domain.csproj",
+              "RelativeDocumentMoniker": "domain\\domain.csproj",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 8\\EHR Application\\backend\\EHR Application\\domain\\domain.csproj",
+              "RelativeToolTip": "domain\\domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-12T12:37:49.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "core",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 8\\EHR Application\\backend\\EHR Application\\core\\core.csproj",
+              "RelativeDocumentMoniker": "core\\core.csproj",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 8\\EHR Application\\backend\\EHR Application\\core\\core.csproj",
+              "RelativeToolTip": "core\\core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-12T12:37:39.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 8\\EHR Application\\backend\\EHR Application\\infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 8\\EHR Application\\backend\\EHR Application\\infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:37:31.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 8\\EHR Application\\backend\\EHR Application\\infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\karanmandve\\Desktop\\karan mandve notes\\Assessment 8\\EHR Application\\backend\\EHR Application\\infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:37:32.04Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

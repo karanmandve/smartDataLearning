@@ -1,0 +1,375 @@
+D:\Assessment_5\backend\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+D:\Assessment_5\backend\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Assessment_5\backend\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+D:\Assessment_5\backend\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+D:\Assessment_5\backend\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+D:\Assessment_5\backend\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+D:\Assessment_5\backend\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+D:\Assessment_5\backend\infrastructure\bin\Debug\net8.0\infrastructure.dll
+D:\Assessment_5\backend\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+D:\Assessment_5\backend\infrastructure\bin\Debug\net8.0\core.dll
+D:\Assessment_5\backend\infrastructure\bin\Debug\net8.0\domain.dll
+D:\Assessment_5\backend\infrastructure\bin\Debug\net8.0\core.pdb
+D:\Assessment_5\backend\infrastructure\bin\Debug\net8.0\domain.pdb
+D:\Assessment_5\backend\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+D:\Assessment_5\backend\infrastructure\obj\Debug\net8.0\infrastructure.dll
+D:\Assessment_5\backend\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+D:\Assessment_5\backend\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+D:\Assessment_5\backend\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+D:\Assessment_5\backend\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\karanmandve\Desktop\backend\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\karanmandve\Desktop\backend\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\karanmandve\Desktop\backend\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\backend\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\backend\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\karanmandve\Desktop\backend\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\karanmandve\Desktop\backend\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\karanmandve\Desktop\backend\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\karanmandve\Desktop\backend\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\karanmandve\Desktop\backend\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\backend\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\backend\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\backend\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\backend\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\karanmandve\Desktop\backend\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\backend\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\karanmandve\Desktop\backend\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\backend\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\backend\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 5\backend\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 5\backend\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\user\Desktop\Assessment 5\backend\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\Assessment 6\backend\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\EComApplication\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\EComApplication\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\user\Desktop\smartDataLearning\Assessment 7\EComApplication\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\core.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\karanmandve\Desktop\karan mandve notes\Assessment 7\EComApplication\backend\backend\backendd\backendd\backend\backend\EComApplication\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll

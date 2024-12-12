@@ -23,10 +23,7 @@
         [formGroup]="isLogin ? loginForm : registerForm"
         (ngSubmit)="isLogin ? onLoginSubmit() : onRegisterSubmit()"
       >
-
-
         <div *ngIf="isLogin">
-
           <div class="mb-3">
             <label for="loginUsername" class="form-label">Username</label>
             <input
@@ -46,19 +43,17 @@
               "
               class="text-danger"
             >
-            <div *ngIf="loginForm.get('username')?.errors?.['required']">
-              Username is required.
-            </div>
-            <div *ngIf="loginForm.get('username')?.errors?.['minlength']">
-              Username must be at least 15 characters.
-            </div>
-            <div *ngIf="loginForm.get('username')?.errors?.['maxlength']">
-              Username must not exceed 20 characters.
-            </div>
+              <div *ngIf="loginForm.get('username')?.errors?.['required']">
+                Username is required.
+              </div>
+              <div *ngIf="loginForm.get('username')?.errors?.['minlength']">
+                Username must be at least 15 characters.
+              </div>
+              <div *ngIf="loginForm.get('username')?.errors?.['maxlength']">
+                Username must not exceed 20 characters.
+              </div>
             </div>
           </div>
-
-
 
           <div class="mb-3">
             <label for="loginPassword" class="form-label">Password</label>
@@ -79,13 +74,10 @@
               "
               class="text-danger"
             >
-                <span
-                *ngIf="loginForm.controls['password'].errors?.['required']"
+              <span *ngIf="loginForm.controls['password'].errors?.['required']"
                 >This is required</span
               >
-              <span
-                *ngIf="loginForm.controls['password'].errors?.['pattern']"
-              >
+              <span *ngIf="loginForm.controls['password'].errors?.['pattern']">
                 Password must be at least 8 characters long, contain an
                 uppercase letter, a lowercase letter, a number, and a special
                 character
@@ -111,15 +103,15 @@
                 "
                 class="text-danger"
               >
-              <span
-              *ngIf="loginForm.controls['otp'].errors?.['otp']"
-              >otp is required</span>
-               <span *ngIf="loginForm.controls['otp'].errors?.['minlength']">
-                OTP must be 6 characters long.
-              </span>
-              <span *ngIf="loginForm.controls['otp'].errors?.['maxlength']">
-                OTP must be 6 characters long.
-              </span>
+                <span *ngIf="loginForm.controls['otp'].errors?.['otp']"
+                  >otp is required</span
+                >
+                <span *ngIf="loginForm.controls['otp'].errors?.['minlength']">
+                  OTP must be 6 characters long.
+                </span>
+                <span *ngIf="loginForm.controls['otp'].errors?.['maxlength']">
+                  OTP must be 6 characters long.
+                </span>
               </div>
             </div>
 
@@ -161,9 +153,14 @@
               </div>
             </div>
           </div>
-          
+
           <div class="text-start mb-3">
-            <a style="cursor: pointer;" class="text-muted" (click)="openForgotPasswordModal()">Forgot Password?</a>
+            <a
+              style="cursor: pointer"
+              class="text-muted"
+              (click)="openForgotPasswordModal()"
+              >Forgot Password?</a
+            >
           </div>
         </div>
 
@@ -221,7 +218,8 @@
                 First name must not exceed 15 characters.
               </div>
               <div *ngIf="registerForm.get('firstName')?.errors?.['pattern']">
-                First name can only contain letters with a single space between words.
+                First name can only contain letters with a single space between
+                words.
               </div>
             </div>
           </div>
@@ -255,7 +253,8 @@
                 Last name must not exceed 15 characters.
               </div>
               <div *ngIf="registerForm.get('lastName')?.errors?.['pattern']">
-                Last name can only contain letters with a single space between words.
+                Last name can only contain letters with a single space between
+                words.
               </div>
             </div>
           </div>
@@ -335,27 +334,29 @@
               required
             />
             <div
-            *ngIf="registerForm.get('dob')?.touched && registerForm.get('dob')?.invalid"
-            class="text-danger"
-          >
-            <!-- Required error -->
-            <div *ngIf="registerForm.get('dob')?.errors?.['required']">
-              Date of birth is required.
+              *ngIf="
+                registerForm.get('dob')?.touched &&
+                registerForm.get('dob')?.invalid
+              "
+              class="text-danger"
+            >
+              <!-- Required error -->
+              <div *ngIf="registerForm.get('dob')?.errors?.['required']">
+                Date of birth is required.
+              </div>
+              <!-- Future date error -->
+              <div *ngIf="registerForm.get('dob')?.errors?.['futureDate']">
+                Date of birth cannot be in the future.
+              </div>
+              <div *ngIf="registerForm.get('dob')?.errors?.['pastDate']">
+                Date of birth cannot be earlier than January 1, 1900.
+              </div>
             </div>
-            <!-- Future date error -->
-            <div *ngIf="registerForm.get('dob')?.errors?.['futureDate']">
-              Date of birth cannot be in the future.
-            </div>
-            <div *ngIf="registerForm.get('dob')?.errors?.['pastDate']">
-              Date of birth cannot be earlier than January 1, 1900.
-            </div>
-          </div>
           </div>
 
           <div class="mb-3">
             <label for="userTypeId" class="form-label">User Role</label>
             <select
-
               class="form-control rounded-3"
               id="userTypeId"
               formControlName="userTypeId"
@@ -365,13 +366,15 @@
               <option value="2">Customer</option>
             </select>
             <div
-              *ngIf="registerForm.get('userTypeId')?.invalid && registerForm.get('userTypeId')?.touched"
+              *ngIf="
+                registerForm.get('userTypeId')?.invalid &&
+                registerForm.get('userTypeId')?.touched
+              "
               class="text-danger small mt-1"
             >
               Role is required.
             </div>
           </div>
-
 
           <div class="mb-3">
             <label for="registerAddress" class="form-label">Address</label>
@@ -386,7 +389,10 @@
               required
             ></textarea>
             <div
-              *ngIf="registerForm.get('address')?.touched && registerForm.get('address')?.invalid"
+              *ngIf="
+                registerForm.get('address')?.touched &&
+                registerForm.get('address')?.invalid
+              "
               class="text-danger"
             >
               <!-- Required error -->
@@ -403,11 +409,11 @@
               </div>
               <!-- Pattern error -->
               <div *ngIf="registerForm.get('address')?.errors?.['pattern']">
-                Address can only contain letters, numbers, spaces, commas, periods, and hyphens.
+                Address can only contain letters, numbers, spaces, commas,
+                periods, and hyphens.
               </div>
             </div>
           </div>
-          
 
           <div class="mb-3">
             <label for="registerZipCode" class="form-label">ZIP Code</label>
@@ -423,52 +429,75 @@
               required
             />
             <div
-              *ngIf="registerForm.get('zipcode')?.touched && registerForm.get('zipcode')?.invalid"
+              *ngIf="
+                registerForm.get('zipcode')?.touched &&
+                registerForm.get('zipcode')?.invalid
+              "
               class="text-danger"
             >
-              
               <div *ngIf="registerForm.get('zipcode')?.errors?.['required']">
                 ZIP code is required.
               </div>
-              
+
               <div *ngIf="registerForm.get('zipcode')?.errors?.['pattern']">
                 Please enter a valid 6-digit ZIP code.
               </div>
             </div>
           </div>
 
-
-
           <div class="mb-3">
             <label for="country" class="form-label">Country</label>
-            <select (change)="onChange(registerForm.value.countryId)" formControlName="countryId" name="country" class="form-control" id="country" required>
-                <option value="" disabled selected>Select a country</option>
-                <option *ngFor="let country of allCountry" [value]="country.countryId">{{ country.name }}</option>
-                
+            <select
+              (change)="onChange(registerForm.value.countryId)"
+              formControlName="countryId"
+              name="country"
+              class="form-control"
+              id="country"
+              required
+            >
+              <option value="" disabled selected>Select a country</option>
+              <option
+                *ngFor="let country of allCountry"
+                [value]="country.countryId"
+              >
+                {{ country.name }}
+              </option>
             </select>
             <div
-            *ngIf="registerForm.get('countryId')?.invalid && registerForm.get('countryId')?.touched"
-            class="text-danger small mt-1"
-          >
-            Country is required.
+              *ngIf="
+                registerForm.get('countryId')?.invalid &&
+                registerForm.get('countryId')?.touched
+              "
+              class="text-danger small mt-1"
+            >
+              Country is required.
+            </div>
           </div>
-        </div>
 
-
-        <div class="mb-3">
-          <label for="state" class="form-label">State</label>
-          <select formControlName="stateId" name="state" class="form-control" id="state" required>
-            <option value="" disabled selected>Select a state</option>
-            <option *ngFor="let state of allState" [value]="state.stateId">{{ state.name }}</option>
-          </select>
-          <div
-          *ngIf="registerForm.get('stateId')?.invalid && registerForm.get('stateId')?.touched"
-          class="text-danger small mt-1"
-        >
-          State is required.
-        </div>
-        </div>
-
+          <div class="mb-3">
+            <label for="state" class="form-label">State</label>
+            <select
+              formControlName="stateId"
+              name="state"
+              class="form-control"
+              id="state"
+              required
+            >
+              <option value="" disabled selected>Select a state</option>
+              <option *ngFor="let state of allState" [value]="state.stateId">
+                {{ state.name }}
+              </option>
+            </select>
+            <div
+              *ngIf="
+                registerForm.get('stateId')?.invalid &&
+                registerForm.get('stateId')?.touched
+              "
+              class="text-danger small mt-1"
+            >
+              State is required.
+            </div>
+          </div>
 
           <div class="mb-3">
             <label class="form-label" for="file">Upload File:</label>
@@ -482,20 +511,28 @@
               required
             />
             <div
-            *ngIf="registerForm.get('file')?.touched && registerForm.get('file')?.invalid"
-            class="text-danger"
-          >
-            <div *ngIf="registerForm.get('file')?.errors?.['required']">
-              Profile picture is required.
-            </div>
-            <div *ngIf="registerForm.get('file')?.errors?.['invalidType']">
-              Only JPG, JPEG, and PNG files are allowed.
-            </div>
-            <div *ngIf="fileSizeError" class="text-danger">
-              The file size must not exceed 5 MB.
+              *ngIf="
+                registerForm.get('file')?.touched &&
+                registerForm.get('file')?.invalid
+              "
+              class="text-danger"
+            >
+              <div *ngIf="registerForm.get('file')?.errors?.['required']">
+                Profile picture is required.
+              </div>
+              <div *ngIf="registerForm.get('file')?.errors?.['invalidType']">
+                Only JPG, JPEG, and PNG files are allowed.
+              </div>
+              <div *ngIf="fileSizeError" class="text-danger">
+                The file size must not exceed 5 MB.
+              </div>
             </div>
           </div>
+          <div *ngIf="imagePreview">
+            <p>Image Preview:</p>
+            <img [src]="imagePreview" alt="Profile Preview" style="max-width: 150px; border: 1px solid #ccc;" />
           </div>
+
         </div>
 
         <button
@@ -510,12 +547,26 @@
   </div>
 </div>
 <!-- Forgot Password Modal -->
-<div class="modal" #forgotPasswordModal id="forgotPasswordModal" tabindex="-1" aria-labelledby="forgotPasswordModalLabel" aria-hidden="true">
+<div
+  class="modal"
+  #forgotPasswordModal
+  id="forgotPasswordModal"
+  tabindex="-1"
+  aria-labelledby="forgotPasswordModalLabel"
+  aria-hidden="true"
+>
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="forgotPasswordModalLabel">Forgot Password</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h5 class="modal-title" id="forgotPasswordModalLabel">
+          Forgot Password
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
       </div>
       <div class="modal-body">
         <form [formGroup]="forgetPasswordForm">
@@ -539,15 +590,21 @@
               "
               class="text-danger"
             >
-            <div *ngIf="forgetPasswordForm.get('username')?.errors?.['required']">
-              Username is required.
-            </div>
-            <div *ngIf="forgetPasswordForm.get('username')?.errors?.['minlength']">
-              Username must be at least 15 characters.
-            </div>
-            <div *ngIf="forgetPasswordForm.get('username')?.errors?.['maxlength']">
-              Username must not exceed 20 characters.
-            </div>
+              <div
+                *ngIf="forgetPasswordForm.get('username')?.errors?.['required']"
+              >
+                Username is required.
+              </div>
+              <div
+                *ngIf="forgetPasswordForm.get('username')?.errors?.['minlength']"
+              >
+                Username must be at least 15 characters.
+              </div>
+              <div
+                *ngIf="forgetPasswordForm.get('username')?.errors?.['maxlength']"
+              >
+                Username must not exceed 20 characters.
+              </div>
             </div>
           </div>
 
@@ -565,19 +622,24 @@
               />
               <div
                 *ngIf="
-                  forgetPasswordForm.get('otp')?.invalid && forgetPasswordForm.get('otp')?.touched
+                  forgetPasswordForm.get('otp')?.invalid &&
+                  forgetPasswordForm.get('otp')?.touched
                 "
                 class="text-danger"
               >
-              <span
-              *ngIf="forgetPasswordForm.controls['otp'].errors?.['otp']"
-              >otp is required</span>
-               <span *ngIf="forgetPasswordForm.controls['otp'].errors?.['minlength']">
-                OTP must be 6 characters long.
-              </span>
-              <span *ngIf="forgetPasswordForm.controls['otp'].errors?.['maxlength']">
-                OTP must be 6 characters long.
-              </span>
+                <span *ngIf="forgetPasswordForm.controls['otp'].errors?.['otp']"
+                  >otp is required</span
+                >
+                <span
+                  *ngIf="forgetPasswordForm.controls['otp'].errors?.['minlength']"
+                >
+                  OTP must be 6 characters long.
+                </span>
+                <span
+                  *ngIf="forgetPasswordForm.controls['otp'].errors?.['maxlength']"
+                >
+                  OTP must be 6 characters long.
+                </span>
               </div>
             </div>
 
@@ -588,8 +650,7 @@
                 class="btn btn-secondary w-100 mb-2"
                 (click)="sendForgetOtp()"
                 [disabled]="
-                  forgetOtpSent ||
-                  !forgetPasswordForm.get('username')?.valid
+                  forgetOtpSent || !forgetPasswordForm.get('username')?.valid
                 "
               >
                 Send OTP
@@ -621,7 +682,9 @@
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
         <button
           type="button"
           class="btn btn-primary"
@@ -634,4 +697,3 @@
     </div>
   </div>
 </div>
-
