@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #F1F3F6;
+  }
+  
+  /* Optionally, you can apply to any other wrapper or component */
+  app-root {
+    background-color: #F1F3F6;
+    min-height: 100vh;
+  }

@@ -1,0 +1,43 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .profile-image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+  
+  .change-image-label {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .change-image-label i {
+    margin-right: 5px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
