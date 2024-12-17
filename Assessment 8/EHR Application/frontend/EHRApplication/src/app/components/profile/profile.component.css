@@ -1,43 +1,70 @@
-.container {
-    max-width: 800px;
-    margin: auto;
+/* Card container */
+.card {
+  background-color: white;
+  border-radius: 20px; /* Rounded corners for smooth effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Card body padding */
+.card-body {
+  padding: 30px;
+}
+
+/* Profile image styling */
+.profile-img {
+  max-width: 150px;
+  max-height: 150px;
+  object-fit: cover;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow around the image */
+  transition: all 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+  transform: scale(1.1); /* Hover effect to enlarge the image */
+}
+
+/* Profile name */
+.profile-name {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Profile info section */
+.profile-info {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.profile-info div {
+  margin-bottom: 10px;
+}
+
+/* Profile info labels */
+.profile-info strong {
+  color: #007bff;
+}
+
+/* Styling for text-muted */
+.text-muted {
+  font-size: 0.95rem;
+  color: #6c757d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .profile-img {
+    max-width: 120px;
+    max-height: 120px;
   }
-  
-  .profile-image-container {
-    position: relative;
-    display: inline-block;
+
+  .profile-name {
+    font-size: 1.8rem;
   }
-  
-  .profile-image {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #ddd;
+
+  .profile-info {
+    font-size: 1rem;
   }
-  
-  .change-image-label {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    cursor: pointer;
-  }
-  
-  .change-image-label i {
-    margin-right: 5px;
-  }
-  
-  .card {
-    border: none;
-    border-radius: 15px;
-  }
-  
-  .card-body {
-    padding: 2rem;
-  }
-  
+}

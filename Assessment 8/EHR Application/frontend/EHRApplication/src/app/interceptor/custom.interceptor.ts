@@ -1,11 +1,13 @@
 import { HttpHandler, HttpInterceptorFn, HttpRequest } from '@angular/common/http';
 import { LoaderService } from '../services/loader/loader.service';
 import { inject } from '@angular/core';
-import { finalize, Observable } from 'rxjs';
+import { finalize, Observable, takeUntil } from 'rxjs';
+import { AppointmentService } from '../services/appointment/appointment.service';
 
 export const customInterceptor: HttpInterceptorFn = (req, next) => {
 
  const loaderService = inject(LoaderService);
+ const appointmentService = inject(AppointmentService);
 
  loaderService.show();
 
@@ -18,7 +20,8 @@ export const customInterceptor: HttpInterceptorFn = (req, next) => {
      })
    : req;
    
- return next(authReq).pipe(
-   finalize(() => loaderService.hide())
- );
+   return next(authReq).pipe(
+    takeUntil(appointmentService.onCancelPendingRequests()),  // Cancels request if cancellation is triggered
+    finalize(() => loaderService.hide())  // Hide loader once the request is complete or canceled
+  );
 };

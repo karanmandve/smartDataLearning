@@ -13,6 +13,6 @@ export class PaymentService {
   }
 
   verifyPayment(paymentId: string, orderId: string) {
-    return this.http.post('https://localhost:7238/api/Razorpay/verify-payment', { paymentId, orderId });
+    return this.http.post('https://localhost:7228/api/Razorpay/verify-payment', { paymentId, orderId });
   }
 }

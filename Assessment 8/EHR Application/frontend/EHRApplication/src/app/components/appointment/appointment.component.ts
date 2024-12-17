@@ -5,6 +5,8 @@ import { UserServiceService } from '../../services/user/user-service.service';
 import { PaymentService } from '../../services/razorpay-payment/payment.service';
 import { AppointmentService } from '../../services/appointment/appointment.service';
 import { SweetAlertToasterService } from '../../services/toaster/sweet-alert-toaster.service';
+import { RouterTestingHarness } from '@angular/router/testing';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-appointment',
@@ -19,11 +21,13 @@ export class AppointmentComponent {
   allProviders: any[] = [];
   fees = 0;
   userDetails: any;
+  allAppointments: any[] = [];
 
   userService = inject(UserServiceService);
   paymentService = inject(PaymentService);
   appointmentService = inject(AppointmentService);
   toaster = inject(SweetAlertToasterService)
+  router = inject(Router)
 
 
   ngOnInit() {
@@ -55,6 +59,7 @@ export class AppointmentComponent {
         order_id: order.id,
         handler: (response: any) => {
           this.bookAppointment(response.razorpay_payment_id, order.id);
+          // this.verifyPayment(response.razorpay_payment_id, order.id)
         },
       };
       if (window.Razorpay) {
@@ -67,7 +72,21 @@ export class AppointmentComponent {
   }
 
 
-  bookAppointment(paymentId: any, orderId: any) {
+  verifyPayment(paymentId: any, orderId: any) {
+    this.paymentService.verifyPayment(paymentId, orderId).subscribe({
+      next: (res: any) => {
+        console.log(res);
+      },
+      error: (error: any) => {
+        console.log(error);
+      }
+    })
+  }
+
+
+  async bookAppointment(paymentId: any, orderId: any) {
+    console.log("hi am here");
+    
     const appointmentData = this.appointmentForm.value;
 
     const data = {
@@ -85,8 +104,13 @@ export class AppointmentComponent {
 
     this.appointmentService.addAppointment(data).subscribe({
       next: (res: any) => {
+        
+        this.router.navigateByUrl('/home');
         this.toaster.success("Appointment Booked Successfully");
         console.log(res);
+        setInterval(() => {
+          window.location.reload();
+        }, 1000);
       },
       error: (error: any) => {
         console.log(error);
@@ -95,10 +119,16 @@ export class AppointmentComponent {
   }
 
 
-
-
-
-
+  getAllAppointments() {
+    this.appointmentService.getAppointmentsByPatientId(this.userDetails.id).subscribe({
+      next: (res: any) => {
+        this.allAppointments = res.data
+      },
+      error: (error: any) => {
+        console.log(error);
+      }
+    })
+  }
 
 
 
@@ -134,6 +164,15 @@ export class AppointmentComponent {
         this.fees = provider.visitingCharge
       }
     })
+  }
+
+
+  onEditAppointment(appointment: any) {
+    alert("yet to implement");
+  }
+  
+  onCancelAppointment(appointment: any) {
+    alert("yet to implement");
   }
 
 

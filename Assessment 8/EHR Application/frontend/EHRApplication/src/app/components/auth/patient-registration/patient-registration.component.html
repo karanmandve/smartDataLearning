@@ -2,6 +2,7 @@
   <div class="mb-3">
     <label for="registerFirstName" class="form-label">First Name</label>
     <input
+      style="background-color: #f1f3f6; border: none"
       type="text"
       minlength="2"
       maxlength="20"
@@ -36,6 +37,7 @@
   <div class="mb-3">
     <label for="registerLastName" class="form-label">Last Name</label>
     <input
+      style="background-color: #f1f3f6; border: none"
       type="text"
       minlength="2"
       maxlength="25"
@@ -70,6 +72,7 @@
   <div class="mb-3">
     <label for="registerEmail" class="form-label">Email</label>
     <input
+      style="background-color: #f1f3f6; border: none"
       type="text"
       maxlength="50"
       class="form-control"
@@ -103,6 +106,7 @@
   <div class="mb-3">
     <label for="registerMobile" class="form-label">Mobile Number</label>
     <input
+      style="background-color: #f1f3f6; border: none"
       type="tel"
       class="form-control"
       id="registerMobile"
@@ -133,6 +137,7 @@
   <div class="mb-3">
     <label for="registerDOB" class="form-label">Date of Birth</label>
     <input
+      style="background-color: #f1f3f6; border: none"
       type="date"
       [max]="todayDate"
       [min]="pastDate"
@@ -166,7 +171,12 @@
 
   <div class="mb-3">
     <label for="gender" class="form-label">Gender</label>
-    <select class="form-control rounded-3" id="gender" formControlName="gender">
+    <select
+      style="background-color: #f1f3f6; border: none"
+      class="form-control rounded-3"
+      id="gender"
+      formControlName="gender"
+    >
       <option value="" selected disabled>Select a gender</option>
       <option value="Male">Male</option>
       <option value="Female">Female</option>
@@ -186,6 +196,7 @@
   <div class="mb-3">
     <label for="bloodGroup" class="form-label">Blood Group</label>
     <select
+      style="background-color: #f1f3f6; border: none"
       class="form-control rounded-3"
       id="bloodGroup"
       formControlName="bloodGroup"
@@ -212,7 +223,13 @@
   </div>
 
   <div>
-    <input type="hidden" id="userRole" formControlName="userTypeId" value="2" />
+    <input
+      style="background-color: #f1f3f6; border: none"
+      type="hidden"
+      id="userRole"
+      formControlName="userTypeId"
+      value="2"
+    />
 
     <div
       *ngIf="
@@ -228,6 +245,7 @@
   <div class="mb-3">
     <label for="registerAddress" class="form-label">Address</label>
     <textarea
+    style="background-color: #F1F3F6; border: none;"
       type=""
       min="10"
       max="150"
@@ -267,6 +285,7 @@
   <div class="mb-3">
     <label for="registerPincode" class="form-label">Pincode</label>
     <input
+      style="background-color: #f1f3f6; border: none"
       type="text"
       minlength="6"
       maxlength="6"
@@ -297,6 +316,7 @@
   <div class="mb-3">
     <label for="country" class="form-label">Country</label>
     <select
+      style="background-color: #f1f3f6; border: none"
       (change)="onChange(patientRegisterForm.value.countryId)"
       formControlName="countryId"
       name="country"
@@ -323,6 +343,7 @@
   <div class="mb-3">
     <label for="state" class="form-label">State</label>
     <select
+      style="background-color: #f1f3f6; border: none"
       formControlName="stateId"
       name="state"
       class="form-control"
@@ -348,6 +369,7 @@
   <div class="mb-3">
     <label for="registerCity" class="form-label">City</label>
     <input
+      style="background-color: #f1f3f6; border: none"
       maxlength="30"
       type="text"
       class="form-control"
@@ -374,6 +396,7 @@
   <div class="mb-3">
     <label class="form-label" for="file">Upload File:</label>
     <input
+      style="background-color: #f1f3f6; border: none"
       class="form-control"
       id="file"
       type="file"
@@ -404,12 +427,11 @@
       <p>Image Preview:</p>
       <img [src]="imagePreview" alt="Profile Preview" style="max-width: 150px; border: 1px solid #ccc;" />
     </div> -->
-    <button
+  <button
     type="submit"
     [disabled]="patientRegisterForm.invalid"
     class="btn btn-primary w-100"
   >
     Register
   </button>
-
 </form>

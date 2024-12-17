@@ -10,9 +10,8 @@
 
 
 <div class="container loginRegister">
-  <div class="card shadow-sm">
+  <div class="card shadow-sm" [ngStyle]="{'background-color': '#ffffff', 'max-width': activeForm === 'login' ? '500px' : '700px'}">
     <div class="card-body">
-      <h5 class="card-title text-center">User Authentication</h5>
       <div class="text-center mb-4">
         <button
           class="btn btn-outline-primary me-2"

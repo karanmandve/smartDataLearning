@@ -121,8 +121,11 @@ export class PatientRegistrationComponent {
       next: (res: any) => {
         this.patientRegisterForm.reset();
         if (res.statusCode == 201) {
-          window.location.reload();
           this.toaster.success('Patient Register Successfully');
+          setTimeout(() => {
+            window.location.reload();
+          }, 1000);
+
         } else {
           this.toaster.error('Patient Not Register');
         }

@@ -1,7 +1,8 @@
 <form [formGroup]="providerRegisterForm" (ngSubmit)="onRegisterSubmit()">
-  <div class="mb-3">
+  <div class="row mb-4">
+  <div class="col-md-6">
     <label for="registerFirstName" class="form-label">First Name</label>
-    <input
+    <input style="background-color: #F1F3F6; border: none;"
       type="text"
       minlength="2"
       maxlength="20"
@@ -33,9 +34,9 @@
     </div>
   </div>
 
-  <div class="mb-3">
+  <div class="col-md-6">
     <label for="registerLastName" class="form-label">Last Name</label>
-    <input
+    <input style="background-color: #F1F3F6; border: none;"
       type="text"
       minlength="2"
       maxlength="25"
@@ -66,10 +67,12 @@
       </div>
     </div>
   </div>
+</div>
 
-  <div class="mb-3">
+<div class="row mb-4">
+  <div class="col-md-6">
     <label for="registerEmail" class="form-label">Email</label>
-    <input
+    <input style="background-color: #F1F3F6; border: none;"
       type="text"
       maxlength="50"
       class="form-control"
@@ -100,9 +103,9 @@
     </div>
   </div>
 
-  <div class="mb-3">
+  <div class="col-md-6">
     <label for="registerMobile" class="form-label">Mobile Number</label>
-    <input
+    <input style="background-color: #F1F3F6; border: none;"
       type="tel"
       class="form-control"
       id="registerMobile"
@@ -130,9 +133,12 @@
     </div>
   </div>
 
-  <div class="mb-3">
+</div>
+
+<div class="row mb-4">
+  <div class="col-md-4">
     <label for="registerDOB" class="form-label">Date of Birth</label>
-    <input
+    <input style="background-color: #F1F3F6; border: none;"
       type="date"
       [max]="todayDate"
       [min]="pastDate"
@@ -168,9 +174,9 @@
     </div>
   </div>
 
-  <div class="mb-3">
+  <div class="col-md-4">
     <label for="gender" class="form-label">Gender</label>
-    <select class="form-control rounded-3" id="gender" formControlName="gender">
+    <select style="background-color: #F1F3F6; border: none;" class="form-control rounded-3" id="gender" formControlName="gender">
       <option value="" selected disabled>Select a gender</option>
       <option value="Male">Male</option>
       <option value="Female">Female</option>
@@ -187,9 +193,9 @@
     </div>
   </div>
 
-  <div class="mb-3">
+  <div class="col-md-4">
     <label for="bloodGroup" class="form-label">Blood Group</label>
-    <select
+    <select style="background-color: #F1F3F6; border: none;"
       class="form-control rounded-3"
       id="bloodGroup"
       formControlName="bloodGroup"
@@ -214,10 +220,10 @@
       Blood group is required.
     </div>
   </div>
-
+</div>
 
   <div>
-    <input
+    <input style="background-color: #F1F3F6; border: none;"
       type="hidden"
       id="userRole"
       formControlName="userTypeId"
@@ -236,6 +242,7 @@
   <div class="mb-3">
     <label for="registerAddress" class="form-label">Address</label>
     <textarea
+      style="background-color: #F1F3F6; border: none;"
       type=""
       min="10"
       max="150"
@@ -272,9 +279,11 @@
     </div>
   </div>
 
-  <div class="mb-3">
+
+  <div class="row mb-4">
+  <div class="col-md-6">
     <label for="registerPincode" class="form-label">Pincode</label>
-    <input
+    <input style="background-color: #F1F3F6; border: none;"
       type="text"
       minlength="6"
       maxlength="6"
@@ -302,9 +311,9 @@
     </div>
   </div>
 
-  <div class="mb-3">
+  <div class="col-md-6">
     <label for="country" class="form-label">Country</label>
-    <select
+    <select style="background-color: #F1F3F6; border: none;"
       (change)="onChange(providerRegisterForm.value.countryId)"
       formControlName="countryId"
       name="country"
@@ -327,10 +336,12 @@
       Country is required.
     </div>
   </div>
+</div>
 
-  <div class="mb-3">
+<div class="row mb-4">
+  <div class="col-md-6">
     <label for="state" class="form-label">State</label>
-    <select
+    <select style="background-color: #F1F3F6; border: none;"
       formControlName="stateId"
       name="state"
       class="form-control"
@@ -353,9 +364,9 @@
     </div>
   </div>
 
-  <div class="mb-3">
+  <div class="col-md-6">
     <label for="registerCity" class="form-label">City</label>
-    <input
+    <input style="background-color: #F1F3F6; border: none;"
       maxlength="30"
       type="text"
       class="form-control"
@@ -378,11 +389,16 @@
       </div>
     </div>
   </div>
+</div>
+
+
 
   <!-- Qualification Field -->
-  <div class="mb-3">
+
+  <div class="row mb-4">
+  <div class="col-md-6">
     <label for="qualification" class="form-label">Qualification</label>
-    <input
+    <input style="background-color: #F1F3F6; border: none;"
       maxlength="20"
       type="text"
       class="form-control"
@@ -404,9 +420,9 @@
   </div>
 
   <!-- Specialisation Dropdown -->
-  <div class="mb-3">
+  <div class="col-md-6">
     <label for="specialisation" class="form-label">Specialisation</label>
-    <select
+    <select style="background-color: #F1F3F6; border: none;"
       formControlName="specialisationId"
       class="form-control"
       id="specialisation"
@@ -431,12 +447,16 @@
     </div>
   </div>
 
+</div>
+
   <!-- Registration Number Field -->
-  <div class="mb-3">
+
+  <div class="row mb-4">
+  <div class="col-md-6">
     <label for="registrationNumber" class="form-label"
       >Registration Number</label
     >
-    <input
+    <input style="background-color: #F1F3F6; border: none;"
       maxlength="10"
       type="text"
       class="form-control"
@@ -458,9 +478,9 @@
   </div>
 
   <!-- Visiting Charge Field -->
-  <div class="mb-3">
+  <div class="col-md-6">
     <label for="visitingCharge" class="form-label">Visiting Charge</label>
-    <input
+    <input style="background-color: #F1F3F6; border: none;"
       type="text"
       maxlength="5"
       class="form-control"
@@ -480,10 +500,11 @@
       Visiting charge is required and must be a valid number.
     </div>
   </div>
+</div>
 
   <div class="mb-3">
     <label class="form-label" for="file">Upload File:</label>
-    <input
+    <input style="background-color: #F1F3F6; border: none;"
       class="form-control"
       id="file"
       type="file"
