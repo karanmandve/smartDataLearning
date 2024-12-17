@@ -1,16 +1,27 @@
-import { Component } from '@angular/core';
-import { AdminDashboardComponent } from "../admin-dashboard/admin-dashboard.component";
-import { CustomerDashboardComponent } from "../customer-dashboard/customer-dashboard.component";
+import { Component, inject, OnInit } from '@angular/core';
 import { TitleCasePipe } from '@angular/common';
+import { UserServiceService } from '../../services/user/user-service.service';
+import { ProviderDashboardComponent } from "../dashboard/provider-dashboard/provider-dashboard.component";
+import { PatientDashboardComponent } from "../dashboard/patient-dashboard/patient-dashboard.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [AdminDashboardComponent, CustomerDashboardComponent, TitleCasePipe],
+  imports: [TitleCasePipe, ProviderDashboardComponent, PatientDashboardComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
-export class HomeComponent {
-  userDeatils = JSON.parse(localStorage.getItem('userDetails') || '{}');
+export class HomeComponent implements OnInit{
+  username = localStorage.getItem('username');
+  userDetails: any;
+
+  userServices = inject(UserServiceService);
+
+  ngOnInit(): void {
+    this.userServices.user$.subscribe((user: any) => {
+      this.userDetails = user;
+    });
+    
+  }
   
 }

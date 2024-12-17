@@ -9,7 +9,7 @@ export class PaymentService {
   http = inject(HttpClient);
 
   createOrder(amount: number) {
-    return this.http.post('https://localhost:7238/api/Razorpay/create-order', amount);
+    return this.http.post('https://localhost:7228/api/Razorpay/create-order', amount);
   }
 
   verifyPayment(paymentId: string, orderId: string) {

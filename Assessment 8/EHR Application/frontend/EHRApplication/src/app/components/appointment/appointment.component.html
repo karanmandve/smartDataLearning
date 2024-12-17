@@ -1,0 +1,129 @@
+<div class="container mt-5 shadow-sm p-4 rounded appointment-container" style="background-color: #ffffff; max-width: 700px;">
+    <h2 class="text-center mb-4 fw-bold app-heading">Book Appointment</h2>
+  
+    <!-- Form -->
+    <form [formGroup]="appointmentForm" (ngSubmit)="onPay()">
+      <div class="row mb-4">
+        <!-- Speciality Dropdown -->
+        <div class="col-md-6">
+          <label for="specialisation" class="form-label fw-semibold">Speciality</label>
+          <select
+            id="specialisation"
+            class="form-select"
+            style="background-color: #F1F3F6; border: none;"
+            formControlName="specialisation"
+            (change)="onChange(appointmentForm.get('specialisation')?.value)"
+          >
+            <option value="" disabled>Select Speciality</option>
+            <option *ngFor="let specialisation of allSpecialisations" [value]="specialisation.id">
+              {{ specialisation.specialisationName }}
+            </option>
+          </select>
+          <div
+            *ngIf="appointmentForm.get('specialisation')?.touched && appointmentForm.get('specialisation')?.invalid"
+            class="text-danger mt-1"
+          >
+            Specialisation is required.
+          </div>
+        </div>
+  
+        <!-- Provider Dropdown -->
+        <div class="col-md-6">
+          <label for="provider" class="form-label fw-semibold">Provider</label>
+          <select
+            id="provider"
+            class="form-select"
+            style="background-color: #F1F3F6; border: none;"
+            formControlName="provider"
+            (change)="onChangeProvider(appointmentForm.get('provider')?.value)"
+          >
+            <option value="" disabled>Select Provider</option>
+            <option *ngFor="let provider of allProviders" [value]="provider.id">
+              {{ provider.firstName }} {{ provider.lastName }} ₹{{ provider.visitingCharge}}
+            </option>
+          </select>
+          <div
+            *ngIf="appointmentForm.get('provider')?.touched && appointmentForm.get('provider')?.invalid"
+            class="text-danger mt-1"
+          >
+            Provider is required.
+          </div>
+        </div>
+      </div>
+  
+      <div class="row mb-4">
+        <!-- Date Picker -->
+        <div class="col-md-6">
+          <label for="date" class="form-label fw-semibold">Date</label>
+          <input
+            type="date"
+            id="date"
+            class="form-control"
+            style="background-color: #F1F3F6; border: none;"
+            formControlName="date"
+          />
+          <div
+            *ngIf="appointmentForm.get('date')?.touched && appointmentForm.get('date')?.invalid"
+            class="text-danger mt-1"
+          >
+            Please select a valid date.
+          </div>
+        </div>
+  
+        <!-- Time Picker -->
+        <div class="col-md-6">
+          <label for="time" class="form-label fw-semibold">Time</label>
+          <input
+            type="time"
+            id="time"
+            class="form-control"
+            style="background-color: #F1F3F6; border: none;"
+            formControlName="time"
+          />
+          <div
+            *ngIf="appointmentForm.get('time')?.touched && appointmentForm.get('time')?.invalid"
+            class="text-danger mt-1"
+          >
+            Please select a valid time.
+          </div>
+        </div>
+      </div>
+  
+      <!-- Chief Complaint -->
+      <div class="mb-4">
+        <label for="chiefComplaint" class="form-label fw-semibold">Chief Complaint</label>
+        <textarea
+          id="chiefComplaint"
+          class="form-control"
+          rows="3"
+          style="background-color: #F1F3F6; border: none;"
+          formControlName="chiefComplaint"
+          placeholder="Enter your complaint"
+        ></textarea>
+        <div
+          *ngIf="appointmentForm.get('chiefComplaint')?.touched && appointmentForm.get('chiefComplaint')?.invalid"
+          class="text-danger mt-1"
+        >
+          Chief complaint is required and should be at least 5 characters.
+        </div>
+      </div>
+  
+      <!-- Fees -->
+      <div class="mb-4 d-flex justify-content-end align-items-center">
+        <label for="fees" class="form-label fw-semibold fs-5 mb-0 me-3">Fees : </label>
+        <span id="fees" class="fs-5 fw-bold text-success">{{ fees }}</span>
+      </div>
+  
+      <!-- Submit Button -->
+      <div class="text-center">
+        <button
+          type="submit"
+          class="btn btn-primary btn-lg w-50 fw-bold"
+          [disabled]="appointmentForm.invalid"
+        >
+          Pay
+        </button>
+      </div>
+    </form>
+  </div>
+  

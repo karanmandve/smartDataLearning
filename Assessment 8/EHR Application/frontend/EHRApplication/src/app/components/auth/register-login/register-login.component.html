@@ -1,0 +1,56 @@
+
+
+
+
+
+
+
+
+
+
+
+<div class="container loginRegister">
+  <div class="card shadow-sm">
+    <div class="card-body">
+      <h5 class="card-title text-center">User Authentication</h5>
+      <div class="text-center mb-4">
+        <button
+          class="btn btn-outline-primary me-2"
+          (click)="setActiveForm('login')"
+          [ngClass]="{ active: activeForm === 'login' }"
+        >
+          Login
+        </button>
+        <button
+          class="btn btn-outline-primary me-2"
+          (click)="setActiveForm('patientRegister')"
+          [ngClass]="{ active: activeForm === 'patientRegister' }"
+        >
+          Patient Register
+        </button>
+
+        <button
+        class="btn btn-outline-primary"
+        (click)="setActiveForm('providerRegister')"
+        [ngClass]="{ active: activeForm === 'providerRegister' }"
+      >
+        Provider Register
+      </button>
+
+      </div>
+
+      <div *ngIf="activeForm === 'login'">
+        <app-login></app-login>
+      </div>
+      <div *ngIf="activeForm === 'patientRegister'">
+        <app-patient-registration></app-patient-registration>
+      </div>
+      <div *ngIf="activeForm === 'providerRegister'">
+        <app-provider-registration></app-provider-registration>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+

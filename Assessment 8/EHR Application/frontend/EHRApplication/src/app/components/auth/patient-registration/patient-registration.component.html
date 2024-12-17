@@ -1,0 +1,415 @@
+<form [formGroup]="patientRegisterForm" (ngSubmit)="onRegisterSubmit()">
+  <div class="mb-3">
+    <label for="registerFirstName" class="form-label">First Name</label>
+    <input
+      type="text"
+      minlength="2"
+      maxlength="20"
+      class="form-control"
+      id="registerFirstName"
+      formControlName="firstName"
+      placeholder="First Name"
+      required
+    />
+    <div
+      *ngIf="
+        patientRegisterForm.get('firstName')?.touched &&
+        patientRegisterForm.get('firstName')?.invalid
+      "
+      class="text-danger"
+    >
+      <div *ngIf="patientRegisterForm.get('firstName')?.errors?.['required']">
+        First name is required.
+      </div>
+      <div *ngIf="patientRegisterForm.get('firstName')?.errors?.['minlength']">
+        First name must be at least 2 characters.
+      </div>
+      <div *ngIf="patientRegisterForm.get('firstName')?.errors?.['maxlength']">
+        First name must not exceed 15 characters.
+      </div>
+      <div *ngIf="patientRegisterForm.get('firstName')?.errors?.['pattern']">
+        First name can only contain letters with a single space between words.
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="registerLastName" class="form-label">Last Name</label>
+    <input
+      type="text"
+      minlength="2"
+      maxlength="25"
+      class="form-control"
+      id="registerLastName"
+      formControlName="lastName"
+      placeholder="Last Name"
+      required
+    />
+    <div
+      *ngIf="
+        patientRegisterForm.get('lastName')?.touched &&
+        patientRegisterForm.get('lastName')?.invalid
+      "
+      class="text-danger"
+    >
+      <div *ngIf="patientRegisterForm.get('lastName')?.errors?.['required']">
+        Last name is required.
+      </div>
+      <div *ngIf="patientRegisterForm.get('lastName')?.errors?.['minlength']">
+        Last name must be at least 2 characters.
+      </div>
+      <div *ngIf="patientRegisterForm.get('lastName')?.errors?.['maxlength']">
+        Last name must not exceed 15 characters.
+      </div>
+      <div *ngIf="patientRegisterForm.get('lastName')?.errors?.['pattern']">
+        Last name can only contain letters with a single space between words.
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="registerEmail" class="form-label">Email</label>
+    <input
+      type="text"
+      maxlength="50"
+      class="form-control"
+      id="registerEmail"
+      formControlName="email"
+      placeholder="Enter your email"
+      required
+    />
+    <div
+      *ngIf="
+        patientRegisterForm.get('email')?.touched &&
+        patientRegisterForm.get('email')?.invalid
+      "
+      class="text-danger"
+    >
+      <!-- Required error -->
+      <div *ngIf="patientRegisterForm.get('email')?.errors?.['required']">
+        Email is required.
+      </div>
+      <!-- Invalid email format error -->
+      <div *ngIf="patientRegisterForm.get('email')?.errors?.['email']">
+        Please enter a valid email address.
+      </div>
+      <!-- Exceeds maximum length error -->
+      <div *ngIf="patientRegisterForm.get('email')?.errors?.['maxlength']">
+        Email must not exceed 50 characters.
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="registerMobile" class="form-label">Mobile Number</label>
+    <input
+      type="tel"
+      class="form-control"
+      id="registerMobile"
+      formControlName="mobile"
+      placeholder="Enter your mobile number"
+      required
+      maxlength="10"
+      (keypress)="onKeyPress($event)"
+    />
+    <div
+      *ngIf="
+        patientRegisterForm.get('mobile')?.touched &&
+        patientRegisterForm.get('mobile')?.invalid
+      "
+      class="text-danger"
+    >
+      <!-- Required error -->
+      <div *ngIf="patientRegisterForm.get('mobile')?.errors?.['required']">
+        Mobile number is required.
+      </div>
+      <!-- Invalid number pattern error -->
+      <div *ngIf="patientRegisterForm.get('mobile')?.errors?.['pattern']">
+        Please enter a valid 10-digit mobile number.
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="registerDOB" class="form-label">Date of Birth</label>
+    <input
+      type="date"
+      [max]="todayDate"
+      [min]="pastDate"
+      class="form-control"
+      id="registerDOB"
+      formControlName="dateOfBirth"
+      required
+    />
+    <div
+      *ngIf="
+        patientRegisterForm.get('dateOfBirth')?.touched &&
+        patientRegisterForm.get('dateOfBirth')?.invalid
+      "
+      class="text-danger"
+    >
+      <!-- Required error -->
+      <div *ngIf="patientRegisterForm.get('dateOfBirth')?.errors?.['required']">
+        Date of birth is required.
+      </div>
+      <!-- Future date error -->
+      <div
+        *ngIf="patientRegisterForm.get('dateOfBirth')?.errors?.['futureDate']"
+      >
+        Date of birth cannot be in the future.
+      </div>
+      <div *ngIf="patientRegisterForm.get('dateOfBirth')?.errors?.['pastDate']">
+        Date of birth cannot be earlier than January 1, 1901.
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="gender" class="form-label">Gender</label>
+    <select class="form-control rounded-3" id="gender" formControlName="gender">
+      <option value="" selected disabled>Select a gender</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Other">Other</option>
+    </select>
+    <div
+      *ngIf="
+        patientRegisterForm.get('gender')?.invalid &&
+        patientRegisterForm.get('gender')?.touched
+      "
+      class="text-danger small mt-1"
+    >
+      Gender is required.
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="bloodGroup" class="form-label">Blood Group</label>
+    <select
+      class="form-control rounded-3"
+      id="bloodGroup"
+      formControlName="bloodGroup"
+    >
+      <option value="" selected disabled>Select a blood group</option>
+      <option value="A+">A+</option>
+      <option value="A-">A-</option>
+      <option value="B+">B+</option>
+      <option value="B-">B-</option>
+      <option value="AB+">AB+</option>
+      <option value="AB-">AB-</option>
+      <option value="O+">O+</option>
+      <option value="O-">O-</option>
+    </select>
+    <div
+      *ngIf="
+        patientRegisterForm.get('bloodGroup')?.invalid &&
+        patientRegisterForm.get('bloodGroup')?.touched
+      "
+      class="text-danger small mt-1"
+    >
+      Blood group is required.
+    </div>
+  </div>
+
+  <div>
+    <input type="hidden" id="userRole" formControlName="userTypeId" value="2" />
+
+    <div
+      *ngIf="
+        patientRegisterForm.get('userTypeId')?.invalid &&
+        patientRegisterForm.get('userTypeId')?.touched
+      "
+      class="text-danger small mt-1"
+    >
+      Role is required.
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="registerAddress" class="form-label">Address</label>
+    <textarea
+      type=""
+      min="10"
+      max="150"
+      class="form-control"
+      id="registerAddress"
+      formControlName="address"
+      placeholder="Enter your address"
+      required
+    ></textarea>
+    <div
+      *ngIf="
+        patientRegisterForm.get('address')?.touched &&
+        patientRegisterForm.get('address')?.invalid
+      "
+      class="text-danger"
+    >
+      <!-- Required error -->
+      <div *ngIf="patientRegisterForm.get('address')?.errors?.['required']">
+        Address is required.
+      </div>
+      <!-- Min Length error -->
+      <div *ngIf="patientRegisterForm.get('address')?.errors?.['minlength']">
+        Address must be at least 10 characters long.
+      </div>
+      <!-- Max Length error -->
+      <div *ngIf="patientRegisterForm.get('address')?.errors?.['maxlength']">
+        Address cannot exceed 150 characters.
+      </div>
+      <!-- Pattern error -->
+      <div *ngIf="patientRegisterForm.get('address')?.errors?.['pattern']">
+        Address can only contain letters, numbers, spaces, commas, periods, and
+        hyphens.
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="registerPincode" class="form-label">Pincode</label>
+    <input
+      type="text"
+      minlength="6"
+      maxlength="6"
+      class="form-control"
+      id="registerPincode"
+      formControlName="pincode"
+      placeholder="Enter your Pincode"
+      (keypress)="onKeyPress($event)"
+      required
+    />
+    <div
+      *ngIf="
+        patientRegisterForm.get('pincode')?.touched &&
+        patientRegisterForm.get('pincode')?.invalid
+      "
+      class="text-danger"
+    >
+      <div *ngIf="patientRegisterForm.get('pincode')?.errors?.['required']">
+        Pincode is required.
+      </div>
+
+      <div *ngIf="patientRegisterForm.get('pincode')?.errors?.['pattern']">
+        Please enter a valid 6-digit Pincode.
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="country" class="form-label">Country</label>
+    <select
+      (change)="onChange(patientRegisterForm.value.countryId)"
+      formControlName="countryId"
+      name="country"
+      class="form-control"
+      id="country"
+      required
+    >
+      <option value="" disabled selected>Select a country</option>
+      <option *ngFor="let country of allCountry" [value]="country.countryId">
+        {{ country.name }}
+      </option>
+    </select>
+    <div
+      *ngIf="
+        patientRegisterForm.get('countryId')?.invalid &&
+        patientRegisterForm.get('countryId')?.touched
+      "
+      class="text-danger small mt-1"
+    >
+      Country is required.
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="state" class="form-label">State</label>
+    <select
+      formControlName="stateId"
+      name="state"
+      class="form-control"
+      id="state"
+      required
+    >
+      <option value="" disabled selected>Select a state</option>
+      <option *ngFor="let state of allState" [value]="state.stateId">
+        {{ state.name }}
+      </option>
+    </select>
+    <div
+      *ngIf="
+        patientRegisterForm.get('stateId')?.invalid &&
+        patientRegisterForm.get('stateId')?.touched
+      "
+      class="text-danger small mt-1"
+    >
+      State is required.
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="registerCity" class="form-label">City</label>
+    <input
+      maxlength="30"
+      type="text"
+      class="form-control"
+      id="registerCity"
+      formControlName="city"
+      placeholder="Enter your city"
+      required
+      (keypress)="onKeyPressCity($event)"
+    />
+    <div
+      *ngIf="
+        patientRegisterForm.get('city')?.touched &&
+        patientRegisterForm.get('city')?.invalid
+      "
+      class="text-danger"
+    >
+      <!-- Required error -->
+      <div *ngIf="patientRegisterForm.get('city')?.errors?.['required']">
+        City is required.
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label" for="file">Upload File:</label>
+    <input
+      class="form-control"
+      id="file"
+      type="file"
+      formControlName="file"
+      accept=".jpg, .jpeg, .png"
+      (change)="onFileSelected($event)"
+      required
+    />
+    <div
+      *ngIf="
+        patientRegisterForm.get('file')?.touched &&
+        patientRegisterForm.get('file')?.invalid
+      "
+      class="text-danger"
+    >
+      <div *ngIf="patientRegisterForm.get('file')?.errors?.['required']">
+        Profile picture is required.
+      </div>
+      <div *ngIf="patientRegisterForm.get('file')?.errors?.['invalidType']">
+        Only JPG, JPEG, and PNG files are allowed.
+      </div>
+      <div *ngIf="fileSizeError" class="text-danger">
+        The file size must not exceed 5 MB.
+      </div>
+    </div>
+  </div>
+  <!-- <div *ngIf="imagePreview">
+      <p>Image Preview:</p>
+      <img [src]="imagePreview" alt="Profile Preview" style="max-width: 150px; border: 1px solid #ccc;" />
+    </div> -->
+    <button
+    type="submit"
+    [disabled]="patientRegisterForm.invalid"
+    class="btn btn-primary w-100"
+  >
+    Register
+  </button>
+
+</form>

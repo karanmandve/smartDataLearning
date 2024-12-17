@@ -5,7 +5,7 @@ export const authGuardGuard: CanActivateFn = (route: ActivatedRouteSnapshot, sta
   const router = inject(Router);
   
   const isSessionActive = localStorage.getItem("session") === "true";
-  const protectedRoutes = ["/home", "/profile", "/cart", "/orders"];
+  const protectedRoutes = ["/home", "/profile", "/cart", "/orders", "/appointment"];
   
   if (protectedRoutes.includes(state.url) && isSessionActive) {
     return true;
