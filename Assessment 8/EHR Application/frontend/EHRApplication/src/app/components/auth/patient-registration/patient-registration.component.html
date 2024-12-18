@@ -1,6 +1,8 @@
 <form [formGroup]="patientRegisterForm" (ngSubmit)="onRegisterSubmit()">
-  <div class="mb-3">
-    <label for="registerFirstName" class="form-label">First Name</label>
+  
+  <div class="row mb-4">
+  <div class="col-md-6">
+    <label for="registerFirstName" class="form-label fw-semibold">First Name</label>
     <input
       style="background-color: #f1f3f6; border: none"
       type="text"
@@ -34,8 +36,8 @@
     </div>
   </div>
 
-  <div class="mb-3">
-    <label for="registerLastName" class="form-label">Last Name</label>
+  <div class="col-md-6">
+    <label for="registerLastName" class="form-label fw-semibold">Last Name</label>
     <input
       style="background-color: #f1f3f6; border: none"
       type="text"
@@ -68,9 +70,11 @@
       </div>
     </div>
   </div>
+</div>
 
-  <div class="mb-3">
-    <label for="registerEmail" class="form-label">Email</label>
+<div class="row mb-4">
+  <div class="col-md-6">
+    <label for="registerEmail" class="form-label fw-semibold">Email</label>
     <input
       style="background-color: #f1f3f6; border: none"
       type="text"
@@ -103,8 +107,8 @@
     </div>
   </div>
 
-  <div class="mb-3">
-    <label for="registerMobile" class="form-label">Mobile Number</label>
+  <div class="col-md-6">
+    <label for="registerMobile" class="form-label fw-semibold">Mobile Number</label>
     <input
       style="background-color: #f1f3f6; border: none"
       type="tel"
@@ -133,9 +137,12 @@
       </div>
     </div>
   </div>
+</div>
 
-  <div class="mb-3">
-    <label for="registerDOB" class="form-label">Date of Birth</label>
+<div class="row mb-4">
+
+  <div class="col-md-4">
+    <label for="registerDOB" class="form-label fw-semibold">Date of Birth</label>
     <input
       style="background-color: #f1f3f6; border: none"
       type="date"
@@ -169,8 +176,8 @@
     </div>
   </div>
 
-  <div class="mb-3">
-    <label for="gender" class="form-label">Gender</label>
+  <div class="col-md-4">
+    <label for="gender" class="form-label fw-semibold">Gender</label>
     <select
       style="background-color: #f1f3f6; border: none"
       class="form-control rounded-3"
@@ -193,8 +200,8 @@
     </div>
   </div>
 
-  <div class="mb-3">
-    <label for="bloodGroup" class="form-label">Blood Group</label>
+  <div class="col-md-4">
+    <label for="bloodGroup" class="form-label fw-semibold">Blood Group</label>
     <select
       style="background-color: #f1f3f6; border: none"
       class="form-control rounded-3"
@@ -221,6 +228,7 @@
       Blood group is required.
     </div>
   </div>
+</div>
 
   <div>
     <input
@@ -243,7 +251,7 @@
   </div>
 
   <div class="mb-3">
-    <label for="registerAddress" class="form-label">Address</label>
+    <label for="registerAddress" class="form-label fw-semibold">Address</label>
     <textarea
     style="background-color: #F1F3F6; border: none;"
       type=""
@@ -282,8 +290,9 @@
     </div>
   </div>
 
-  <div class="mb-3">
-    <label for="registerPincode" class="form-label">Pincode</label>
+  <div class="row mb-4">
+  <div class="col-md-6">
+    <label for="registerPincode" class="form-label fw-semibold">Pincode</label>
     <input
       style="background-color: #f1f3f6; border: none"
       type="text"
@@ -313,8 +322,8 @@
     </div>
   </div>
 
-  <div class="mb-3">
-    <label for="country" class="form-label">Country</label>
+  <div class="col-md-6">
+    <label for="country" class="form-label fw-semibold">Country</label>
     <select
       style="background-color: #f1f3f6; border: none"
       (change)="onChange(patientRegisterForm.value.countryId)"
@@ -339,9 +348,11 @@
       Country is required.
     </div>
   </div>
+</div>
 
-  <div class="mb-3">
-    <label for="state" class="form-label">State</label>
+<div class="row mb-4">
+  <div class="col-md-6">
+    <label for="state" class="form-label fw-semibold">State</label>
     <select
       style="background-color: #f1f3f6; border: none"
       formControlName="stateId"
@@ -366,8 +377,8 @@
     </div>
   </div>
 
-  <div class="mb-3">
-    <label for="registerCity" class="form-label">City</label>
+  <div class="col-md-6">
+    <label for="registerCity" class="form-label fw-semibold">City</label>
     <input
       style="background-color: #f1f3f6; border: none"
       maxlength="30"
@@ -392,9 +403,10 @@
       </div>
     </div>
   </div>
+</div>
 
   <div class="mb-3">
-    <label class="form-label" for="file">Upload File:</label>
+    <label class="form-label fw-semibold" for="file">Upload File:</label>
     <input
       style="background-color: #f1f3f6; border: none"
       class="form-control"

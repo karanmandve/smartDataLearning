@@ -1,7 +1,7 @@
 <form [formGroup]="providerRegisterForm" (ngSubmit)="onRegisterSubmit()">
   <div class="row mb-4">
   <div class="col-md-6">
-    <label for="registerFirstName" class="form-label">First Name</label>
+    <label for="registerFirstName" class="form-label fw-semibold">First Name</label>
     <input style="background-color: #F1F3F6; border: none;"
       type="text"
       minlength="2"
@@ -35,7 +35,7 @@
   </div>
 
   <div class="col-md-6">
-    <label for="registerLastName" class="form-label">Last Name</label>
+    <label for="registerLastName" class="form-label fw-semibold">Last Name</label>
     <input style="background-color: #F1F3F6; border: none;"
       type="text"
       minlength="2"
@@ -71,7 +71,7 @@
 
 <div class="row mb-4">
   <div class="col-md-6">
-    <label for="registerEmail" class="form-label">Email</label>
+    <label for="registerEmail" class="form-label fw-semibold">Email</label>
     <input style="background-color: #F1F3F6; border: none;"
       type="text"
       maxlength="50"
@@ -104,7 +104,7 @@
   </div>
 
   <div class="col-md-6">
-    <label for="registerMobile" class="form-label">Mobile Number</label>
+    <label for="registerMobile" class="form-label fw-semibold">Mobile Number</label>
     <input style="background-color: #F1F3F6; border: none;"
       type="tel"
       class="form-control"
@@ -137,7 +137,7 @@
 
 <div class="row mb-4">
   <div class="col-md-4">
-    <label for="registerDOB" class="form-label">Date of Birth</label>
+    <label for="registerDOB" class="form-label fw-semibold">Date of Birth</label>
     <input style="background-color: #F1F3F6; border: none;"
       type="date"
       [max]="todayDate"
@@ -175,7 +175,7 @@
   </div>
 
   <div class="col-md-4">
-    <label for="gender" class="form-label">Gender</label>
+    <label for="gender" class="form-label fw-semibold">Gender</label>
     <select style="background-color: #F1F3F6; border: none;" class="form-control rounded-3" id="gender" formControlName="gender">
       <option value="" selected disabled>Select a gender</option>
       <option value="Male">Male</option>
@@ -194,7 +194,7 @@
   </div>
 
   <div class="col-md-4">
-    <label for="bloodGroup" class="form-label">Blood Group</label>
+    <label for="bloodGroup" class="form-label fw-semibold">Blood Group</label>
     <select style="background-color: #F1F3F6; border: none;"
       class="form-control rounded-3"
       id="bloodGroup"
@@ -240,7 +240,7 @@
 
  
   <div class="mb-3">
-    <label for="registerAddress" class="form-label">Address</label>
+    <label for="registerAddress" class="form-label fw-semibold">Address</label>
     <textarea
       style="background-color: #F1F3F6; border: none;"
       type=""
@@ -282,7 +282,7 @@
 
   <div class="row mb-4">
   <div class="col-md-6">
-    <label for="registerPincode" class="form-label">Pincode</label>
+    <label for="registerPincode" class="form-label fw-semibold">Pincode</label>
     <input style="background-color: #F1F3F6; border: none;"
       type="text"
       minlength="6"
@@ -312,7 +312,7 @@
   </div>
 
   <div class="col-md-6">
-    <label for="country" class="form-label">Country</label>
+    <label for="country" class="form-label fw-semibold">Country</label>
     <select style="background-color: #F1F3F6; border: none;"
       (change)="onChange(providerRegisterForm.value.countryId)"
       formControlName="countryId"
@@ -340,7 +340,7 @@
 
 <div class="row mb-4">
   <div class="col-md-6">
-    <label for="state" class="form-label">State</label>
+    <label for="state" class="form-label fw-semibold">State</label>
     <select style="background-color: #F1F3F6; border: none;"
       formControlName="stateId"
       name="state"
@@ -365,7 +365,7 @@
   </div>
 
   <div class="col-md-6">
-    <label for="registerCity" class="form-label">City</label>
+    <label for="registerCity" class="form-label fw-semibold">City</label>
     <input style="background-color: #F1F3F6; border: none;"
       maxlength="30"
       type="text"
@@ -397,7 +397,7 @@
 
   <div class="row mb-4">
   <div class="col-md-6">
-    <label for="qualification" class="form-label">Qualification</label>
+    <label for="qualification" class="form-label fw-semibold">Qualification</label>
     <input style="background-color: #F1F3F6; border: none;"
       maxlength="20"
       type="text"
@@ -421,7 +421,7 @@
 
   <!-- Specialisation Dropdown -->
   <div class="col-md-6">
-    <label for="specialisation" class="form-label">Specialisation</label>
+    <label for="specialisation" class="form-label fw-semibold">Specialisation</label>
     <select style="background-color: #F1F3F6; border: none;"
       formControlName="specialisationId"
       class="form-control"
@@ -453,7 +453,7 @@
 
   <div class="row mb-4">
   <div class="col-md-6">
-    <label for="registrationNumber" class="form-label"
+    <label for="registrationNumber" class="form-label fw-semibold"
       >Registration Number</label
     >
     <input style="background-color: #F1F3F6; border: none;"
@@ -479,7 +479,7 @@
 
   <!-- Visiting Charge Field -->
   <div class="col-md-6">
-    <label for="visitingCharge" class="form-label">Visiting Charge</label>
+    <label for="visitingCharge" class="form-label fw-semibold">Visiting Charge</label>
     <input style="background-color: #F1F3F6; border: none;"
       type="text"
       maxlength="5"
@@ -503,7 +503,7 @@
 </div>
 
   <div class="mb-3">
-    <label class="form-label" for="file">Upload File:</label>
+    <label class="form-label fw-semibold" for="file">Upload File:</label>
     <input style="background-color: #F1F3F6; border: none;"
       class="form-control"
       id="file"

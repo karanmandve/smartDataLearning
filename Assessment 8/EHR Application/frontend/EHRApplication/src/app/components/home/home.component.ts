@@ -1,5 +1,5 @@
 import { Component, inject, OnInit } from '@angular/core';
-import { TitleCasePipe } from '@angular/common';
+import { CommonModule, TitleCasePipe } from '@angular/common';
 import { UserServiceService } from '../../services/user/user-service.service';
 import { ProviderDashboardComponent } from "../dashboard/provider-dashboard/provider-dashboard.component";
 import { PatientDashboardComponent } from "../dashboard/patient-dashboard/patient-dashboard.component";
@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [TitleCasePipe, ProviderDashboardComponent, PatientDashboardComponent],
+  imports: [ProviderDashboardComponent, PatientDashboardComponent, CommonModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

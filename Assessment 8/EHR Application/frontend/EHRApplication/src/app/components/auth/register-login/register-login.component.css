@@ -30,3 +30,7 @@
     width: 9.5rem;
   }
   
+  .card {
+    background-color: #f8f9fa;
+    border: 1px solid #eaeaea;
+  }

@@ -1,17 +1,26 @@
 <!-- Appointments Cards -->
 <div class="container mt-5 mb-5">
-    <h3 class="text-center mb-4 fw-bold">Appointments</h3>
-    <div *ngIf="allAppointments.length > 0; else noAppointments">
+  <h3 class="text-center mb-4 fw-bold">Appointments</h3>
+  
+  
+  <div *ngIf="allAppointments.length > 0; else noAppointments">
       <div class="row g-4">
         <div
           class="col-md-6 col-lg-4"
-          *ngFor="let appointment of allAppointments; let i = index"
+          *ngFor="let appointment of filterAppointments; let i = index"
         >
           <div class="card shadow-sm h-100 border-0">
+              <span
+              class="schedule-label position-absolute"
+              >
+              Scheduled
+             </span>
+
+ 
             <div class="card-body">
               <!-- Provider Name -->
               <h5 class="card-title fw-bold mb-3">
-                {{ appointment.patientName | titlecase }}
+                {{ appointment.patientName | titlecase }} (PT)
               </h5>
 
               <p class="card-text mb-1">
@@ -29,10 +38,16 @@
             </div>
             <div class="card-footer bg-white border-0 d-flex justify-content-end">
 
+              <button
+              class="btn btn-sm btn-primary fw-semibold me-2"
+              [routerLink]="['/complete-appointment', appointment.id]"
+            >
+              Go To Appointment
+            </button>
               <!-- Cancel Button -->
               <button
                 class="btn btn-sm btn-danger fw-semibold"
-                (click)="onCancelAppointment(appointment)"
+                (click)="confirmDeletion(appointment)"
               >
                 Cancel
               </button>

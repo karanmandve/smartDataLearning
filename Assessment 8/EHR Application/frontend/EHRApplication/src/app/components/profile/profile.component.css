@@ -68,3 +68,8 @@
     font-size: 1rem;
   }
 }
+
+.card {
+  background-color: white;
+  border: 1px solid #eaeaea;
+}

@@ -32,6 +32,18 @@ export class AppointmentService {
     return this.http.get(`https://localhost:7228/api/Appointment/get-appointment-by-provider/${providerId}`)
   }
 
+  updateAppointment(data:any){
+    return this.http.put("https://localhost:7228/api/Appointment/update-appointment", data)
+  }
+
+  cancelAppointment(appointmentId: any){
+    return this.http.delete(`https://localhost:7228/api/Appointment/cancel-appointment/${appointmentId}`)
+  }
+  
+  addSoapNotes(data: any){
+    return this.http.post("https://localhost:7228/api/SoapNote/add-soapnote", data)
+  }
+
 
 
 }

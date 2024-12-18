@@ -1,10 +1,10 @@
 
 
 @if (userDetails !== null && userDetails.userTypeId == 1) {
-    <h1 style="text-align: center;" class="mt-4">Provider Dashboard</h1>
+    <!-- <h1 style="text-align: center;" class="mt-4">Provider Dashboard</h1> -->
     <app-provider-dashboard></app-provider-dashboard>
 }@else if (userDetails !== null) {
-    <h1 style="text-align: center;" class="mt-4">Welcome, {{ userDetails.firstName | titlecase }} {{ userDetails.lastName | titlecase }}</h1>
+    <!-- <h1 style="text-align: center;" class="mt-4">Welcome, {{ userDetails.firstName | titlecase }} {{ userDetails.lastName | titlecase }}</h1> -->
     <app-patient-dashboard></app-patient-dashboard>
 }
 
