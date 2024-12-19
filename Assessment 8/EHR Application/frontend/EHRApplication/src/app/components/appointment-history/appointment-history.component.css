@@ -21,6 +21,18 @@
     border-radius: 0.25rem;
     z-index: 10;
   }
+
+  .schedule-label-complete {
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #c8e6c9; /* Light green background */
+    color: #2e7d32; /* Darker green text for better contrast */
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    z-index: 10;
+}
   
 
   /* Styling for the dropdown */

@@ -6,7 +6,7 @@ export const authGuardGuard: CanActivateFn = (route: ActivatedRouteSnapshot, sta
   
   const isSessionActive = localStorage.getItem("session") === "true";
   const protectedRoutes = ["/home", "/profile", "/cart", "/orders", "/appointment"
-    , "/appointment-history"];
+    , "/appointment-history", "/patient-profile" ,"/provider-profile"];
   
   if ((protectedRoutes.includes(state.url) || state.url.startsWith("/complete-appointment/") ) && isSessionActive) {
     return true;

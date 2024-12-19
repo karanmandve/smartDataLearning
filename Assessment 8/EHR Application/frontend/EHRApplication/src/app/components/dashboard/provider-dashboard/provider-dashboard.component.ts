@@ -42,6 +42,7 @@ export class ProviderDashboardComponent {
       next: (res: any) => {
         this.allAppointments = res.data
         this.filterAppointments = this.allAppointments.filter((appointment: any) => appointment.appointmentStatus === "Scheduled");
+        // check for empty array
       },
       error: (error: any) => {
         console.log(error);

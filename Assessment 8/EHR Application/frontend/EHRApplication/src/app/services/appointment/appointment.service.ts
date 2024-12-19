@@ -44,6 +44,10 @@ export class AppointmentService {
     return this.http.post("https://localhost:7228/api/SoapNote/add-soapnote", data)
   }
 
+  getSoapNote(appointmentId: any){
+    return this.http.get(`https://localhost:7228/api/SoapNote/get-soap-note-by-appointmentId/${appointmentId}`)
+  }
+
 
 
 }

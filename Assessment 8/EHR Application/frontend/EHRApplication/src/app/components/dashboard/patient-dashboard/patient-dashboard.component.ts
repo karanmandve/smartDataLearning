@@ -19,6 +19,12 @@ export class PatientDashboardComponent {
   allAppointments: any[] = [];
   filterAppointments: any[] = [];
   userDetails: any;
+  sixMonthsLater = new Date();
+  maxDate: any;
+  todayDate = new Date().toISOString().split('T')[0];
+  minTime: any;
+  isTimeValid = true; 
+  isTimeInRange = true; 
 
 
   appointmentService = inject(AppointmentService);
@@ -33,6 +39,9 @@ export class PatientDashboardComponent {
         this.getAllAppointments();
       }
     });
+
+    this.sixMonthsLater.setMonth(this.sixMonthsLater.getMonth() + 6);
+    this.maxDate = this.sixMonthsLater.toISOString().split('T')[0];
   }
 
   appointmentForm = new FormGroup({
@@ -122,7 +131,79 @@ export class PatientDashboardComponent {
     })
   }
 
+  onChangeTime(event: Event): void {
+    const selectedTime = (event.target as HTMLInputElement).value;
+    const currentTime = new Date();
+    
+    // Get the time 1 hour later
+    const minAllowedTime = new Date(currentTime.getTime() + 60 * 60 * 1000); // 1 hour from now
+    const formattedMinTime = this.formatTime(minAllowedTime);
+    
+    // Max time allowed is 20:00
+    const maxTime = '20:00';
+    // Min time allowed is 08:00
+    const minTime = '08:00';
+  
+    // Validate if the selected time is within the valid range
+    if (selectedTime < minTime || selectedTime > maxTime) {
+      this.isTimeInRange = false;
+    } else {
+      this.isTimeInRange = true;
+    }
+  
+    // Check if selected time is at least 1 hour after the current time
+    if (selectedTime < formattedMinTime) {
+      this.isTimeValid = false;
+      console.log("Time must be at least 1 hour later than the current time.");
+    } else {
+      this.isTimeValid = true;
+      console.log("Time is valid.");
+    }
+  }
+  formatTime(date: Date): string {
+    const hours = date.getHours().toString().padStart(2, '0');
+    const minutes = date.getMinutes().toString().padStart(2, '0');
+    return `${hours}:${minutes}`;
+  }
 
+  // Function to handle the input change and validate date
+  onChangeDate(): void {
+    const time = this.appointmentForm.get('time')?.value;
+    if (time) {
+      const date = this.appointmentForm.get('date')?.value;
+      // Ensure date is parsed correctly
+      const selectedDate = date ? new Date(date) : new Date();
+      const today = new Date();
+  
+      // Normalize both the selected date and today's date
+      selectedDate.setHours(0, 0, 0, 0);
+      today.setHours(0, 0, 0, 0);
+  
+      if (selectedDate.getTime() === today.getTime()) {
+        const selectedTime = time;
+  
+        // Get current time and add one hour
+        const now = new Date();
+        now.setHours(now.getHours() + 1);
+        const nextHour = now.getHours().toString().padStart(2, '0');
+        const nextMinutes = now.getMinutes().toString().padStart(2, '0');
+        const nextTime = `${nextHour}:${nextMinutes}`;
+  
+        // Convert selected time and next time to Date objects for comparison
+        const selectedDateTime = new Date(`${today.toDateString()} ${selectedTime}`);
+        const nextDateTime = new Date(`${today.toDateString()} ${nextTime}`);
+  
+        // Validate the selected time (should be at least 1 hour after current time)
+        if (selectedDateTime < nextDateTime) {
+          this.isTimeValid = false;
+          console.log("Selected time is less than the next hour time");
+        } else {
+          this.isTimeValid = true;
+          console.log("Selected time is valid");
+        }
+      }
+    }
+  }
 
 
 }

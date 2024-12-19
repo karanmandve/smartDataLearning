@@ -1,8 +1,8 @@
 <div class="container mt-5 shadow-sm p-4 rounded appointment-container" style="background-color: #ffffff; max-width: 700px;">
     <h2 class="text-center mb-4 fw-bold app-heading">Book Appointment</h2>
   
-    <!-- Form -->
-    <form [formGroup]="appointmentForm" (ngSubmit)="onPay()">
+    @if (userDetails.userTypeId == 2) {
+    <form [formGroup]="patientAppointmentForm" (ngSubmit)="onPay()">
       <div class="row mb-4">
         <!-- Speciality Dropdown -->
         <div class="col-md-6">
@@ -12,7 +12,7 @@
             class="form-select"
             style="background-color: #F1F3F6; border: none;"
             formControlName="specialisation"
-            (change)="onChange(appointmentForm.get('specialisation')?.value)"
+            (change)="onChange(patientAppointmentForm.get('specialisation')?.value)"
           >
             <option value="" disabled>Select Speciality</option>
             <option *ngFor="let specialisation of allSpecialisations" [value]="specialisation.id">
@@ -20,7 +20,7 @@
             </option>
           </select>
           <div
-            *ngIf="appointmentForm.get('specialisation')?.touched && appointmentForm.get('specialisation')?.invalid"
+            *ngIf="patientAppointmentForm.get('specialisation')?.touched && patientAppointmentForm.get('specialisation')?.invalid"
             class="text-danger mt-1"
           >
             Specialisation is required.
@@ -35,7 +35,7 @@
             class="form-select"
             style="background-color: #F1F3F6; border: none;"
             formControlName="provider"
-            (change)="onChangeProvider(appointmentForm.get('provider')?.value)"
+            (change)="onChangeProvider(patientAppointmentForm.get('provider')?.value)"
           >
             <option value="" disabled>Select Provider</option>
             <option *ngFor="let provider of allProviders" [value]="provider.id">
@@ -43,7 +43,7 @@
             </option>
           </select>
           <div
-            *ngIf="appointmentForm.get('provider')?.touched && appointmentForm.get('provider')?.invalid"
+            *ngIf="patientAppointmentForm.get('provider')?.touched && patientAppointmentForm.get('provider')?.invalid"
             class="text-danger mt-1"
           >
             Provider is required.
@@ -52,41 +52,57 @@
       </div>
   
       <div class="row mb-4">
-        <!-- Date Picker -->
         <div class="col-md-6">
           <label for="date" class="form-label fw-semibold">Date</label>
           <input
             type="date"
             id="date"
+            [min]="todayDate"
+            [max]="maxDate"
             class="form-control"
             style="background-color: #F1F3F6; border: none;"
             formControlName="date"
+            (input)="onChangeDate()"
           />
           <div
-            *ngIf="appointmentForm.get('date')?.touched && appointmentForm.get('date')?.invalid"
+            *ngIf="patientAppointmentForm.get('date')?.touched && patientAppointmentForm.get('date')?.invalid"
             class="text-danger mt-1"
           >
             Please select a valid date.
           </div>
         </div>
-  
+        
         <!-- Time Picker -->
         <div class="col-md-6">
           <label for="time" class="form-label fw-semibold">Time</label>
           <input
             type="time"
             id="time"
+            [min]="minTime" 
+            [max]="'20:00'"
             class="form-control"
             style="background-color: #F1F3F6; border: none;"
             formControlName="time"
+            (input)="onChangeTime($event)"
           />
           <div
-            *ngIf="appointmentForm.get('time')?.touched && appointmentForm.get('time')?.invalid"
-            class="text-danger mt-1"
+            style="font-size: 13px"
+            *ngIf="patientAppointmentForm.controls['time'].touched || patientAppointmentForm.controls['time'].dirty"
           >
-            Please select a valid time.
+            <div *ngIf="patientAppointmentForm.controls['time'].hasError('required')">
+              <div class="text-danger">*Time is required</div>
+            </div>
+            <div *ngIf="!isTimeValid && patientAppointmentForm.controls['time'].touched">
+              <div class="text-danger">*Time must be at least 1 hour later than the current time</div>
+            </div>
+            <div *ngIf="!isTimeInRange && patientAppointmentForm.controls['time'].touched">
+              <div class="text-danger">*Time must be between 08:00 and 20:00</div>
+            </div>
           </div>
         </div>
+
+
+
       </div>
   
       <!-- Chief Complaint -->
@@ -95,16 +111,18 @@
         <textarea
           id="chiefComplaint"
           class="form-control"
+          minlength="10"
+          maxlength="200"
           rows="3"
           style="background-color: #F1F3F6; border: none;"
           formControlName="chiefComplaint"
           placeholder="Enter your complaint"
         ></textarea>
         <div
-          *ngIf="appointmentForm.get('chiefComplaint')?.touched && appointmentForm.get('chiefComplaint')?.invalid"
+          *ngIf="patientAppointmentForm.get('chiefComplaint')?.touched && patientAppointmentForm.get('chiefComplaint')?.invalid"
           class="text-danger mt-1"
         >
-          Chief complaint is required and should be at least 5 characters.
+          Chief complaint is required and should be at least 10 characters.
         </div>
       </div>
   
@@ -119,14 +137,195 @@
         <button
           type="submit"
           class="btn btn-primary btn-lg w-50 fw-bold"
-          [disabled]="appointmentForm.invalid"
+          [disabled]="patientAppointmentForm.invalid"
         >
           Pay
         </button>
       </div>
     </form>
+  }@else {
+    <form [formGroup]="providerAppointmentForm" (ngSubmit)="bookAppointmentByProvider()">
+      <div class="row mb-4">
+
+        <div class="col-md-4">
+          <label for="patient" class="form-label fw-semibold">Patient</label>
+          <select
+            id="patient"
+            class="form-select"
+            style="background-color: #F1F3F6; border: none;"
+            formControlName="patient"
+            (click)="getAllPatient()"
+          >
+            <option value="" disabled>Select Patient</option>
+            <option *ngFor="let patient of allPatient" [value]="patient.id">
+              {{ patient.firstName }} {{ patient.lastName }}
+            </option>
+          </select>
+          <div
+            *ngIf="providerAppointmentForm.get('patient')?.touched && providerAppointmentForm.get('patient')?.invalid"
+            class="text-danger mt-1"
+          >
+            Patient is required.
+          </div>
+        </div>
+
+
+        <!-- Speciality Dropdown -->
+        <div class="col-md-4">
+          <label for="specialisation" class="form-label fw-semibold">Speciality</label>
+          <select
+            id="specialisation"
+            class="form-select"
+            style="background-color: #F1F3F6; border: none;"
+            formControlName="specialisation"
+            (change)="onChange(providerAppointmentForm.get('specialisation')?.value)"
+          >
+            <option value="" disabled>Select Speciality</option>
+            <option *ngFor="let specialisation of allSpecialisations" [value]="specialisation.id">
+              {{ specialisation.specialisationName }}
+            </option>
+          </select>
+          <div
+            *ngIf="providerAppointmentForm.get('specialisation')?.touched && providerAppointmentForm.get('specialisation')?.invalid"
+            class="text-danger mt-1"
+          >
+            Specialisation is required.
+          </div>
+        </div>
+  
+        <!-- Provider Dropdown -->
+        <div class="col-md-4">
+          <label for="provider" class="form-label fw-semibold">Provider</label>
+          <select
+            id="provider"
+            class="form-select"
+            style="background-color: #F1F3F6; border: none;"
+            formControlName="provider"
+            (change)="onChangeProvider(providerAppointmentForm.get('provider')?.value)"
+          >
+            <option value="" disabled>Select Provider</option>
+            <option *ngFor="let provider of allProviders" [value]="provider.id">
+              {{ provider.firstName }} {{ provider.lastName }} ₹{{ provider.visitingCharge}}
+            </option>
+          </select>
+          <div
+            *ngIf="providerAppointmentForm.get('provider')?.touched && providerAppointmentForm.get('provider')?.invalid"
+            class="text-danger mt-1"
+          >
+            Provider is required.
+          </div>
+        </div>
+      </div>
+  
+      <div class="row mb-4">
+        <!-- Date Picker -->
+        <div class="col-md-6">
+          <label for="date" class="form-label fw-semibold">Date</label>
+          <input
+            type="date"
+            id="date"
+            [min]="todayDate"
+            [max]="maxDate"
+            class="form-control"
+            style="background-color: #F1F3F6; border: none;"
+            formControlName="date"
+            (input)="onChangeDateForProvider()"
+          />
+          <div
+            *ngIf="providerAppointmentForm.get('date')?.touched && providerAppointmentForm.get('date')?.invalid"
+            class="text-danger mt-1"
+          >
+            Please select a valid date.
+          </div>
+        </div>
+        
+        <!-- Time Picker -->
+        <div class="col-md-6">
+          <label for="time" class="form-label fw-semibold">Time</label>
+          <input
+            type="time"
+            id="time"
+            [min]="minTime" 
+            [max]="'20:00'"
+            class="form-control"
+            style="background-color: #F1F3F6; border: none;"
+            formControlName="time"
+            (input)="onChangeTimeForProvider($event)"
+          />
+          <div
+            style="font-size: 13px"
+            *ngIf="providerAppointmentForm.controls['time'].touched || providerAppointmentForm.controls['time'].dirty"
+          >
+            <div *ngIf="providerAppointmentForm.controls['time'].hasError('required')">
+              <div class="text-danger">*Time is required</div>
+            </div>
+            <div *ngIf="!isTimeValid && providerAppointmentForm.controls['time'].touched">
+              <div class="text-danger">*Time must be at least 1 hour later than the current time</div>
+            </div>
+            <div *ngIf="!isTimeInRange && providerAppointmentForm.controls['time'].touched">
+              <div class="text-danger">*Time must be between 08:00 and 20:00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Chief Complaint -->
+      <div class="mb-4">
+        <label for="chiefComplaint" class="form-label fw-semibold">Chief Complaint</label>
+        <textarea
+          id="chiefComplaint"
+          class="form-control"
+          minlength="10"
+          maxlength="200"
+          rows="3"
+          style="background-color: #F1F3F6; border: none;"
+          formControlName="chiefComplaint"
+          placeholder="Enter your complaint"
+        ></textarea>
+        <div
+          *ngIf="providerAppointmentForm.get('chiefComplaint')?.touched && providerAppointmentForm.get('chiefComplaint')?.invalid"
+          class="text-danger mt-1"
+        >
+          Chief complaint is required and should be at least 10 characters.
+        </div>
+      </div>
+  
+      <!-- Fees -->
+      <div class="mb-4 d-flex justify-content-end align-items-center">
+        <label for="fees" class="form-label fw-semibold fs-5 mb-0 me-3">Fees : </label>
+        <span id="fees" class="fs-5 fw-bold text-success">{{ fees }}</span>
+      </div>
+  
+      <!-- Submit Button -->
+      <div class="text-center">
+        <button
+          type="submit"
+          class="btn btn-primary btn-lg w-50 fw-bold"
+          [disabled]="providerAppointmentForm.invalid"
+        >
+          Pay
+        </button>
+      </div>
+    </form>
+  }
   </div>
 
+
+
+
+  <div class="modal fade" id="waitingModal" tabindex="-1" aria-labelledby="waitingModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="waitingModalLabel">Please Wait</h5>
+        </div>
+        <div class="modal-body text-center">
+          <h4>Time: <span id="counterValue">{{ counter }} seconds</span></h4>
+          <p>We sending mail of appointment.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   
