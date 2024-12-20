@@ -27,6 +27,7 @@ export class LoginComponent {
   resendOtpTimeout: any;
   otpSent: boolean = false;
   forgetOtpSent: boolean = false;
+  isOtpModalOpen: boolean = false;
 
 
   toaster = inject(SweetAlertToasterService)
@@ -42,7 +43,7 @@ export class LoginComponent {
  loginForm: FormGroup = new FormGroup({
     username: new FormControl('', [Validators.required, Validators.maxLength(20)]),
     password: new FormControl('', [Validators.required, Validators.pattern(this.passwordRgx)]),
-    otp: new FormControl('', [Validators.required, Validators.minLength(6), Validators.maxLength(6)]),
+    
   });
 
   forgetPasswordForm = new FormGroup({
@@ -50,13 +51,29 @@ export class LoginComponent {
     otp: new FormControl('', [Validators.required, Validators.minLength(6), Validators.maxLength(6)])
   })
 
+  otpForm = new FormGroup({
+    otp: new FormControl('', [Validators.required, Validators.minLength(6), Validators.maxLength(6)]),
+  });
+
+  onKeyPress(event: KeyboardEvent) {
+    const charCode = event.which ? event.which : event.keyCode;
+
+    if (charCode < 48 || charCode > 57) {
+      event.preventDefault();
+    }
+  }
 
   onLoginSubmit() {
-    this.loginData = this.loginForm.value;
+    this.loginData = {
+      ...this.loginForm.value,
+      ...this.otpForm.value
+    }
+
     this.userService.loginUser(this.loginData).subscribe({
       next: (res: any) => {
         this.loginForm.reset();
         if (res.statusCode == 200) {
+          this.closeOtpModal();
           localStorage.setItem("token", res.data.token);
           localStorage.setItem("username", this.loginData.username);
 
@@ -87,17 +104,84 @@ export class LoginComponent {
   }
 
   openForgotPasswordModal() {
-    const modal = new bootstrap.Modal(this.forgotPasswordModal.nativeElement);
+    this.loginForm.reset();
+    const modal = new bootstrap.Modal(this.forgotPasswordModal.nativeElement, {
+      backdrop: 'static', // Prevent closing when clicking outside
+      keyboard: false, // Prevent closing with Esc
+    });
     modal.show();
   }
 
   closeForgotPasswordModal() {
+    this.forgetPasswordForm.reset();
     const modalInstance = bootstrap.Modal.getInstance(this.forgotPasswordModal.nativeElement);
     modalInstance.hide();
   }
 
+
+  private otpModal: any;
+
+  // Open the OTP modal
+  openOtpModal(): void {
+    this.isOtpModalOpen = true;
+    this.otpModal = new bootstrap.Modal(document.getElementById('otpModal'), {
+      backdrop: 'static', // Prevent closing when clicking outside
+      keyboard: false, // Prevent closing with Esc
+    });
+    this.otpModal.show();
+  }
+
+  // Close the OTP modal
+  closeOtpModal(): void {
+    this.otpForm.reset();
+    this.isOtpModalOpen = false;
+    if (this.otpModal) {
+      this.otpModal.hide();
+    }
+  }
+
+  sendOtpWithPasswordCheck() {
+    // this.loader.show();
+
+    
+    var data = {
+      username: this.loginForm.get('username')?.value,
+      password: this.loginForm.get('password')?.value
+    }
+
+    this.startResendCountdown();
+    
+    this.userService.sendOtpWithPasswordCheck(data).subscribe({
+      next : (res: any) => {
+        if(res.statusCode == 200){
+          if (!this.isOtpModalOpen){
+            this.openOtpModal();
+          }
+          // this.loader.hide();
+          this.otpSent = true;  // Mark OTP as sent
+          console.log("OTP Sent!");
+          this.toaster.success("Send Otp Successfully")
+        }else{
+          this.toaster.error("Otp Not Send")
+        }
+      },
+      error : (error: any) => {
+        if(error.error.statusCode == 404){
+          this.toaster.error("Invalid Credential, Otp Not Send")
+        }else{
+          this.toaster.error("Some Error Occurred, Otp Not Send")
+          console.log(error);
+          
+          // alert("i am in register error")
+          // alert(JSON.stringify(error))
+        }
+      }
+    })
+  }
+
   sendOtp() {
     // this.loader.show();
+    
     const username = this.loginForm.get('username')?.value;
     // alert("Otp send take time 6 second. Don't click again")
     this.startResendCountdown();
@@ -114,7 +198,7 @@ export class LoginComponent {
         }
       },
       error : (error: any) => {
-        if(error.error.statusCode == 401){
+        if(error.error.statusCode == 404){
           this.toaster.error("Invalid Credential, Otp Not Send")
         }else{
           this.toaster.error("Some Error Occurred, Otp Not Send")
@@ -148,7 +232,7 @@ sendForgetOtp() {
       }
     },
     error : (error: any) => {
-      if(error.error.statusCode == 401){
+      if(error.error.statusCode == 404){
         this.toaster.error("Invalid Credential, Otp Not Send")
       }else{
         this.toaster.error("Some Error Occurs, Otp Not Send")

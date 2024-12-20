@@ -71,6 +71,14 @@
           </div>
           @if (appointment.appointmentStatus === "Scheduled"){
           <div class="card-footer bg-white border-0 d-flex justify-content-end">
+            <button
+            class="btn btn-sm btn-primary fw-semibold me-2"
+            [routerLink]="['/patient-chat', appointment.providerId]"
+          >
+            Chat
+          </button>
+
+            
             <!-- Edit Button -->
             <button
               class="btn btn-sm btn-warning me-2 fw-semibold"

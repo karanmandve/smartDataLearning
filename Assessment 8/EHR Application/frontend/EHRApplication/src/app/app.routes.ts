@@ -10,12 +10,15 @@ import { AppointmentComponent } from './components/appointment/appointment.compo
 import { AppointmentHistoryComponent } from './components/appointment-history/appointment-history.component';
 import { CompleteAppointmentComponent } from './components/complete-appointment/complete-appointment.component';
 import { ProviderProfileComponent } from './components/profile/provider-profile/provider-profile.component';
+import { ChatComponent } from './components/chat/chat.component';
 
 export const routes: Routes = [
     {path:"", redirectTo:"login-register", pathMatch:"full"},
     {path:"login-register", component:RegisterLoginComponent},
     {path: "", component: LayoutComponent, children : [
         {path: "patient-profile", component: ProfileComponent, canActivate : [authGuardGuard]},
+        {path: "patient-chat/:providerId", component: ChatComponent, canActivate : [authGuardGuard]},
+        {path: "provider-chat/:patientId", component: ChatComponent, canActivate : [authGuardGuard]},
         {path: "provider-profile", component: ProviderProfileComponent, canActivate : [authGuardGuard]},
         {path: "home", component: HomeComponent, canActivate : [authGuardGuard]},
         {path: "appointment", component: AppointmentComponent, canActivate : [authGuardGuard]},

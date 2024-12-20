@@ -8,7 +8,7 @@ export const authGuardGuard: CanActivateFn = (route: ActivatedRouteSnapshot, sta
   const protectedRoutes = ["/home", "/profile", "/cart", "/orders", "/appointment"
     , "/appointment-history", "/patient-profile" ,"/provider-profile"];
   
-  if ((protectedRoutes.includes(state.url) || state.url.startsWith("/complete-appointment/") ) && isSessionActive) {
+  if ((protectedRoutes.includes(state.url) || state.url.startsWith("/complete-appointment/") || state.url.startsWith("/provider-chat/") || state.url.startsWith("/patient-chat/") ) && isSessionActive) {
     return true;
   } else {
     router.navigate(["/"]);

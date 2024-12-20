@@ -51,7 +51,12 @@
               </p>
             </div>
             <div class="card-footer bg-white border-0 d-flex justify-content-end">
-
+              <button
+              class="btn btn-sm btn-primary fw-semibold me-2"
+              [routerLink]="['/provider-chat', appointment.patientId]"
+            >
+              Chat
+            </button>
               <button
               class="btn btn-sm btn-primary fw-semibold me-2"
               [routerLink]="['/complete-appointment', appointment.id]"

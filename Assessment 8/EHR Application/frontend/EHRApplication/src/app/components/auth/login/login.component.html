@@ -1,4 +1,4 @@
-<form [formGroup]="loginForm" (ngSubmit)="onLoginSubmit()">
+<form [formGroup]="loginForm" (ngSubmit)="sendOtpWithPasswordCheck()">
   <div class="mb-3">
     <label for="loginUsername" class="form-label fw-semibold fw-semibold fw-semibold">Username</label>
     <input style="background-color: #F1F3F6; border: none;"
@@ -57,72 +57,6 @@
     </div>
   </div>
 
-  <div class="d-flex justify-content-between">
-    <div class="mb-3 col-8">
-      <label for="otp" class="form-label fw-semibold fw-semibold fw-semibold">Otp</label>
-      <input style="background-color: #F1F3F6; border: none;"
-        type="text"
-        minlength="6"
-        maxlength="6"
-        class="form-control"
-        formControlName="otp"
-        id="otp"
-        placeholder="Otp"
-      />
-      <div
-        *ngIf="loginForm.get('otp')?.invalid && loginForm.get('otp')?.touched"
-        class="text-danger"
-      >
-        <span *ngIf="loginForm.controls['otp'].errors?.['otp']"
-          >otp is required</span
-        >
-        <span *ngIf="loginForm.controls['otp'].errors?.['minlength']">
-          OTP must be 6 characters long.
-        </span>
-        <span *ngIf="loginForm.controls['otp'].errors?.['maxlength']">
-          OTP must be 6 characters long.
-        </span>
-      </div>
-    </div>
-
-    <div class="resend-otp">
-      <button
-        *ngIf="!otpSent"
-        type="button"
-        class="btn btn-secondary w-100 mb-2"
-        (click)="sendOtp()"
-        [disabled]="
-          otpSent ||
-          !loginForm.get('username')?.valid ||
-          !loginForm.get('password')?.valid
-        "
-      >
-        Send OTP
-      </button>
-
-      <div *ngIf="otpSent" class="resend-otp-btn">
-        <button
-          *ngIf="isResendDisabled && countdown > 0"
-          type="button"
-          class="btn btn-secondary w-100 mb-2"
-          (click)="sendOtp()"
-          [disabled]="isResendDisabled"
-        >
-          Resend OTP ({{ countdown }}s)
-        </button>
-
-        <button
-          *ngIf="!isResendDisabled"
-          type="button"
-          class="btn btn-secondary w-100 mb-2"
-          (click)="sendOtp()"
-          [disabled]="isResendDisabled"
-        >
-          Resend OTP
-        </button>
-      </div>
-    </div>
-  </div>
 
   <div class="text-start mb-3">
     <a
@@ -144,6 +78,119 @@
   </button>
 </form>
 
+
+<!-- Otp Modal -->
+
+<div
+  class="modal fade"
+  id="otpModal"
+  tabindex="-1"
+  aria-labelledby="otpModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <form [formGroup]="otpForm" (ngSubmit)="onLoginSubmit()">
+        <div class="modal-header">
+          <h5 class="modal-title fw-semibold" id="otpModalLabel">Enter OTP</h5>
+          <button
+            type="button"
+            class="btn-close"
+            (click)="closeOtpModal()"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="otp" class="form-label fw-semibold">Otp</label>
+            <input
+              style="background-color: #f1f3f6; border: none;"
+              type="text"
+              minlength="6"
+              maxlength="6"
+              class="form-control"
+              formControlName="otp"
+              id="otp"
+              placeholder="Otp"
+              (keypress)="onKeyPress($event)"
+            />
+            <div
+              *ngIf="loginForm.get('otp')?.invalid && loginForm.get('otp')?.touched"
+              class="text-danger"
+            >
+              <span *ngIf="loginForm.controls['otp'].errors?.['required']">
+                OTP is required
+              </span>
+              <span *ngIf="loginForm.controls['otp'].errors?.['minlength']">
+                OTP must be 6 characters long.
+              </span>
+              <span *ngIf="loginForm.controls['otp'].errors?.['maxlength']">
+                OTP must be 6 characters long.
+              </span>
+            </div>
+          </div>
+          <div class="resend-otp">
+            <button
+              *ngIf="!otpSent"
+              type="button"
+              class="btn btn-secondary w-100 mb-2"
+              (click)="sendOtpWithPasswordCheck()"
+              [disabled]="
+                otpSent ||
+                !loginForm.get('username')?.valid ||
+                !loginForm.get('password')?.valid
+              "
+            >
+              Send OTP
+            </button>
+
+            <div *ngIf="otpSent" class="resend-otp-btn">
+              <button
+                *ngIf="isResendDisabled && countdown > 0"
+                type="button"
+                class="btn btn-secondary w-100 mb-2"
+                (click)="sendOtpWithPasswordCheck()"
+                [disabled]="isResendDisabled"
+              >
+                Resend OTP ({{ countdown }}s)
+              </button>
+
+              <button
+                *ngIf="!isResendDisabled"
+                type="button"
+                class="btn btn-secondary w-100 mb-2"
+                (click)="sendOtpWithPasswordCheck()"
+                [disabled]="isResendDisabled"
+              >
+                Resend OTP
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            (click)="closeOtpModal()"
+          >
+            Close
+          </button>
+          <button
+            type="submit"
+            class="btn btn-primary"
+            [disabled]="loginForm.invalid"
+          >
+            Verify OTP
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
 <!-- Forgot Password Modal -->
 <div
   class="modal"
@@ -164,6 +211,7 @@
           class="btn-close"
           data-bs-dismiss="modal"
           aria-label="Close"
+          (click)="closeForgotPasswordModal()"
         ></button>
       </div>
       <div class="modal-body">
@@ -217,6 +265,7 @@
                 formControlName="otp"
                 id="otp"
                 placeholder="Otp"
+                (keypress)="onKeyPress($event)"
               />
               <div
                 *ngIf="
@@ -280,7 +329,7 @@
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" (click)="closeForgotPasswordModal()">
           Close
         </button>
         <button

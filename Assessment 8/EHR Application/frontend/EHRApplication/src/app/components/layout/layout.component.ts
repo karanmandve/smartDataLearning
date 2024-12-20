@@ -4,6 +4,7 @@ import { ToastrService } from 'ngx-toastr';
 import { CartService } from '../../services/cart/cart.service';
 import { CommonModule } from '@angular/common';
 import { UserServiceService } from '../../services/user/user-service.service';
+import { SweetAlertToasterService } from '../../services/toaster/sweet-alert-toaster.service';
 
 @Component({
   selector: 'app-layout',
@@ -18,7 +19,7 @@ export class LayoutComponent {
   userDetails: any;
   username = localStorage.getItem('username');
 
-  toaster: any = inject(ToastrService);
+  toaster: any = inject(SweetAlertToasterService);
   router: any = inject(Router);
   cartService: any = inject(CartService);
   userService = inject(UserServiceService);

@@ -50,6 +50,10 @@ export class UserServiceService {
     return this.http.get(`https://localhost:7228/api/User/sendotp/${username}`)
   }
 
+  sendOtpWithPasswordCheck(userData: any){
+    return this.http.post(`https://localhost:7228/api/User/sendotp-with-password-check`, userData)
+  }
+
   forgotPassword(username: any, otp: any){
     return this.http.get(`https://localhost:7228/api/User/forgot-password/${username}/${otp}`)
   }
