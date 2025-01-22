@@ -32,7 +32,7 @@ export class PracticalComponent {
     this.store.dispatch(addStudentToExam({ studentp: student }));
   }
 
-  removeFromExam() {
-    this.store.dispatch(removeStudentFromExam());
+  removeFromExam(student: Student) {
+    this.store.dispatch(removeStudentFromExam( { studentp : student} ));
   }
 }

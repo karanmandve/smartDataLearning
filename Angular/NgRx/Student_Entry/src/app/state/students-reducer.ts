@@ -1,3 +1,6 @@
+import { StudentsRecords } from "./students-records";
 
 
-export const initState = {}
+export const initState: ReadonlyArray<StudentsRecords> = [{
+    
+}]
