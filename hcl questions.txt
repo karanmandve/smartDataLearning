@@ -1,0 +1,104 @@
+Where to use Task Async and Await and problems like anagram , removing the duplicates from strings , using of some data structures like Dictionary
+
+OOP Concepts in C#
+
+Difference between interface and abstraction
+Difference between abstract class and abstract method
+How can you achieve abstraction?
+What is polymorphism? Types of polymorphism
+Method overloading and overriding with well-explained examples
+Constructors and their types
+Call by value vs. call by reference – where should we use them?
+Virtual function
+Exception handling
+Types of inheritance
+Difference between struct and class
+Managed and unmanaged code in C#
+Difference between const and readonly with example
+Difference between internal and private
+What is a delegate?
+Difference between List and Collection
+Dependency Injection with example
+Why do we use a partial class?
+Why do we use a static class?
+What are Func and Action? Why do we use them?
+Anonymous methods
+Difference between ref and out keyword
+Difference between Array and ArrayList
+Difference between string and StringBuilder
+
+
+
+ASP.NET MVC Related Questions
+
+Why use MVC?
+Bundling and minification
+Action filters and their types
+What is an anti-forgery token?
+ViewData, ViewBag, TempData
+Different ways to pass data from Controller to View
+What is Routing?
+Why use a Partial View?
+How to pass data from View to Controller?
+Difference between HttpGet and HttpPost
+Action results in MVC
+Adding routes to WebForms applications and MVC
+Methods to add constraints to a route
+IQueryable vs IEnumerable
+Why and how do we use sessions in MVC?
+What is a Custom Action Filter?
+What is a POCO class?
+What is Scaffolding?
+How to bind more than one model to a view?
+How to validate data in MVC?
+Difference between DataReader, DataSet, DataAdapter, and DataTable
+Connected vs. Disconnected architecture
+ExecuteNonQuery, ExecuteScalar, and ExecuteReader
+Difference between ViewState and Session
+Nullable types and generic types
+What is a Model Binder?
+How to increase performance in MVC?
+Difference between Session, Cookie, and Cache
+Difference between Finalize and Dispose
+
+
+Core C# Questions
+
+What are Classes and Objects?
+What is Inheritance?
+What is Multiple Inheritance?
+What is an Interface?
+What is the Difference between an Abstract Class and an Interface?
+
+
+
+
+C# Concepts
+
+Difference between Abstract Class & Interface
+Generics & Collections
+Method Overloading vs. Method Overriding
+Delegates
+Small C# Program Examples
+LINQ (Language Integrated Query)
+
+
+SQL Concepts
+
+Joins in SQL
+Stored Procedures (SP) & Functions
+Views in SQL
+Triggers in SQL
+User-Defined Table Types
+Important SQL Queries
+
+
+.NET Framework
+
+CLR (Common Language Runtime)
+CTS (Common Type System)
+Garbage Collection in .NET
+
+
+
+
