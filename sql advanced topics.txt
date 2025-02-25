@@ -1,0 +1,7 @@
+1) update statistics
+2) performance tuning
+3) co-relted query
+4) recursive cte
+5) index fragmentation
+6) data modeling
+7) merge statement
